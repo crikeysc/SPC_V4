@@ -1,0 +1,9 @@
+Name: Groups
+Type: FolderType
+Children:
+- Name: Admin
+  Type: GroupType
+- Name: Engineer
+  Type: GroupType
+- Name: Operator
+  Type: GroupType

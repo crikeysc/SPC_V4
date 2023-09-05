@@ -1,0 +1,188 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: Path
+  Type: Alias
+  DataType: NodePath
+  Value: ""
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: Encoder_Bladeout
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 20
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 80
+- Name: Operation_Active_Led
+  Id: g=2c41003e9cd2c50e9cbedd51dc87fb91
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+- Name: Start_Op_LED
+  Id: g=067da55e5e2157b77eb8d51c81ed0758
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+- Name: Stop_Op_LED
+  Id: g=c6781e1a2224ea96e0450c6d6f45c0b2
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumDiscreteInput
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: Encoder_FTOptix
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 19
+- Name: Enable_CMD
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MaximumLength
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: BitOffset
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+- Name: Start_CMD
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: Stop_CMD
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+- Name: AIN_CMD
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 21
+- Name: TCP 40020
+  Id: g=06e9ba8e1d77f5e4251d15fc39d59566
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 19
+- Name: TCP 40021
+  Id: g=cb5eb84a912cc3e9ed6694aecdd7d97f
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 20

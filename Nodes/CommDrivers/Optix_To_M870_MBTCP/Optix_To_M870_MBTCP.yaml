@@ -1,0 +1,135 @@
+Name: Optix_To_M870_MBTCP
+Id: g=4b0dd07f01a2eff79fe9c4d7a988dde6
+Type: ModbusDriver
+Children:
+- Name: Protocol
+  Type: BaseDataVariableType
+  DataType: ModbusProtocol
+  Value: 0
+- Name: SerialPort
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "COM1"
+- Name: Baudrate
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 9600
+- Name: DataSize
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 8
+- Name: Parity
+  Type: BaseDataVariableType
+  DataType: Parity
+  Value: 0
+- Name: StopBits
+  Type: BaseDataVariableType
+  DataType: StopBits
+  Value: 0
+- Name: FlowControl
+  Type: BaseDataVariableType
+  DataType: FlowControl
+  Value: 0
+- File: MBTCP/MBTCP.yaml
+- Name: AnalogVariable1
+  Type: AnalogItemType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: EURange
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 10000000.0
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: 
+     {
+      "TypeId": {
+       "Id": 887
+      },
+      "Body": {
+       "namespaceUri": "",
+       "unitId": 0,
+       "displayName": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       },
+       "description": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       }
+      }
+     }
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 12865
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: BackupAndRestoreTagValues
+  Id: g=d727a2f4e0309134774011b9ed8350b0
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Method
+    Name: BackupTagValues
+  - Class: Method
+    Name: RestoreTagValues
+  - Name: ParentNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"4b0dd07f01a2eff79fe9c4d7a988dde6","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/admin/Desktop/Optix/TAg Exports/M820MBTCP_Export.csv.txt"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Timeout
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:30.0000000"

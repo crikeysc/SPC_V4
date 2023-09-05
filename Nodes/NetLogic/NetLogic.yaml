@@ -1,0 +1,225 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: RuntimeNetLogic1
+  Type: NetLogic
+- File: AlarmsWithEmailNotification1/AlarmsWithEmailNotification1.yaml
+- Name: EmailSender
+  Id: g=1c4dafa5f608b8acee93ead9da51b9b0
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: SendEmail
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"replyToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: EmailSenderLogic1
+  Id: g=43bef096b580465c41acfe480fe33c76
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Method
+    Name: SendEmail
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"mailToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: SenderEmailAddress
+    Id: g=999b3b57169baab1104dcc602ed7cd7a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: SenderEmailPassword
+    Id: g=db3fe3de7be9c21ff0a67176ac36c20d
+    Type: BaseDataVariableType
+    DataType: Password
+    Value: ""
+  - Name: SMTPHostname
+    Id: g=3a857d163f3334fa8ac828013edf6a58
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: SMTPPort
+    Id: g=69c0227470d0d27fde4153675087cf28
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 587
+  - Name: EnableSSL
+    Id: g=d7d98e09c224cc7186aaf0053832adfa
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Attachment
+    Id: g=339567ed428588bb1f8b2d3e899af10f
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=30;%PROJECTDIR%/PDFS/PdfRep1.pdf"
+  - Name: MaxRetriesOnFailure
+    Id: g=88ffd4ff1e5b25fb094c4d5b0da3645b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: DelayBeforeRetry
+    Id: g=690fd3803344b753b6df49727e8dbffb
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:10.0000000"
+  - Name: EmailSendingStatus
+    Id: g=6d1b6d5848293de594a6a1cca6a1c55e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: To
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: From
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: EmailSenderLogic
+  Id: g=5040a6a64f90f63c328acb71b4ebb84f
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Method
+    Name: SendEmail
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"mailToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: SenderEmailAddress
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "device_example@libero.it"
+  - Name: SenderEmailPassword
+    Type: BaseDataVariableType
+    DataType: Password
+    Value: ""
+  - Name: SMTPHostname
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SMTP.libero.it"
+  - Name: SMTPPort
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 25
+  - Name: EnableSSL
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DataLoggerExporter
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: ""
+  - Name: FieldDelimiter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: Table
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"2fe056fe3c2e7c5e637e0e915aababf7","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":3,"Namespace":9}
+  - Class: Method
+    Name: Export
+  - Name: Query
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"SELECT * FROM {0:sql_identifier} WHERE Timestamp BETWEEN {1:sql_literal} AND {2:sql_literal}"}
+      - Name: ns=3;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Table@BrowseName"
+      - Name: ns=3;Source1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../From"
+      - Name: ns=3;Source2
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../To"
+  - Name: From
+    Type: BaseDataVariableType
+    DataType: ns=0;DateTime
+    Value: "2021-01-01T00:00:00.0000000"
+  - Name: To
+    Type: BaseDataVariableType
+    DataType: ns=0;DateTime
+    Value: "2022-01-01T00:00:00.0000000"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: ClockLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Type: BaseDataVariableType
+    DataType: ns=0;DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+- Name: VariablesSimulator
+  Type: NetLogic
+  Children:
+  - Name: iSin
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: iCos
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: iRamp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: bRunSimulation
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false

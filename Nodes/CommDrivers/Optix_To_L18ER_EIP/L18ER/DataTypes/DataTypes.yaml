@@ -1,0 +1,4986 @@
+Name: ns=23;DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: L_CPU_Out
+  Id: g=3f24c49e5b93aa732ce0cf850f3f732d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_Out",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3f24c49e5b93aa732ce0cf850f3f732d",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "CommUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "15a52722efb0776235eceba7fb2adbea",
+       "Namespace": 30
+      }
+     },{
+      "Name": "ConnUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "617a40fb6d9f5628a7053b3d053a0905",
+       "Namespace": 30
+      }
+     },{
+      "Name": "CPUUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b50ef3511268a5f8af4ffe79bb4bff2b",
+       "Namespace": 30
+      }
+     },{
+      "Name": "ForceStatus",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Identity",
+      "DataType": {
+       "IdType": 2,
+       "Id": "bd78b93462007dab72080eec1f1517ba",
+       "Namespace": 30
+      }
+     },{
+      "Name": "IOLEDStatus",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "MemUse",
+      "DataType": {
+       "IdType": 2,
+       "Id": "1118d259884b9db750a8646efe116dd4",
+       "Namespace": 30
+      }
+     },{
+      "Name": "MinorFaultBatt",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "MinorFaultCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinorFaultPort",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "MinorFaultProg",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "MinorFaultTask",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "TimeSlice",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_Out"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: String_to_SINT
+  Id: g=9834f05f771a24b44eab86fc73aa1c3e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "String_to_SINT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9834f05f771a24b44eab86fc73aa1c3e",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "FBEN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "FBENO",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Index_String",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Nbc",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"String_to_SINT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ModbusClientData
+  Id: g=a86c27b5b33081e857affeefa50437d6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ModbusClientData",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a86c27b5b33081e857affeefa50437d6",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Coils_0xxx",
+      "DataType": {
+       "Id": 1
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1024],
+      "Value": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+     },{
+      "Name": "DiscInputs_1xxx",
+      "DataType": {
+       "Id": 1
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1024],
+      "Value": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+     },{
+      "Name": "HoldRegisters_4xxx",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1024],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "InpRegisters_3xxx",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1024],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ModbusClientData"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Opr_NetModbusTCPClient
+  Id: g=4fa5125a1e1d0c5c9724ce572c7f50d4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Opr_NetModbusTCPClient",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4fa5125a1e1d0c5c9724ce572c7f50d4",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Inp_Enable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Connected",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_EN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Overlap",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Overload",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Opr_NetModbusTCPClient"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1734_DO8_NoDiag:C:01'
+  Id: g=6b6d20885c16513c2e7fe9cbd6361027
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1734_DO8_NoDiag:C:01",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6b6d20885c16513c2e7fe9cbd6361027",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "FaultMode",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "FaultValue",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "ProgMode",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "ProgValue",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Pt0FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt0FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt0ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt0ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt1FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt1FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt1ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt1ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt2FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt2FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt2ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt2ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt3FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt3FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt3ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt3ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt4FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt4FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt4ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt4ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt5FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt5FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt5ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt5ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt6FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt6FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt6ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt6ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt7FaultMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt7FaultValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt7ProgMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pt7ProgValue",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1734_DO8_NoDiag:C:01"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:Embedded_DiscreteIO:C:0'
+  Id: g=3114e869d329376eff8be0247a992f86
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Embedded_DiscreteIO:C:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3114e869d329376eff8be0247a992f86",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "COSOffOnEn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "COSOnOffEn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "FaultMode",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "FaultValue",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ProgMode",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ProgValue",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt00FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt00FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt01FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt01FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt02FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt02FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt03FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt03FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt04FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt04FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt05FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt05FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt06FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt06FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt07FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt07FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt08FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt08FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt09FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt09FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt10FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt10FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt11FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt11FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt12FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt12FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt13FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt13FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt14FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt14FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt15FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt15FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Embedded_DiscreteIO:C:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ICX35_SMS_Write
+  Id: g=f0ac6c726beaa48df813ee43c0e51172
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ICX35_SMS_Write",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f0ac6c726beaa48df813ee43c0e51172",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Message",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "Phone_Count",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Phone_Number_1",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [24],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Phone_Number_2",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [24],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Phone_Number_3",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [24],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Phone_Number_4",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [24],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Phone_Number_5",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [24],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ICX35_SMS_Write"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ModbusClientConnection
+  Id: g=f51152c71838c60684dae07542962101
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ModbusClientConnection",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f51152c71838c60684dae07542962101",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "DestAddress",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "DestinationPort",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LocalAddress",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "LocalSlot",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "MSG_Dest",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [500],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "MSG_Src",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [500],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ModbusClientConnection"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ModbusServerData
+  Id: g=971401222391ee0207f2907180402452
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ModbusServerData",
+    "DataType": {
+     "IdType": 2,
+     "Id": "971401222391ee0207f2907180402452",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Coils_0xxx",
+      "DataType": {
+       "Id": 1
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2048],
+      "Value": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+     },{
+      "Name": "DiscInputs_1xxx",
+      "DataType": {
+       "Id": 1
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2048],
+      "Value": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+     },{
+      "Name": "HoldRegisters_4xxx",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1024],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "InpRegisters_3xxx",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1024],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ModbusServerData"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_MemUse
+  Id: g=1118d259884b9db750a8646efe116dd4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_MemUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1118d259884b9db750a8646efe116dd4",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "FreeDataLogic",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "FreeGen",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "FreeIO",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "FreeSafety",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MaxBlockDataLogic",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MaxBlockGen",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MaxBlockIO",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MaxBlockSafety",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinDataLogic",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinGen",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinIO",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinSafety",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TotalDataLogic",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TotalGen",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TotalIO",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TotalSafety",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_MemUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ns=30;DateTime
+  Id: g=1d24363513e15a8d6124a54c41d183ac
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "DateTime",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1d24363513e15a8d6124a54c41d183ac",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Day",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Day_of_Week",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Hour",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Microsecond",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Minute",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Month",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Second",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Year",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"DateTime"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Memory_Data
+  Id: g=95436249ecad09a5ab696da1b76a4d8a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Memory_Data",
+    "DataType": {
+     "IdType": 2,
+     "Id": "95436249ecad09a5ab696da1b76a4d8a",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Biggest_DT_Mem_Size_Ava",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Biggest_IO_Mem_Size_Ava",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Free_Mem_DT",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Free_Mem_IO",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Free_Memory",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Total_Mem_DT",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Total_Mem_IO",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Total_Memory",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Memory_Data"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1734_DI8:I:0'
+  Id: g=5ef974d4460d1d94a8632d5f77dd4596
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1734_DI8:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5ef974d4460d1d94a8632d5f77dd4596",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1734_DI8:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_ConnUse
+  Id: g=617a40fb6d9f5628a7053b3d053a0905
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_ConnUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "617a40fb6d9f5628a7053b3d053a0905",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "ConsAllow",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ConsCurr",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ConsHiWater",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "IncomCurr",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "IncomHiWater",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "IOAllow",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "IOCurr",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "IOHiWater",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "MCacheAllow",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "MCacheCurr",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "MCacheHiWater",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "MSGCurr",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "MSGHiWater",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ProdAllow",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ProdCurr",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ProdHiWater",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "TotalAllow",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "TotalCurr",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "TotalHiWater",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "UCBsAllow",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "UCBsCurr",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "UCBsHiWater",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_ConnUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ControllerLEDStatus
+  Id: g=176c2a6c3c019400314522a5317220a3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ControllerLEDStatus",
+    "DataType": {
+     "IdType": 2,
+     "Id": "176c2a6c3c019400314522a5317220a3",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "FlashingGreen",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "FlashingRed",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "FlashingYellow",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Off",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "SolidGreen",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "SolidRed",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "SolidYellow",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ControllerLEDStatus"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ICX35_SMS
+  Id: g=3ae733b3edee27d786755d844b082fcb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ICX35_SMS",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3ae733b3edee27d786755d844b082fcb",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "READ",
+      "DataType": {
+       "IdType": 2,
+       "Id": "37b71ed615c7fc72ff273ca6a1ff424b",
+       "Namespace": 30
+      }
+     },{
+      "Name": "WRITE",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f0ac6c726beaa48df813ee43c0e51172",
+       "Namespace": 30
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ICX35_SMS"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ICX35_ModuleDef
+  Id: g=4ff08ac9b92ff1bc46deda1e22e23f08
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ICX35_ModuleDef",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4ff08ac9b92ff1bc46deda1e22e23f08",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "CONTROL",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e4dfb223f63e9295759281f5bae81352",
+       "Namespace": 30
+      }
+     },{
+      "Name": "SMS",
+      "DataType": {
+       "IdType": 2,
+       "Id": "3ae733b3edee27d786755d844b082fcb",
+       "Namespace": 30
+      }
+     },{
+      "Name": "STATUS",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f4fe194c6218cbae8165a5a2a8e44d5f",
+       "Namespace": 30
+      }
+     },{
+      "Name": "UTIL",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ed0e158c63f9a6de650ed18da10db45e",
+       "Namespace": 30
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ICX35_ModuleDef"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ICX35_STATUS
+  Id: g=f4fe194c6218cbae8165a5a2a8e44d5f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ICX35_STATUS",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f4fe194c6218cbae8165a5a2a8e44d5f",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Cell_Net_Disconnects",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Cell_Net_State",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Data_Usage_Current_Day",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Data_Usage_Current_Month",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Data_Usage_Previous_Day",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Data_Usage_Previous_Month",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "FW_Version",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [24],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "IMEI",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [20],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "LAN_KBytes_Received",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LAN_KBytes_Sent",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Link_Time_Days",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Link_Time_Hours",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Link_Time_Minutes",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Link_Time_Seconds",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "MAC_Address",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [6],
+      "Value": [0,0,0,0,0,0]
+     },{
+      "Name": "Max_RSSI",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Min_RSSI",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Phone_Number",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [18],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "PowerOnTime_Day",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "PowerOnTime_Hour",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "PowerOnTime_Minute",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "PowerOnTime_Month",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "PowerOnTime_Second",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "PowerOnTime_Year",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "RSSI",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "SMS_MSGs_Received",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "SMS_MSGs_Rx_Free_Buffer_Counter",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "SMS_MSGs_Sent",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "WAN_IP",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4],
+      "Value": [0,0,0,0]
+     },{
+      "Name": "WAN_KBytes_Received",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "WAN_KBytes_Sent",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ICX35_STATUS"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TIMER1
+  Id: g=02dc990fa92dcc99b85555d145d62b79
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "02dc990fa92dcc99b85555d145d62b79",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Volts_Meter_Data1
+  Id: g=a53f6097e1de5fe6794cf6a0136b5096
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Volts_Meter_Data1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a53f6097e1de5fe6794cf6a0136b5096",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "B_N",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "B_R",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "R_N",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "R_W",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "W_B",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "W_N",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Volts_Meter_Data1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1734_DO8:O:0'
+  Id: g=c1f63cfd0940453fa04e9490b57a4614
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1734_DO8:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c1f63cfd0940453fa04e9490b57a4614",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1734_DO8:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: DNP3AnalogInputRealFlag
+  Id: g=8841c908709ace97f17abe13fe3aae4c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "DNP3AnalogInputRealFlag",
+    "DataType": {
+     "IdType": 2,
+     "Id": "8841c908709ace97f17abe13fe3aae4c",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "CommLost",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EventTrigger",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LocalForced",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Online",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OverRange",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ReferenceError",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "RemoteForced",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Restart",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Value",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"DNP3AnalogInputRealFlag"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: U_Noise1
+  Id: g=b3731ddb654da21a24926139a802e88e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "U_Noise1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b3731ddb654da21a24926139a802e88e",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Cfg_Amplitude",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Cfg_FiltTC",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Inp",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Out",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Out_Noise",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Out_Unfiltered",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"U_Noise1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: AOI_ICX35
+  Id: g=39b617bc05a629b547f643fe5e891da1
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AOI_ICX35",
+    "DataType": {
+     "IdType": 2,
+     "Id": "39b617bc05a629b547f643fe5e891da1",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AOI_ICX35"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: COUNTER1
+  Id: g=ce3ee39fa6a1f8566bd3ef3c1312c98d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "COUNTER1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ce3ee39fa6a1f8566bd3ef3c1312c98d",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "CD",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "CU",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OV",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "UN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"COUNTER1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ICX35_CONTROL
+  Id: g=e4dfb223f63e9295759281f5bae81352
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ICX35_CONTROL",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e4dfb223f63e9295759281f5bae81352",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Clear_SMS",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Get_Status",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Read_SMS",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Reboot",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Reset_Status",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Write_SMS",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ICX35_CONTROL"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1734_DI8:C:01'
+  Id: g=625da12aea238c486537ecb15f134c72
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1734_DI8:C:01",
+    "DataType": {
+     "IdType": 2,
+     "Id": "625da12aea238c486537ecb15f134c72",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Pt0FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt0FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt1FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt1FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt2FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt2FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt3FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt3FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt4FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt4FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt5FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt5FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt6FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt6FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt7FilterOffOn",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Pt7FilterOnOff",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1734_DI8:C:01"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ModbusServerBase
+  Id: g=5cbad3a7a3099b1dd6367f41b273def6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ModbusServerBase",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5cbad3a7a3099b1dd6367f41b273def6",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "InactivityTimeout",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LocalAddress",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "LocalPort",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LocalSlot",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "MSG_Dest",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [512],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "MSG_Src",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [512],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ModbusServerBase"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Current_Meter_Data1
+  Id: g=d4d7b55fef847def7824af47444de05b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Current_Meter_Data1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d4d7b55fef847def7824af47444de05b",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "B",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "N",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "R",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "W",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Current_Meter_Data1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Reactive_Meter_Data1
+  Id: g=b3ab64c2c52f809974a664de554c8f26
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Reactive_Meter_Data1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b3ab64c2c52f809974a664de554c8f26",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Hz",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "KVA",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "KVAR",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "KW",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Pf",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Reactive_Meter_Data1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Meter_Data1
+  Id: g=3a97df9f0db721ce7acfa4698ca8369b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Meter_Data1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3a97df9f0db721ce7acfa4698ca8369b",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Current",
+      "DataType": {
+       "IdType": 2,
+       "Id": "d4d7b55fef847def7824af47444de05b",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Incoming_Supply",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Incoming_Switchgear",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Reactive",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b3ab64c2c52f809974a664de554c8f26",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Volts",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a53f6097e1de5fe6794cf6a0136b5096",
+       "Namespace": 30
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Meter_Data1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: DNP3AnalogInputEvtLogReal
+  Id: g=663ee07f3b73cac3f815e0a455e1dd68
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "DNP3AnalogInputEvtLogReal",
+    "DataType": {
+     "IdType": 2,
+     "Id": "663ee07f3b73cac3f815e0a455e1dd68",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Deadband",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EventTriggers",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ExtrernalEventTrigger",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "MinimumLogInterval",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"DNP3AnalogInputEvtLogReal"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:Embedded_DiscreteIO:O:0'
+  Id: g=d662819e19a4abf4da4d31410245b3c4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Embedded_DiscreteIO:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d662819e19a4abf4da4d31410245b3c4",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Embedded_DiscreteIO:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ICX35_UTIL
+  Id: g=ed0e158c63f9a6de650ed18da10db45e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ICX35_UTIL",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ed0e158c63f9a6de650ed18da10db45e",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Clear_SMS",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Reboot",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "ResetStatus",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "SMSread",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [216],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "SMSreadmsgstat",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "SMSwrite",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [284],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "SMSwritemsgstat",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [149],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ICX35_UTIL"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:1734_DOB8:I:0'
+  Id: g=704728a66b783f0487b146e746730f6a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:1734_DOB8:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "704728a66b783f0487b146e746730f6a",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:1734_DOB8:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: EnergyMetrics1
+  Id: g=059a35f6874304120e35497ee90285fe
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "EnergyMetrics1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "059a35f6874304120e35497ee90285fe",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Air_TOT",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Gas_TOT",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "KVA",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "KVAR",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "KW",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "KWHRS",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "PowerFactor",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Steam_TOT",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Water_TOT",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"EnergyMetrics1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_CPUUse
+  Id: g=b50ef3511268a5f8af4ffe79bb4bff2b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_CPUUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b50ef3511268a5f8af4ffe79bb4bff2b",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Comms",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "ContinuousOrFree",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Messaging",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Motion",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "PeriodicAndEvent",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Redundancy",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Safety",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "System",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_CPUUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_24_Up
+  Id: g=e97f0f5a2af7c5301b93f64eb14bbfd9
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_24_Up",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e97f0f5a2af7c5301b93f64eb14bbfd9",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Cfg_ContTaskInstance",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Cfg_SlotNumber",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Cfg_UpdateT",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Cfg_WindowT",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "L_CPU",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Busy",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Done",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Enabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_MsgErr",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Timing",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_WrongVersion",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_24_Up"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_CommUse
+  Id: g=15a52722efb0776235eceba7fb2adbea
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_CommUse",
+    "DataType": {
+     "IdType": 2,
+     "Id": "15a52722efb0776235eceba7fb2adbea",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "MaxTrendInstance",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "NumTrendInstances",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "RespCPUAct",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "RespCPUAvail",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "TrendHighWater",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_CommUse"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: L_CPU_Identity
+  Id: g=bd78b93462007dab72080eec1f1517ba
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "L_CPU_Identity",
+    "DataType": {
+     "IdType": 2,
+     "Id": "bd78b93462007dab72080eec1f1517ba",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Major",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Minor",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Name",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [33],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "ProductCode",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ProductType",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Serial",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "VendorID",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"L_CPU_Identity"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ModbusClientTransactionDiag
+  Id: g=b9824e2f3f825340c56970d3bd90cbbb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ModbusClientTransactionDiag",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b9824e2f3f825340c56970d3bd90cbbb",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "IntervalTimer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "02dc990fa92dcc99b85555d145d62b79",
+       "Namespace": 30
+      }
+     },{
+      "Name": "NoReplyCounter",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ce3ee39fa6a1f8566bd3ef3c1312c98d",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Overlap",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Overload",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "PendingTimer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "02dc990fa92dcc99b85555d145d62b79",
+       "Namespace": 30
+      }
+     },{
+      "Name": "ReqBuilt",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Request",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "TransID",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "TransLastError",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ModbusClientTransactionDiag"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:Embedded_DiscreteIO:I:0'
+  Id: g=e8460f509236d4ce1a927cf71b3421a8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Embedded_DiscreteIO:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e8460f509236d4ce1a927cf71b3421a8",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Embedded_DiscreteIO:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ICX35_SMS_Read
+  Id: g=37b71ed615c7fc72ff273ca6a1ff424b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ICX35_SMS_Read",
+    "DataType": {
+     "IdType": 2,
+     "Id": "37b71ed615c7fc72ff273ca6a1ff424b",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Date_Time",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [18],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Message",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [160],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Phone_Number",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [24],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Time_Zone",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [6],
+      "Value": [0,0,0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ICX35_SMS_Read"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: FaultRecord
+  Id: g=a4d9e6b23180b163bfbc3419c4007e44
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "FaultRecord",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a4d9e6b23180b163bfbc3419c4007e44",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "code",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "info",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [8],
+      "Value": [0,0,0,0,0,0,0,0]
+     },{
+      "Name": "timehigh",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "timelow",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "type",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"FaultRecord"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Opr_NetModbusTCPServer
+  Id: g=aad8e61d29fc76717ffd2eb0d2d7e531
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Opr_NetModbusTCPServer",
+    "DataType": {
+     "IdType": 2,
+     "Id": "aad8e61d29fc76717ffd2eb0d2d7e531",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Inp_Enable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Accepted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_ActiveConnections",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_EN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Waiting",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Opr_NetModbusTCPServer"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ModbusClientTransaction
+  Id: g=8db64903fea0f0c0af22ea0bb857fa7f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ModbusClientTransaction",
+    "DataType": {
+     "IdType": 2,
+     "Id": "8db64903fea0f0c0af22ea0bb857fa7f",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "BeginAddress",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Count",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Diagnostic",
+      "DataType": {
+       "IdType": 2,
+       "Id": "b9824e2f3f825340c56970d3bd90cbbb",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Enabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LocalAddress",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "PollInterval",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TransComplete",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "TransStat",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "TransType",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "UID",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ModbusClientTransaction"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Logix_Status_FP
+  Id: g=0ff35c61bc39289c8c0ca443a7eeb231
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Logix_Status_FP",
+    "DataType": {
+     "IdType": 2,
+     "Id": "0ff35c61bc39289c8c0ca443a7eeb231",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "ClearMinorFaults",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Cmd_ClearFaultRecord",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ipstat",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [22],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Linkstatusword",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MemoryData",
+      "DataType": {
+       "IdType": 2,
+       "Id": "95436249ecad09a5ab696da1b76a4d8a",
+       "Namespace": 30
+      }
+     },{
+      "Name": "MemoryRequestData",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [12],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "MemoryTemp",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [29],
+      "Value": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+     },{
+      "Name": "Set_Controller_Description",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "Set_FaceplateAnimation",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_Battery_LED",
+      "DataType": {
+       "IdType": 2,
+       "Id": "176c2a6c3c019400314522a5317220a3",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Sts_Changingmodes",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Force_Enabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Force_Installed",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_IO_LED",
+      "DataType": {
+       "IdType": 2,
+       "Id": "176c2a6c3c019400314522a5317220a3",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Sts_IO_LED_raw",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_KS_in_program",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_KS_in_remote",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_KS_in_run",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Ladder_Working",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Major_fault",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Minor_fault",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_MinorFaultBits",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_MinorFaultEvents",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_NS",
+      "DataType": {
+       "IdType": 2,
+       "Id": "176c2a6c3c019400314522a5317220a3",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Sts_ProductCode",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_Program",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Redundant",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_Run",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Test",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "TEST",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "UpdateDelayTimer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "02dc990fa92dcc99b85555d145d62b79",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Val_Force_data_raw",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Val_MajorFault",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a4d9e6b23180b163bfbc3419c4007e44",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Val_MFS",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a4d9e6b23180b163bfbc3419c4007e44",
+       "Namespace": 30
+      }
+     },{
+      "Name": "Val_ProductCode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Val_raw_data",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Logix_Status_FP"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ALARM_ANALOG1
+  Id: g=a67bce5a4da0a43004f3bc493ce57bfe
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ALARM_ANALOG1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a67bce5a4da0a43004f3bc493ce57bfe",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "AckRequired",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AckTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "AlarmCountReset",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AlarmCountResetTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "AlarmLimitsInv",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AnyInAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Commissioned",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Deadband",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "DeadbandInv",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Disabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HAcked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HAlarmCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "HEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHAcked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHAlarmCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "HHEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHInAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHInAlarmTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "HHInAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHLimit",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "HHMinDurationEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHOperAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHOperShelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHOperUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHProgAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HHSeverity",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "HHShelved",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HInAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HInAlarmTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "HInAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HLimit",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "HMinDurationEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HOperAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HOperShelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HOperUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HProgAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HSeverity",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "HShelved",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "In",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "InAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InFault",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InFaulted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InstructFault",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LAcked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LAlarmCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LInAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LInAlarmTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "LInAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLAcked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLAlarmCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LLEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLimit",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "LLInAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLInAlarmTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "LLInAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLLimit",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "LLMinDurationEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLOperAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLOperShelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLOperUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLProgAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LLSeverity",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LLShelved",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LMinDurationEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LOperAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LOperShelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LOperUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LProgAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "LSeverity",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LShelved",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "MaxShelveDuration",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinDurationACC",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinDurationPRE",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "OperAckAll",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperDisable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperSuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperUnsuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgAckAll",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgDisable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgSuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgUnshelveAll",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgUnsuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "RetToNormalTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "ROC",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "ROCNegAcked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegAlarmCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ROCNegInAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegInAlarmTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "ROCNegInAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegLimit",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "ROCNegLimitInv",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegOperAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegOperShelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegOperUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegProgAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCNegSeverity",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ROCNegShelved",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPeriod",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "ROCPeriodInv",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosAcked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosAlarmCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ROCPosInAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosInAlarmTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "ROCPosInAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosLimit",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "ROCPosLimitInv",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosOperAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosOperShelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosOperUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosProgAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ROCPosSeverity",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ROCPosShelved",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "SeverityInv",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ShelveDuration",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ShelveTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Suppressed",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "UnshelveTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ALARM_ANALOG1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ALARM_DIGITAL1
+  Id: g=2bace88def0f91a97916f7635653dead
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ALARM_DIGITAL1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2bace88def0f91a97916f7635653dead",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Acked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AckRequired",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AckTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "AlarmCount",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "AlarmCountReset",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AlarmCountResetTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "Commissioned",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Condition",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Disabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "In",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InAlarm",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InAlarmTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "InAlarmUnack",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InFault",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InFaulted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "InstructFault",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Latched",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "MaxShelveDuration",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinDurationACC",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MinDurationPRE",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "OperAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperDisable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperReset",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperShelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperSuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "OperUnsuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgAck",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgDisable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgReset",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgSuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "ProgUnshelve",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ProgUnsuppress",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "RetToNormalTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "Severity",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "SeverityInv",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Shelved",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ShelveDuration",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ShelveTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Suppressed",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "UnshelveTime",
+      "DataType": {
+       "Id": 8
+      },
+      "Value": 0
+     },{
+      "Name": "UseProgTime",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ALARM_DIGITAL1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MESSAGE1
+  Id: g=f0077061eb5348f797c8155afaa6cdc3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MESSAGE1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f0077061eb5348f797c8155afaa6cdc3",
+     "Namespace": 30
+    },
+    "Fields": [{
+      "Name": "Attribute",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Channel",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Class",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ConnectionRate",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "DestinationLink",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "DestinationNode",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "DN_LEN",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EN_CC",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ER",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ERR",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ERR_SRC",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "EW",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EXERR",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Flags",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Group",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Instance",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "LocalIndex",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Path",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "Rack",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "RemoteElement",
+      "DataType": {
+       "Id": 12
+      },
+      "Value": ""
+     },{
+      "Name": "RemoteIndex",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "REQ_LEN",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "Slot",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "SourceLink",
+      "DataType": {
+       "Id": 4
+      },
+      "Value": 0
+     },{
+      "Name": "ST",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "TimeoutMultiplier",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "TO",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "UnconnectedTimeout",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MESSAGE1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

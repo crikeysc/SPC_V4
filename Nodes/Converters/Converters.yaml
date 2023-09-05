@@ -1,0 +1,237 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- Name: KeyValueConverter1
+  Id: g=bb7791aa5995a1c680d2f5087d3c9336
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "0"
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Position 1"
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Int16
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Position 2"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    Value: 0
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=30;g=acbfc3bb-8108-26ea-d7c0-276e9e9e450b}[1]"
+      - Name: Pairs
+        Type: BaseObjectType
+        ModellingRule: None
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          ModellingRule: None
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ModellingRule: None
+            Value: 0
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: None
+            Value: "Open"
+        - Name: Pair1
+          Type: ValueMapPair
+          ModellingRule: None
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ModellingRule: None
+            Value: 1
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: None
+            Value: "Priority 1"
+        - Name: Pair2
+          Type: ValueMapPair
+          ModellingRule: None
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            ModellingRule: None
+            Value: 2
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: None
+            Value: "Priority 2"
+  - Name: Status_Out
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      ModellingRule: Optional
+      Value: "{NodeId:ns=30;g=df7709b2-6873-5784-0de6-32376c037a7d}"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+- Name: State_STS
+  Id: g=df7709b2687357840de632376c037a7d
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: AlarmToPDF
+  Id: g=f143630ac1691396c17f8964e1fffe9b
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "null"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: ""
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VoltageAnomaly"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=30;%PROJECTDIR%/PDF/A001V.pdf"
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LowPressure"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=30;%PROJECTDIR%/PDF/A001P.pdf"
+    - Name: Pair3
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HighTemperature"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=30;%PROJECTDIR%/PDF/A001T.pdf"
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    Value: 0
+- Name: EngineeringUnitConverter1
+  Id: g=19b0697f308ace47fe5ba3bc9b2d4381
+  Supertype: EUConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: Number
+    ReferenceType: HasSource
+    Value: {"Type":11,"Body":0.0}
+  - Name: RawMin
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{NodeId:ns=30;g=5b13d70e-5d76-c567-1d36-d193db80b942}"
+  - Name: RawMax
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{NodeId:ns=30;g=9c9843f2-b86f-6af4-ab1e-48d3acae1679}"
+  - Name: ScaledMin
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{NodeId:ns=30;g=b9e5f40f-8b46-494f-6010-58a04e0c67fa}"
+  - Name: ScaledMax
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{NodeId:ns=30;g=303ed058-882f-3de5-8cc3-4df08cefca57}"

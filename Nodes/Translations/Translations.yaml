@@ -1,0 +1,34 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [19,2],
+    "Body": [
+     "","en-US",
+     "Acknowledge","Acknowledge",
+     "Acknowledge All","Acknowledge All",
+     "Confirm","Confirm",
+     "Confirm All","Confirm All",
+     "SourceName","Source Variable",
+     "Timestamp","Timestamp",
+     "Name","Name",
+     "Message","Message",
+     "Active","Active",
+     "Acked","Acked",
+     "Confirmed","Confirmed",
+     "Severity","Severity",
+     "DigitalAlarmWithNotificationDisplayName","Digital alarm with email notification",
+     "DigitalAlarmWithNotificationDescription","Digital alarm that sends an email when its state changes from inactive to active.",
+     "Variable1","Variable1",
+     "Variable2","Variable2",
+     "Variable3","Variable3",
+     "Refresh","Refresh"
+    ]
+   }

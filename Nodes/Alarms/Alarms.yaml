@@ -1,0 +1,265 @@
+Name: Alarms
+Type: AlarmsCategoryFolder
+Children:
+- Name: ExclusiveLevelAlarm1
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/Optix_To_L320ERS_EIP/L320ERS_Desk/Tags/Controller Tags/FTEM/Gas_TOT"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: LowLowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 13.0
+  - Name: LowLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 20.0
+  - Name: HighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 45.0
+  - Name: HighHighLimit
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 76.0
+- Name: DigitalAlarm1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Exceed_Demand"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Exceeding Peak Demand 15 minute Period"}
+- Name: DigitalAlarm2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Close_Notify"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Peak Demand Close Notify Production"}
+- Name: DigitalAlarm3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Less_2000Kw"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Operational Load is Under 2000Kw Notify Site Engineer"}
+- Name: DigitalAlarm4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_No_Load"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"No Load Alarm, check supply authority"}
+- Name: DigitalAlarmWithEmailNotification
+  Type: DigitalAlarmWithEmailNotification
+  Children:
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/DigitalMail"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: DigitalAlarmWithEmailNotificationLogic
+    Type: NetLogic
+  - Name: EmailUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"3017d998d992c54002b94837d9de035d","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EmailSender
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"5040a6a64f90f63c328acb71b4ebb84f","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Pigs can fly"}

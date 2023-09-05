@@ -1,0 +1,2208 @@
+Name: Reports
+Type: ReportsCategoryFolder
+Children:
+- Name: StyleSheet1
+  Id: g=9f8f0b73f7e3eda2a97f215444e3ce96
+  Type: ReportStyleSheet
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: ChartStyle
+    Type: ChartStyle
+  - Name: DataListStyle
+    Type: DataListStyle
+    Children:
+    - Name: HeaderBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#c4defe"
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e6e6e6"
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
+  - Name: BorderWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0009982200572267175
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 5066068
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: StyleSheet2
+  Id: g=c19728e78f653e93b5f219e512bec386
+  Type: ReportStyleSheet
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: ChartStyle
+    Type: ChartStyle
+  - Name: DataListStyle
+    Type: DataListStyle
+    Children:
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+    - Name: AlternateBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f0f0f0"
+    - Name: HeaderTextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+    - Name: HeaderBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#0fafff"
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
+  - Name: BorderWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0009905999759212136
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 5066068
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: Reports1
+  Id: g=fe157f79b64fcbbcaaaf089db75ae06b
+  Type: Report
+  ReferenceType: HasComponent
+  Children:
+  - Name: PageSize
+    Type: BaseDataVariableType
+    DataType: PageSize
+    Value: 2
+  - Name: PageWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 297.0
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 5066068
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: PageHeight
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 210.0
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 5066068
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"9f8f0b73f7e3eda2a97f215444e3ce96","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":192,"Namespace":13}
+  - Name: PageCount
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: "{page_count}"
+  - Name: PageNumber
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: "{page_number}"
+  - Name: PrintDateTime
+    Type: BaseDataVariableType
+    DataType: ns=0;DateTime
+    AccessLevel: Read
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: Header
+    Type: Panel
+    Children:
+    - Name: Height
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+      Children:
+      - Name: EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          AccessLevel: Read
+          Value: 5066068
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: PrintDateTime
+      Type: ReportLabel
+      Children:
+      - Name: Width
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 59.99480056762695
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../PrintDateTime"
+      - Name: LeftMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 55.5625
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TopMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 1
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 2
+      - Name: RightMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.978400230407715
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Image1
+      Type: ReportImage
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=30;%PROJECTDIR%/NHP.jpg"
+      - Name: Width
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 18.52083396911621
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Height
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 21.16666603088379
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: LeftMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TopMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: Sections
+    Type: ReportColumnLayout
+    Children:
+    - Name: ParametersHeader
+      Type: PanelSection
+      Children:
+      - Name: Height
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: LIneParametersLogging
+        Type: ReportLabel
+        Children:
+        - Name: Width
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: 62.44166564941406
+          Children:
+          - Name: EngineeringUnits
+            Type: EUInformationType
+            DataType: EUInformation
+            Value: 
+             {
+              "TypeId": {
+               "Id": 887
+              },
+              "Body": {
+               "namespaceUri": "",
+               "unitId": 0,
+               "displayName": {
+                "NamespaceIndex": -1,
+                "LocaleId": "",
+                "Text": ""
+               },
+               "description": {
+                "NamespaceIndex": -1,
+                "LocaleId": "",
+                "Text": ""
+               }
+              }
+             }
+            Children:
+            - Name: UnitId
+              Type: BaseVariableType
+              DataType: Int32
+              ReferenceType: HasProperty
+              AccessLevel: Read
+              Value: 5066068
+            - Name: DisplayName
+              Type: BaseVariableType
+              DataType: LocalizedText
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Description
+              Type: BaseVariableType
+              DataType: LocalizedText
+              ReferenceType: HasProperty
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"WAGES REPORT"}
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 2
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 2
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: 15.0
+    - Name: ParameterGrid
+      Type: DataGridSection
+      Children:
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
+              Children:
+              - Name: UnitId
+                Type: BaseVariableType
+                DataType: Int32
+                ReferenceType: HasProperty
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Description
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Timestamp"}
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/Timestamp"
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Timestamp"
+        - Name: LocalTimestamp
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
+              Children:
+              - Name: UnitId
+                Type: BaseVariableType
+                DataType: Int32
+                ReferenceType: HasProperty
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Description
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"LocalTimestamp"}
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/LocalTimestamp"
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/LocalTimestamp"
+        - Name: Air_TOT
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
+              Children:
+              - Name: UnitId
+                Type: BaseVariableType
+                DataType: Int32
+                ReferenceType: HasProperty
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Description
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Air_TOT"}
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/Air_TOT"
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Air_TOT"
+        - Name: Gas_TOT
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
+              Children:
+              - Name: UnitId
+                Type: BaseVariableType
+                DataType: Int32
+                ReferenceType: HasProperty
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Description
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Gas_TOT"}
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/Gas_TOT"
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Gas_TOT"
+        - Name: Steam_TOT
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
+              Children:
+              - Name: UnitId
+                Type: BaseVariableType
+                DataType: Int32
+                ReferenceType: HasProperty
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Description
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Steam_TOT"}
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/Steam_TOT"
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Steam_TOT"
+        - Name: Water_TOT
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
+              Children:
+              - Name: UnitId
+                Type: BaseVariableType
+                DataType: Int32
+                ReferenceType: HasProperty
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Description
+                Type: BaseVariableType
+                DataType: LocalizedText
+                ReferenceType: HasProperty
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Water_TOT"}
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/Water_TOT"
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Water_TOT"
+      - Name: SelectedItem
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: Model
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"ef77b4c36b7537290786f618f7b93360","Namespace":30}
+        Children:
+        - Name: ItemKind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: Query
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SELECT * FROM \"WAGES\""
+      - Name: UISelectedItem
+        Type: BaseDataVariableType
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Class: Reference
+        Target: ns=5;i=504
+        Direction: Forward
+      - Name: Height
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 30.0
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Item
+        Type: Alias
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SortColumn
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../Columns/Timestamp@NodeId"
+      - Name: SortOrder
+        Type: BaseDataVariableType
+        DataType: SortOrderEnum
+        Value: 1
+  - Name: Footer
+    Type: Panel
+    Children:
+    - Name: Height
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+      Children:
+      - Name: EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          AccessLevel: Read
+          Value: 5066068
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: ReportFooter
+      Type: ReportLabel
+      Children:
+      - Name: Width
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 107.97540283203125
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"Generated by FTOptix"}
+      - Name: LeftMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 215.37083435058594
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TopMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -9.982199668884277
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 2
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 2
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        Value: 1
+    - Name: Copyright
+      Type: ReportLabel
+      Children:
+      - Name: Width
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 69.8499984741211
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"Chockwell 2023"}
+      - Name: LeftMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.9972000122070313
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TopMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.291666507720947
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 2
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 1
+      - Name: BottomMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 3.987799882888794
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        Value: 2
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+    - Name: PageCounter
+      Type: ReportLabel
+      Children:
+      - Name: Width
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 59.944000244140625
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: StringFormatter1
+          Type: StringFormatter
+          Children:
+          - Name: Format
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ReferenceType: HasParameter
+            Value: {"LocaleId":"en-US","Text":"Page {0} of {1}"}
+          - Name: ns=3;Source0
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../PageNumber"
+          - Name: ns=3;Source1
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../PageCount"
+      - Name: LeftMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 48.68333435058594
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TopMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.6458332538604736
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 1
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 1
+      - Name: Height
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.978400230407715
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: RightMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.978400230407715
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: BottomMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 4.978400230407715
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        Value: 2
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        Value: 2
+  - Class: Reference
+    Target: ns=13;i=16
+    Direction: Forward
+  - Name: PageOrientation
+    Type: BaseDataVariableType
+    DataType: PageOrientation
+    Value: 1
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    AccessLevel: Read
+    Value: 297.0
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        AccessLevel: Read
+        Value: 5066068
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
