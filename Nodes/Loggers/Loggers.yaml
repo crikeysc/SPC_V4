@@ -279,8 +279,8 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
-- Name: AlarmsEventLogger
-  Id: g=562f5408b05c99de017668d6d906555a
+- Name: AlarmsEventLogger1
+  Id: g=78e429b448cffc076508f4a2a54b1442
   Type: EventLogger
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
@@ -291,7 +291,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"cb6ca424f7ed26396ce826a3f91e8b0b","Namespace":30}
+    Value: {"IdType":2,"Id":"6b4d0d984133edfc9ec4f9ee46b2a6bc","Namespace":30}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -432,7 +432,7 @@ Children:
       DataType: Boolean
       Value: false
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ActiveState_Id"
@@ -446,7 +446,7 @@ Children:
       DataType: Boolean
       Value: false
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/AckedState_Id"
@@ -460,7 +460,7 @@ Children:
       DataType: Boolean
       Value: false
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ConfirmedState_Id"
@@ -474,7 +474,7 @@ Children:
       DataType: String
       Value: ""
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ConditionName"
@@ -488,7 +488,7 @@ Children:
       DataType: Boolean
       Value: false
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/EnabledState_Id"
@@ -502,7 +502,7 @@ Children:
       DataType: String
       Value: ""
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/SourceName"
@@ -516,7 +516,7 @@ Children:
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Time"
@@ -530,7 +530,7 @@ Children:
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Message"
@@ -544,7 +544,7 @@ Children:
       DataType: UInt16
       Value: 0
       Children:
-      - Name: DataBind
+      - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Severity"

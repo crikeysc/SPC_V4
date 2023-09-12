@@ -4,6 +4,7 @@ using UAManagedCore;
 using FTOptix.UI;
 using FTOptix.RAEtherNetIP;
 using FTOptix.EventLogger;
+using FTOptix.System;
 
 public class EmailSenderLogic : FTOptix.NetLogic.BaseNetLogic {
     [FTOptix.NetLogic.ExportMethod]

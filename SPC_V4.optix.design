@@ -38,4 +38,3 @@ Project:
  Nodes:
  - File: DesignTimeNodes/CommDrivers/Optix_To_L18ER_EIP/L18ER/TagImporter.yaml
  - File: DesignTimeNodes/CommDrivers/Optix_To_L320ERS_EIP/L320ERS_Desk/TagImporter.yaml
- - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml

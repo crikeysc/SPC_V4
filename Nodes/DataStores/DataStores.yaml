@@ -237,52 +237,14 @@ Children:
   - Class: Reference
     Target: ns=9;i=59
     Direction: Forward
-- Name: EmbeddedDatabase
-  Id: g=cb6ca424f7ed26396ce826a3f91e8b0b
+- Name: AlarmsHistoryDB
+  Id: g=6b4d0d984133edfc9ec4f9ee46b2a6bc
   Type: SQLiteStore
   Children:
   - Name: Tables
     Type: BaseObjectType
     Children:
-    - Name: DataLogger
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=9;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Boiler level
-          Type: StoreColumn
-          DataType: Double
-          Value: 0.0
-        - Name: Boiler temp
-          Type: StoreColumn
-          DataType: Double
-          Value: 0.0
-        - Name: Tank 2 level
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Tank 1 level
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-    - Name: AlarmsEventLogger
+    - Name: AlarmsEventLogger1
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -332,10 +294,6 @@ Children:
           Type: StoreColumn
           DataType: String
           Value: ""
-        - Name: 'Message_it-IT'
-          Type: StoreColumn
-          DataType: String
-          Value: ""
         - Name: Severity
           Type: StoreColumn
           DataType: UInt16
@@ -344,83 +302,6 @@ Children:
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
-    - Name: RecipesAudit
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=9;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: ns=0;DateTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: RecipeName
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-        - Name: Action
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-    - Name: RecipeSchema
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=9;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: Name
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-        - Name: /BoilerLevelSetpoint
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: /BoilerTempSetpoint
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-    - Name: AlarmsEventLogger
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=9;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
   - Class: Reference
     Target: ns=21;i=30
     Direction: Forward

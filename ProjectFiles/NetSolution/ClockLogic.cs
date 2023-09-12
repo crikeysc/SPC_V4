@@ -5,6 +5,7 @@ using UAManagedCore;
 using FTOptix.UI;
 using FTOptix.RAEtherNetIP;
 using FTOptix.EventLogger;
+using FTOptix.System;
 #endregion
 
 public class ClockLogic : BaseNetLogic {

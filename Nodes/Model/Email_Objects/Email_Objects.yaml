@@ -28,26 +28,32 @@ Children:
   Type: BaseObjectType
   Children:
   - Name: Email Sender
+    Id: g=36cb19899dfb63332fd505a69bff199c
     Type: BaseDataVariableType
     DataType: String
     Value: "NHP.Vic.Ai@gmail.com"
   - Name: Email Password
+    Id: g=6f72853a3357f3f6a05d575abd3c6b65
     Type: BaseDataVariableType
     DataType: String
     Value: "bqqfammvwnczpxzv"
   - Name: SMTP Hostname
+    Id: g=ee7731ef00264faf0fda31e838ba21e5
     Type: BaseDataVariableType
     DataType: String
     Value: "smtp.gmail.com"
   - Name: SMTP Port
+    Id: g=4bf9f0fbbb2cffa5c0971709851988f1
     Type: BaseDataVariableType
     DataType: Int32
     Value: 587
   - Name: SSL Enable
+    Id: g=1caa771830b675009a28bf0e5c9880d7
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: Attachment URL
+    Id: g=383a7479c9a23e486294155abdde08d3
     Type: BaseDataVariableType
     DataType: String
     Value: "file:///C:/Users/admin/Desktop/Optix/NewHMIProject/ProjectFiles/PDFS/PdfRep1.pdf"
