@@ -14,6 +14,7 @@ using FTOptix.Report;
 using FTOptix.SerialPort;
 using FTOptix.System;
 using FTOptix.EventLogger;
+using FTOptix.UI;
 #endregion
 
 public class BackupAndRestoreTagValues : BaseNetLogic

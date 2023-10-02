@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using FTOptix.SerialPort;
 using FTOptix.System;
 using FTOptix.EventLogger;
+using FTOptix.UI;
 #endregion
 
 public class EmailSenderLogic1 : BaseNetLogic

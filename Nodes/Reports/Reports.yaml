@@ -34,7 +34,11 @@ Children:
     - Name: BackgroundColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#e6e6e6"
+      Value: "#9a9393"
+    - Name: AlternateBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e3e1e1"
   - Name: ToolTipStyle
     Type: ToolTipStyle
   - Name: ScrollBarStyle
@@ -48,7 +52,7 @@ Children:
   - Name: BorderWidth
     Type: BaseDataVariableType
     DataType: Size
-    Value: 0.0009982200572267175
+    Value: 0.0010000000474974513
     Children:
     - Name: EngineeringUnits
       Type: EUInformationType
@@ -119,11 +123,11 @@ Children:
     - Name: BackgroundColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#ffffff"
+      Value: "#b1b3fe"
     - Name: AlternateBackgroundColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#f0f0f0"
+      Value: "#d7d5d5"
     - Name: HeaderTextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -145,7 +149,7 @@ Children:
   - Name: BorderWidth
     Type: BaseDataVariableType
     DataType: Size
-    Value: 0.0009905999759212136
+    Value: 0.0010000000474974513
     Children:
     - Name: EngineeringUnits
       Type: EUInformationType

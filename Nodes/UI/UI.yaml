@@ -199,7 +199,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 800.0
+    Value: 860.0
   - Name: _00_Main
     Type: Panel
     Children:
@@ -268,7 +268,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#484959e9"
+          Value: "#757788"
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -301,7 +301,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 720.0
+            Value: 540.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
@@ -339,23 +339,69 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 10.0
-        - Name: DateAndTime1
-          Type: DateTimePicker
+        - Name: ToggleFullScreen
+          Type: Switch
           Children:
-          - Name: Value
+          - Name: Checked
             Type: BaseDataVariableType
-            DataType: ns=0;DateTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: LeftMargin
+            DataType: Boolean
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../FullScreen"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Width
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 853.0
-          - Name: TopMargin
+            Value: 150.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 20.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 13.0
+          - Name: CheckedText
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Full Screen Enabled"}
+          - Name: UncheckedText
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Full Screen Disabled"}
+          - Name: FontItalic
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: true
+          - Name: TextColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#000000"
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -443,6 +489,11 @@ Children:
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 3
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -466,7 +517,6 @@ Children:
   - Name: FullScreen
     Type: BaseDataVariableType
     DataType: Boolean
-    ModellingRule: Optional
     Value: false
   - Name: NavigationPanel1
     Type: NavigationPanel
@@ -602,6 +652,22 @@ Children:
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":2,"Id":"d2f12fd41f5b3556ae8d6f0e6ba26b42","Namespace":30}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":5}
+      - Name: Panel9
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"b8e2385ef8125555c810fd15e4bda6dd","Namespace":30}
           Children:
           - Name: Kind
             Type: PropertyType

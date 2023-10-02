@@ -318,9 +318,11 @@ Children:
       Value: 2
 - File: Arrays/Arrays.yaml
 - Name: Model_FTEM
+  Id: g=cd75d797a58359cb586b11de1e06e7d3
   Type: BaseObjectType
   Children:
-  - Name: Variable1
+  - Name: KVA
+    Id: g=51b76a594b6abac8a2425ced1c5ed36b
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -334,7 +336,7 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
-  - Name: Variable2
+  - Name: KVAR
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -348,7 +350,7 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
-  - Name: Variable3
+  - Name: KW
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -362,7 +364,7 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
-  - Name: Variable4
+  - Name: FLOW
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0

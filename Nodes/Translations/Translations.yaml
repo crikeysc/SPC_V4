@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [19,2],
+    "Dimensions": [32,2],
     "Body": [
      "","en-US",
      "Acknowledge","Acknowledge",
@@ -29,6 +29,19 @@ Children:
      "Variable1","Variable1",
      "Variable2","Variable2",
      "Variable3","Variable3",
-     "Refresh","Refresh"
+     "Refresh","Refresh",
+     "TimeSynchronizationMode","Synchronization mode",
+     "TimeZone","Time zone",
+     "ManualMode","Manual",
+     "Reboot","Reboot",
+     "DateAndTime","Date and time",
+     "RemoteNTPServer","Remote NTP server",
+     "LAN","LAN",
+     "WAN","WAN",
+     "LocalNTPServerInterfaces","Local NTP server interfaces",
+     "AutoMode","Auto (Remote NTP server)",
+     "RebootToCommitChanges","Reboot to commit changes",
+     "PLCaddress","PLC address",
+     "PLC","Auto (PLC)"
     ]
    }

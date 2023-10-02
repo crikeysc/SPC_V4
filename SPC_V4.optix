@@ -137,5 +137,13 @@ Project:
    Uri: 'urn:FTOptix:EventLogger:Net'
    Module: FTOptix.EventLogger.Net
    Version: 1.0
+  35:
+   Uri: 'urn:FTOptix:System'
+   Module: FTOptix.System
+   Version: 2.0
+  36:
+   Uri: 'urn:FTOptix:System:Net'
+   Module: FTOptix.System.Net
+   Version: 2.0
  Nodes:
  - File: Nodes/SPC_V4.yaml
