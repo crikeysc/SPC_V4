@@ -1364,7 +1364,7 @@ Children:
       - Name: Height
         Type: BaseDataVariableType
         DataType: Size
-        Value: 30.0
+        Value: 66.14583587646484
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -1428,6 +1428,96 @@ Children:
         Type: BaseDataVariableType
         DataType: SortOrderEnum
         Value: 1
+      - Name: TopMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.5291666388511658
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: RightMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.793749988079071
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Footer
     Type: Panel
     Children:
