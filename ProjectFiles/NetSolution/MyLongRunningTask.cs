@@ -26,6 +26,7 @@ namespace NewHMIProject
     #endregion
     //using System.IO; // For using the StreamReader
 using FTOptix.EventLogger;
+using FTOptix.WebUI;
 
     public class MyLongRunningTask : BaseNetLogic
     {

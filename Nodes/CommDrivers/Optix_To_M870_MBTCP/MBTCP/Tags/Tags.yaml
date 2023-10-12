@@ -42,7 +42,6 @@ Children:
     DataType: UInt16
     Value: 0
 - Name: Start_Op_LED
-  Id: g=067da55e5e2157b77eb8d51c81ed0758
   Type: ModbusTag
   DataType: Boolean
   Value: false
@@ -72,7 +71,6 @@ Children:
     DataType: Int32
     Value: 1
 - Name: Stop_Op_LED
-  Id: g=c6781e1a2224ea96e0450c6d6f45c0b2
   Type: ModbusTag
   DataType: Boolean
   Value: false

@@ -20,6 +20,7 @@ using FTOptix.SerialPort;
 using FTOptix.Core;
 using FTOptix.EventLogger;
 using FTOptix.System;
+using FTOptix.WebUI;
 #endregion
 
 

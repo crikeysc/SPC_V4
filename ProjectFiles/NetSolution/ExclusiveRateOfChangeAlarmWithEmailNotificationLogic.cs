@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using FTOptix.SerialPort;
 using FTOptix.System;
 using FTOptix.EventLogger;
+using FTOptix.WebUI;
 #endregion
 
 public class ExclusiveRateOfChangeAlarmWithEmailNotificationLogic : BaseNetLogic, IUAEventObserver

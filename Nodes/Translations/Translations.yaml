@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [32,2],
+    "Dimensions": [43,2],
     "Body": [
      "","en-US",
      "Acknowledge","Acknowledge",
@@ -42,6 +42,17 @@ Children:
      "AutoMode","Auto (Remote NTP server)",
      "RebootToCommitChanges","Reboot to commit changes",
      "PLCaddress","PLC address",
-     "PLC","Auto (PLC)"
+     "PLC","Auto (PLC)",
+     "Description","Description",
+     "MotorWithBehavior","Motor with behavior",
+     "Start","Start",
+     "MotorStarted","Motor started",
+     "Stop","Stop",
+     "Method2","Method 2",
+     "Method1","Method 1",
+     "MotorStopped","Motor stopped",
+     "MotorSettings","Motor settings",
+     "OffOn","Off/On",
+     "ManAuto","Man/Auto"
     ]
    }

@@ -3,7 +3,6 @@ Id: g=54f9c095460262b5f79154dff87d0790
 Type: ModelCategoryFolder
 Children:
 - Name: M870_Enc_Enable
-  Id: g=7a9299ae588c29fb0bfd9907f9b32361
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
@@ -18,7 +17,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: M870_Enc_Start
-  Id: g=772705d53b614d089f2fc0ffd89b0f5a
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
@@ -33,7 +31,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: M870_Enc_Stop
-  Id: g=93ce8836f6999b41ac2f9ddc9458bd9d
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
@@ -379,3 +376,63 @@ Children:
         DataType: DynamicLinkMode
         Value: 2
 - File: Email_Objects/Email_Objects.yaml
+- Name: Model_WAGES
+  Id: g=28811ed70f3f56c56c1bb0f63e3da89c
+  Type: BaseObjectType
+  Children:
+  - Name: AIR
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Loggers/WAGES/VariablesToLog/Air_TOT"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: GAS
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Loggers/WAGES/VariablesToLog/Gas_TOT"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: STEAM
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Loggers/WAGES/VariablesToLog/Steam_TOT"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: WATER
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Loggers/WAGES/VariablesToLog/Water_TOT"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2

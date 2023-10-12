@@ -7,6 +7,7 @@ using FTOptix.SerialPort;
 using FTOptix.System;
 using FTOptix.EventLogger;
 using FTOptix.UI;
+using FTOptix.WebUI;
 
 public class EmailSender : BaseNetLogic
 {

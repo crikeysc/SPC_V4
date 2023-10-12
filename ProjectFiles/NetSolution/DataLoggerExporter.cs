@@ -10,6 +10,7 @@ using FTOptix.UI;
 using FTOptix.RAEtherNetIP;
 using FTOptix.EventLogger;
 using FTOptix.System;
+using FTOptix.WebUI;
 #endregion
 
 public class DataLoggerExporter : BaseNetLogic {
