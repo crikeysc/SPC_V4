@@ -1,8 +1,507 @@
 Name: ns=23;VariableTypes
 Type: FolderType
 Children:
+- Name: 'AB:1734_DI8:I:0'
+  Id: g=3e91b076ba5de96eddc92792ad4128f5
+  Supertype: TagStructure
+  DataType: 'AB:1734_DI8:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "dfe3f465d0cf82f6eefdfc7f8888bb7a",
+     "Namespace": 30
+    },
+    "Body": {
+     "Data": 0,
+     "Fault": 0
+    }
+   }
+  Children:
+  - Name: Data
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Data"
+  - Name: Fault
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Fault"
+- Name: 'AB:PowerFlex525V_EENET_Drive:I:01'
+  Id: g=62c93fecb865f09fb53ae14350170759
+  Supertype: TagStructure
+  DataType: 'AB:PowerFlex525V_EENET_Drive:I:01'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "ebff72d7989fbf68bc689bcf3029629f",
+     "Namespace": 30
+    },
+    "Body": {
+     "Accelerating": false,
+     "Active": false,
+     "ActualDir": false,
+     "AtReference": false,
+     "CommandDir": false,
+     "CommFreqCnt": false,
+     "CommLogicCnt": false,
+     "Decelerating": false,
+     "DigIn1Active": false,
+     "DigIn2Active": false,
+     "DigIn3Active": false,
+     "DigIn4Active": false,
+     "DriveStatus": 0,
+     "Faulted": false,
+     "OutputFreq": 0,
+     "ParmsLocked": false,
+     "Ready": false
+    }
+   }
+  Children:
+  - Name: Accelerating
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Accelerating"
+  - Name: Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Active"
+  - Name: ActualDir
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ActualDir"
+  - Name: AtReference
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AtReference"
+  - Name: CommandDir
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CommandDir"
+  - Name: CommFreqCnt
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CommFreqCnt"
+  - Name: CommLogicCnt
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CommLogicCnt"
+  - Name: Decelerating
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Decelerating"
+  - Name: DigIn1Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DigIn1Active"
+  - Name: DigIn2Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DigIn2Active"
+  - Name: DigIn3Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DigIn3Active"
+  - Name: DigIn4Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DigIn4Active"
+  - Name: DriveStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DriveStatus"
+  - Name: Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Faulted"
+  - Name: OutputFreq
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OutputFreq"
+  - Name: ParmsLocked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ParmsLocked"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ready"
+- Name: ICX35_SMS
+  Id: g=3f5589a2b7f313b04a097ef8645e80a1
+  Supertype: TagStructure
+  DataType: ICX35_SMS
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "edc54410325334d586a3f9c2545c3c0b",
+     "Namespace": 30
+    },
+    "Body": {
+     "READ": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "a8e23f2de72c4268fc9eb256ed64ff45",
+       "Namespace": 30
+      },
+      "Body": {
+       "Date_Time": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Message": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Time_Zone": [0,0,0,0,0,0]
+      }
+     },
+     "WRITE": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e445b3c8b2c7aef7b7ad26c42a7f574e",
+       "Namespace": 30
+      },
+      "Body": {
+       "Message": "",
+       "Phone_Count": 0,
+       "Phone_Number_1": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_2": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_3": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_4": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_5": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      }
+     }
+    }
+   }
+  Children:
+  - Name: READ
+    Type: ICX35_SMS_Read
+    DataType: ICX35_SMS_Read
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "a8e23f2de72c4268fc9eb256ed64ff45",
+       "Namespace": 30
+      },
+      "Body": {
+       "Date_Time": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Message": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Time_Zone": [0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Date_Time
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [18]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Date_Time"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [160]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Message"
+    - Name: Phone_Number
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [24]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Number"
+    - Name: Time_Zone
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: [0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Time_Zone"
+  - Name: WRITE
+    Type: ICX35_SMS_Write
+    DataType: ICX35_SMS_Write
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e445b3c8b2c7aef7b7ad26c42a7f574e",
+       "Namespace": 30
+      },
+      "Body": {
+       "Message": "",
+       "Phone_Count": 0,
+       "Phone_Number_1": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_2": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_3": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_4": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+       "Phone_Number_5": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Message"
+    - Name: Phone_Count
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Count"
+    - Name: Phone_Number_1
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [24]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Number_1"
+    - Name: Phone_Number_2
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [24]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Number_2"
+    - Name: Phone_Number_3
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [24]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Number_3"
+    - Name: Phone_Number_4
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [24]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Number_4"
+    - Name: Phone_Number_5
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [24]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Number_5"
+- Name: String_to_SINT
+  Id: g=1fc709a162ead325f96c6bab583d5495
+  Supertype: TagStructure
+  DataType: String_to_SINT
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "1985fca7f0512f091e3ec93ef3541693",
+     "Namespace": 30
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "FBEN": false,
+     "FBENO": false,
+     "Index_String": 0,
+     "Nbc": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableOut"
+  - Name: FBEN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FBEN"
+  - Name: FBENO
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FBENO"
+  - Name: Index_String
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Index_String"
+  - Name: Nbc
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Nbc"
 - Name: L_CPU_Out
-  Id: g=a1ba0e6ff1b125685c70aaf3c3077e05
+  Id: g=22c570f5ee1ed6b15cf9f4141f81b4b6
   Supertype: TagStructure
   DataType: L_CPU_Out
   ValueRank: Any
@@ -10,14 +509,14 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "7df2fb75e11fb4a2e1e2b50897ac0090",
+     "Id": "c1592577fcb429df4c7ed618766f79fc",
      "Namespace": 30
     },
     "Body": {
      "CommUse": {
       "TypeId": {
        "IdType": 2,
-       "Id": "299b1418d5309bca267ba7ba86a408e8",
+       "Id": "dfc33e83038fb98c07a10e6ae2a2b2b4",
        "Namespace": 30
       },
       "Body": {
@@ -31,7 +530,7 @@ Children:
      "ConnUse": {
       "TypeId": {
        "IdType": 2,
-       "Id": "6ea5d549ad8fcdfe3151a1380981c14e",
+       "Id": "ac224ab28893d675888aa0da163caf2d",
        "Namespace": 30
       },
       "Body": {
@@ -62,7 +561,7 @@ Children:
      "CPUUse": {
       "TypeId": {
        "IdType": 2,
-       "Id": "9ceb1e08a3c2663dfce20ca5389661cf",
+       "Id": "766865245f9ea9e87757b0b4e39db873",
        "Namespace": 30
       },
       "Body": {
@@ -80,7 +579,7 @@ Children:
      "Identity": {
       "TypeId": {
        "IdType": 2,
-       "Id": "6fba6c420493d3b3db1c9fe654edd1e2",
+       "Id": "eb8b04b202034cccad61a64737929f8b",
        "Namespace": 30
       },
       "Body": {
@@ -98,7 +597,7 @@ Children:
      "MemUse": {
       "TypeId": {
        "IdType": 2,
-       "Id": "66c777561e1399f13136a991db86368e",
+       "Id": "343ce43689b9c8f82ff96228bfb629cf",
        "Namespace": 30
       },
       "Body": {
@@ -136,7 +635,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "299b1418d5309bca267ba7ba86a408e8",
+       "Id": "dfc33e83038fb98c07a10e6ae2a2b2b4",
        "Namespace": 30
       },
       "Body": {
@@ -200,7 +699,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "6ea5d549ad8fcdfe3151a1380981c14e",
+       "Id": "ac224ab28893d675888aa0da163caf2d",
        "Namespace": 30
       },
       "Body": {
@@ -434,7 +933,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "9ceb1e08a3c2663dfce20ca5389661cf",
+       "Id": "766865245f9ea9e87757b0b4e39db873",
        "Namespace": 30
       },
       "Body": {
@@ -537,7 +1036,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "6fba6c420493d3b3db1c9fe654edd1e2",
+       "Id": "eb8b04b202034cccad61a64737929f8b",
        "Namespace": 30
       },
       "Body": {
@@ -642,7 +1141,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "66c777561e1399f13136a991db86368e",
+       "Id": "343ce43689b9c8f82ff96228bfb629cf",
        "Namespace": 30
       },
       "Body": {
@@ -863,445 +1362,8 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "TimeSlice"
-- Name: String_to_SINT
-  Id: g=899f687aa532900ca07df0a998911d66
-  Supertype: TagStructure
-  DataType: String_to_SINT
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "cfdc49965620033c92856b115fd84f37",
-     "Namespace": 30
-    },
-    "Body": {
-     "EnableIn": false,
-     "EnableOut": false,
-     "FBEN": false,
-     "FBENO": false,
-     "Index_String": 0,
-     "Nbc": 0
-    }
-   }
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableOut"
-  - Name: FBEN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "FBEN"
-  - Name: FBENO
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "FBENO"
-  - Name: Index_String
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Index_String"
-  - Name: Nbc
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Nbc"
-- Name: ICX35_SMS
-  Id: g=b14a72eb9022a2a1f9087412281eab5b
-  Supertype: TagStructure
-  DataType: ICX35_SMS
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "2fedce9e8f583225ead1ff513ea888d4",
-     "Namespace": 30
-    },
-    "Body": {
-     "READ": {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "53868c4f75dbf8125f80ac47cbe42583",
-       "Namespace": 30
-      },
-      "Body": {
-       "Date_Time": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Message": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Time_Zone": [0,0,0,0,0,0]
-      }
-     },
-     "WRITE": {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "a8174e81c9bc9ccc55ef3b5d5b7eeaa0",
-       "Namespace": 30
-      },
-      "Body": {
-       "Message": "",
-       "Phone_Count": 0,
-       "Phone_Number_1": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_2": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_3": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_4": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_5": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      }
-     }
-    }
-   }
-  Children:
-  - Name: READ
-    Type: ICX35_SMS_Read
-    DataType: ICX35_SMS_Read
-    Value: 
-     {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "53868c4f75dbf8125f80ac47cbe42583",
-       "Namespace": 30
-      },
-      "Body": {
-       "Date_Time": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Message": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Time_Zone": [0,0,0,0,0,0]
-      }
-     }
-    Children:
-    - Name: Date_Time
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [18]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Date_Time"
-    - Name: Message
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [160]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Message"
-    - Name: Phone_Number
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [24]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Number"
-    - Name: Time_Zone
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [6]
-      Value: [0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Time_Zone"
-  - Name: WRITE
-    Type: ICX35_SMS_Write
-    DataType: ICX35_SMS_Write
-    Value: 
-     {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "a8174e81c9bc9ccc55ef3b5d5b7eeaa0",
-       "Namespace": 30
-      },
-      "Body": {
-       "Message": "",
-       "Phone_Count": 0,
-       "Phone_Number_1": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_2": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_3": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_4": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-       "Phone_Number_5": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      }
-     }
-    Children:
-    - Name: Message
-      Type: RAEtherNetIPTag
-      DataType: String
-      Value: ""
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Message"
-    - Name: Phone_Count
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Count"
-    - Name: Phone_Number_1
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [24]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Number_1"
-    - Name: Phone_Number_2
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [24]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Number_2"
-    - Name: Phone_Number_3
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [24]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Number_3"
-    - Name: Phone_Number_4
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [24]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Number_4"
-    - Name: Phone_Number_5
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [24]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Number_5"
-- Name: raC_UDT_ModbusClientData
-  Id: g=7fe7d24e346d6b5aa8c79dbe3f0aed3e
-  Supertype: TagStructure
-  DataType: raC_UDT_ModbusClientData
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "8e45b2afa2041ea06203ae9a5f28623d",
-     "Namespace": 30
-    },
-    "Body": {
-     "Coils_0xxx": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
-     "DiscInputs_1xxx": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
-     "HoldRegisters_4xxx": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-     "InpRegisters_3xxx": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    }
-   }
-  Children:
-  - Name: Coils_0xxx
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    ValueRank: OneDimension
-    ArrayDimensions: [1024]
-    Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Coils_0xxx"
-  - Name: DiscInputs_1xxx
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    ValueRank: OneDimension
-    ArrayDimensions: [1024]
-    Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DiscInputs_1xxx"
-  - Name: HoldRegisters_4xxx
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    ValueRank: OneDimension
-    ArrayDimensions: [1024]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HoldRegisters_4xxx"
-  - Name: InpRegisters_3xxx
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    ValueRank: OneDimension
-    ArrayDimensions: [1024]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "InpRegisters_3xxx"
-- Name: raC_Opr_NetModbusTCPClient
-  Id: g=b77cce729a6d4b236acb334f7dc39c13
-  Supertype: TagStructure
-  DataType: raC_Opr_NetModbusTCPClient
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "fa5c17fa2a02f7bbc9dfbbed177146d0",
-     "Namespace": 30
-    },
-    "Body": {
-     "EnableIn": false,
-     "EnableOut": false,
-     "Inp_Enable": false,
-     "Sts_Connected": false,
-     "Sts_EN": false,
-     "Sts_Faulted": false,
-     "Sts_Overlap": false,
-     "Sts_Overload": false
-    }
-   }
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableOut"
-  - Name: Inp_Enable
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_Enable"
-  - Name: Sts_Connected
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Connected"
-  - Name: Sts_EN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_EN"
-  - Name: Sts_Faulted
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Faulted"
-  - Name: Sts_Overlap
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Overlap"
-  - Name: Sts_Overload
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Overload"
 - Name: ICX35_ModuleDef
-  Id: g=ccde909453effba26f20c401f28874d4
+  Id: g=26071fa1f2c65de4630e253306dab466
   Supertype: TagStructure
   DataType: ICX35_ModuleDef
   ValueRank: Any
@@ -1309,14 +1371,14 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "926a4ef860ded23a067bd3b6d7b68507",
+     "Id": "8e6bc28b4bc47a3524e3fdc3ba957c93",
      "Namespace": 30
     },
     "Body": {
      "CONTROL": {
       "TypeId": {
        "IdType": 2,
-       "Id": "4146f4792e79782405c9ed39d38eb9ad",
+       "Id": "a9735a11afe5b40f42de40f20def552e",
        "Namespace": 30
       },
       "Body": {
@@ -1331,14 +1393,14 @@ Children:
      "SMS": {
       "TypeId": {
        "IdType": 2,
-       "Id": "2fedce9e8f583225ead1ff513ea888d4",
+       "Id": "edc54410325334d586a3f9c2545c3c0b",
        "Namespace": 30
       },
       "Body": {
        "READ": {
         "TypeId": {
          "IdType": 2,
-         "Id": "53868c4f75dbf8125f80ac47cbe42583",
+         "Id": "a8e23f2de72c4268fc9eb256ed64ff45",
          "Namespace": 30
         },
         "Body": {
@@ -1351,7 +1413,7 @@ Children:
        "WRITE": {
         "TypeId": {
          "IdType": 2,
-         "Id": "a8174e81c9bc9ccc55ef3b5d5b7eeaa0",
+         "Id": "e445b3c8b2c7aef7b7ad26c42a7f574e",
          "Namespace": 30
         },
         "Body": {
@@ -1369,7 +1431,7 @@ Children:
      "STATUS": {
       "TypeId": {
        "IdType": 2,
-       "Id": "3b010151ba4ef3563591c03cce67f077",
+       "Id": "7d27ef57c60e4e20a1f41af8d5ccc7ab",
        "Namespace": 30
       },
       "Body": {
@@ -1409,7 +1471,7 @@ Children:
      "UTIL": {
       "TypeId": {
        "IdType": 2,
-       "Id": "703467bf99506ce6847131e6439d9a81",
+       "Id": "4dfc50b53cc1b616be45da8938b26f3b",
        "Namespace": 30
       },
       "Body": {
@@ -1433,7 +1495,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "4146f4792e79782405c9ed39d38eb9ad",
+       "Id": "a9735a11afe5b40f42de40f20def552e",
        "Namespace": 30
       },
       "Body": {
@@ -1507,14 +1569,14 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "2fedce9e8f583225ead1ff513ea888d4",
+       "Id": "edc54410325334d586a3f9c2545c3c0b",
        "Namespace": 30
       },
       "Body": {
        "READ": {
         "TypeId": {
          "IdType": 2,
-         "Id": "53868c4f75dbf8125f80ac47cbe42583",
+         "Id": "a8e23f2de72c4268fc9eb256ed64ff45",
          "Namespace": 30
         },
         "Body": {
@@ -1527,7 +1589,7 @@ Children:
        "WRITE": {
         "TypeId": {
          "IdType": 2,
-         "Id": "a8174e81c9bc9ccc55ef3b5d5b7eeaa0",
+         "Id": "e445b3c8b2c7aef7b7ad26c42a7f574e",
          "Namespace": 30
         },
         "Body": {
@@ -1550,7 +1612,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "53868c4f75dbf8125f80ac47cbe42583",
+         "Id": "a8e23f2de72c4268fc9eb256ed64ff45",
          "Namespace": 30
         },
         "Body": {
@@ -1612,7 +1674,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "a8174e81c9bc9ccc55ef3b5d5b7eeaa0",
+         "Id": "e445b3c8b2c7aef7b7ad26c42a7f574e",
          "Namespace": 30
         },
         "Body": {
@@ -1706,7 +1768,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "3b010151ba4ef3563591c03cce67f077",
+       "Id": "7d27ef57c60e4e20a1f41af8d5ccc7ab",
        "Namespace": 30
       },
       "Body": {
@@ -2040,7 +2102,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "703467bf99506ce6847131e6439d9a81",
+       "Id": "4dfc50b53cc1b616be45da8938b26f3b",
        "Namespace": 30
       },
       "Body": {
@@ -2134,7 +2196,7 @@ Children:
         DataType: String
         Value: "Status"
 - Name: 'AB:1734_DO8_NoDiag:C:01'
-  Id: g=10ae5d0d9aa15d6f0c5e370b5fc0fea0
+  Id: g=30fd8444900d35e2187896728f5d879e
   Supertype: TagStructure
   DataType: 'AB:1734_DO8_NoDiag:C:01'
   ValueRank: Any
@@ -2142,7 +2204,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "f180dadfdf8135bda1f01234c27cd42a",
+     "Id": "d475e6682962f5f419cda857af928c73",
      "Namespace": 30
     },
     "Body": {
@@ -2510,7 +2572,7 @@ Children:
       DataType: String
       Value: "Pt7ProgValue"
 - Name: L_CPU_Identity
-  Id: g=d89dafd887c7367ffd2ec512477d2cab
+  Id: g=3541e3c1f72a65a7bc1c29aaa404275c
   Supertype: TagStructure
   DataType: L_CPU_Identity
   ValueRank: Any
@@ -2518,7 +2580,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "6fba6c420493d3b3db1c9fe654edd1e2",
+     "Id": "eb8b04b202034cccad61a64737929f8b",
      "Namespace": 30
     },
     "Body": {
@@ -2608,7 +2670,7 @@ Children:
       DataType: String
       Value: "VendorID"
 - Name: 'AB:Embedded_DiscreteIO:C:0'
-  Id: g=c62046a66b19a4efd4ff873c32d39499
+  Id: g=15ebaaaf5f4fe12506b3fcaf26c412d9
   Supertype: TagStructure
   DataType: 'AB:Embedded_DiscreteIO:C:0'
   ValueRank: Any
@@ -2616,7 +2678,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "036c6194968850a7139f1c60522055f4",
+     "Id": "9797f305511a8acd90b8c19436a44bbf",
      "Namespace": 30
     },
     "Body": {
@@ -3004,7 +3066,7 @@ Children:
       DataType: String
       Value: "Pt15FilterOnOff"
 - Name: ICX35_SMS_Write
-  Id: g=f43e30a74e6537fab6a770020ebf4a82
+  Id: g=8c5647089aae5a331ecdf167cdb99b46
   Supertype: TagStructure
   DataType: ICX35_SMS_Write
   ValueRank: Any
@@ -3012,7 +3074,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "a8174e81c9bc9ccc55ef3b5d5b7eeaa0",
+     "Id": "e445b3c8b2c7aef7b7ad26c42a7f574e",
      "Namespace": 30
     },
     "Body": {
@@ -3099,72 +3161,8 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Phone_Number_5"
-- Name: raC_UDT_ModbusServerData
-  Id: g=d4cecb1aa670f86c164d9db61ed51006
-  Supertype: TagStructure
-  DataType: raC_UDT_ModbusServerData
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "d148e6f2cdb92129f2f71ad19a0c6660",
-     "Namespace": 30
-    },
-    "Body": {
-     "Coils_0xxx": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
-     "DiscInputs_1xxx": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
-     "HoldRegisters_4xxx": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-     "InpRegisters_3xxx": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    }
-   }
-  Children:
-  - Name: Coils_0xxx
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    ValueRank: OneDimension
-    ArrayDimensions: [2048]
-    Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Coils_0xxx"
-  - Name: DiscInputs_1xxx
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    ValueRank: OneDimension
-    ArrayDimensions: [2048]
-    Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DiscInputs_1xxx"
-  - Name: HoldRegisters_4xxx
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    ValueRank: OneDimension
-    ArrayDimensions: [1024]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HoldRegisters_4xxx"
-  - Name: InpRegisters_3xxx
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    ValueRank: OneDimension
-    ArrayDimensions: [1024]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "InpRegisters_3xxx"
 - Name: L_CPU_MemUse
-  Id: g=729275fdfeaa5fdc4bbf51f4e3b54e94
+  Id: g=9f97ed697691635e47e4592179b2673e
   Supertype: TagStructure
   DataType: L_CPU_MemUse
   ValueRank: Any
@@ -3172,7 +3170,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "66c777561e1399f13136a991db86368e",
+     "Id": "343ce43689b9c8f82ff96228bfb629cf",
      "Namespace": 30
     },
     "Body": {
@@ -3340,7 +3338,7 @@ Children:
       DataType: String
       Value: "TotalSafety"
 - Name: L_CPU_CommUse
-  Id: g=d6bdb29c017964f8baf75b7af6d5ff04
+  Id: g=36cd40ee23f2eec2dbf7e89701c8505c
   Supertype: TagStructure
   DataType: L_CPU_CommUse
   ValueRank: Any
@@ -3348,7 +3346,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "299b1418d5309bca267ba7ba86a408e8",
+     "Id": "dfc33e83038fb98c07a10e6ae2a2b2b4",
      "Namespace": 30
     },
     "Body": {
@@ -3406,7 +3404,7 @@ Children:
       DataType: String
       Value: "TrendHighWater"
 - Name: DateTime
-  Id: g=8a645742a76bdc547510049334fba8e1
+  Id: g=c7a549f4aa412b4491cef76c64c4d66e
   Supertype: TagStructure
   DataType: ns=30;DateTime
   ValueRank: Any
@@ -3414,7 +3412,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "ad97554cf961d87390db0878cd4b03c8",
+     "Id": "1150d5e77f231f4559b1b3cbe7e325dd",
      "Namespace": 30
     },
     "Body": {
@@ -3522,7 +3520,7 @@ Children:
       DataType: String
       Value: "Year"
 - Name: Memory_Data
-  Id: g=e47727bb149088443bf6819416fc3958
+  Id: g=a3b243c9de3ba350b3fc167ee732600e
   Supertype: TagStructure
   DataType: Memory_Data
   ValueRank: Any
@@ -3530,7 +3528,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "441e3a05f77e51ec9213f8a82b3eeb2d",
+     "Id": "7fb192e0df9119cb7beccf70ccf8b6ff",
      "Namespace": 30
     },
     "Body": {
@@ -3618,7 +3616,7 @@ Children:
       DataType: String
       Value: "Total_Memory"
 - Name: Logix_Status_FP
-  Id: g=ab2888d6b471ef0708fbf4caf07030e2
+  Id: g=bc21c4e09050b97e0caa1c24eb5cb934
   Supertype: TagStructure
   DataType: Logix_Status_FP
   ValueRank: Any
@@ -3626,7 +3624,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "0191bcff18b986ee520c4801fbf8f815",
+     "Id": "0ada0b7796c7180375788dba87c0ba17",
      "Namespace": 30
     },
     "Body": {
@@ -3637,7 +3635,7 @@ Children:
      "MemoryData": {
       "TypeId": {
        "IdType": 2,
-       "Id": "441e3a05f77e51ec9213f8a82b3eeb2d",
+       "Id": "7fb192e0df9119cb7beccf70ccf8b6ff",
        "Namespace": 30
       },
       "Body": {
@@ -3658,7 +3656,7 @@ Children:
      "Sts_Battery_LED": {
       "TypeId": {
        "IdType": 2,
-       "Id": "9938f8004824385cacaf37183b8ad725",
+       "Id": "6c24bcccb55609a671c3cce2d02d3b4e",
        "Namespace": 30
       },
       "Body": {
@@ -3678,7 +3676,7 @@ Children:
      "Sts_IO_LED": {
       "TypeId": {
        "IdType": 2,
-       "Id": "9938f8004824385cacaf37183b8ad725",
+       "Id": "6c24bcccb55609a671c3cce2d02d3b4e",
        "Namespace": 30
       },
       "Body": {
@@ -3703,7 +3701,7 @@ Children:
      "Sts_NS": {
       "TypeId": {
        "IdType": 2,
-       "Id": "9938f8004824385cacaf37183b8ad725",
+       "Id": "6c24bcccb55609a671c3cce2d02d3b4e",
        "Namespace": 30
       },
       "Body": {
@@ -3725,7 +3723,7 @@ Children:
      "UpdateDelayTimer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "c70a9c95b273f4a77edd6515c39fb185",
+       "Id": "1fe60dfccdc7c8eea9fb4efd04630fa9",
        "Namespace": 30
       },
       "Body": {
@@ -3740,7 +3738,7 @@ Children:
      "Val_MajorFault": {
       "TypeId": {
        "IdType": 2,
-       "Id": "8b9acdbfa8f5a784fdf075b678516bec",
+       "Id": "c2a31d88e85a9b8330d241c4ba7c2f44",
        "Namespace": 30
       },
       "Body": {
@@ -3754,7 +3752,7 @@ Children:
      "Val_MFS": {
       "TypeId": {
        "IdType": 2,
-       "Id": "8b9acdbfa8f5a784fdf075b678516bec",
+       "Id": "c2a31d88e85a9b8330d241c4ba7c2f44",
        "Namespace": 30
       },
       "Body": {
@@ -3815,7 +3813,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "441e3a05f77e51ec9213f8a82b3eeb2d",
+       "Id": "7fb192e0df9119cb7beccf70ccf8b6ff",
        "Namespace": 30
       },
       "Body": {
@@ -3949,7 +3947,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "9938f8004824385cacaf37183b8ad725",
+       "Id": "6c24bcccb55609a671c3cce2d02d3b4e",
        "Namespace": 30
       },
       "Body": {
@@ -4069,7 +4067,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "9938f8004824385cacaf37183b8ad725",
+       "Id": "6c24bcccb55609a671c3cce2d02d3b4e",
        "Namespace": 30
       },
       "Body": {
@@ -4234,7 +4232,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "9938f8004824385cacaf37183b8ad725",
+       "Id": "6c24bcccb55609a671c3cce2d02d3b4e",
        "Namespace": 30
       },
       "Body": {
@@ -4372,7 +4370,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "c70a9c95b273f4a77edd6515c39fb185",
+       "Id": "1fe60dfccdc7c8eea9fb4efd04630fa9",
        "Namespace": 30
       },
       "Body": {
@@ -4445,7 +4443,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "8b9acdbfa8f5a784fdf075b678516bec",
+       "Id": "c2a31d88e85a9b8330d241c4ba7c2f44",
        "Namespace": 30
       },
       "Body": {
@@ -4511,7 +4509,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "8b9acdbfa8f5a784fdf075b678516bec",
+       "Id": "c2a31d88e85a9b8330d241c4ba7c2f44",
        "Namespace": 30
       },
       "Body": {
@@ -4588,44 +4586,204 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Val_raw_data"
-- Name: 'AB:1734_DI8:I:0'
-  Id: g=03f53f2ecbd13c9ef28c25061a496cf7
+- Name: 'AB:PowerFlex525V_EENET_Drive:O:01'
+  Id: g=217ac4a97b229efc226a708cd64083bb
   Supertype: TagStructure
-  DataType: 'AB:1734_DI8:I:0'
+  DataType: 'AB:PowerFlex525V_EENET_Drive:O:01'
   ValueRank: Any
   Value: 
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "d266f7dd69131b965d635aa600df890a",
+     "Id": "51c526760bac0831effdc58505d7cfa8",
      "Namespace": 30
     },
     "Body": {
-     "Data": 0,
-     "Fault": 0
+     "AccelRate1": false,
+     "AccelRate2": false,
+     "ClearFaults": false,
+     "DecelRate1": false,
+     "DecelRate2": false,
+     "ForceKeypadCtrl": false,
+     "Forward": false,
+     "FreqCommand": 0,
+     "FreqSel01": false,
+     "FreqSel02": false,
+     "FreqSel03": false,
+     "Jog": false,
+     "LogicCommand": 0,
+     "MOPDecrement": false,
+     "MOPIncrement": false,
+     "Reverse": false,
+     "Start": false,
+     "Stop": false
     }
    }
   Children:
-  - Name: Data
+  - Name: AccelRate1
     Type: RAEtherNetIPTag
-    DataType: SByte
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AccelRate1"
+  - Name: AccelRate2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AccelRate2"
+  - Name: ClearFaults
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ClearFaults"
+  - Name: DecelRate1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DecelRate1"
+  - Name: DecelRate2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DecelRate2"
+  - Name: ForceKeypadCtrl
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ForceKeypadCtrl"
+  - Name: Forward
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Forward"
+  - Name: FreqCommand
+    Type: RAEtherNetIPTag
+    DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Data"
-  - Name: Fault
+      Value: "FreqCommand"
+  - Name: FreqSel01
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FreqSel01"
+  - Name: FreqSel02
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FreqSel02"
+  - Name: FreqSel03
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FreqSel03"
+  - Name: Jog
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Jog"
+  - Name: LogicCommand
+    Type: RAEtherNetIPTag
+    DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Fault"
+      Value: "LogicCommand"
+  - Name: MOPDecrement
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MOPDecrement"
+  - Name: MOPIncrement
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MOPIncrement"
+  - Name: Reverse
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reverse"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Start"
+  - Name: Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Stop"
 - Name: ICX35_STATUS
-  Id: g=6656afafbcd1cd1f7d343df0f33c3ccb
+  Id: g=68b3466974620989e8fe2796f84d266c
   Supertype: TagStructure
   DataType: ICX35_STATUS
   ValueRank: Any
@@ -4633,7 +4791,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "3b010151ba4ef3563591c03cce67f077",
+     "Id": "7d27ef57c60e4e20a1f41af8d5ccc7ab",
      "Namespace": 30
     },
     "Body": {
@@ -4961,7 +5119,7 @@ Children:
       DataType: String
       Value: "WAN_KBytes_Sent"
 - Name: L_CPU_ConnUse
-  Id: g=05366ef4cee732b5209f2b6210fc4952
+  Id: g=b27eec346e9c3314f11baf9f8a1f3e9b
   Supertype: TagStructure
   DataType: L_CPU_ConnUse
   ValueRank: Any
@@ -4969,7 +5127,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "6ea5d549ad8fcdfe3151a1380981c14e",
+     "Id": "ac224ab28893d675888aa0da163caf2d",
      "Namespace": 30
     },
     "Body": {
@@ -5197,7 +5355,7 @@ Children:
       DataType: String
       Value: "UCBsHiWater"
 - Name: ControllerLEDStatus
-  Id: g=51133b4f0dd3255662a44db353fc6bb8
+  Id: g=cbba45e0c47d6c8eb97bd78c93c1fdd3
   Supertype: TagStructure
   DataType: ControllerLEDStatus
   ValueRank: Any
@@ -5205,7 +5363,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "9938f8004824385cacaf37183b8ad725",
+     "Id": "6c24bcccb55609a671c3cce2d02d3b4e",
      "Namespace": 30
     },
     "Body": {
@@ -5283,7 +5441,7 @@ Children:
       DataType: String
       Value: "SolidYellow"
 - Name: Volts_Meter_Data1
-  Id: g=8775423fb520d0bbdf3fcd143376a1f9
+  Id: g=41f51192dd85ce67b9dca372ca033c51
   Supertype: TagStructure
   DataType: Volts_Meter_Data1
   ValueRank: Any
@@ -5291,7 +5449,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "2a52f4546f1f38a439684d5f2785d9a3",
+     "Id": "c68c89face93d37b075684e5ee9c91d2",
      "Namespace": 30
     },
     "Body": {
@@ -5359,7 +5517,7 @@ Children:
       DataType: String
       Value: "W_N"
 - Name: DNP3AnalogInputRealFlag
-  Id: g=c6f6bf6c1690b7108bdbc6b55218737f
+  Id: g=26cc8e7b96ad7174eed594c1f3854392
   Supertype: TagStructure
   DataType: DNP3AnalogInputRealFlag
   ValueRank: Any
@@ -5367,7 +5525,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "b499d85e5bd039ed9d965708e9a1ca53",
+     "Id": "bf116cc7a2b1dd3dd489910cc3d27da6",
      "Namespace": 30
     },
     "Body": {
@@ -5465,7 +5623,7 @@ Children:
       DataType: String
       Value: "Value"
 - Name: U_Noise1
-  Id: g=480bc3763f20a9ae09da570235872b3e
+  Id: g=d7e454d69ec2552fdbb81bc65032c099
   Supertype: TagStructure
   DataType: U_Noise1
   ValueRank: Any
@@ -5473,7 +5631,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "e5f6fd9597b6458864a352830c760e43",
+     "Id": "dc062ce57757506a323238494603824c",
      "Namespace": 30
     },
     "Body": {
@@ -5560,44 +5718,8 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Out_Unfiltered"
-- Name: AOI_ICX35
-  Id: g=b201b4cc1eb87bf2357226c2af547193
-  Supertype: TagStructure
-  DataType: AOI_ICX35
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "6c3756d6eb0cd1b33b319590a2e9ebe7",
-     "Namespace": 30
-    },
-    "Body": {
-     "EnableIn": false,
-     "EnableOut": false
-    }
-   }
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableOut"
 - Name: ICX35_CONTROL
-  Id: g=834f1122ba35c4f59be1e5d41355be5f
+  Id: g=f9d8e8666b211ecfb10782753fe48cd9
   Supertype: TagStructure
   DataType: ICX35_CONTROL
   ValueRank: Any
@@ -5605,7 +5727,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "4146f4792e79782405c9ed39d38eb9ad",
+     "Id": "a9735a11afe5b40f42de40f20def552e",
      "Namespace": 30
     },
     "Body": {
@@ -5673,7 +5795,7 @@ Children:
       DataType: String
       Value: "Write_SMS"
 - Name: 'AB:1734_DI8:C:01'
-  Id: g=e4856d6d4a78b7bb261418ecdb3df3f5
+  Id: g=046b35006f2393ae1189c5deeb7713f6
   Supertype: TagStructure
   DataType: 'AB:1734_DI8:C:01'
   ValueRank: Any
@@ -5681,7 +5803,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "a602d526ce72bd76a6aca53574fcb8ad",
+     "Id": "1866e0a9195ed2b6a976c523dfe37963",
      "Namespace": 30
     },
     "Body": {
@@ -5848,88 +5970,8 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Pt7FilterOnOff"
-- Name: raC_UDT_ModbusServerBase
-  Id: g=e0bd698f972431b5dc379cfabe835b0d
-  Supertype: TagStructure
-  DataType: raC_UDT_ModbusServerBase
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "0ffcf1eb3a007e9976db8cb147136729",
-     "Namespace": 30
-    },
-    "Body": {
-     "InactivityTimeout": 0,
-     "LocalAddress": "",
-     "LocalPort": 0,
-     "LocalSlot": 0,
-     "MSG_Dest": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-     "MSG_Src": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    }
-   }
-  Children:
-  - Name: InactivityTimeout
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "InactivityTimeout"
-  - Name: LocalAddress
-    Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LocalAddress"
-  - Name: LocalPort
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LocalPort"
-  - Name: LocalSlot
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LocalSlot"
-  - Name: MSG_Dest
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    ValueRank: OneDimension
-    ArrayDimensions: [512]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MSG_Dest"
-  - Name: MSG_Src
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    ValueRank: OneDimension
-    ArrayDimensions: [512]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MSG_Src"
 - Name: Current_Meter_Data1
-  Id: g=57f409256b1da149cd70af63c5913f60
+  Id: g=90eea4525eff32de625aac43e14b0b38
   Supertype: TagStructure
   DataType: Current_Meter_Data1
   ValueRank: Any
@@ -5937,7 +5979,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "0dda3e0a50c41675c6c78e2d5f63e419",
+     "Id": "660ba24d5d7a912e048fa2a8636cc21c",
      "Namespace": 30
     },
     "Body": {
@@ -5985,7 +6027,7 @@ Children:
       DataType: String
       Value: "W"
 - Name: Reactive_Meter_Data1
-  Id: g=4f80775db81c0baaefbfc450d0558e31
+  Id: g=a75d530f49e6697f393d334facd4f13e
   Supertype: TagStructure
   DataType: Reactive_Meter_Data1
   ValueRank: Any
@@ -5993,7 +6035,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "8d68c8cce93f474de7279b71a6d7e00c",
+     "Id": "f1a31b571f816dda21d5325a0ffca516",
      "Namespace": 30
     },
     "Body": {
@@ -6051,7 +6093,7 @@ Children:
       DataType: String
       Value: "Pf"
 - Name: Meter_Data1
-  Id: g=541cfeccd7ac3734a80b452c71647778
+  Id: g=5cee4182d869b5ed29cf423603b57328
   Supertype: TagStructure
   DataType: Meter_Data1
   ValueRank: Any
@@ -6059,14 +6101,14 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "525aa5910dc578ddcde44a09b58878c4",
+     "Id": "956d7482d1f63158f34743b2d90667c9",
      "Namespace": 30
     },
     "Body": {
      "Current": {
       "TypeId": {
        "IdType": 2,
-       "Id": "0dda3e0a50c41675c6c78e2d5f63e419",
+       "Id": "660ba24d5d7a912e048fa2a8636cc21c",
        "Namespace": 30
       },
       "Body": {
@@ -6081,7 +6123,7 @@ Children:
      "Reactive": {
       "TypeId": {
        "IdType": 2,
-       "Id": "8d68c8cce93f474de7279b71a6d7e00c",
+       "Id": "f1a31b571f816dda21d5325a0ffca516",
        "Namespace": 30
       },
       "Body": {
@@ -6095,7 +6137,7 @@ Children:
      "Volts": {
       "TypeId": {
        "IdType": 2,
-       "Id": "2a52f4546f1f38a439684d5f2785d9a3",
+       "Id": "c68c89face93d37b075684e5ee9c91d2",
        "Namespace": 30
       },
       "Body": {
@@ -6117,7 +6159,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "0dda3e0a50c41675c6c78e2d5f63e419",
+       "Id": "660ba24d5d7a912e048fa2a8636cc21c",
        "Namespace": 30
       },
       "Body": {
@@ -6189,7 +6231,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "8d68c8cce93f474de7279b71a6d7e00c",
+       "Id": "f1a31b571f816dda21d5325a0ffca516",
        "Namespace": 30
       },
       "Body": {
@@ -6253,7 +6295,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "2a52f4546f1f38a439684d5f2785d9a3",
+       "Id": "c68c89face93d37b075684e5ee9c91d2",
        "Namespace": 30
       },
       "Body": {
@@ -6321,7 +6363,7 @@ Children:
         DataType: String
         Value: "W_N"
 - Name: DNP3AnalogInputEvtLogReal
-  Id: g=953439863d97489df0324e1accc5f501
+  Id: g=1c48d429c7c9356205a9faed4d414bd5
   Supertype: TagStructure
   DataType: DNP3AnalogInputEvtLogReal
   ValueRank: Any
@@ -6329,7 +6371,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "37419aa1fb77f9dcbcffbdfd78745aea",
+     "Id": "96e9d09971596f50be27749adf49e734",
      "Namespace": 30
     },
     "Body": {
@@ -6397,7 +6439,7 @@ Children:
       DataType: String
       Value: "MinimumLogInterval"
 - Name: 'AB:1734_DOB8:I:0'
-  Id: g=9717615edc254b864442e3861bdb5571
+  Id: g=129a82ef527a5550aabed66a1c2cf6ae
   Supertype: TagStructure
   DataType: 'AB:1734_DOB8:I:0'
   ValueRank: Any
@@ -6405,7 +6447,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "3a745d422829c9b0e37fe220856e70bd",
+     "Id": "26cc9a620a211190fda9ededdddff4e3",
      "Namespace": 30
     },
     "Body": {
@@ -6433,7 +6475,7 @@ Children:
       DataType: String
       Value: "Status"
 - Name: EnergyMetrics1
-  Id: g=8f0eb7839747c8284d00f301ddd9d3f9
+  Id: g=83e8974aab116b331d405a7613134bb6
   Supertype: TagStructure
   DataType: EnergyMetrics1
   ValueRank: Any
@@ -6441,7 +6483,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "ec95a15cf72e2cd599365c05ddd08cc5",
+     "Id": "bc3a45ea46f9b99ca0eae936ab4ad299",
      "Namespace": 30
     },
     "Body": {
@@ -6539,7 +6581,7 @@ Children:
       DataType: String
       Value: "Water_TOT"
 - Name: 'AB:Embedded_DiscreteIO:O:0'
-  Id: g=ed19b42a3da64c74a03ce4e1053f6683
+  Id: g=7c9992d84c030392db41bb47de9b8d74
   Supertype: TagStructure
   DataType: 'AB:Embedded_DiscreteIO:O:0'
   ValueRank: Any
@@ -6547,7 +6589,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "85c84e0f1b672964df14fab66a91abec",
+     "Id": "c4e711ec7a73fe644f9f15a7f7b07617",
      "Namespace": 30
     },
     "Body": {
@@ -6565,7 +6607,7 @@ Children:
       DataType: String
       Value: "Data"
 - Name: ICX35_UTIL
-  Id: g=627293ba1e6831b6fe3a02f553aef0f6
+  Id: g=1c41840513c7bde93f8fe07838741be4
   Supertype: TagStructure
   DataType: ICX35_UTIL
   ValueRank: Any
@@ -6573,7 +6615,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "703467bf99506ce6847131e6439d9a81",
+     "Id": "4dfc50b53cc1b616be45da8938b26f3b",
      "Namespace": 30
     },
     "Body": {
@@ -6666,88 +6708,8 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Status"
-- Name: raC_UDT_ModbusClientConnection
-  Id: g=7a735a06a4cfd95acceef81e0a81f8e8
-  Supertype: TagStructure
-  DataType: raC_UDT_ModbusClientConnection
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "a390b010c0828399c9035ddf5fbebaf3",
-     "Namespace": 30
-    },
-    "Body": {
-     "DestAddress": "",
-     "DestinationPort": 0,
-     "LocalAddress": "",
-     "LocalSlot": 0,
-     "MSG_Dest": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-     "MSG_Src": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    }
-   }
-  Children:
-  - Name: DestAddress
-    Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DestAddress"
-  - Name: DestinationPort
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DestinationPort"
-  - Name: LocalAddress
-    Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LocalAddress"
-  - Name: LocalSlot
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LocalSlot"
-  - Name: MSG_Dest
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    ValueRank: OneDimension
-    ArrayDimensions: [500]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MSG_Dest"
-  - Name: MSG_Src
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    ValueRank: OneDimension
-    ArrayDimensions: [500]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MSG_Src"
 - Name: L_CPU_CPUUse
-  Id: g=d29151118fbe9a0ec4ef53aeaa515206
+  Id: g=4b17433738e14daaab3c48bb56050d15
   Supertype: TagStructure
   DataType: L_CPU_CPUUse
   ValueRank: Any
@@ -6755,7 +6717,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "9ceb1e08a3c2663dfce20ca5389661cf",
+     "Id": "766865245f9ea9e87757b0b4e39db873",
      "Namespace": 30
     },
     "Body": {
@@ -6843,7 +6805,7 @@ Children:
       DataType: String
       Value: "System"
 - Name: L_CPU_24_Up
-  Id: g=c91865cd9cebf953752dd67840eb7c63
+  Id: g=0a4e8f556cbceb710fb874081dc986fe
   Supertype: TagStructure
   DataType: L_CPU_24_Up
   ValueRank: Any
@@ -6851,7 +6813,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "813ca711fe1c5e83153473ec877c277d",
+     "Id": "865f01aa3dfddc4e3d5903ec395e5090",
      "Namespace": 30
     },
     "Body": {
@@ -6989,7 +6951,7 @@ Children:
       DataType: String
       Value: "Sts_WrongVersion"
 - Name: 'AB:1734_DO8:O:0'
-  Id: g=0e96edd2195d3b027e46891a01708d83
+  Id: g=457eef42d1dbeeed28713a38d734d93f
   Supertype: TagStructure
   DataType: 'AB:1734_DO8:O:0'
   ValueRank: Any
@@ -6997,7 +6959,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "e45be73481829f668e11d314f5caabca",
+     "Id": "ffd58a8e91b683fbfd4a8343f70241c8",
      "Namespace": 30
     },
     "Body": {
@@ -7014,221 +6976,35 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Data"
-- Name: raC_UDT_ModbusClientTransactionDiag
-  Id: g=5d3119ab72348d31270b2b48109b1212
+- Name: SPC_525_Basic
+  Id: g=07e642eda3dfd1ac5842ae6824192048
   Supertype: TagStructure
-  DataType: raC_UDT_ModbusClientTransactionDiag
+  DataType: SPC_525_Basic
   ValueRank: Any
   Value: 
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "f08e4b558c0f5e14c3a6fa6daca14901",
+     "Id": "14d681e68a38962ddc8488ca2e996b70",
      "Namespace": 30
     },
     "Body": {
-     "IntervalTimer": {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "c70a9c95b273f4a77edd6515c39fb185",
-       "Namespace": 30
-      },
-      "Body": {
-       "ACC": 0,
-       "DN": false,
-       "EN": false,
-       "PRE": 0,
-       "TT": false
-      }
-     },
-     "NoReplyCounter": {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "eec2ad42c6f9fd804007c29f7e592866",
-       "Namespace": 30
-      },
-      "Body": {
-       "ACC": 0,
-       "CD": false,
-       "CU": false,
-       "DN": false,
-       "OV": false,
-       "PRE": 0,
-       "UN": false
-      }
-     },
-     "Overlap": false,
-     "Overload": false,
-     "PendingTimer": {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "c70a9c95b273f4a77edd6515c39fb185",
-       "Namespace": 30
-      },
-      "Body": {
-       "ACC": 0,
-       "DN": false,
-       "EN": false,
-       "PRE": 0,
-       "TT": false
-      }
-     },
-     "ReqBuilt": false,
-     "Request": "",
-     "TransID": 0,
-     "TransLastError": 0
+     "Active_STS": false,
+     "At_Reference_STS": false,
+     "Clear_Faults_CMD": false,
+     "CMD_Direction_STS": false,
+     "Faulted_STS": false,
+     "Forward_CMD": false,
+     "Frequency_CMD": 0,
+     "Ouput_Frequency_STS": 0,
+     "Ready_STS": false,
+     "Reverse_CMD": false,
+     "Start_CMD": false,
+     "Stop_CMD": false
     }
    }
   Children:
-  - Name: IntervalTimer
-    Type: TIMER1
-    DataType: TIMER1
-    Value: 
-     {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "c70a9c95b273f4a77edd6515c39fb185",
-       "Namespace": 30
-      },
-      "Body": {
-       "ACC": 0,
-       "DN": false,
-       "EN": false,
-       "PRE": 0,
-       "TT": false
-      }
-     }
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "TT"
-  - Name: NoReplyCounter
-    Type: COUNTER1
-    DataType: COUNTER1
-    Value: 
-     {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "eec2ad42c6f9fd804007c29f7e592866",
-       "Namespace": 30
-      },
-      "Body": {
-       "ACC": 0,
-       "CD": false,
-       "CU": false,
-       "DN": false,
-       "OV": false,
-       "PRE": 0,
-       "UN": false
-      }
-     }
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "ACC"
-    - Name: CD
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "CD"
-    - Name: CU
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "CU"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "DN"
-    - Name: OV
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "OV"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PRE"
-    - Name: UN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "UN"
-  - Name: Overlap
+  - Name: Active_STS
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -7236,8 +7012,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Overlap"
-  - Name: Overload
+      Value: "Active_STS"
+  - Name: At_Reference_STS
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -7245,72 +7021,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Overload"
-  - Name: PendingTimer
-    Type: TIMER1
-    DataType: TIMER1
-    Value: 
-     {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "c70a9c95b273f4a77edd6515c39fb185",
-       "Namespace": 30
-      },
-      "Body": {
-       "ACC": 0,
-       "DN": false,
-       "EN": false,
-       "PRE": 0,
-       "TT": false
-      }
-     }
-    Children:
-    - Name: ACC
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "ACC"
-    - Name: DN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "DN"
-    - Name: EN
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EN"
-    - Name: PRE
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PRE"
-    - Name: TT
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "TT"
-  - Name: ReqBuilt
+      Value: "At_Reference_STS"
+  - Name: Clear_Faults_CMD
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -7318,17 +7030,35 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "ReqBuilt"
-  - Name: Request
+      Value: "Clear_Faults_CMD"
+  - Name: CMD_Direction_STS
     Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
+    DataType: Boolean
+    Value: false
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Request"
-  - Name: TransID
+      Value: "CMD_Direction_STS"
+  - Name: Faulted_STS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Faulted_STS"
+  - Name: Forward_CMD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Forward_CMD"
+  - Name: Frequency_CMD
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -7336,8 +7066,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "TransID"
-  - Name: TransLastError
+      Value: "Frequency_CMD"
+  - Name: Ouput_Frequency_STS
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -7345,9 +7075,45 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "TransLastError"
+      Value: "Ouput_Frequency_STS"
+  - Name: Ready_STS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ready_STS"
+  - Name: Reverse_CMD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reverse_CMD"
+  - Name: Start_CMD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Start_CMD"
+  - Name: Stop_CMD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Stop_CMD"
 - Name: 'AB:Embedded_DiscreteIO:I:0'
-  Id: g=6cf50859f51e786a5779c327ed867d6d
+  Id: g=55e236fc26a96b44b185d2740903f96c
   Supertype: TagStructure
   DataType: 'AB:Embedded_DiscreteIO:I:0'
   ValueRank: Any
@@ -7355,7 +7121,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "8b932e308a5dc377af559176dff6ff95",
+     "Id": "fa2a7f4ce20b3576cdddd511e5eac9ec",
      "Namespace": 30
     },
     "Body": {
@@ -7383,7 +7149,7 @@ Children:
       DataType: String
       Value: "Fault"
 - Name: ICX35_SMS_Read
-  Id: g=8f81c67e79def1aa0bcbbcd05001a9ae
+  Id: g=510b50ff1415b5020534ab1c82fef063
   Supertype: TagStructure
   DataType: ICX35_SMS_Read
   ValueRank: Any
@@ -7391,7 +7157,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "53868c4f75dbf8125f80ac47cbe42583",
+     "Id": "a8e23f2de72c4268fc9eb256ed64ff45",
      "Namespace": 30
     },
     "Body": {
@@ -7447,7 +7213,7 @@ Children:
       DataType: String
       Value: "Time_Zone"
 - Name: FaultRecord
-  Id: g=33f3ba7fcca48e83bdfe3db4f87a5121
+  Id: g=ebdc671d190cc4b4daedf1d30a81c554
   Supertype: TagStructure
   DataType: FaultRecord
   ValueRank: Any
@@ -7455,7 +7221,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "8b9acdbfa8f5a784fdf075b678516bec",
+     "Id": "c2a31d88e85a9b8330d241c4ba7c2f44",
      "Namespace": 30
     },
     "Body": {
@@ -7514,599 +7280,8 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "type"
-- Name: raC_Opr_NetModbusTCPServer
-  Id: g=7ae874f97f6a718991c4c7d3ea0f0402
-  Supertype: TagStructure
-  DataType: raC_Opr_NetModbusTCPServer
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "a104db385a65ec1094a0fa4eeea0e2db",
-     "Namespace": 30
-    },
-    "Body": {
-     "EnableIn": false,
-     "EnableOut": false,
-     "Inp_Enable": false,
-     "Sts_Accepted": false,
-     "Sts_ActiveConnections": 0,
-     "Sts_EN": false,
-     "Sts_Faulted": false,
-     "Sts_Waiting": false
-    }
-   }
-  Children:
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableOut"
-  - Name: Inp_Enable
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_Enable"
-  - Name: Sts_Accepted
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Accepted"
-  - Name: Sts_ActiveConnections
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_ActiveConnections"
-  - Name: Sts_EN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_EN"
-  - Name: Sts_Faulted
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Faulted"
-  - Name: Sts_Waiting
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Waiting"
-- Name: raC_UDT_ModbusClientTransaction
-  Id: g=d8de3ef5ca6a47c7ab679aeb70111f44
-  Supertype: TagStructure
-  DataType: raC_UDT_ModbusClientTransaction
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "a86103a8ea7e87812fb7d3cb2cdcadd9",
-     "Namespace": 30
-    },
-    "Body": {
-     "BeginAddress": 0,
-     "Count": 0,
-     "Diagnostic": {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "f08e4b558c0f5e14c3a6fa6daca14901",
-       "Namespace": 30
-      },
-      "Body": {
-       "IntervalTimer": {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "c70a9c95b273f4a77edd6515c39fb185",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "DN": false,
-         "EN": false,
-         "PRE": 0,
-         "TT": false
-        }
-       },
-       "NoReplyCounter": {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "eec2ad42c6f9fd804007c29f7e592866",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "CD": false,
-         "CU": false,
-         "DN": false,
-         "OV": false,
-         "PRE": 0,
-         "UN": false
-        }
-       },
-       "Overlap": false,
-       "Overload": false,
-       "PendingTimer": {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "c70a9c95b273f4a77edd6515c39fb185",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "DN": false,
-         "EN": false,
-         "PRE": 0,
-         "TT": false
-        }
-       },
-       "ReqBuilt": false,
-       "Request": "",
-       "TransID": 0,
-       "TransLastError": 0
-      }
-     },
-     "Enabled": false,
-     "LocalAddress": 0,
-     "PollInterval": 0,
-     "TransComplete": false,
-     "TransStat": 0,
-     "TransType": 0,
-     "UID": 0
-    }
-   }
-  Children:
-  - Name: BeginAddress
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BeginAddress"
-  - Name: Count
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Count"
-  - Name: Diagnostic
-    Type: raC_UDT_ModbusClientTransactionDiag
-    DataType: raC_UDT_ModbusClientTransactionDiag
-    Value: 
-     {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "f08e4b558c0f5e14c3a6fa6daca14901",
-       "Namespace": 30
-      },
-      "Body": {
-       "IntervalTimer": {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "c70a9c95b273f4a77edd6515c39fb185",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "DN": false,
-         "EN": false,
-         "PRE": 0,
-         "TT": false
-        }
-       },
-       "NoReplyCounter": {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "eec2ad42c6f9fd804007c29f7e592866",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "CD": false,
-         "CU": false,
-         "DN": false,
-         "OV": false,
-         "PRE": 0,
-         "UN": false
-        }
-       },
-       "Overlap": false,
-       "Overload": false,
-       "PendingTimer": {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "c70a9c95b273f4a77edd6515c39fb185",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "DN": false,
-         "EN": false,
-         "PRE": 0,
-         "TT": false
-        }
-       },
-       "ReqBuilt": false,
-       "Request": "",
-       "TransID": 0,
-       "TransLastError": 0
-      }
-     }
-    Children:
-    - Name: IntervalTimer
-      Type: TIMER1
-      DataType: TIMER1
-      Value: 
-       {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "c70a9c95b273f4a77edd6515c39fb185",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "DN": false,
-         "EN": false,
-         "PRE": 0,
-         "TT": false
-        }
-       }
-      Children:
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Value: 0
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Value: 0
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-    - Name: NoReplyCounter
-      Type: COUNTER1
-      DataType: COUNTER1
-      Value: 
-       {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "eec2ad42c6f9fd804007c29f7e592866",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "CD": false,
-         "CU": false,
-         "DN": false,
-         "OV": false,
-         "PRE": 0,
-         "UN": false
-        }
-       }
-      Children:
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Value: 0
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: CD
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "CD"
-      - Name: CU
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "CU"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-      - Name: OV
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "OV"
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Value: 0
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: UN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "UN"
-    - Name: Overlap
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Overlap"
-    - Name: Overload
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Overload"
-    - Name: PendingTimer
-      Type: TIMER1
-      DataType: TIMER1
-      Value: 
-       {
-        "TypeId": {
-         "IdType": 2,
-         "Id": "c70a9c95b273f4a77edd6515c39fb185",
-         "Namespace": 30
-        },
-        "Body": {
-         "ACC": 0,
-         "DN": false,
-         "EN": false,
-         "PRE": 0,
-         "TT": false
-        }
-       }
-      Children:
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Value: 0
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Value: 0
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-    - Name: ReqBuilt
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "ReqBuilt"
-    - Name: Request
-      Type: RAEtherNetIPTag
-      DataType: String
-      Value: ""
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Request"
-    - Name: TransID
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "TransID"
-    - Name: TransLastError
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "TransLastError"
-  - Name: Enabled
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Enabled"
-  - Name: LocalAddress
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LocalAddress"
-  - Name: PollInterval
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PollInterval"
-  - Name: TransComplete
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TransComplete"
-  - Name: TransStat
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TransStat"
-  - Name: TransType
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TransType"
-  - Name: UID
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UID"
 - Name: TIMER1
-  Id: g=91ef04719a9ce0a249804ef58d8cf9e2
+  Id: g=21005653293867a07a32f1e99a161c40
   Supertype: TagStructure
   DataType: TIMER1
   ValueRank: Any
@@ -8114,7 +7289,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "c70a9c95b273f4a77edd6515c39fb185",
+     "Id": "1fe60dfccdc7c8eea9fb4efd04630fa9",
      "Namespace": 30
     },
     "Body": {
@@ -8172,7 +7347,7 @@ Children:
       DataType: String
       Value: "TT"
 - Name: COUNTER1
-  Id: g=4fe48ec3e03a2927cc67f98732197b92
+  Id: g=ce8a900415ce1e7be0beec7d395fbd97
   Supertype: TagStructure
   DataType: COUNTER1
   ValueRank: Any
@@ -8180,7 +7355,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "eec2ad42c6f9fd804007c29f7e592866",
+     "Id": "2ce2ea1bedc6b2c10307dfc157677575",
      "Namespace": 30
     },
     "Body": {
@@ -8258,7 +7433,7 @@ Children:
       DataType: String
       Value: "UN"
 - Name: ALARM_ANALOG1
-  Id: g=474b8020c36a258ccc57ac264b0e22f0
+  Id: g=e8b5770cfc16e701d215326e58928b5c
   Supertype: TagStructure
   DataType: ALARM_ANALOG1
   ValueRank: Any
@@ -8266,7 +7441,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "db4de9ae3872f3043c9f639c846315a4",
+     "Id": "9f523d477c1fd5f1378b64d928b9c332",
      "Namespace": 30
     },
     "Body": {
@@ -9504,7 +8679,7 @@ Children:
       DataType: String
       Value: "UnshelveTime"
 - Name: ALARM_DIGITAL1
-  Id: g=5d5b588de72a4ee7f1662f7b5ccccf7e
+  Id: g=562cc5ea51349be8de9ddc4b3997c0d6
   Supertype: TagStructure
   DataType: ALARM_DIGITAL1
   ValueRank: Any
@@ -9512,7 +8687,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "06e96c98244a0ffbc317bba9091c0282",
+     "Id": "9d996eb08fd9d8c62a257ea4e68a7265",
      "Namespace": 30
     },
     "Body": {
@@ -9999,319 +9174,3 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "UseProgTime"
-- Name: MESSAGE1
-  Id: g=17a9ca149ed070b367e0412d332ef791
-  Supertype: TagStructure
-  DataType: MESSAGE1
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "5a8bd1915f197c5a0886995c6b8fc245",
-     "Namespace": 30
-    },
-    "Body": {
-     "Attribute": 0,
-     "Channel": 0,
-     "Class": 0,
-     "ConnectionRate": 0,
-     "DestinationLink": 0,
-     "DestinationNode": 0,
-     "DN": false,
-     "DN_LEN": 0,
-     "EN": false,
-     "EN_CC": false,
-     "ER": false,
-     "ERR": 0,
-     "ERR_SRC": 0,
-     "EW": false,
-     "EXERR": 0,
-     "Flags": 0,
-     "Group": 0,
-     "Instance": 0,
-     "LocalIndex": 0,
-     "Path": "",
-     "Rack": 0,
-     "RemoteElement": "",
-     "RemoteIndex": 0,
-     "REQ_LEN": 0,
-     "Slot": 0,
-     "SourceLink": 0,
-     "ST": false,
-     "TimeoutMultiplier": 0,
-     "TO": false,
-     "UnconnectedTimeout": 0
-    }
-   }
-  Children:
-  - Name: Attribute
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Attribute"
-  - Name: Channel
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Channel"
-  - Name: Class
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Class"
-  - Name: ConnectionRate
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ConnectionRate"
-  - Name: DestinationLink
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DestinationLink"
-  - Name: DestinationNode
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DestinationNode"
-  - Name: DN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DN"
-  - Name: DN_LEN
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DN_LEN"
-  - Name: EN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EN"
-  - Name: EN_CC
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EN_CC"
-  - Name: ER
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ER"
-  - Name: ERR
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ERR"
-  - Name: ERR_SRC
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ERR_SRC"
-  - Name: EW
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EW"
-  - Name: EXERR
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EXERR"
-  - Name: Flags
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Flags"
-  - Name: Group
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Group"
-  - Name: Instance
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Instance"
-  - Name: LocalIndex
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LocalIndex"
-  - Name: Path
-    Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Path"
-  - Name: Rack
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Rack"
-  - Name: RemoteElement
-    Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "RemoteElement"
-  - Name: RemoteIndex
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "RemoteIndex"
-  - Name: REQ_LEN
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "REQ_LEN"
-  - Name: Slot
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Slot"
-  - Name: SourceLink
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "SourceLink"
-  - Name: ST
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ST"
-  - Name: TimeoutMultiplier
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TimeoutMultiplier"
-  - Name: TO
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TO"
-  - Name: UnconnectedTimeout
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnconnectedTimeout"

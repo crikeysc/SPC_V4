@@ -436,3 +436,12 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
+- Name: L18ER_Drive_525_Path
+  Type: NodePointer
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"8f6b860a62a470fda7b85b242c84b2e1","Namespace":30}
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}

@@ -18,7 +18,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "e5f6fd9597b6458864a352830c760e43",
+     "Id": "dc062ce57757506a323238494603824c",
      "Namespace": 30
     },
     "Body": {
@@ -112,7 +112,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "06e96c98244a0ffbc317bba9091c0282",
+     "Id": "9d996eb08fd9d8c62a257ea4e68a7265",
      "Namespace": 30
     },
     "Body": {
@@ -706,3 +706,12 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:IO_Point.Optix_Point_GO"
+- Name: Drive_525_Box_Frequency_STS_hold
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:IO_Point.Drive_525_Box_Frequency_STS_hold"
