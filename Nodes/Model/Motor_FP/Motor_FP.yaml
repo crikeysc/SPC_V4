@@ -1,0 +1,28 @@
+Name: Motor_FP
+Type: FolderType
+Children:
+- Name: PF525_DriveA
+  Id: g=46a929852f69c0e9622159e4efb52871
+  Type: BaseObjectType
+  Children:
+  - Name: DriveA
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"df8fb48dbf6612a710fd139d0a0a7b54","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"5b6df225eeac408d68ef8c9302a52a53","Namespace":30}
+- Name: PF525_DriveB
+  Type: BaseObjectType
+  Children:
+  - Name: DriveB
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"cd4c8e1227f806b5354cf5bd6135ac29","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"5b6df225eeac408d68ef8c9302a52a53","Namespace":30}
