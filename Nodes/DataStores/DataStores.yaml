@@ -140,26 +140,6 @@ Children:
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: LocalTimestamp
-          Type: StoreColumn
-          DataType: ns=0;DateTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: KVA
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: KVAR
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: KW
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: FLOW
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
         - Name: VariableToSample1
           Type: StoreColumn
           DataType: Float

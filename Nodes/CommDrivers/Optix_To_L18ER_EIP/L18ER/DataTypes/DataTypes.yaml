@@ -2,111 +2,15 @@ Name: ns=23;DataTypes
 Type: FolderType
 Children:
 - Class: DataType
-  Name: L_CPU_Out
-  Id: g=f1dcc1e82c7c175dd98a558fc93991cd
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "L_CPU_Out",
-    "DataType": {
-     "IdType": 2,
-     "Id": "f1dcc1e82c7c175dd98a558fc93991cd",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "CommUse",
-      "DataType": {
-       "IdType": 2,
-       "Id": "e4367412a306fa8cf8649b18d3251df1",
-       "Namespace": 30
-      }
-     },{
-      "Name": "ConnUse",
-      "DataType": {
-       "IdType": 2,
-       "Id": "fb35b7455e316318eab913310316c264",
-       "Namespace": 30
-      }
-     },{
-      "Name": "CPUUse",
-      "DataType": {
-       "IdType": 2,
-       "Id": "e4b4643b32df7230afbce14be0a5d5e0",
-       "Namespace": 30
-      }
-     },{
-      "Name": "ForceStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Identity",
-      "DataType": {
-       "IdType": 2,
-       "Id": "96108c3da22c148a645187f0204407de",
-       "Namespace": 30
-      }
-     },{
-      "Name": "IOLEDStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "MemUse",
-      "DataType": {
-       "IdType": 2,
-       "Id": "2b624cae24d772512b1560a25a66bfa0",
-       "Namespace": 30
-      }
-     },{
-      "Name": "MinorFaultBatt",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "MinorFaultCount",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MinorFaultPort",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "MinorFaultProg",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "MinorFaultTask",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "TimeSlice",
-      "DataType": {
-       "Id": 4
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"L_CPU_Out"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: 'AB:PowerFlex525V_EENET_Drive:I:01'
-  Id: g=9e4177aeb363e1cda9d07a0026a2d8b3
+  Id: g=afba9e1eaeb5900f7e750ce23c9497a5
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:PowerFlex525V_EENET_Drive:I:0",
     "DataType": {
      "IdType": 2,
-     "Id": "9e4177aeb363e1cda9d07a0026a2d8b3",
+     "Id": "afba9e1eaeb5900f7e750ce23c9497a5",
      "Namespace": 30
     },
     "Fields": [{
@@ -204,66 +108,15 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: String_to_SINT
-  Id: g=5f9673b11bafc62ff48a697ab1d8cefe
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "String_to_SINT",
-    "DataType": {
-     "IdType": 2,
-     "Id": "5f9673b11bafc62ff48a697ab1d8cefe",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "EnableIn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EnableOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "FBEN",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "FBENO",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Index_String",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Nbc",
-      "DataType": {
-       "Id": 6
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"String_to_SINT"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: 'AB:1734_DO8_NoDiag:C:01'
-  Id: g=662a4a3bf2dff631708e24de4a8d6c4e
+  Id: g=2c662f73029f879ad3a2991d1207678d
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:1734_DO8_NoDiag:C:0",
     "DataType": {
      "IdType": 2,
-     "Id": "662a4a3bf2dff631708e24de4a8d6c4e",
+     "Id": "2c662f73029f879ad3a2991d1207678d",
      "Namespace": 30
     },
     "Fields": [{
@@ -457,14 +310,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:Embedded_DiscreteIO:C:0'
-  Id: g=f388d3380cb236a258b2f045253253c6
+  Id: g=795a91efa90a7c3ec948ac1e33ec0892
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:Embedded_DiscreteIO:C:0",
     "DataType": {
      "IdType": 2,
-     "Id": "f388d3380cb236a258b2f045253253c6",
+     "Id": "795a91efa90a7c3ec948ac1e33ec0892",
      "Namespace": 30
     },
     "Fields": [{
@@ -668,14 +521,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ICX35_SMS_Write
-  Id: g=e6cea32f1566d54d34aecbdd57dd2391
+  Id: g=e9df8e6b09dc4f3e4c9c7d28800c89ca
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ICX35_SMS_Write",
     "DataType": {
      "IdType": 2,
-     "Id": "e6cea32f1566d54d34aecbdd57dd2391",
+     "Id": "e9df8e6b09dc4f3e4c9c7d28800c89ca",
      "Namespace": 30
     },
     "Fields": [{
@@ -733,116 +586,15 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: L_CPU_MemUse
-  Id: g=2b624cae24d772512b1560a25a66bfa0
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "L_CPU_MemUse",
-    "DataType": {
-     "IdType": 2,
-     "Id": "2b624cae24d772512b1560a25a66bfa0",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "FreeDataLogic",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "FreeGen",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "FreeIO",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "FreeSafety",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MaxBlockDataLogic",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MaxBlockGen",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MaxBlockIO",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MaxBlockSafety",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MinDataLogic",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MinGen",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MinIO",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "MinSafety",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TotalDataLogic",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TotalGen",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TotalIO",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TotalSafety",
-      "DataType": {
-       "Id": 6
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"L_CPU_MemUse"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: ns=30;DateTime
-  Id: g=7a6ad23774baea7c82eb210f906a47a6
+  Id: g=48459dc3c3ab1281424fcb2c3cc41925
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "DateTime",
     "DataType": {
      "IdType": 2,
-     "Id": "7a6ad23774baea7c82eb210f906a47a6",
+     "Id": "48459dc3c3ab1281424fcb2c3cc41925",
      "Namespace": 30
     },
     "Fields": [{
@@ -906,14 +658,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: Memory_Data
-  Id: g=8a201c256d30281e1ce6deba9a5b4648
+  Id: g=6a05e9e534f1b343f2af7938d183feed
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "Memory_Data",
     "DataType": {
      "IdType": 2,
-     "Id": "8a201c256d30281e1ce6deba9a5b4648",
+     "Id": "6a05e9e534f1b343f2af7938d183feed",
      "Namespace": 30
     },
     "Fields": [{
@@ -967,14 +719,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:1734_DI8:I:0'
-  Id: g=caebdfed1a5df8c128d98f7f48b964a4
+  Id: g=7bb82a89a9571d207c481dadd271265e
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:1734_DI8:I:0",
     "DataType": {
      "IdType": 2,
-     "Id": "caebdfed1a5df8c128d98f7f48b964a4",
+     "Id": "7bb82a89a9571d207c481dadd271265e",
      "Namespace": 30
     },
     "Fields": [{
@@ -998,14 +750,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:PowerFlex525V_EENET_Drive:O:01'
-  Id: g=2481def4db548d144bc4509f3df10165
+  Id: g=bcbbd3a1c41275d0700f395cf6163566
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:PowerFlex525V_EENET_Drive:O:0",
     "DataType": {
      "IdType": 2,
-     "Id": "2481def4db548d144bc4509f3df10165",
+     "Id": "bcbbd3a1c41275d0700f395cf6163566",
      "Namespace": 30
     },
     "Fields": [{
@@ -1108,146 +860,15 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: L_CPU_ConnUse
-  Id: g=fb35b7455e316318eab913310316c264
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "L_CPU_ConnUse",
-    "DataType": {
-     "IdType": 2,
-     "Id": "fb35b7455e316318eab913310316c264",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "ConsAllow",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ConsCurr",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ConsHiWater",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "IncomCurr",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "IncomHiWater",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "IOAllow",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "IOCurr",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "IOHiWater",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "MCacheAllow",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "MCacheCurr",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "MCacheHiWater",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "MSGCurr",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "MSGHiWater",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ProdAllow",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ProdCurr",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ProdHiWater",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "TotalAllow",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "TotalCurr",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "TotalHiWater",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "UCBsAllow",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "UCBsCurr",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "UCBsHiWater",
-      "DataType": {
-       "Id": 6
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"L_CPU_ConnUse"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: ControllerLEDStatus
-  Id: g=6ec17f325f4a5b28974e580a7041a47e
+  Id: g=935e6db68795698965ed3eaa75881dfd
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ControllerLEDStatus",
     "DataType": {
      "IdType": 2,
-     "Id": "6ec17f325f4a5b28974e580a7041a47e",
+     "Id": "935e6db68795698965ed3eaa75881dfd",
      "Namespace": 30
     },
     "Fields": [{
@@ -1296,28 +917,28 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ICX35_SMS
-  Id: g=aa7501fd9040841cc8b6fb987f4d97f8
+  Id: g=2736de2a32f3a5a4950741045419566a
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ICX35_SMS",
     "DataType": {
      "IdType": 2,
-     "Id": "aa7501fd9040841cc8b6fb987f4d97f8",
+     "Id": "2736de2a32f3a5a4950741045419566a",
      "Namespace": 30
     },
     "Fields": [{
       "Name": "READ",
       "DataType": {
        "IdType": 2,
-       "Id": "bcc4d12a4a59bcd6173f4b054cbe9e81",
+       "Id": "2825e8b4b46c6d8a4524af8d43168d39",
        "Namespace": 30
       }
      },{
       "Name": "WRITE",
       "DataType": {
        "IdType": 2,
-       "Id": "e6cea32f1566d54d34aecbdd57dd2391",
+       "Id": "e9df8e6b09dc4f3e4c9c7d28800c89ca",
        "Namespace": 30
       }
      }]
@@ -1331,42 +952,42 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ICX35_ModuleDef
-  Id: g=0e53b09799269cea0ccab5cc60c000c9
+  Id: g=2b1502e98b4ce818c3ff1d4fb7a2bb2e
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ICX35_ModuleDef",
     "DataType": {
      "IdType": 2,
-     "Id": "0e53b09799269cea0ccab5cc60c000c9",
+     "Id": "2b1502e98b4ce818c3ff1d4fb7a2bb2e",
      "Namespace": 30
     },
     "Fields": [{
       "Name": "CONTROL",
       "DataType": {
        "IdType": 2,
-       "Id": "a2a691d8946d9cfb990d8347b48bb13d",
+       "Id": "77b731d7ec1de5128b1ab5d8d6351346",
        "Namespace": 30
       }
      },{
       "Name": "SMS",
       "DataType": {
        "IdType": 2,
-       "Id": "aa7501fd9040841cc8b6fb987f4d97f8",
+       "Id": "2736de2a32f3a5a4950741045419566a",
        "Namespace": 30
       }
      },{
       "Name": "STATUS",
       "DataType": {
        "IdType": 2,
-       "Id": "f708e391943e67c749d2bd715d0d7cba",
+       "Id": "4e1a14f9227bc837d38b347b29e1cdad",
        "Namespace": 30
       }
      },{
       "Name": "UTIL",
       "DataType": {
        "IdType": 2,
-       "Id": "b16d6c90c39e5ce9e96f733aa304c841",
+       "Id": "026318bbbcb760be804cc78a3a1dce89",
        "Namespace": 30
       }
      }]
@@ -1380,14 +1001,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ICX35_STATUS
-  Id: g=f708e391943e67c749d2bd715d0d7cba
+  Id: g=4e1a14f9227bc837d38b347b29e1cdad
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ICX35_STATUS",
     "DataType": {
      "IdType": 2,
-     "Id": "f708e391943e67c749d2bd715d0d7cba",
+     "Id": "4e1a14f9227bc837d38b347b29e1cdad",
      "Namespace": 30
     },
     "Fields": [{
@@ -1566,14 +1187,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: TIMER1
-  Id: g=121d6d375e13751710351bb90a85d1ad
+  Id: g=e58a250d3feef85cbf31c7ff6472a15c
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "TIMER",
     "DataType": {
      "IdType": 2,
-     "Id": "121d6d375e13751710351bb90a85d1ad",
+     "Id": "e58a250d3feef85cbf31c7ff6472a15c",
      "Namespace": 30
     },
     "Fields": [{
@@ -1612,14 +1233,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: Volts_Meter_Data1
-  Id: g=0809730715e802d95d7cca1de1a84f85
+  Id: g=42a45d00c7c5326dcc510a1517b4a6dc
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "Volts_Meter_Data",
     "DataType": {
      "IdType": 2,
-     "Id": "0809730715e802d95d7cca1de1a84f85",
+     "Id": "42a45d00c7c5326dcc510a1517b4a6dc",
      "Namespace": 30
     },
     "Fields": [{
@@ -1663,14 +1284,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:1734_DO8:O:0'
-  Id: g=991bd7ed5c27999a668e7d1f3298eb4e
+  Id: g=c013fce67d23832724c5d93188fa7d6d
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:1734_DO8:O:0",
     "DataType": {
      "IdType": 2,
-     "Id": "991bd7ed5c27999a668e7d1f3298eb4e",
+     "Id": "c013fce67d23832724c5d93188fa7d6d",
      "Namespace": 30
     },
     "Fields": [{
@@ -1688,142 +1309,15 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: DNP3AnalogInputRealFlag
-  Id: g=882f08b7e228df3ca16208b6bc22ea5d
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "DNP3AnalogInputRealFlag",
-    "DataType": {
-     "IdType": 2,
-     "Id": "882f08b7e228df3ca16208b6bc22ea5d",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "CommLost",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EventTrigger",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "LocalForced",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Online",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverRange",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ReferenceError",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "RemoteForced",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Restart",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Value",
-      "DataType": {
-       "Id": 10
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"DNP3AnalogInputRealFlag"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: U_Noise1
-  Id: g=892545553a5c7e720789a414e7ac3b8a
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "U_Noise",
-    "DataType": {
-     "IdType": 2,
-     "Id": "892545553a5c7e720789a414e7ac3b8a",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "Cfg_Amplitude",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Cfg_FiltTC",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "EnableIn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EnableOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Inp",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Out",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Out_Noise",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Out_Unfiltered",
-      "DataType": {
-       "Id": 10
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"U_Noise"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: COUNTER1
-  Id: g=ac373091aad0b9342c8c660e1cbe1198
+  Id: g=99503ba39cb3da53fe244665e71f0c2b
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "COUNTER",
     "DataType": {
      "IdType": 2,
-     "Id": "ac373091aad0b9342c8c660e1cbe1198",
+     "Id": "99503ba39cb3da53fe244665e71f0c2b",
      "Namespace": 30
     },
     "Fields": [{
@@ -1872,14 +1366,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ICX35_CONTROL
-  Id: g=a2a691d8946d9cfb990d8347b48bb13d
+  Id: g=77b731d7ec1de5128b1ab5d8d6351346
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ICX35_CONTROL",
     "DataType": {
      "IdType": 2,
-     "Id": "a2a691d8946d9cfb990d8347b48bb13d",
+     "Id": "77b731d7ec1de5128b1ab5d8d6351346",
      "Namespace": 30
     },
     "Fields": [{
@@ -1923,14 +1417,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:1734_DI8:C:01'
-  Id: g=5c0f67fd016e6c4c3ca230a1ed8b0638
+  Id: g=85a68c524bcf5c0f3ebc714cecf057fc
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:1734_DI8:C:0",
     "DataType": {
      "IdType": 2,
-     "Id": "5c0f67fd016e6c4c3ca230a1ed8b0638",
+     "Id": "85a68c524bcf5c0f3ebc714cecf057fc",
      "Namespace": 30
     },
     "Fields": [{
@@ -2024,14 +1518,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: Current_Meter_Data1
-  Id: g=09d0756866fc00889d93bdd05cc0a3d2
+  Id: g=42cd0124db04c11f171e0bcddf4f8727
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "Current_Meter_Data",
     "DataType": {
      "IdType": 2,
-     "Id": "09d0756866fc00889d93bdd05cc0a3d2",
+     "Id": "42cd0124db04c11f171e0bcddf4f8727",
      "Namespace": 30
     },
     "Fields": [{
@@ -2065,14 +1559,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: Reactive_Meter_Data1
-  Id: g=389c8f177e801c7a1abaab32d93a7d45
+  Id: g=3b3a379de4c2ac9ad146fa052bae7b86
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "Reactive_Meter_Data",
     "DataType": {
      "IdType": 2,
-     "Id": "389c8f177e801c7a1abaab32d93a7d45",
+     "Id": "3b3a379de4c2ac9ad146fa052bae7b86",
      "Namespace": 30
     },
     "Fields": [{
@@ -2111,21 +1605,21 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: Meter_Data1
-  Id: g=ec250dc43242ec0486da8058c0565e2e
+  Id: g=3ed0c7cc6af1006d445ccc49c68519c9
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "Meter_Data",
     "DataType": {
      "IdType": 2,
-     "Id": "ec250dc43242ec0486da8058c0565e2e",
+     "Id": "3ed0c7cc6af1006d445ccc49c68519c9",
      "Namespace": 30
     },
     "Fields": [{
       "Name": "Current",
       "DataType": {
        "IdType": 2,
-       "Id": "09d0756866fc00889d93bdd05cc0a3d2",
+       "Id": "42cd0124db04c11f171e0bcddf4f8727",
        "Namespace": 30
       }
      },{
@@ -2142,14 +1636,14 @@ Children:
       "Name": "Reactive",
       "DataType": {
        "IdType": 2,
-       "Id": "389c8f177e801c7a1abaab32d93a7d45",
+       "Id": "3b3a379de4c2ac9ad146fa052bae7b86",
        "Namespace": 30
       }
      },{
       "Name": "Volts",
       "DataType": {
        "IdType": 2,
-       "Id": "0809730715e802d95d7cca1de1a84f85",
+       "Id": "42a45d00c7c5326dcc510a1517b4a6dc",
        "Namespace": 30
       }
      }]
@@ -2162,66 +1656,15 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: DNP3AnalogInputEvtLogReal
-  Id: g=8fae20f190b946e7d854480e2798e22f
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "DNP3AnalogInputEvtLogReal",
-    "DataType": {
-     "IdType": 2,
-     "Id": "8fae20f190b946e7d854480e2798e22f",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "Deadband",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "EnableIn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EnableOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EventTriggers",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "ExtrernalEventTrigger",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "MinimumLogInterval",
-      "DataType": {
-       "Id": 10
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"DNP3AnalogInputEvtLogReal"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: 'AB:Embedded_DiscreteIO:O:0'
-  Id: g=3ec957321f56f9e7b59820b63cc0df56
+  Id: g=4d8b0331a3e60157c429d78a57a64c3b
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:Embedded_DiscreteIO:O:0",
     "DataType": {
      "IdType": 2,
-     "Id": "3ec957321f56f9e7b59820b63cc0df56",
+     "Id": "4d8b0331a3e60157c429d78a57a64c3b",
      "Namespace": 30
     },
     "Fields": [{
@@ -2240,14 +1683,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ICX35_UTIL
-  Id: g=b16d6c90c39e5ce9e96f733aa304c841
+  Id: g=026318bbbcb760be804cc78a3a1dce89
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ICX35_UTIL",
     "DataType": {
      "IdType": 2,
-     "Id": "b16d6c90c39e5ce9e96f733aa304c841",
+     "Id": "026318bbbcb760be804cc78a3a1dce89",
      "Namespace": 30
     },
     "Fields": [{
@@ -2307,14 +1750,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:1734_DOB8:I:0'
-  Id: g=33b4c67b8ee91f929ce7263f76199599
+  Id: g=cc0ab9a148f7bd6e39eafaae27a37ba6
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:1734_DOB8:I:0",
     "DataType": {
      "IdType": 2,
-     "Id": "33b4c67b8ee91f929ce7263f76199599",
+     "Id": "cc0ab9a148f7bd6e39eafaae27a37ba6",
      "Namespace": 30
     },
     "Fields": [{
@@ -2338,14 +1781,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: EnergyMetrics1
-  Id: g=18b4eafdac485002d4de7ee9dca1f7d5
+  Id: g=bba4df700e05332aa23bea596efcd543
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "EnergyMetrics",
     "DataType": {
      "IdType": 2,
-     "Id": "18b4eafdac485002d4de7ee9dca1f7d5",
+     "Id": "bba4df700e05332aa23bea596efcd543",
      "Namespace": 30
     },
     "Fields": [{
@@ -2403,271 +1846,15 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: L_CPU_CPUUse
-  Id: g=e4b4643b32df7230afbce14be0a5d5e0
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "L_CPU_CPUUse",
-    "DataType": {
-     "IdType": 2,
-     "Id": "e4b4643b32df7230afbce14be0a5d5e0",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "Comms",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "ContinuousOrFree",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Messaging",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Motion",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "PeriodicAndEvent",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Redundancy",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Safety",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "System",
-      "DataType": {
-       "Id": 10
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"L_CPU_CPUUse"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: L_CPU_24_Up
-  Id: g=a4c2fefddce6472e21dc1fe33632a97b
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "L_CPU_24_Up",
-    "DataType": {
-     "IdType": 2,
-     "Id": "a4c2fefddce6472e21dc1fe33632a97b",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "Cfg_ContTaskInstance",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Cfg_SlotNumber",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Cfg_UpdateT",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "Cfg_WindowT",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "EnableIn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EnableOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L_CPU",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Busy",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Done",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Enabled",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_MsgErr",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_Timing",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Sts_WrongVersion",
-      "DataType": {
-       "Id": 1
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"L_CPU_24_Up"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: L_CPU_CommUse
-  Id: g=e4367412a306fa8cf8649b18d3251df1
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "L_CPU_CommUse",
-    "DataType": {
-     "IdType": 2,
-     "Id": "e4367412a306fa8cf8649b18d3251df1",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "MaxTrendInstance",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "NumTrendInstances",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "RespCPUAct",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "RespCPUAvail",
-      "DataType": {
-       "Id": 10
-      }
-     },{
-      "Name": "TrendHighWater",
-      "DataType": {
-       "Id": 6
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"L_CPU_CommUse"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: L_CPU_Identity
-  Id: g=96108c3da22c148a645187f0204407de
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "L_CPU_Identity",
-    "DataType": {
-     "IdType": 2,
-     "Id": "96108c3da22c148a645187f0204407de",
-     "Namespace": 30
-    },
-    "Fields": [{
-      "Name": "Major",
-      "DataType": {
-       "Id": 2
-      }
-     },{
-      "Name": "Minor",
-      "DataType": {
-       "Id": 2
-      }
-     },{
-      "Name": "Name",
-      "DataType": {
-       "Id": 2
-      },
-      "ValueRank": "OneDimension",
-      "ArrayDimensions": [33]
-     },{
-      "Name": "ProductCode",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ProductType",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Serial",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "Status",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "VendorID",
-      "DataType": {
-       "Id": 4
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"L_CPU_Identity"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
   Name: SPC_525_Basic
-  Id: g=c9a218c0a70c29427074ac3b544717b5
+  Id: g=1f623280f3b2df5eab167df6f6584802
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "SPC_525_Basic",
     "DataType": {
      "IdType": 2,
-     "Id": "c9a218c0a70c29427074ac3b544717b5",
+     "Id": "1f623280f3b2df5eab167df6f6584802",
      "Namespace": 30
     },
     "Fields": [{
@@ -2741,14 +1928,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:Embedded_DiscreteIO:I:0'
-  Id: g=65a73129f1bf63269f1b298d9ce0a668
+  Id: g=a1a77a325f934a0f72953293ed3d30d3
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:Embedded_DiscreteIO:I:0",
     "DataType": {
      "IdType": 2,
-     "Id": "65a73129f1bf63269f1b298d9ce0a668",
+     "Id": "a1a77a325f934a0f72953293ed3d30d3",
      "Namespace": 30
     },
     "Fields": [{
@@ -2772,14 +1959,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ICX35_SMS_Read
-  Id: g=bcc4d12a4a59bcd6173f4b054cbe9e81
+  Id: g=2825e8b4b46c6d8a4524af8d43168d39
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ICX35_SMS_Read",
     "DataType": {
      "IdType": 2,
-     "Id": "bcc4d12a4a59bcd6173f4b054cbe9e81",
+     "Id": "2825e8b4b46c6d8a4524af8d43168d39",
      "Namespace": 30
     },
     "Fields": [{
@@ -2821,14 +2008,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: FaultRecord
-  Id: g=e46958b4bca3ec11777572a1173b7c3b
+  Id: g=86d802932bc18857c807d4de3e5fa2e5
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "FaultRecord",
     "DataType": {
      "IdType": 2,
-     "Id": "e46958b4bca3ec11777572a1173b7c3b",
+     "Id": "86d802932bc18857c807d4de3e5fa2e5",
      "Namespace": 30
     },
     "Fields": [{
@@ -2869,14 +2056,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: Logix_Status_FP
-  Id: g=3292d6c300b2f424c61592fa5c354f89
+  Id: g=6dddf126cbe06fa51faefd61550a5765
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "Logix_Status_FP",
     "DataType": {
      "IdType": 2,
-     "Id": "3292d6c300b2f424c61592fa5c354f89",
+     "Id": "6dddf126cbe06fa51faefd61550a5765",
      "Namespace": 30
     },
     "Fields": [{
@@ -2905,7 +2092,7 @@ Children:
       "Name": "MemoryData",
       "DataType": {
        "IdType": 2,
-       "Id": "8a201c256d30281e1ce6deba9a5b4648",
+       "Id": "6a05e9e534f1b343f2af7938d183feed",
        "Namespace": 30
       }
      },{
@@ -2936,7 +2123,7 @@ Children:
       "Name": "Sts_Battery_LED",
       "DataType": {
        "IdType": 2,
-       "Id": "6ec17f325f4a5b28974e580a7041a47e",
+       "Id": "935e6db68795698965ed3eaa75881dfd",
        "Namespace": 30
       }
      },{
@@ -2963,7 +2150,7 @@ Children:
       "Name": "Sts_IO_LED",
       "DataType": {
        "IdType": 2,
-       "Id": "6ec17f325f4a5b28974e580a7041a47e",
+       "Id": "935e6db68795698965ed3eaa75881dfd",
        "Namespace": 30
       }
      },{
@@ -3015,7 +2202,7 @@ Children:
       "Name": "Sts_NS",
       "DataType": {
        "IdType": 2,
-       "Id": "6ec17f325f4a5b28974e580a7041a47e",
+       "Id": "935e6db68795698965ed3eaa75881dfd",
        "Namespace": 30
       }
      },{
@@ -3052,7 +2239,7 @@ Children:
       "Name": "UpdateDelayTimer",
       "DataType": {
        "IdType": 2,
-       "Id": "121d6d375e13751710351bb90a85d1ad",
+       "Id": "e58a250d3feef85cbf31c7ff6472a15c",
        "Namespace": 30
       }
      },{
@@ -3064,14 +2251,14 @@ Children:
       "Name": "Val_MajorFault",
       "DataType": {
        "IdType": 2,
-       "Id": "e46958b4bca3ec11777572a1173b7c3b",
+       "Id": "86d802932bc18857c807d4de3e5fa2e5",
        "Namespace": 30
       }
      },{
       "Name": "Val_MFS",
       "DataType": {
        "IdType": 2,
-       "Id": "e46958b4bca3ec11777572a1173b7c3b",
+       "Id": "86d802932bc18857c807d4de3e5fa2e5",
        "Namespace": 30
       }
      },{
@@ -3095,14 +2282,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ALARM_ANALOG1
-  Id: g=ed5e7322042e0984994c6289871685b0
+  Id: g=ebe58726d2fc2307a4edeeb0823bd464
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ALARM_ANALOG",
     "DataType": {
      "IdType": 2,
-     "Id": "ed5e7322042e0984994c6289871685b0",
+     "Id": "ebe58726d2fc2307a4edeeb0823bd464",
      "Namespace": 30
     },
     "Fields": [{
@@ -3731,14 +2918,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ALARM_DIGITAL1
-  Id: g=2f9188ac0cdbfffd344aa863b42637d3
+  Id: g=fd8328f71d80a1b9b7a9b575c75dbdcd
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ALARM_DIGITAL",
     "DataType": {
      "IdType": 2,
-     "Id": "2f9188ac0cdbfffd344aa863b42637d3",
+     "Id": "fd8328f71d80a1b9b7a9b575c75dbdcd",
      "Namespace": 30
     },
     "Fields": [{
