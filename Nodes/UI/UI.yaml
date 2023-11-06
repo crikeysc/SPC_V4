@@ -781,13 +781,13 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"d2f12fd41f5b3556ae8d6f0e6ba26b42","Namespace":30}
+          Value: {"IdType":2,"Id":"b8e2385ef8125555c810fd15e4bda6dd","Namespace":30}
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":71,"Namespace":5}
-      - Name: Panel9
+      - Name: Panel11
         Type: NavigationPanelItem
         Children:
         - Name: Title
@@ -797,7 +797,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"b8e2385ef8125555c810fd15e4bda6dd","Namespace":30}
+          Value: {"IdType":2,"Id":"98d67c6f52f845e315d19d5c8f8dbc8b","Namespace":30}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -855,3 +855,4 @@ Children:
       Direction: Forward
 - File: Screens/Screens.yaml
 - File: Spare Config/Spare Config.yaml
+- File: Templates/Templates.yaml

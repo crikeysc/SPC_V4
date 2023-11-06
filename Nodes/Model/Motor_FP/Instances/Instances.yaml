@@ -1,0 +1,227 @@
+Name: Instances
+Type: FolderType
+Children:
+- Name: PF525_Drive_Object_SPC1
+  Id: g=fe8af7d9ba0bba3ce91a937e5caf54b6
+  Supertype: PF525_Drive_Object_SPC
+  Children:
+  - Name: DrivePF525Obj
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"df8fb48dbf6612a710fd139d0a0a7b54","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"6d6b9d65f200990a75c4135f08d6e8b3","Namespace":30}
+    - Name: Active_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=8c12d7ef-d602-cf49-cf34-81e9b8db6d0e}"
+    - Name: CMD_Drn_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=9f7735bf-ba8f-a45b-a946-f84bb77298d0}"
+    - Name: Faulted_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=bc9090ec-0a9c-16d3-30e9-30101e25591b}"
+    - Name: FWD_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=bfd4933f-05ea-b119-9dda-f12aa4b578e7}"
+    - Name: REV_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=b5906b7e-2cde-98ec-4008-7fee6b592573}"
+    - Name: Freq_CMD
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=5b363628-361c-6bec-5b5f-c3d8c6d739aa}"
+    - Name: Start_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=f81ca15a-ee29-1047-097e-ff2d92e07505}"
+    - Name: STOP_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=498f2813-c915-4ae6-4e25-d102f5a04fd0}"
+    - Name: Clear_Faults_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=1ff2ea51-e2b5-0c78-f94b-c71266c8c525}"
+    - Name: Freq_STS
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=e69d1d39-69a5-3499-2253-163d0b238bd7}"
+    - Name: Ready_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=d964bc23-d774-8ce8-7859-59bc88d46a16}"
+- Name: PF525_Drive_Object_SPC2
+  Id: g=f6907f50ad8e574e1a4c5cdffaf207a4
+  Supertype: PF525_Drive_Object_SPC
+  Children:
+  - Name: DrivePF525Obj
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"6ac5d8b7c95cbbc5730607a82a2c3f5e","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"6d6b9d65f200990a75c4135f08d6e8b3","Namespace":30}
+    - Name: Active_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=8c12d7ef-d602-cf49-cf34-81e9b8db6d0e}"
+    - Name: CMD_Drn_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=9f7735bf-ba8f-a45b-a946-f84bb77298d0}"
+    - Name: Faulted_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=bc9090ec-0a9c-16d3-30e9-30101e25591b}"
+    - Name: FWD_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=bfd4933f-05ea-b119-9dda-f12aa4b578e7}"
+    - Name: REV_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=b5906b7e-2cde-98ec-4008-7fee6b592573}"
+    - Name: Freq_CMD
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=5b363628-361c-6bec-5b5f-c3d8c6d739aa}"
+    - Name: Start_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=f81ca15a-ee29-1047-097e-ff2d92e07505}"
+    - Name: STOP_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=498f2813-c915-4ae6-4e25-d102f5a04fd0}"
+    - Name: Clear_Faults_CMD
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=1ff2ea51-e2b5-0c78-f94b-c71266c8c525}"
+    - Name: Freq_STS
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=e69d1d39-69a5-3499-2253-163d0b238bd7}"
+    - Name: Ready_STS
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=d964bc23-d774-8ce8-7859-59bc88d46a16}"

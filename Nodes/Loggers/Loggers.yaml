@@ -465,7 +465,7 @@ Children:
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
-    - Name: Drive2 Freq Out
+    - Name: Drive1 Freq Out
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -487,6 +487,34 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/Drive1_525_Box/Ouput_Frequency_STS"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Drive2 Freq Out
+      Type: VariableToLog
+      DataType: BaseDataType
+      Value: {"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}}
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/Drive2_525_Box/Ouput_Frequency_STS"
         Children:
         - Name: Mode
           Type: BaseVariableType

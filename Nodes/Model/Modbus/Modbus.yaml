@@ -250,31 +250,4 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: TCP_Hold_20
-  Type: BaseDataVariableType
-  DataType: UInt16
-  Value: 0
-  Children:
-  - Name: DynamicLink
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../../CommDrivers/Optix_To_M870_MBTCP/MBTCP/Tags/TCP 40020"
-    Children:
-    - Name: Mode
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
-- Name: TCP_Hold_21
-  Type: BaseDataVariableType
-  DataType: UInt16
-  Value: 0
-  Children:
-  - Name: DynamicLink
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../../CommDrivers/Optix_To_M870_MBTCP/MBTCP/Tags/TCP 40021"
-    Children:
-    - Name: Mode
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
+- File: ATYS/ATYS.yaml

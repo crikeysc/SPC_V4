@@ -25,7 +25,6 @@ Children:
     DataType: UInt32
     Value: 0
 - Name: ATyS_HMI_Buttons_W
-  Id: g=38b9fb12efcd20139dbf822b409b1ee7
   Type: ModbusTag
   DataType: Boolean
   ValueRank: 2

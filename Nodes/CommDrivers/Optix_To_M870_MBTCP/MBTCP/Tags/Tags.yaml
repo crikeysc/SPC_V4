@@ -184,3 +184,12 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20
+- Name: ATyS_Position_R
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 20482
