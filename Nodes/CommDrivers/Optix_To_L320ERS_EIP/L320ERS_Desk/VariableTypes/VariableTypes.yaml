@@ -1,4 +1,4 @@
-Name: ns=23;VariableTypes
+Name: VariableTypes
 Type: FolderType
 Children:
 - Name: 'AB:5000_DI16:C:0'
