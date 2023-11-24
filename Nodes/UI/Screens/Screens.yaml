@@ -8446,12 +8446,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 760.0
+      Value: 750.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 290.0
+      Value: 250.0
   - Name: Button4
     Type: Button
     Children:
@@ -8656,12 +8656,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 211.0
+      Value: 11.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 192.0
+      Value: 142.0
     - Name: ModifiedValueHandler1
       Type: EventHandler
       Children:
@@ -8761,12 +8761,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 211.0
+      Value: 11.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 242.0
+      Value: 192.0
     - Name: ModifiedValueHandler1
       Type: EventHandler
       Children:
@@ -9323,12 +9323,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 820.0
+      Value: 870.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 430.0
+      Value: 20.0
   - Name: LinearGauge1
     Type: LinearGauge
     Children:
@@ -9361,7 +9361,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 220.0
+      Value: 160.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -9371,12 +9371,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 350.0
+      Value: 50.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 450.0
   - Name: HistogramChart1
     Type: HistogramChart
     Children:
@@ -9427,12 +9427,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 620.0
+      Value: 360.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 24.0
   - Name: Number
     Type: Label
     Children:
@@ -9627,7 +9627,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 300.0
+      Value: 180.0
     - Name: Label1
       Type: Label
       Children:
@@ -9645,7 +9645,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 34.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -9656,6 +9656,11 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
     - Name: Led
       Type: Led
       Children:
@@ -9689,7 +9694,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{Station}/OperationCode"
+              Value: "{Station}/StationStatusVariables/RunMode"
           - Name: Pairs
             Type: BaseObjectType
             Children:
@@ -9734,7 +9739,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 0.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -9753,17 +9758,17 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 40.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 310.0
+      Value: 780.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 160.0
+      Value: 280.0
   - Name: Button1
     Type: Button
     Children:
@@ -9776,12 +9781,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 50.0
+      Value: 76.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 470.0
+      Value: 380.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -9902,12 +9907,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 460.0
+      Value: 450.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 300.0
+      Value: 310.0
     - Name: DateAndTimeWidget1
       Type: Screen
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -10170,7 +10175,7 @@ Children:
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
-              Value: 6.0
+              Value: 7.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -10446,11 +10451,11 @@ Children:
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
-          Value: 18.0
+          Value: 20.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
-          Value: 162.0
+          Value: 160.0
         - Name: WordWrap
           Type: BaseDataVariableType
           DataType: Boolean
@@ -11187,12 +11192,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 270.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 320.0
+      Value: 260.0
 - Name: iR
   Id: g=9cc9c7e86c4e293930742aea6cd19bb6
   Supertype: Panel
