@@ -5069,7 +5069,6 @@ Children:
       Target: ns=5;i=1129
       Direction: Forward
     - Name: XAxis
-      Id: g=66dc3459088b15f9a52fa5ea176a804a
       Type: DateTimeAxis
       Children:
       - Name: Follow
@@ -11137,13 +11136,6 @@ Children:
             Value: "../../SystemNode/RebootRequired"
       - Name: DateAndTimeWidgetLogic
         Type: NetLogic
-        Children:
-        - Class: Method
-          Name: LocalNTPServerOptionsChanged
-        - Class: Method
-          Name: Reboot_Device
-        - Class: Method
-          Name: SynchronizationModeChanged
       - Name: Width
         Type: BaseVariableType
         DataType: Size
