@@ -208,6 +208,7 @@ Children:
   Type: NetLogic
   Children:
   - Name: iSin
+    Id: g=6e5fdc533f7b07e1b3ce1389a6288306
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
