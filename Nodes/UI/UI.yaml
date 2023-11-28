@@ -854,5 +854,4 @@ Children:
       Target: ns=5;i=1183
       Direction: Forward
 - File: Screens/Screens.yaml
-- File: Spare Config/Spare Config.yaml
 - File: Templates/Templates.yaml

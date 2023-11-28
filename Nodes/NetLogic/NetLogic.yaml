@@ -213,6 +213,7 @@ Children:
     DataType: Int32
     Value: 0
   - Name: iCos
+    Id: g=71cd16f90c14e8580fc2526946e15068
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -221,6 +222,7 @@ Children:
     DataType: Int32
     Value: 0
   - Name: bRunSimulation
+    Id: g=68171ea4d567d048079ac2a7418c9e4b
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false

@@ -253,6 +253,11 @@ Children:
       DataType: Boolean
       ModellingRule: Optional
       Value: true
+    - Name: RefreshTime
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ModellingRule: Optional
+      Value: 2000
   - Name: Label2
     Type: Label
     Children:
@@ -9868,6 +9873,33 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#f90404"
+      - Name: TrendPen2
+        Type: TrendPen
+        DataType: BaseDataType
+        Children:
+        - Name: Thickness
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -1.0
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=30;g=71cd16f9-0c14-e858-0fc2-526946e15068}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#f4f821"
     - Class: Reference
       Target: ns=5;i=1129
       Direction: Forward
@@ -9881,7 +9913,7 @@ Children:
       - Name: Window
         Type: BaseDataVariableType
         DataType: Duration
-        Value: "0:00:00:5.0000000"
+        Value: "0:00:01:0.0000000"
       - Name: Interactive
         Type: BaseDataVariableType
         DataType: Boolean
@@ -9917,7 +9949,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 400.0
+      Value: 490.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -9932,12 +9964,115 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 350.0
+      Value: 260.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 440.0
+    - Name: RefreshTime
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ModellingRule: Optional
+      Value: 2000
+  - Name: Button2
+    Type: Button
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Start SIM"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 800.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 505.0
+    - Name: MouseClickEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":16,"Namespace":5}
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Type: BaseObjectType
+          Children:
+          - Name: ns=3;ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"Id":22,"Namespace":3}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"Id":58}
+          - Name: ns=3;Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Set"
+          - Name: InputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: VariableToModify
+              Type: BaseDataVariableType
+              DataType: VariablePointer
+              Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+              Value: {"IdType":2,"Id":"68171ea4d567d048079ac2a7418c9e4b","Namespace":30}
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+              Value: true
+            - Name: ArrayIndex
+              Type: BaseDataVariableType
+              DataType: UInt32
+              Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+              ValueRank: ScalarOrOneDimension
+              Value: 0
+      - Name: EventArguments
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0
 - Name: iR
   Id: g=9cc9c7e86c4e293930742aea6cd19bb6
   Supertype: Panel
@@ -16544,6 +16679,69 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
+  - Name: SpinBox1
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=30;g=d6b843b1-5074-c2ee-1cb9-9828eea9d4cc}"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 890.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 695.0
+    - Name: MinValue
+      Type: BaseDataVariableType
+      DataType: Double
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: MaxValue
+      Type: BaseDataVariableType
+      DataType: Double
+      ModellingRule: Optional
+      Value: 2.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
 - Name: Drives
   Id: g=98d67c6f52f845e315d19d5c8f8dbc8b
   Supertype: Panel
@@ -21303,1213 +21501,6 @@ Children:
         DataType: ValueChangeBehaviour
         ModellingRule: Optional
         Value: 0
-- Name: Email_Sender_Logic_Popup_old
-  Id: g=29d9abf445fd03b0eaebab3d47a62142
-  Supertype: Dialog
-  ReferenceType: HasComponent
-  Children:
-  - Class: Reference
-    Target: ns=5;i=519
-    Direction: Forward
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 500.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 650.0
-  - Name: Rectangle1
-    Type: Rectangle
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 500.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 650.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#333538"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: SendButton
-      Type: Button
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Send"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 393.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 290.0
-      - Name: MouseClickEventHandler1
-        Type: EventHandler
-        Children:
-        - Name: ListenEventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":16,"Namespace":5}
-        - Name: MethodsToCall
-          Type: BaseObjectType
-          Children:
-          - Name: MethodContainer1
-            Type: BaseObjectType
-            Children:
-            - Name: ns=3;ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":2,"Id":"43bef096b580465c41acfe480fe33c76","Namespace":30}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":58}
-            - Name: ns=3;Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "SendEmail"
-            - Name: InputArguments
-              Type: BaseObjectType
-              Children:
-              - Name: mailToAddress
-                Type: BaseDataVariableType
-                DataType: String
-                Value: ""
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../EmailBox/Text"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: mailSubject
-                Type: BaseDataVariableType
-                DataType: String
-                Value: ""
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../SubjectBox/Text"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: mailBody
-                Type: BaseDataVariableType
-                DataType: String
-                Value: ""
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../BodyBox/Text"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-        - Name: EventArguments
-          Type: MouseClickEvent
-          Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-            Value: ""
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-            Value: ""
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-            Value: 0
-    - Name: Close1
-      Type: Button
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Close"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 15.0
-      - Name: MouseClickEventHandler1
-        Type: EventHandler
-        Children:
-        - Name: ListenEventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":16,"Namespace":5}
-        - Name: MethodsToCall
-          Type: BaseObjectType
-          Children:
-          - Name: MethodContainer1
-            Type: BaseObjectType
-            Children:
-            - Name: ns=3;ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":58}
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../..@NodeId"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
-            - Name: ns=3;Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Close"
-        - Name: EventArguments
-          Type: MouseClickEvent
-          Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-            Value: ""
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-            Value: ""
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-            Value: 0
-    - Name: Email Sender
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=999b3b57-169b-aab1-104d-cc602ed7cd7a}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 210.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"NHP.vic.ai@gmail.com"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: Email Sender PAssword
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=db3fe3de-7be9-c21f-f0a6-7176ac36c20d}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 210.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 95.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"bqqfammvwnczpxzv"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: SMTP Host Name
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=3a857d16-3f33-34fa-8ac8-28013edf6a58}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 210.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 135.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"smtp.gmail.com"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: SMTP Port
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=69c02274-70d0-d27f-de41-53675087cf28}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 210.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 170.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"587"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: Delay Before Retry
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=690fd380-3344-b753-b6df-49727e8dbffb}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 170.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 545.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Delay before Retry Secs"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: Email Send STS
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=6d1b6d58-4829-3de5-94a6-a1cca6a1c55e}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 170.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 510.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Email Status"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: SSL Enable
-      Type: Switch
-      Children:
-      - Name: Checked
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=d7d98e09-c224-cc71-86aa-f0053832adfa}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 210.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 210.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-    - Name: File Attachment
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=339567ed-4285-88bb-1f8b-2d3e899af10f}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 250.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 210.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 240.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"file:///C:/Users/admin/Desktop/Optix/NewHMIProject/ProjectFiles/PDFS/PdfRep1.pdf"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: Max Retries on Fail
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=88ffd4ff-1e5b-25fb-094c-4d5b0da3645b}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 170.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 580.0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Retries Max"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-    - Name: EmailBox
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 220.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 130.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 290.0
-      - Name: ContentType
-        Type: BaseVariableType
-        DataType: InputTypeEnum
-        ModellingRule: Optional
-        Value: 0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-    - Name: SubjectBox
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":""}
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 220.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 130.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 330.0
-    - Name: BodyBox
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 130.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 366.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 94.0
-      - Name: ContentType
-        Type: BaseVariableType
-        DataType: InputTypeEnum
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Message here"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-    - Name: ContactForm
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Log an Email to a SMTP Server address"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 16.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-    - Name: EmailLabel
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Mail To:"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 295.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-    - Name: SubjectLabel
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Subject"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 330.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-    - Name: BodyLabel
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Body"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 375.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-    - Name: Label1
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Email Sender Password"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 80.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 100.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 294.0
-    - Name: Label2
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"SMTP HostName"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 100.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 140.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 294.0
-    - Name: Label6
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Max Retries on Failure"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 42.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 585.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 576.0
-    - Name: Label7
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Email Sender"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 131.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 65.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 294.0
-    - Name: Label3
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"SMTP Port"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 120.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 175.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 293.0
-    - Name: Label4
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Attachment URL"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 110.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 245.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 287.0
-    - Name: Label5
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"SSL Enable"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 120.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 210.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 287.0
-    - Name: Label8
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Delay Before Retry secs"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 46.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 550.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 576.0
-    - Name: Label9
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Email Sending Status"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 50.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 510.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#fcfcfc"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        Value: 700
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 574.0
 - Name: Email_Sender_Logic_Popup
   Id: g=8f3377de2a662c584b735aa1ef2ba74d
   Supertype: Dialog
@@ -24536,476 +23527,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 25.0
-- Name: Email_Contact_Popup1
-  Id: g=1f34daeb64c3307e721ef993c5caaa2d
-  Supertype: Dialog
-  ReferenceType: HasComponent
-  Children:
-  - Class: Reference
-    Target: ns=5;i=519
-    Direction: Forward
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 300.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 400.0
-  - Name: Rectangle1
-    Type: Rectangle
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 360.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 400.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#333538"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: Button1
-      Type: Button
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Close"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 15.0
-      - Name: MouseClickEventHandler1
-        Type: EventHandler
-        Children:
-        - Name: ListenEventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":16,"Namespace":5}
-        - Name: MethodsToCall
-          Type: BaseObjectType
-          Children:
-          - Name: MethodContainer1
-            Type: BaseObjectType
-            Children:
-            - Name: ns=3;ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":58}
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../..@NodeId"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
-            - Name: ns=3;Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Close"
-        - Name: EventArguments
-          Type: MouseClickEvent
-          Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-            Value: ""
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-            Value: ""
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-            Value: 0
-    - Name: SubjectLabel
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Subject"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-    - Name: BodyLabel
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Body"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 140.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-    - Name: EmailLabel
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Reply to Address"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 11.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 60.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-    - Name: SendButton
-      Type: Button
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Send"}
-      - Name: MouseClickEventHandler1
-        Type: EventHandler
-        Children:
-        - Name: ListenEventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":16,"Namespace":5}
-        - Name: MethodsToCall
-          Type: BaseObjectType
-          Children:
-          - Name: MethodContainer1
-            Type: BaseObjectType
-            Children:
-            - Name: ns=3;ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":2,"Id":"1c4dafa5f608b8acee93ead9da51b9b0","Namespace":30}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":58}
-            - Name: ns=3;Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "SendEmail"
-            - Name: InputArguments
-              Type: BaseObjectType
-              Children:
-              - Name: replyToAddress
-                Type: BaseDataVariableType
-                DataType: String
-                Value: ""
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../EmailBox/Text"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: mailSubject
-                Type: BaseDataVariableType
-                DataType: String
-                Value: ""
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../SubjectBox/Text"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: mailBody
-                Type: BaseDataVariableType
-                DataType: String
-                Value: ""
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../BodyBox/Text"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-        - Name: EventArguments
-          Type: MouseClickEvent
-          Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-            Value: ""
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-            Value: ""
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-            Value: 0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 293.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 270.0
-    - Name: BodyBox
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 160.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 94.0
-      - Name: ContentType
-        Type: BaseVariableType
-        DataType: InputTypeEnum
-        ModellingRule: Optional
-        Value: 0
-      - Name: PlaceholderText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Message here"}
-      - Name: ReadOnly
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-    - Name: SubjectBox
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":""}
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 220.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 110.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 96.0
-    - Name: EmailBox
-      Type: TextBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 220.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 110.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 56.0
-      - Name: ContentType
-        Type: BaseVariableType
-        DataType: InputTypeEnum
-        ModellingRule: Optional
-        Value: 0
-      - Name: ValueChangeBehaviour
-        Type: BaseDataVariableType
-        DataType: ValueChangeBehaviour
-        ModellingRule: Optional
-        Value: 0
-    - Name: ContactForm
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Log an Email to a SMTP Server address"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 16.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
 - Name: BasePage
   Id: g=29437e70992a44739164a48076848b08
   Supertype: Rectangle
