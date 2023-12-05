@@ -543,7 +543,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=30;g=09152c5a-80d5-e578-975a-fd43bd0511ad}"
+              Value: "{NodeId:ns=30;g=d463fa72-c885-3bd1-dedf-feda68903749}"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -554,7 +554,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 493.0
+            Value: 440.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
