@@ -20,3 +20,23 @@ Children:
      "0","0","0"
     ]
    }
+- Name: ReportFileName_toShow
+  Id: g=9bb836675f9a877cb2da5aee6d1fc571
+  Type: BaseDataVariableType
+  DataType: ResourceUri
+  Value: "0"
+- Name: DataLoggerReport_Available
+  Id: g=7d26a41608945ed2d11ad14ac64f16fc
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: EventLoggerReport_Available
+  Id: g=70cd1a474e0668e928e538f60823cbc1
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: EventLoggerGridFilter
+  Id: g=03ebd397fd961e92bba54c7460715bb9
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"EventLogger1\""

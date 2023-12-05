@@ -122,3 +122,50 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
+- Name: SIM_Model
+  Id: g=b41c031e679ff0e62f641318cd1c60b3
+  Type: BaseObjectType
+  Children:
+  - Name: Sin
+    Id: g=f617bf38a8c2ad3f4a99e31c44c0c477
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Loggers/SIM/VariablesToLog/Sine"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Cosine
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Loggers/SIM/VariablesToLog/Cosine"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Ramp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Loggers/SIM/VariablesToLog/Ramp"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2

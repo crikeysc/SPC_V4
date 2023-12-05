@@ -7,7 +7,6 @@ Children:
 - File: Dbase/Dbase.yaml
 - File: Email_Objects/Email_Objects.yaml
 - Name: BackupAndRestoreTagValues
-  Id: g=bd6503a2782192d774c0ddee37497991
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
@@ -41,3 +40,4 @@ Children:
   - Class: Method
     Name: RestoreTagValues
 - File: Arrays/Arrays.yaml
+- File: Audit_report_Variables/Audit_report_Variables.yaml

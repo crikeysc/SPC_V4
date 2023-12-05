@@ -3,6 +3,9 @@ using FTOptix.NetLogic;
 using System;
 using System.Collections.Generic;
 using UAManagedCore;
+using FTOptix.System;
+using FTOptix.SerialPort;
+using FTOptix.UI;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic {

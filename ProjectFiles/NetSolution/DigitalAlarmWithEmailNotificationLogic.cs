@@ -10,6 +10,7 @@ using FTOptix.RAEtherNetIP;
 using FTOptix.EventLogger;
 using FTOptix.System;
 using FTOptix.WebUI;
+using FTOptix.SerialPort;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 
