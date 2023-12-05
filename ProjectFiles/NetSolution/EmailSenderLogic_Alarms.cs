@@ -6,8 +6,9 @@ using FTOptix.RAEtherNetIP;
 using FTOptix.EventLogger;
 using FTOptix.System;
 using FTOptix.WebUI;
+using FTOptix.SerialPort;
 
-public class EmailSenderLogic : FTOptix.NetLogic.BaseNetLogic {
+public class EmailSenderLogic_Alarms : FTOptix.NetLogic.BaseNetLogic {
     [FTOptix.NetLogic.ExportMethod]
     public void SendEmail(string mailToAddress, string mailSubject, string mailBody) {
         if (!InitializeAndValidateSMTPParameters())

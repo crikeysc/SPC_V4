@@ -1,8 +1,6 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
 Children:
-- Name: RuntimeNetLogic1
-  Type: NetLogic
 - File: AlarmsWithEmailNotification1/AlarmsWithEmailNotification1.yaml
 - Name: EmailSender
   Id: g=1c4dafa5f608b8acee93ead9da51b9b0
@@ -86,41 +84,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
-- Name: EmailSenderLogic
-  Id: g=5040a6a64f90f63c328acb71b4ebb84f
-  Type: NetLogic
-  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-  Children:
-  - Class: Method
-    Name: SendEmail
-    Children:
-    - Name: ns=0;InputArguments
-      Type: BaseVariableType
-      DataType: Argument
-      ReferenceType: HasProperty
-      ValueRank: OneDimension
-      ArrayDimensions: [0]
-      Value: [{"TypeId":{"Id":296},"Body":{"Name":"mailToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
-  - Name: SenderEmailAddress
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "device_example@libero.it"
-  - Name: SenderEmailPassword
-    Type: BaseDataVariableType
-    DataType: Password
-    Value: ""
-  - Name: SMTPHostname
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "SMTP.libero.it"
-  - Name: SMTPPort
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 25
-  - Name: EnableSSL
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
 - Name: DataLoggerExporter
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -196,28 +159,20 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
-- Name: ClockLogic
-  Type: NetLogic
-  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-  Children:
-  - Name: Time
-    Type: BaseDataVariableType
-    DataType: ns=0;DateTime
-    Value: "1601-01-01T00:00:00.0000000"
 - Name: VariablesSimulator
   Type: NetLogic
   Children:
   - Name: iSin
-    Id: g=6e5fdc533f7b07e1b3ce1389a6288306
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: iCos
-    Id: g=71cd16f90c14e8580fc2526946e15068
+    Id: g=9761de19a8f844a2d87476aa19684c04
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: iRamp
+    Id: g=b603e0b48b442c42f704797c91cf208f
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -226,3 +181,38 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
+- Name: EmailSenderLogic_Alarms
+  Id: g=5040a6a64f90f63c328acb71b4ebb84f
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Method
+    Name: SendEmail
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"mailToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: SenderEmailAddress
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "device_example@libero.it"
+  - Name: SenderEmailPassword
+    Type: BaseDataVariableType
+    DataType: Password
+    Value: ""
+  - Name: SMTPHostname
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SMTP.libero.it"
+  - Name: SMTPPort
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 25
+  - Name: EnableSSL
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
