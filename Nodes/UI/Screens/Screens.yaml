@@ -3997,6 +3997,10 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 100.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e4e4e4"
   - Name: Button3
     Type: Button
     Children:
@@ -5157,6 +5161,7 @@ Children:
       Target: ns=5;i=1129
       Direction: Forward
     - Name: XAxis
+      Id: g=57857e12f25755a5b1ed23511d2b8139
       Type: DateTimeAxis
       Children:
       - Name: Follow
@@ -7960,6 +7965,7 @@ Children:
         Value: 0.0
       - Class: Reference
         Target: ns=5;i=504
+        Direction: Forward
       - Name: RowTextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -9057,6 +9063,9 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{Item}@DisplayName"
+        - Class: Reference
+          Target: ns=5;i=480
+          Direction: Forward
       - Name: TimeZonesEnumeration
         Type: BaseObjectType
       - Name: DateTime
@@ -26962,6 +26971,7 @@ Children:
           Value: 0.0
         - Class: Reference
           Target: ns=5;i=504
+          Direction: Forward
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -27634,6 +27644,7 @@ Children:
         Value: "#000000"
       - Class: Reference
         Target: ns=5;i=504
+        Direction: Forward
     - Name: Title
       Type: Label
       Children:
@@ -36319,6 +36330,7 @@ Children:
         Value: 0
       - Class: Reference
         Target: ns=5;i=480
+        Direction: Forward
     - Name: SamplingPeriod_label
       Type: Label
       Children:
@@ -36762,6 +36774,7 @@ Children:
         Value: "0:00:00:0.0000000"
       - Class: Reference
         Target: ns=5;i=504
+        Direction: Forward
     - Name: Refresh
       Type: Button
       Children:

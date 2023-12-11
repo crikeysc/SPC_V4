@@ -845,7 +845,6 @@ Children:
       DataType: NodePath
       Value: "/0:Time"
     - Name: LocalTime
-      Id: g=09152c5a80d5e578975afd43bd0511ad
       Type: EventFieldPath
       DataType: NodePath
       Value: "/0:LocalTime"

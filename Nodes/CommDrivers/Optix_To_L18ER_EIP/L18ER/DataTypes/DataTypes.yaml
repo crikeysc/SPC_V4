@@ -1,4 +1,4 @@
-Name: ns=23;DataTypes
+Name: DataTypes
 Type: FolderType
 Children:
 - Class: DataType
