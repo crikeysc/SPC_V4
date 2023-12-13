@@ -7629,6 +7629,11 @@ Children:
         Type: BaseDataVariableType
         DataType: SortOrderEnum
         Value: 1
+      - Name: AutoRefreshTime
+        Id: g=798cc122a6ad75c70a525634f2130180
+        Type: BaseDataVariableType
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
     - Name: LeftMargin
       Type: BaseDataVariableType
       DataType: Size

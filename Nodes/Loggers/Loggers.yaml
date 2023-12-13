@@ -662,7 +662,7 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
-- Name: SIM
+- Name: DataLogger1
   Id: g=26b2f5eefc964601a196a08c1c4e6e30
   Type: DataLogger
   Children:
@@ -674,7 +674,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"b5fb0d984dcd119716bea2f9f85c0a52","Namespace":30}
+    Value: {"IdType":2,"Id":"ea17259b3ac0d6f148597d589e265290","Namespace":30}
     Children:
     - Name: Kind
       Type: PropertyType

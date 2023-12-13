@@ -135,7 +135,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Loggers/SIM/VariablesToLog/Sine"
+      Value: "../../../../Loggers/DataLogger1/VariablesToLog/Sine"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -149,7 +149,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Loggers/SIM/VariablesToLog/Cosine"
+      Value: "../../../../Loggers/DataLogger1/VariablesToLog/Cosine"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -163,7 +163,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Loggers/SIM/VariablesToLog/Ramp"
+      Value: "../../../../Loggers/DataLogger1/VariablesToLog/Ramp"
       Children:
       - Name: Mode
         Type: BaseVariableType

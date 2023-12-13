@@ -40,3 +40,8 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM \"EventLogger1\""
+- Name: DataLoggerGridFilter
+  Id: g=fcd1902cb9d4c4ecf0ec5ee11e20b400
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"DataLogger1\""
