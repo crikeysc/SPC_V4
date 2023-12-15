@@ -28,7 +28,6 @@ Children:
     DataType: Int32
     Value: 80
 - Name: Operation_Active_Led
-  Id: g=2c41003e9cd2c50e9cbedd51dc87fb91
   Type: ModbusTag
   DataType: Boolean
   Value: false

@@ -12,7 +12,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"ef77b4c36b7537290786f618f7b93360","Namespace":30}
+    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -43,7 +43,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/FTEM/Air_TOT"
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/FTEM/Air_TOT"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -71,7 +71,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/FTEM/Gas_TOT"
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/FTEM/Gas_TOT"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -99,7 +99,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/FTEM/Steam_TOT"
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/FTEM/Steam_TOT"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -127,7 +127,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/FTEM/Water_TOT"
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/FTEM/Water_TOT"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -140,6 +140,558 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+- Name: FTEM
+  Id: g=26f185a69128ab02dc24984e4f756218
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: VariableToSample1
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/FTEM/KVA"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: VariableToSample2
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/FTEM/KVAR"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: VariableToSample3
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/FTEM/KW"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: VariableToSample4
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:IO_Point/FL25_FlowMonitor"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=7;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+- Name: DrivePF525
+  Id: g=44c6abb38b5ec368e9b9c0f6ae1e2310
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: Drive1 Freq Out
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Ouput_Frequency_STS"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Drive2 Freq Out
+      Type: VariableToLog
+      DataType: BaseDataType
+      Value: {"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}}
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive2_525_Box/Ouput_Frequency_STS"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=7;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+- Name: DataLogger1
+  Id: g=26b2f5eefc964601a196a08c1c4e6e30
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: Sine
+      Id: g=8c046f6e8f405776e0ac4c20503d128d
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Dbase/SIM_Model/Sin"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Cosine
+      Id: g=e973fa57063c52376d9393aea55d64d5
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Dbase/SIM_Model/Cosine"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Ramp
+      Id: g=9d596c725cb0bee1dce75bf8f2ebdc95
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Dbase/SIM_Model/Ramp"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=7;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: LogVariableTimestamp
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: SamplingPeriod
+    Id: g=df0466698ce8dab853f142aff8fa684c
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:0.0000000"
+  - Name: LogVariableOperationCode
+    Type: PropertyType
+    DataType: Boolean
+    Value: false
+- Name: EventLogger1
+  Type: EventLogger
+  Children:
+  - Name: Enabled
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: EventConfigurations
+    Type: BaseObjectType
+    Children:
+    - Name: EventConfiguration1
+      Type: EventConfiguration
+      Children:
+      - Name: EventType
+        Type: NodePointer
+        DataType: NodeId
+        ReferenceType: HasProperty
+        Value: {"Id":2100}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":2041}
+      - Name: EventSource
+        Type: NodePointer
+        DataType: NodeId
+        ReferenceType: HasProperty
+        Value: {"IdType":2,"Id":"bef0b08224e5dd3ac0a12c538c8daddf","Namespace":30}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":58}
+      - Name: MonitorSubtree
+        Type: PropertyType
+        DataType: Boolean
+        Value: true
+  - Name: EventFieldPaths
+    Type: BaseObjectType
+    Children:
+    - Name: ClientUserId
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:ClientUserId"
+    - Name: NewValue
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:NewValue"
+    - Name: OldValue
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:OldValue"
+    - Name: Time
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:Time"
+    - Name: LocalTime
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:LocalTime"
+    - Name: SourceName
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:SourceName"
+    - Name: SourceNode
+      Type: EventFieldPath
+      DataType: NodePath
+      Value: "/0:SourceNode"
+  - Name: EventArguments
+    Type: BaseObjectType
+    Children:
+    - Name: EventTypeId
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: ClientUserId
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: NewValue
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: Any
+    - Name: OldValue
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ValueRank: Any
+    - Name: Time
+      Type: BaseDataVariableType
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: LocalTime
+      Type: BaseDataVariableType
+      DataType: TimeZoneDataType
+      Value: 
+       {
+        "TypeId": {
+         "Id": 8912
+        },
+        "Body": {
+         "offset": 0,
+         "daylightSavingInOffset": false
+        }
+       }
+    - Name: SourceName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: SourceNode
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EventFieldsToLog
+    Type: BaseObjectType
+    Children:
+    - Name: Time
+      Type: EventFieldToLog
+      DataType: UtcTime
+      Value: "1601-01-01T00:00:00.0000000"
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/Time"
+    - Name: LocalTime
+      Type: EventFieldToLog
+      DataType: ns=0;DateTime
+      Value: "1601-01-01T00:00:00.0000000"
+      Children:
+      - Name: ExpressionEvaluator1
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Expression
+          Type: BaseDataVariableType
+          DataType: String
+          ReferenceType: HasParameter
+          Value: "{0}+{1}"
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/LocalTime"
+        - Name: ns=3;Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../EventArguments/Time"
+    - Name: ClientUserId
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/ClientUserId"
+    - Name: SourceName
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/SourceName"
+    - Name: SourceNode
+      Type: EventFieldToLog
+      DataType: String
+      Value: ""
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/SourceNode@BrowseName"
+    - Name: NewValue
+      Type: EventFieldToLog
+      DataType: Int32
+      ValueRank: Any
+      Value: 0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/NewValue"
+    - Name: OldValue
+      Type: EventFieldToLog
+      DataType: Int32
+      ValueRank: Any
+      Value: 0
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../EventArguments/OldValue"
 - Name: AlarmsEventLogger1
   Id: g=78e429b448cffc076508f4a2a54b1442
   Type: EventLogger
@@ -445,548 +997,3 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/LocalTime"
-- Name: DrivePF525
-  Id: g=44c6abb38b5ec368e9b9c0f6ae1e2310
-  Type: DataLogger
-  Children:
-  - Name: SamplingMode
-    Type: PropertyType
-    DataType: SamplingModeEnum
-    Value: 1
-  - Name: Store
-    Type: NodePointer
-    DataType: NodeId
-    Value: {"IdType":2,"Id":"502ac0b582f075de3ab7699cbac2ad00","Namespace":30}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
-  - Name: VariablesToLog
-    Type: BaseObjectType
-    Children:
-    - Name: Drive1 Freq Out
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/Drive1_525_Box/Ouput_Frequency_STS"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Drive2 Freq Out
-      Type: VariableToLog
-      DataType: BaseDataType
-      Value: {"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}}
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/Drive2_525_Box/Ouput_Frequency_STS"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-  - Class: Reference
-    Target: ns=7;i=21
-    Direction: Forward
-  - Name: LogLocalTime
-    Type: PropertyType
-    DataType: Boolean
-    Value: true
-- Name: FTEM
-  Id: g=26f185a69128ab02dc24984e4f756218
-  Type: DataLogger
-  Children:
-  - Name: SamplingMode
-    Type: PropertyType
-    DataType: SamplingModeEnum
-    Value: 1
-  - Name: Store
-    Type: NodePointer
-    DataType: NodeId
-    Value: {"IdType":2,"Id":"02962c403c462fb9009d006129be1e9a","Namespace":30}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
-  - Name: VariablesToLog
-    Type: BaseObjectType
-    Children:
-    - Name: VariableToSample1
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/FTEM/KVA"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: VariableToSample2
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/FTEM/KVAR"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: VariableToSample3
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Controller Tags/FTEM/KW"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: VariableToSample4
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:IO_Point/FL25_FlowMonitor"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-  - Class: Reference
-    Target: ns=7;i=21
-    Direction: Forward
-  - Name: LogLocalTime
-    Type: PropertyType
-    DataType: Boolean
-    Value: true
-- Name: DataLogger1
-  Id: g=26b2f5eefc964601a196a08c1c4e6e30
-  Type: DataLogger
-  Children:
-  - Name: SamplingMode
-    Id: g=4fe8b9088b8ceda2fbc384f1edebcf09
-    Type: PropertyType
-    DataType: SamplingModeEnum
-    Value: 1
-  - Name: Store
-    Type: NodePointer
-    DataType: NodeId
-    Value: {"IdType":2,"Id":"ea17259b3ac0d6f148597d589e265290","Namespace":30}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
-  - Name: VariablesToLog
-    Type: BaseObjectType
-    Children:
-    - Name: Sine
-      Id: g=8c046f6e8f405776e0ac4c20503d128d
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../NetLogic/VariablesSimulator/iSin"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Cosine
-      Id: g=e973fa57063c52376d9393aea55d64d5
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../NetLogic/VariablesSimulator/iCos"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Ramp
-      Id: g=9d596c725cb0bee1dce75bf8f2ebdc95
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../NetLogic/VariablesSimulator/iRamp"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-  - Class: Reference
-    Target: ns=7;i=21
-    Direction: Forward
-  - Name: LogLocalTime
-    Type: PropertyType
-    DataType: Boolean
-    Value: true
-  - Name: LogVariableTimestamp
-    Type: PropertyType
-    DataType: Boolean
-    Value: true
-  - Name: SamplingPeriod
-    Id: g=df0466698ce8dab853f142aff8fa684c
-    Type: PropertyType
-    DataType: Duration
-    Value: "0:00:00:1.0000000"
-- Name: EventLogger1
-  Type: EventLogger
-  Children:
-  - Name: Enabled
-    Type: PropertyType
-    DataType: Boolean
-    Value: true
-  - Name: Store
-    Type: NodePointer
-    DataType: NodeId
-    Value: {"IdType":2,"Id":"ea17259b3ac0d6f148597d589e265290","Namespace":30}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
-  - Name: EventConfigurations
-    Type: BaseObjectType
-    Children:
-    - Name: EventConfiguration1
-      Type: EventConfiguration
-      Children:
-      - Name: EventType
-        Type: NodePointer
-        DataType: NodeId
-        ReferenceType: HasProperty
-        Value: {"Id":2100}
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":2041}
-      - Name: EventSource
-        Type: NodePointer
-        DataType: NodeId
-        ReferenceType: HasProperty
-        Value: {"IdType":2,"Id":"bef0b08224e5dd3ac0a12c538c8daddf","Namespace":30}
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":58}
-  - Name: EventFieldPaths
-    Type: BaseObjectType
-    Children:
-    - Name: ClientUserId
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:ClientUserId"
-    - Name: NewValue
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:NewValue"
-    - Name: OldValue
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:OldValue"
-    - Name: Time
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:Time"
-    - Name: LocalTime
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:LocalTime"
-    - Name: SourceName
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:SourceName"
-    - Name: SourceNode
-      Type: EventFieldPath
-      DataType: NodePath
-      Value: "/0:SourceNode"
-  - Name: EventArguments
-    Type: BaseObjectType
-    Children:
-    - Name: EventTypeId
-      Type: BaseDataVariableType
-      DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
-    - Name: ClientUserId
-      Type: BaseDataVariableType
-      DataType: String
-      Value: ""
-    - Name: NewValue
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      ValueRank: Any
-    - Name: OldValue
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      ValueRank: Any
-    - Name: Time
-      Type: BaseDataVariableType
-      DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
-    - Name: LocalTime
-      Type: BaseDataVariableType
-      DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
-    - Name: SourceName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: ""
-    - Name: SourceNode
-      Type: BaseDataVariableType
-      DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
-  - Name: EventFieldsToLog
-    Type: BaseObjectType
-    Children:
-    - Name: Time
-      Type: EventFieldToLog
-      DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/Time"
-    - Name: LocalTime
-      Type: EventFieldToLog
-      DataType: ns=0;DateTime
-      Value: "1601-01-01T00:00:00.0000000"
-      Children:
-      - Name: ExpressionEvaluator1
-        Type: ExpressionEvaluator
-        Children:
-        - Name: Expression
-          Type: BaseDataVariableType
-          DataType: String
-          ReferenceType: HasParameter
-          Value: "{0}+{1}"
-        - Name: ns=3;Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../EventArguments/LocalTime"
-        - Name: ns=3;Source1
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../EventArguments/Time"
-    - Name: ClientUserId
-      Type: EventFieldToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/ClientUserId"
-    - Name: SourceName
-      Type: EventFieldToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/SourceName"
-    - Name: SourceNode
-      Type: EventFieldToLog
-      DataType: String
-      Value: ""
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/SourceNode@BrowseName"
-    - Name: NewValue
-      Type: EventFieldToLog
-      DataType: Int32
-      ValueRank: Any
-      Value: 0
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/NewValue"
-    - Name: OldValue
-      Type: EventFieldToLog
-      DataType: Int32
-      ValueRank: Any
-      Value: 0
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/OldValue"

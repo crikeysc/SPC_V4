@@ -1956,7 +1956,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:IO_Point/Optix_Point_Started"
+        Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:IO_Point/Optix_Point_Started"
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -2878,7 +2878,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:IO_Point/Optix_Point_Started"
+            Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:IO_Point/Optix_Point_Started"
         - Name: TrueValue
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -5273,7 +5273,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"ef77b4c36b7537290786f618f7b93360","Namespace":30}
+      Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
       Children:
       - Name: ItemKind
         Type: PropertyType
@@ -5934,7 +5934,7 @@ Children:
               Type: BaseDataVariableType
               DataType: ResourceUri
               Description: {"NamespaceIndex":13,"TextId":"GeneratePdfOutputPathDescription"}
-              Value: "file:///C:/Users/admin/Desktop/Optix/NewHMIProject/ProjectFiles/PDFS/PdfRep1.pdf"
+              Value: "ns=30;%PROJECTDIR%/PDFS/PdfRep1.pdf"
             - Name: LocaleId
               Type: BaseDataVariableType
               DataType: String
@@ -11071,7 +11071,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"26b2f5eefc964601a196a08c1c4e6e30","Namespace":30}
+        Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -11084,7 +11084,7 @@ Children:
       - Name: Query
         Type: BaseDataVariableType
         DataType: String
-        Value: ""
+        Value: "SELECT * FROM \"DataLogger1\""
       - Name: Columns
         Type: BaseObjectType
         Children:
@@ -11122,7 +11122,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=30;g=ebeac23c-32f0-e332-31e0-7dfecd1fbbb1}"
+                Value: "{Item}/LocalTimestamp"
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
@@ -14477,11 +14477,11 @@ Children:
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
-      Value: 310.0
+      Value: -78.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
-      Value: 200.0
+      Value: 260.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -14497,11 +14497,11 @@ Children:
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
-      Value: 0
+      Value: 2
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
-      Value: 878.0
+      Value: 0.0
   - Name: TextBox1
     Type: TextBox
     Children:
@@ -14751,7 +14751,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 410.0
+      Value: -80.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -14771,7 +14771,7 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
+      Value: 2
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -15256,11 +15256,11 @@ Children:
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
-      Value: 290.0
+      Value: -80.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
-      Value: 220.0
+      Value: 290.0
     - Name: MinValue
       Type: BaseDataVariableType
       DataType: Double
@@ -15289,6 +15289,16 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#39ae02"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
   - Name: HistogramChart1
     Type: HistogramChart
     Children:
@@ -15587,338 +15597,6 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
-  - Name: LEDTopView1
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#2eff00"
-    - Name: On
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "{NodeId:ns=30;g=2c41003e-9cd2-c50e-9cbe-dd51dc87fb91}"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 48.20000076293945
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 48.20000076293945
-    - Name: LED_x5F_Top_x5F_View_x5F_Outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Outline.svg"
-    - Name: LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_Frame_x5F_Overlay.svg"
-    - Name: fill
-      Type: Ellipse
-      Children:
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#00000000"
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.790234565734863
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 9.072203636169434
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.35395050048828
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.35395050048828
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#ff0000"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_2.svg"
-    - Name: LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=30;%PROJECTDIR%/res/LED_x5F_Top_x5F_View_x5F_LED_x5F_Overlay_x5F_1.svg"
-    - Name: led_On1
-      Type: Ellipse
-      Children:
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#00000000"
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 48.20000076293945
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#ff0000"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-      - Name: Opacity
-        Type: BaseVariableType
-        DataType: Float
-        Value: 0.0
-        Children:
-        - Name: ConditionalConverter1
-          Type: ConditionalConverter
-          Children:
-          - Name: Condition
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ReferenceType: HasSource
-            Value: false
-            Children:
-            - Name: ExpressionEvaluator1
-              Type: ExpressionEvaluator
-              Children:
-              - Name: Expression
-                Type: BaseDataVariableType
-                DataType: String
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: "{0}"
-              - Name: ns=5;Source0
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../On"
-          - Name: TrueValue
-            Type: BaseDataVariableType
-            DataType: Float
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: FalseValue
-            Type: BaseDataVariableType
-            DataType: Float
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: 0.0
-    - Name: led_On2
-      Type: Ellipse
-      Children:
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#00000000"
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 8.790233612060547
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 9.072203636169434
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.35395050048828
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.35395050048828
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#ff0000"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-      - Name: Opacity
-        Type: BaseVariableType
-        DataType: Float
-        Value: 0.0
-        Children:
-        - Name: ConditionalConverter1
-          Type: ConditionalConverter
-          Children:
-          - Name: Condition
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ReferenceType: HasSource
-            Value: false
-            Children:
-            - Name: ExpressionEvaluator1
-              Type: ExpressionEvaluator
-              Children:
-              - Name: Expression
-                Type: BaseDataVariableType
-                DataType: String
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: "{0}"
-              - Name: ns=5;Source0
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../../On"
-          - Name: TrueValue
-            Type: BaseDataVariableType
-            DataType: Float
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: 100.0
-          - Name: FalseValue
-            Type: BaseDataVariableType
-            DataType: Float
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: 0.0
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 48.20000076293945
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 48.20000076293945
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 590.0
   - Name: Label2
     Type: Label
     Children:
@@ -20136,7 +19814,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: 60.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -29215,7 +28893,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{VSD_525_alias}/DrivePF525Obj@Pointer"
+              Value: "{VSD_525_alias}@Description"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -33352,7 +33030,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
-- Name: Event_Logger_Display
+- Name: Event_Log
   Id: g=30f9b77bbefcfe0edf0da240e2044bbf
   Supertype: Panel
   ReferenceType: HasComponent
@@ -34085,7 +33763,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"ea17259b3ac0d6f148597d589e265290","Namespace":30}
+        Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -34379,7 +34057,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 200.0
+        Value: 490.0
       - Name: SortColumn
         Type: BaseDataVariableType
         DataType: NodeId
@@ -34409,7 +34087,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 15.0
+        Value: 25.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -34510,7 +34188,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 150.0
+        Value: 420.0
     - Name: DeleteAll
       Type: Button
       Children:
@@ -34523,7 +34201,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 114.0
+        Value: 34.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -34621,7 +34299,7 @@ Children:
             - Name: ns=3;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"ea17259b3ac0d6f148597d589e265290","Namespace":30}
+              Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -34637,6 +34315,7 @@ Children:
               - Name: Query
                 Type: BaseDataVariableType
                 DataType: String
+                Description: {"NamespaceIndex":9,"TextId":"QueryQueryDescription"}
                 Value: "DELETE FROM \"EventLogger1\""
             - Name: OutputArguments
               Type: BaseObjectType
@@ -34644,12 +34323,14 @@ Children:
               - Name: Header
                 Type: BaseDataVariableType
                 DataType: String
+                Description: {"NamespaceIndex":9,"TextId":"QueryHeaderDescription"}
                 ValueRank: OneDimension
                 ArrayDimensions: [0]
                 Value: []
               - Name: ResultSet
                 Type: BaseDataVariableType
                 DataType: BaseDataType
+                Description: {"NamespaceIndex":9,"TextId":"QueryResultSetDescription"}
                 ValueRank: OneOrMoreDimensions
                 ArrayDimensions: [0,0]
         - Name: EventArguments
@@ -34706,7 +34387,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 90.0
+        Value: 420.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -34838,7 +34519,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 115.0
+        Value: 165.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -34853,7 +34534,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 100.0
+        Value: 370.0
     - Name: ViewReport
       Type: Button
       Children:
@@ -35066,7 +34747,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -106.0
+        Value: -246.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -35081,8 +34762,8 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 150.0
-- Name: Data_Logger_Display
+        Value: 370.0
+- Name: Data_Log
   Id: g=63554db044f6b1b0fe8f187811bfaef2
   Supertype: Panel
   ReferenceType: HasComponent
@@ -35501,147 +35182,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
-    - Name: SamplingMode_ComboBox
-      Type: ComboBox
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      - Name: Model
-        Type: NodePointer
-        DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-        Children:
-        - Name: ItemKind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../ComboBox_Values@NodeId"
-      - Name: SelectedValue
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=4fe8b908-8b8c-eda2-fbc3-84f1edebcf09}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: SelectedItem
-        Type: NodePointer
-        DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Name: UISelectedItem
-        Type: BaseDataVariableType
-        DataType: NodeId
-        AccessLevel: Read
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Name: UISelectedValue
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Item
-        Type: Alias
-        DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Name: ComboBox_Values
-        Type: BaseObjectType
-        Children:
-        - Name: Stop
-          Type: BaseDataVariableType
-          DataType: Int32
-          Value: 0
-        - Name: Periodic
-          Type: BaseDataVariableType
-          DataType: Int32
-          Value: 1
-        - Name: ValueChange
-          Type: BaseDataVariableType
-          DataType: Int32
-          Value: 2
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 90.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 200.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 25.0
-      - Name: SelectedValuePath
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{Item}@Value"
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: ComboBoxModeEnum
-        ModellingRule: Optional
-        Value: 0
-      - Name: AllowDeselection
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: Enabled
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: true
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 0
-      - Class: Reference
-        Target: ns=5;i=480
-        Direction: Forward
     - Name: SamplingPeriod_label
       Type: Label
       Children:
@@ -35816,6 +35356,152 @@ Children:
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 0
+    - Name: SamplingMode_ComboBox1
+      Type: ComboBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Model
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"Id":24,"Namespace":7}
+        Children:
+        - Name: ItemKind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":63}
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SelectedValue
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;i=24}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: SelectedItem
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":63}
+      - Name: UISelectedItem
+        Type: BaseDataVariableType
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: UISelectedValue
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Class: Reference
+        Target: ns=5;i=480
+        Direction: Forward
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Item
+        Type: Alias
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":63}
+      - Name: ComboBox_Values
+        Type: BaseObjectType
+        Children:
+        - Name: Stop
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Name: Periodic
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 1
+        - Name: ValueChange
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 2
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 25.0
+      - Name: SelectedValuePath
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Item}@Value"
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: ComboBoxModeEnum
+        ModellingRule: Optional
+        Value: 0
+      - Name: AllowDeselection
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: false
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 0
+      - Name: DisplayValuePath
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Item}@DisplayName"
   - Name: Panel1
     Type: Panel
     Children:
@@ -36087,24 +35773,19 @@ Children:
             - Name: ns=3;Method
               Type: BaseDataVariableType
               DataType: String
-              Value: "Set"
+              Value: "Toggle"
             - Name: InputArguments
               Type: BaseObjectType
               Children:
               - Name: VariableToModify
                 Type: BaseDataVariableType
                 DataType: VariablePointer
-                Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
                 Value: {"IdType":2,"Id":"68171ea4d567d048079ac2a7418c9e4b","Namespace":30}
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                Value: true
               - Name: ArrayIndex
                 Type: BaseDataVariableType
                 DataType: UInt32
-                Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
                 Value: 0
         - Name: EventArguments
@@ -36271,283 +35952,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 400.0
-    - Name: DataGrid1
-      Type: DataGrid
-      Children:
-      - Name: Model
-        Type: NodePointer
-        DataType: NodeId
-        Value: {"IdType":2,"Id":"ea17259b3ac0d6f148597d589e265290","Namespace":30}
-        Children:
-        - Name: ItemKind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Name: Query
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SELECT * FROM \"DataLogger1\""
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=fcd1902c-b9d4-c4ec-f0ec-5ee11e20b400}"
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: LocalTimestamp
-          Type: DataGridColumn
-          Children:
-          - Name: Title
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"LocalTimestamp"}
-          - Name: Width
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: 160.0
-          - Name: HeaderAlignment
-            Type: BaseDataVariableType
-            DataType: TextHorizontalAlignment
-            Value: 0
-          - Name: ContentAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 0
-          - Name: OrderBy
-            Type: BaseDataVariableType
-            DataType: NodePath
-            Value: "{Item}/LocalTimestamp"
-          - Name: DataItemTemplate
-            Type: DataGridLabelItemTemplate
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}/LocalTimestamp"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-        - Name: iSin
-          Type: DataGridColumn
-          Children:
-          - Name: Title
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"iSin"}
-          - Name: Width
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -1.0
-          - Name: HeaderAlignment
-            Type: BaseDataVariableType
-            DataType: TextHorizontalAlignment
-            Value: 1
-          - Name: ContentAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: OrderBy
-            Type: BaseDataVariableType
-            DataType: NodePath
-            Value: "{Item}/iSin"
-          - Name: DataItemTemplate
-            Type: DataGridLabelItemTemplate
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}iSin"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-        - Name: iCos
-          Type: DataGridColumn
-          Children:
-          - Name: Title
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"iCos"}
-          - Name: Width
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -1.0
-          - Name: HeaderAlignment
-            Type: BaseDataVariableType
-            DataType: TextHorizontalAlignment
-            Value: 1
-          - Name: ContentAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: OrderBy
-            Type: BaseDataVariableType
-            DataType: NodePath
-            Value: "{Item}/iCos"
-          - Name: DataItemTemplate
-            Type: DataGridLabelItemTemplate
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}/iCos"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-        - Name: iRamp
-          Type: DataGridColumn
-          Children:
-          - Name: Title
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"iRamp"}
-          - Name: Width
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -1.0
-          - Name: HeaderAlignment
-            Type: BaseDataVariableType
-            DataType: TextHorizontalAlignment
-            Value: 1
-          - Name: ContentAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 2
-          - Name: OrderBy
-            Type: BaseDataVariableType
-            DataType: NodePath
-            Value: "{Item}/iRamp"
-          - Name: DataItemTemplate
-            Type: DataGridLabelItemTemplate
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}/iRamp"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-      - Name: SelectedItem
-        Type: NodePointer
-        DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Name: UISelectedItem
-        Type: BaseDataVariableType
-        DataType: NodeId
-        AccessLevel: Read
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Class: Reference
-        Target: ns=5;i=504
-        Direction: Forward
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 550.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: Item
-        Type: Alias
-        DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 15.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 3
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 110.0
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 15.0
-      - Name: SortColumn
-        Type: BaseDataVariableType
-        DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../Columns/LocalTimestamp@NodeId"
-      - Name: SortOrder
-        Type: BaseDataVariableType
-        DataType: SortOrderEnum
-        ModellingRule: Optional
-        Value: 1
-      - Name: AutoRefreshTime
-        Type: BaseDataVariableType
-        DataType: Duration
-        Value: "0:00:00:0.0000000"
-      - Name: RowTextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
     - Name: Refresh
       Type: Button
       Children:
@@ -36560,17 +35964,17 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 45.0
+        Value: 25.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 80.0
+        Value: 100.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 35.0
+        Value: 40.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -36661,7 +36065,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 55.0
+        Value: 50.0
     - Name: AutoRefreshTime
       Type: EditableLabel
       Children:
@@ -36830,7 +36234,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 35.0
+        Value: 40.0
       - Name: EventoMouseUpHandler1
         Type: EventHandler
         Children:
@@ -36977,7 +36381,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 170.0
+        Value: 720.0
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
@@ -37005,7 +36409,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 35.0
+        Value: 40.0
       - Name: EventoMouseUpHandler1
         Type: EventHandler
         Children:
@@ -37077,6 +36481,26 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
       - Name: MouseDownEventHandler1
         Type: EventHandler
         Children:
@@ -37093,7 +36517,7 @@ Children:
             - Name: ns=3;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"ea17259b3ac0d6f148597d589e265290","Namespace":30}
+              Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -37110,7 +36534,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: String
                 Description: {"NamespaceIndex":9,"TextId":"QueryQueryDescription"}
-                Value: "DELETE FROM \"Datalogger1\""
+                Value: "DELETE FROM \"DATALOGGER1\""
             - Name: OutputArguments
               Type: BaseObjectType
               Children:
@@ -37162,26 +36586,6 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -37248,7 +36652,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Description: {"NamespaceIndex":13,"TextId":"GeneratePdfOutputPathDescription"}
-                Value: "ns=30;%PROJECTDIR%/Datalogger_Report.pdf"
+                Value: "ns=30;%PROJECTDIR%/DataLogger_Report.PDF"
               - Name: LocaleId
                 Type: BaseDataVariableType
                 DataType: String
@@ -37301,12 +36705,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 80.0
+        Value: 100.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 35.0
+        Value: 40.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -37316,7 +36720,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -246.0
+        Value: -266.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -37353,12 +36757,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 80.0
+        Value: 100.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 35.0
+        Value: 40.0
       - Name: MouseDownEventHandler1
         Type: EventHandler
         Children:
@@ -37472,7 +36876,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogDescription"}
-                Value: {"IdType":2,"Id":"520ac9c6610cef34042afbac6a972256","Namespace":30}
+                Value: {"IdType":2,"Id":"88a6b0863b8d0e927153b81af58663c9","Namespace":30}
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
@@ -37556,7 +36960,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 34.0
+        Value: 54.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -37572,234 +36976,268 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 400.0
-    - Name: ViewReport1
-      Type: Button
+    - Name: DataGrid1
+      Type: DataGrid
       Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"View Report"}
-      - Name: Enabled
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: true
+      - Name: Model
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
         Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=30;g=7d26a416-0894-5ed2-d11a-d14ac64f16fc}"
+        - Name: ItemKind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: Query
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SELECT * FROM \"DataLogger1\""
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: LocalTimestamp
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"LocalTimestamp"}
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: 160.0
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 0
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 0
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/LocalTimestamp"
+          - Name: DataItemTemplate
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/LocalTimestamp"
+        - Name: iSin
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"iSin"}
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 1
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/iSin"
+          - Name: DataItemTemplate
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Sine"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+        - Name: iCos
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"iCos"}
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 1
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/iCos"
+          - Name: DataItemTemplate
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Cosine"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+        - Name: iRamp
+          Type: DataGridColumn
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"iRamp"}
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+            Value: 1
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            Value: 2
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+            Value: "{Item}/iRamp"
+          - Name: DataItemTemplate
+            Type: DataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Item}/Ramp"
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+      - Name: SelectedItem
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: UISelectedItem
+        Type: BaseDataVariableType
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Class: Reference
+        Target: ns=5;i=504
+        Direction: Forward
       - Name: Width
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 100.0
+        Value: 550.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 40.0
-      - Name: MouseDownEventHandler1
-        Type: EventHandler
+        Value: 300.0
+      - Name: Item
+        Type: Alias
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
-        - Name: ListenEventType
+        - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":14,"Namespace":5}
-        - Name: MethodsToCall
-          Type: BaseObjectType
-          Children:
-          - Name: MethodContainer1
-            Type: BaseObjectType
-            Children:
-            - Name: ns=3;ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"Id":22,"Namespace":3}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":58}
-            - Name: ns=3;Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Set"
-            - Name: InputArguments
-              Type: BaseObjectType
-              Children:
-              - Name: VariableToModify
-                Type: BaseDataVariableType
-                DataType: VariablePointer
-                Value: {"IdType":2,"Id":"9bb836675f9a877cb2da5aee6d1fc571","Namespace":30}
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: "ns=30;%PROJECTDIR%/Datalogger_Report.pdf"
-              - Name: ArrayIndex
-                Type: BaseDataVariableType
-                DataType: UInt32
-                ValueRank: ScalarOrOneDimension
-                Value: 0
-        - Name: EventArguments
-          Type: MouseDownEvent
-          Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-            Value: ""
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-            Value: ""
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-            Value: 0
-      - Name: MouseUpEventHandler1
-        Type: EventHandler
-        Children:
-        - Name: ListenEventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":15,"Namespace":5}
-        - Name: MethodsToCall
-          Type: BaseObjectType
-          Children:
-          - Name: MethodContainer1
-            Type: BaseObjectType
-            Children:
-            - Name: ns=3;ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"Id":121,"Namespace":5}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":58}
-            - Name: ns=3;Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "OpenDialog"
-            - Name: InputArguments
-              Type: BaseObjectType
-              Children:
-              - Name: Dialog
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Value: {"IdType":2,"Id":"88a6b0863b8d0e927153b81af58663c9","Namespace":30}
-              - Name: AliasNode
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: ParentItem
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../..@NodeId"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-            - Name: OutputArguments
-              Type: BaseObjectType
-              Children:
-              - Name: DialogNodeId
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: EventArguments
-          Type: MouseUpEvent
-          Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-            Value: ""
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-            Value: ""
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-            Value: 0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 630.0
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 294.0
-      - Name: RightMargin
+        Value: 15.0
+      - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
+        Value: 80.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 110.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: SortColumn
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../Columns/LocalTimestamp@NodeId"
+      - Name: SortOrder
+        Type: BaseDataVariableType
+        DataType: SortOrderEnum
+        ModellingRule: Optional
+        Value: 1
+      - Name: AutoRefreshTime
+        Type: BaseDataVariableType
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
 - Name: MyPanel
   Id: g=d25c92e90f195c4936bb47c33a411d5c
   Supertype: Panel

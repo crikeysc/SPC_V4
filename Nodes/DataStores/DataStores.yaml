@@ -1,222 +1,6 @@
 Name: DataStores
 Type: DataStoresCategoryFolder
 Children:
-- Name: WAGES_Database
-  Id: g=ef77b4c36b7537290786f618f7b93360
-  Type: SQLiteStore
-  Children:
-  - Name: Tables
-    Type: BaseObjectType
-    Children:
-    - Name: WAGES
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=9;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: LocalTimestamp
-          Type: StoreColumn
-          DataType: ns=0;DateTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Air_TOT
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Gas_TOT
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Steam_TOT
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Water_TOT
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-  - Class: Reference
-    Target: ns=21;i=30
-    Direction: Forward
-  - Class: Reference
-    Target: ns=21;i=33
-    Direction: Forward
-  - Name: MaxColumnNameLength
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: MaxColumnCount
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: DataTypeCompatibilityMap
-    Type: BaseDataVariableType
-    DataType: NodeId
-    AccessLevel: Read
-    ValueRank: OneOrMoreDimensions
-    ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
-  - Name: Status
-    Type: PropertyType
-    DataType: StoreStatus
-    AccessLevel: Read
-    Value: 2
-  - Class: Reference
-    Target: ns=9;i=22
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=6
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=8
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=25
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=38
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=41
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=44
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=53
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=55
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=57
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=59
-    Direction: Forward
-- Name: FTEM_Database
-  Id: g=02962c403c462fb9009d006129be1e9a
-  Type: SQLiteStore
-  Children:
-  - Name: Tables
-    Type: BaseObjectType
-    Children:
-    - Name: FTEM
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=9;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: VariableToSample1
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: VariableToSample2
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: VariableToSample3
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: VariableToSample4
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-  - Class: Reference
-    Target: ns=21;i=30
-    Direction: Forward
-  - Class: Reference
-    Target: ns=21;i=33
-    Direction: Forward
-  - Name: MaxColumnNameLength
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: MaxColumnCount
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: DataTypeCompatibilityMap
-    Type: BaseDataVariableType
-    DataType: NodeId
-    AccessLevel: Read
-    ValueRank: OneOrMoreDimensions
-    ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
-  - Name: Status
-    Type: PropertyType
-    DataType: StoreStatus
-    AccessLevel: Read
-    Value: 2
-  - Class: Reference
-    Target: ns=9;i=22
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=6
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=8
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=25
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=38
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=41
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=44
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=53
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=55
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=57
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=59
-    Direction: Forward
 - Name: AlarmsHistoryDB
   Id: g=6b4d0d984133edfc9ec4f9ee46b2a6bc
   Type: SQLiteStore
@@ -343,13 +127,97 @@ Children:
   - Class: Reference
     Target: ns=9;i=59
     Direction: Forward
-- Name: Drive1 PF525DB
-  Id: g=502ac0b582f075de3ab7699cbac2ad00
+- Name: EmbeddedDatabase1
+  Id: g=524891a8239512589311133991a66c9d
   Type: SQLiteStore
   Children:
   - Name: Tables
     Type: BaseObjectType
     Children:
+    - Name: WAGES
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=9;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: ns=0;DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Air_TOT
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Gas_TOT
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Steam_TOT
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Water_TOT
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+    - Name: FTEM
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=9;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: ns=0;DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: VariableToSample1
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: VariableToSample2
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: VariableToSample3
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: VariableToSample4
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: DrivePF525
       Type: SQLiteStoreTable
       Children:
@@ -384,191 +252,6 @@ Children:
           Type: StoreColumn
           DataType: Int16
           Value: 0
-  - Class: Reference
-    Target: ns=21;i=30
-    Direction: Forward
-  - Class: Reference
-    Target: ns=21;i=33
-    Direction: Forward
-  - Name: MaxColumnNameLength
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: MaxColumnCount
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: DataTypeCompatibilityMap
-    Type: BaseDataVariableType
-    DataType: NodeId
-    AccessLevel: Read
-    ValueRank: OneOrMoreDimensions
-    ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
-  - Name: Status
-    Type: PropertyType
-    DataType: StoreStatus
-    AccessLevel: Read
-    Value: 2
-  - Class: Reference
-    Target: ns=9;i=22
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=6
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=8
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=25
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=38
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=41
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=44
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=53
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=55
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=57
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=59
-    Direction: Forward
-- Name: SIM_Database
-  Id: g=b5fb0d984dcd119716bea2f9f85c0a52
-  Type: SQLiteStore
-  Children:
-  - Name: Tables
-    Type: BaseObjectType
-  - Class: Reference
-    Target: ns=21;i=30
-    Direction: Forward
-  - Class: Reference
-    Target: ns=21;i=33
-    Direction: Forward
-  - Name: MaxColumnNameLength
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: MaxColumnCount
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-    Value: 0
-  - Name: DataTypeCompatibilityMap
-    Type: BaseDataVariableType
-    DataType: NodeId
-    AccessLevel: Read
-    ValueRank: OneOrMoreDimensions
-    ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
-  - Name: Status
-    Type: PropertyType
-    DataType: StoreStatus
-    AccessLevel: Read
-    Value: 2
-  - Class: Reference
-    Target: ns=9;i=22
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=6
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=8
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=25
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=38
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=41
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=44
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=53
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=55
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=57
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=59
-    Direction: Forward
-  - Name: InMemory
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-- Name: EmbeddedDatabase1
-  Id: g=ea17259b3ac0d6f148597d589e265290
-  Type: SQLiteStore
-  Children:
-  - Name: Tables
-    Type: BaseObjectType
-    Children:
-    - Name: EventLogger_SIM
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=9;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=9;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: ClientUserId
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-        - Name: NewValue
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: OldValue
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: Time
-          Type: StoreColumn
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: LocalTime
-          Type: StoreColumn
-          DataType: ns=0;DateTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: SourceName
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-        - Name: SourceNode
-          Type: StoreColumn
-          DataType: String
-          Value: ""
     - Name: DataLogger1
       Type: SQLiteStoreTable
       Children:
@@ -588,7 +271,6 @@ Children:
         Type: BaseObjectType
         Children:
         - Name: Timestamp
-          Id: g=ebeac23c32f0e33231e07dfecd1fbbb1
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
@@ -596,25 +278,7 @@ Children:
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../System1/DateAndTime/DateTime"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
         - Name: Sine
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: Cosine
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: Ramp
           Type: StoreColumn
           DataType: Int32
           Value: 0
@@ -622,14 +286,68 @@ Children:
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: Cosine
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
         - Name: Cosine_Timestamp
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: Ramp
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
         - Name: Ramp_Timestamp
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
+    - Name: EventLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=9;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTime
+          Type: StoreColumn
+          DataType: ns=0;DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ClientUserId
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: SourceName
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: SourceNode
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: NewValue
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: OldValue
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
   - Class: Reference
     Target: ns=21;i=30
     Direction: Forward
@@ -691,7 +409,3 @@ Children:
   - Class: Reference
     Target: ns=9;i=59
     Direction: Forward
-  - Name: InMemory
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true

@@ -1,4 +1,0 @@
-Name: Optix_To_L320ERS_EIP
-Type: RAEtherNetIPDriver
-Children:
-- File: L320ERS_Desk/L320ERS_Desk.yaml

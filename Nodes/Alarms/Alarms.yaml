@@ -63,7 +63,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Exceed_Demand"
+      Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Exceed_Demand"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -102,7 +102,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Close_Notify"
+      Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Close_Notify"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -141,7 +141,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Less_2000Kw"
+      Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Less_2000Kw"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -180,7 +180,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../CommDrivers/Optix_To_L18ER_EIP/L18ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_No_Load"
+      Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_No_Load"
       Children:
       - Name: Mode
         Type: BaseVariableType
