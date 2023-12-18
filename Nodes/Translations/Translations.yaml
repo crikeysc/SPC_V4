@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [43,2],
+    "Dimensions": [66,2],
     "Body": [
      "","en-US",
      "Acknowledge","Acknowledge",
@@ -53,6 +53,29 @@ Children:
      "MotorStopped","Motor stopped",
      "MotorSettings","Motor settings",
      "OffOn","Off/On",
-     "ManAuto","Man/Auto"
+     "ManAuto","Man/Auto",
+     "LoginDescription","Log in to the application with a provided user",
+     "PasswordExpired","Your password is expired. Please enter a new one.",
+     "UserChangePassword","User change password",
+     "CurrentUser","Current User",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently",
+     "UserLogin","User login",
+     "UserList","User list",
+     "Login","Login",
+     "Password","Password",
+     "New password","New password",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation",
+     "Confirm password","Confirm password",
+     "Change password","Change password",
+     "LoggedUser","Logged user",
+     "Logout","Logout",
+     "LoginFormLoginSuccessful","Login successful",
+     "LoginFormPasswordExpired","Password expired",
+     "LoginFormAuthenticationFailed","Authentication failed",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used",
+     "LoginChangePasswordFormPasswordTooShort","Password too short",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match",
+     "LoginChangePasswordFormUserNotFound","User not found"
     ]
    }

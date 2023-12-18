@@ -29,7 +29,7 @@ Children:
   Id: g=7d26a41608945ed2d11ad14ac64f16fc
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: true
+  Value: false
 - Name: EventLoggerReport_Available
   Id: g=70cd1a474e0668e928e538f60823cbc1
   Type: BaseDataVariableType
