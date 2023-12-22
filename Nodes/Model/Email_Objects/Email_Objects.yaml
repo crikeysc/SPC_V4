@@ -56,7 +56,7 @@ Children:
     Id: g=383a7479c9a23e486294155abdde08d3
     Type: BaseDataVariableType
     DataType: String
-    Value: "file:///C:/Users/admin/Desktop/Optix/NewHMIProject/ProjectFiles/PDFS/PdfRep1.pdf"
+    Value: "%PROJECTDIR%\\PDFS\\WAGES.pdf"
 - Name: NHP_Email
   Type: BaseDataVariableType
   DataType: String

@@ -2093,7 +2093,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
-- File: Localization/Localization.yaml
 - Name: BaseCard_Login
   Id: g=fb577486b1a29b9bd5bc8c58307454ee
   Supertype: Rectangle

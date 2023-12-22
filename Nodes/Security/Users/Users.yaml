@@ -2,9 +2,57 @@ Name: Users
 Id: g=184b576d01746ac0bcf9d514a561aee9
 Type: UsersCategoryFolder
 Children:
-- Name: Ciro
-  Id: g=cd115b307f330f0ba82b1e982b1fd04b
+- Name: User1
+  Id: g=62c680355a4750898e9a2843f3393186
   Type: UserType
-- Name: Manoj
-  Id: g=b00a21ff42149de1b6a02a7a54881c59
+  Children:
+  - Name: LocaleId
+    Id: g=7cdc511c45172600e6f43b8b4515839d
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=9f4954b9082592f3eb1b56a41ac57052
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=d9b43eef99bb33b60b75fcbcb70d6f76
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+- Name: User2
+  Id: g=fcea4fbeaaab228bee47a2ea3ef25c59
   Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=195d1c16246fe397e4706671d3b9932f
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: MeasurementSystem
+    Id: g=d5c59695dd27c068012098c68863938a
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+- Name: User3
+  Id: g=2015db4d1bc300489964f34f4eea4dce
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=9b72fdf126a8248cd929a790a42ad433
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Name: MeasurementSystem
+    Id: g=b485260e9dae4f339fd6c87a8ee8509d
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 3

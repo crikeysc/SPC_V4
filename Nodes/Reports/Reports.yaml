@@ -191,7 +191,7 @@ Children:
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-- Name: Reports1
+- Name: WAGES_Report
   Id: g=fe157f79b64fcbbcaaaf089db75ae06b
   Type: Report
   ReferenceType: HasComponent

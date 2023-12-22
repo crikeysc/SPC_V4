@@ -20,7 +20,6 @@ using FTOptix.Retentivity;
 using FTOptix.CommunicationDriver;
 using FTOptix.System;
 using FTOptix.SerialPort;
-using FTOptix.UI;
 using FTOptix.Core;
 #endregion
 

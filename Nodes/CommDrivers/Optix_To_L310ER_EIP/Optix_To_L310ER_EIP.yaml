@@ -3,3 +3,37 @@ Id: g=994726537ebd23003ed0c232668555d2
 Type: RAEtherNetIPDriver
 Children:
 - File: L310ER/L310ER.yaml
+- Name: BackupAndRestoreTagValues
+  Id: g=7f31b8596e75e5a368728e800045e3aa
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Method
+    Name: BackupTagValues
+  - Class: Method
+    Name: RestoreTagValues
+  - Name: ParentNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"994726537ebd23003ed0c232668555d2","Namespace":30}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/SClark/Desktop/Optix Templates/L310ER_Export.csv.txt"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Timeout
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:30.0000000"
