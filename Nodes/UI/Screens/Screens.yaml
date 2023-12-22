@@ -4914,6 +4914,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 0.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 0
   - Name: HorizontalLayout2
     Type: RowLayout
     Children:
@@ -4993,6 +5003,16 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 80.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
 - Name: Event_Log
   Id: g=30f9b77bbefcfe0edf0da240e2044bbf
   Supertype: Panel
@@ -8901,7 +8921,7 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
-- Name: Datalog
+- Name: WAGES
   Id: g=9cada15074bf8686ea2025919fe57e39
   Supertype: Panel
   ReferenceType: HasComponent
