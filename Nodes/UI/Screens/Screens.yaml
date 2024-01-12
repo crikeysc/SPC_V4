@@ -20318,7 +20318,7 @@ Children:
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#39ae02"
+      Value: "#339705"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
