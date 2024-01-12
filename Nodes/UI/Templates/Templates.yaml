@@ -65,7 +65,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":16,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -80,7 +80,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
@@ -160,7 +160,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":14,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -170,12 +170,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -191,7 +191,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=30;g=bfd4933f-05ea-b119-9dda-f12aa4b578e7}@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Forward_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -258,7 +258,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":15,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -268,12 +268,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -289,7 +289,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=30;g=bfd4933f-05ea-b119-9dda-f12aa4b578e7}@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Forward_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -358,7 +358,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62}
+        Value: "/Types/VariableTypes/BaseVariableType"
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -480,7 +480,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":14,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -490,12 +490,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -581,7 +581,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":15,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -591,12 +591,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -684,7 +684,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62}
+        Value: "/Types/VariableTypes/BaseVariableType"
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -795,7 +795,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=30;g=fe8af7d9-ba0b-ba3c-e91a-937e5caf54b6}@BrowseName"
+            Value: "/Objects/SPC_V4/Model/Motor_FP/Instances/PF525_Drive_Object_SPC1@BrowseName"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1050,6 +1050,8 @@ Children:
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
+        - Name: Thresholds
+          Type: BaseObjectType
     - Class: Reference
       Target: ns=5;i=1129
       Direction: Forward
@@ -1072,6 +1074,11 @@ Children:
         Type: BaseDataVariableType
         DataType: ns=0;DateTime
         Value: "1601-01-01T00:00:00.0000000"
+      - Name: SnapPosition
+        Type: BaseDataVariableType
+        DataType: SnapPositionEnum
+        ModellingRule: Optional
+        Value: 1
     - Name: YAxis
       Type: ValueAxis
       Children:
@@ -1091,6 +1098,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
+      - Name: Position
+        Type: BaseDataVariableType
+        DataType: HorizontalPositionEnum
+        Value: 0
     - Name: LegendVisible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1123,7 +1134,7 @@ Children:
     - Name: Model
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"44c6abb38b5ec368e9b9c0f6ae1e2310","Namespace":30}
+      Value: "/Objects/SPC_V4/Loggers/DrivePF525"
       Children:
       - Name: ItemKind
         Type: PropertyType
@@ -1138,6 +1149,14 @@ Children:
       DataType: Float
       ModellingRule: Optional
       Value: 100.0
+    - Class: Reference
+      Target: ns=5;i=1201
+      Direction: Forward
+    - Name: TimeRanges
+      Type: BaseObjectType
+    - Class: Reference
+      Target: ns=5;i=1209
+      Direction: Forward
   - Name: SpinBox3
     Type: SpinBox
     Children:
@@ -1211,7 +1230,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":14,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1221,12 +1240,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -1242,7 +1261,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=30;g=b5906b7e-2cde-98ec-4008-7fee6b592573}@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Reverse_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -1309,7 +1328,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":15,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1319,12 +1338,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -1340,7 +1359,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=30;g=b5906b7e-2cde-98ec-4008-7fee6b592573}@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Reverse_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -1409,7 +1428,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62}
+        Value: "/Types/VariableTypes/BaseVariableType"
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -1478,7 +1497,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":14,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1488,12 +1507,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -1579,7 +1598,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":15,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1589,12 +1608,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -1682,7 +1701,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62}
+        Value: "/Types/VariableTypes/BaseVariableType"
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -1736,7 +1755,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":14,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1746,12 +1765,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -1837,7 +1856,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":15,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -1847,12 +1866,12 @@ Children:
           - Name: ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: Method
             Type: BaseDataVariableType
             DataType: String
@@ -1940,7 +1959,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62}
+        Value: "/Types/VariableTypes/BaseVariableType"
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -2029,12 +2048,12 @@ Children:
   - Name: VSD_525_Card_Widget
     Type: Alias
     DataType: NodeId
-    Value: {"IdType":2,"Id":"ae3050b6b8907accd107382b0872c55d","Namespace":30}
+    Value: "/Objects/SPC_V4/Model/Motor_FP/PF525_Drive_Object_SPC"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"f6907f50ad8e574e1a4c5cdffaf207a4","Namespace":30}
+      Value: "/Objects/SPC_V4/Model/Motor_FP/Instances/PF525_Drive_Object_SPC2"
       Children:
       - Name: DynamicLink
         Type: DynamicLink

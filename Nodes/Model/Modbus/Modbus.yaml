@@ -80,29 +80,17 @@ Children:
     DataType: Boolean
     Value: false
   - Name: Pin_STS_Fault
-    Id: g=e8f851698ce397d27230fba0ba5f5da7
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Maintenance_Count
-    Id: g=3e12b642f093d079368a5788a08a7c3e
     Type: AnalogItemType
     DataType: Int16
     Value: 0
     Children:
     - Name: EURange
       Type: RangeType
-      DataType: EURange
-      Value: 
-       {
-        "TypeId": {
-         "Id": 884
-        },
-        "Body": {
-         "low": 0.0,
-         "high": 0.0
-        }
-       }
+      DataType: Range
       Children:
       - Name: Low
         Type: BaseVariableType
@@ -117,26 +105,6 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: 
-       {
-        "TypeId": {
-         "Id": 887
-        },
-        "Body": {
-         "namespaceUri": "",
-         "unitId": 0,
-         "displayName": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         },
-         "description": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         }
-        }
-       }
       Children:
       - Name: UnitId
         Type: BaseVariableType
@@ -163,24 +131,13 @@ Children:
         DataType: DynamicLinkMode
         Value: 2
   - Name: Fault_Number
-    Id: g=049a9dad446620f09b49dd780fed768d
     Type: AnalogItemType
     DataType: Int16
     Value: 0
     Children:
     - Name: EURange
       Type: RangeType
-      DataType: EURange
-      Value: 
-       {
-        "TypeId": {
-         "Id": 884
-        },
-        "Body": {
-         "low": 0.0,
-         "high": 0.0
-        }
-       }
+      DataType: Range
       Children:
       - Name: Low
         Type: BaseVariableType
@@ -195,26 +152,6 @@ Children:
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
-      Value: 
-       {
-        "TypeId": {
-         "Id": 887
-        },
-        "Body": {
-         "namespaceUri": "",
-         "unitId": 0,
-         "displayName": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         },
-         "description": {
-          "NamespaceIndex": -1,
-          "LocaleId": "",
-          "Text": ""
-         }
-        }
-       }
       Children:
       - Name: UnitId
         Type: BaseVariableType

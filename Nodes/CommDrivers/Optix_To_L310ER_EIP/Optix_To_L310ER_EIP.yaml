@@ -15,7 +15,7 @@ Children:
   - Name: ParentNode
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"994726537ebd23003ed0c232668555d2","Namespace":30}
+    Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP"
     Children:
     - Name: Kind
       Type: PropertyType

@@ -62,17 +62,14 @@ Children:
     DataType: ResourceUri
     Value: "ns=30;%PROJECTDIR%/PDFS/PdfRep1.pdf"
   - Name: MaxRetriesOnFailure
-    Id: g=88ffd4ff1e5b25fb094c4d5b0da3645b
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: DelayBeforeRetry
-    Id: g=690fd3803344b753b6df49727e8dbffb
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:10.0000000"
   - Name: EmailSendingStatus
-    Id: g=6d1b6d5848293de594a6a1cca6a1c55e
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -104,7 +101,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":3,"Namespace":9}
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Class: Method
     Name: Export
   - Name: Query
@@ -167,12 +164,10 @@ Children:
     DataType: Int32
     Value: 0
   - Name: iCos
-    Id: g=9761de19a8f844a2d87476aa19684c04
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: iRamp
-    Id: g=b603e0b48b442c42f704797c91cf208f
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0

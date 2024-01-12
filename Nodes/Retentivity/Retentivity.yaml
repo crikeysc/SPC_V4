@@ -10,7 +10,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"faf5de6718a0b142df965f291e2c967a","Namespace":30}
+      Value: "/Objects/SPC_V4/Security"
       Children:
       - Name: Kind
         Type: PropertyType

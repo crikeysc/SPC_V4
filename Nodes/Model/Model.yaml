@@ -13,7 +13,7 @@ Children:
   - Name: ParentNode
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"54f9c095460262b5f79154dff87d0790","Namespace":30}
+    Value: "/Objects/SPC_V4/Model"
     Children:
     - Name: Kind
       Type: PropertyType

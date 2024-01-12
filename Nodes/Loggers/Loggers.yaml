@@ -12,12 +12,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Value: "/Objects/SPC_V4/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
@@ -26,7 +26,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=df6827cff45390899e321b136c85cd25
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -54,7 +53,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=37c42ece4313f367220d64db47b85f26
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -82,7 +80,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=30bd2b384c4690639e67c611797799fe
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -110,7 +107,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=24e7c88c4fa4869b12432908ec203316
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -151,12 +147,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Value: "/Objects/SPC_V4/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
@@ -286,12 +282,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Value: "/Objects/SPC_V4/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
@@ -368,17 +364,16 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Value: "/Objects/SPC_V4/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
     - Name: Sine
-      Id: g=8c046f6e8f405776e0ac4c20503d128d
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -406,7 +401,6 @@ Children:
           DataType: DynamicLinkMode
           Value: 2
     - Name: Cosine
-      Id: g=e973fa57063c52376d9393aea55d64d5
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -434,7 +428,6 @@ Children:
           DataType: DynamicLinkMode
           Value: 2
     - Name: Ramp
-      Id: g=9d596c725cb0bee1dce75bf8f2ebdc95
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -473,7 +466,6 @@ Children:
     DataType: Boolean
     Value: true
   - Name: SamplingPeriod
-    Id: g=df0466698ce8dab853f142aff8fa684c
     Type: PropertyType
     DataType: Duration
     Value: "0:00:00:0.0000000"
@@ -491,12 +483,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"524891a8239512589311133991a66c9d","Namespace":30}
+    Value: "/Objects/SPC_V4/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: EventConfigurations
     Type: BaseObjectType
     Children:
@@ -507,22 +499,22 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2100}
+        Value: "/Types/EventTypes/BaseEventType/AuditEventType/AuditUpdateEventType/AuditWriteUpdateEventType"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
       - Name: EventSource
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"IdType":2,"Id":"bef0b08224e5dd3ac0a12c538c8daddf","Namespace":30}
+        Value: "/Objects/SPC_V4/Model/Audit_report_Variables"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":58}
+          Value: "/Types/ObjectTypes/BaseObjectType"
       - Name: MonitorSubtree
         Type: PropertyType
         DataType: Boolean
@@ -584,16 +576,6 @@ Children:
     - Name: LocalTime
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
     - Name: SourceName
       Type: BaseDataVariableType
       DataType: String
@@ -704,12 +686,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"6b4d0d984133edfc9ec4f9ee46b2a6bc","Namespace":30}
+    Value: "/Objects/SPC_V4/DataStores/AlarmsHistoryDB"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":9}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
@@ -771,12 +753,12 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2915}
+        Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
         - Name: NodeClass
           Type: PropertyType
           DataType: NodePointerNodeClass
@@ -827,16 +809,6 @@ Children:
     - Name: LocalTime
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:

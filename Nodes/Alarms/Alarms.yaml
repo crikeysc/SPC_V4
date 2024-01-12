@@ -244,7 +244,7 @@ Children:
   - Name: EmailUser
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"3017d998d992c54002b94837d9de035d","Namespace":30}
+    Value: "/Objects/SPC_V4/Users/UserMail"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -253,7 +253,7 @@ Children:
   - Name: EmailSender
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"5040a6a64f90f63c328acb71b4ebb84f","Namespace":30}
+    Value: "/Objects/SPC_V4/NetLogic/EmailSenderLogic_Alarms"
     Children:
     - Name: Kind
       Type: PropertyType

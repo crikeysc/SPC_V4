@@ -59,7 +59,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=30;g=acbfc3bb-8108-26ea-d7c0-276e9e9e450b}[1]"
+          Value: "/Objects/SPC_V4/CommDrivers/Optix_To_M870_MBS/MB_RTU/Tags/ATyS_Status_R[1]"
       - Name: Pairs
         Type: BaseObjectType
         ModellingRule: None
@@ -116,7 +116,7 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       ModellingRule: Optional
-      Value: "{NodeId:ns=30;g=df7709b2-6873-5784-0de6-32376c037a7d}"
+      Value: "/Objects/SPC_V4/Converters/State_STS"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -124,7 +124,6 @@ Children:
         ModellingRule: Optional
         Value: 2
 - Name: State_STS
-  Id: g=df7709b2687357840de632376c037a7d
   Type: BaseDataVariableType
   DataType: String
   Value: "0"

@@ -2,7 +2,6 @@ Name: 'Program:IO_Point'
 Type: FolderType
 Children:
 - Name: FL25_FlowMonitor
-  Id: g=83755cf56c90021ee1ef97633beb7ac7
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
@@ -22,7 +21,6 @@ Children:
     DataType: String
     Value: "Program:IO_Point.Optix_Point_Start"
 - Name: Optix_Point_Started
-  Id: g=c92c03a31bcca14f02dd041908872aae
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -42,7 +40,6 @@ Children:
     DataType: String
     Value: "Program:IO_Point.Optix_Point_Stop"
 - Name: Optix_Point_Stopped
-  Id: g=a28a836ae18ff5bbbfefa98d0282e6e9
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -52,7 +49,6 @@ Children:
     DataType: String
     Value: "Program:IO_Point.Optix_Point_Stopped"
 - Name: Optix_Point_Enabled
-  Id: g=23f33a891436b1ba4d5359167799b43a
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -99,7 +95,6 @@ Children:
     DataType: String
     Value: "Program:IO_Point.Optix_Point_DisEnabled"
 - Name: Optix_FL25_Divider
-  Id: g=703d79a50500dbd5939b3f852d89aac0
   Type: RAEtherNetIPTag
   DataType: Int32
   Value: 0

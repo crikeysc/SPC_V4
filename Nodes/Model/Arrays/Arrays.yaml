@@ -36,7 +36,6 @@ Children:
   DataType: Boolean
   Value: false
 - Name: EventLoggerGridFilter
-  Id: g=03ebd397fd961e92bba54c7460715bb9
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM \"EventLogger1\""

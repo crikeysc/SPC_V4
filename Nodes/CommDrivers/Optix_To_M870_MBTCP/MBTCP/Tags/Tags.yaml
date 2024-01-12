@@ -164,7 +164,6 @@ Children:
     DataType: UInt16
     Value: 21
 - Name: TCP 40020
-  Id: g=06e9ba8e1d77f5e4251d15fc39d59566
   Type: ModbusTag
   DataType: Int16
   Value: 0
@@ -174,7 +173,6 @@ Children:
     DataType: UInt16
     Value: 19
 - Name: TCP 40021
-  Id: g=cb5eb84a912cc3e9ed6694aecdd7d97f
   Type: ModbusTag
   DataType: Int16
   Value: 0

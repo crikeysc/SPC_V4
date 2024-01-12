@@ -30,7 +30,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: ATyS_Position_R
-  Id: g=d6b843b15074c2ee1cb99828eea9d4cc
   Type: ModbusTag
   DataType: Int16
   Value: 0

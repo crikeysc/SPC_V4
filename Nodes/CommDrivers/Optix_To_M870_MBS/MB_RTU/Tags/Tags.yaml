@@ -58,7 +58,7 @@ Children:
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
-    Value: {"Id":5}
+    Value: "/Types/DataTypes/BaseDataType/Number/UInteger/UInt16"
 - Name: ATyS_IOConfig_R
   Type: ModbusTag
   DataType: UInt16
@@ -106,7 +106,6 @@ Children:
     DataType: UInt32
     Value: 0
 - Name: 40019
-  Id: g=2b3302395aa8f4e29058fae560803f76
   Type: ModbusTag
   DataType: UInt16
   Value: 0
@@ -120,7 +119,6 @@ Children:
     DataType: ModbusMemoryArea
     Value: 0
 - Name: 40020
-  Id: g=bab17d1c2b18f6c0d974e11b53e5993e
   Type: ModbusTag
   DataType: UInt16
   Value: 0
@@ -130,7 +128,6 @@ Children:
     DataType: UInt16
     Value: 20
 - Name: ATyS_Load_R
-  Id: g=f711552e0cd5b4d74173ed597cf2328e
   Type: ModbusTag
   DataType: Int16
   ValueRank: OneDimension
@@ -146,7 +143,6 @@ Children:
     DataType: UInt32
     Value: 0
 - Name: ATyS_Status_R
-  Id: g=acbfc3bb810826ead7c0276e9e9e450b
   Type: ModbusTag
   DataType: Int16
   ValueRank: OneDimension
