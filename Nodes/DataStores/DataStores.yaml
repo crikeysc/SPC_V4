@@ -218,7 +218,7 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
-    - Name: DrivePF525
+    - Name: Drives_Data
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -244,11 +244,15 @@ Children:
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: Drive1 Freq Out
+        - Name: 525 Drive1 Freq Out
           Type: StoreColumn
           DataType: Int16
           Value: 0
-        - Name: Drive2 Freq Out
+        - Name: 525 Drive2 Freq Out
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: 755TS Drive Freq_Out
           Type: StoreColumn
           DataType: Int16
           Value: 0

@@ -1,6 +1,15 @@
 Name: 'Program:MainProgram'
 Type: FolderType
 Children:
+- Name: ALarm_Trigger_FTAE
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.ALarm_Trigger_FTAE"
 - Name: Alarm_TAG_FTAE_Exceed_Demand
   Type: RAEtherNetIPTag
   DataType: Boolean

@@ -6,6 +6,7 @@ using UAManagedCore;
 using FTOptix.System;
 using FTOptix.SerialPort;
 using FTOptix.UI;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic {

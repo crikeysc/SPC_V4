@@ -10,6 +10,7 @@ using FTOptix.System;
 using FTOptix.EventLogger;
 using FTOptix.UI;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class EmailSenderLogic1 : BaseNetLogic

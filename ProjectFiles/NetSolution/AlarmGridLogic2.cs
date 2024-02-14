@@ -21,6 +21,7 @@ using FTOptix.CommunicationDriver;
 using FTOptix.System;
 using FTOptix.SerialPort;
 using FTOptix.Core;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class AlarmGridLogic2 : BaseNetLogic

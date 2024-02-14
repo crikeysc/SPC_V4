@@ -2,7 +2,7 @@ Name: Model
 Id: g=54f9c095460262b5f79154dff87d0790
 Type: ModelCategoryFolder
 Children:
-- File: Motor_FP/Motor_FP.yaml
+- File: 'Motor_FP_UDT-Kind_Template/Motor_FP_UDT-Kind_Template.yaml'
 - File: Modbus/Modbus.yaml
 - File: Dbase/Dbase.yaml
 - File: Email_Objects/Email_Objects.yaml

@@ -21,6 +21,7 @@ using FTOptix.Retentivity;
 using FTOptix.CommunicationDriver;
 using FTOptix.SerialPort;
 using FTOptix.Core;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class SPC_VariablesSimulator : BaseNetLogic

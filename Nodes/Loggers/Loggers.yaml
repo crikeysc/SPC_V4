@@ -271,7 +271,7 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
-- Name: DrivePF525
+- Name: Drives_Data
   Id: g=44c6abb38b5ec368e9b9c0f6ae1e2310
   Type: DataLogger
   Children:
@@ -291,7 +291,7 @@ Children:
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
-    - Name: Drive1 Freq Out
+    - Name: 525 Drive1 Freq Out
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -318,7 +318,7 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Drive2 Freq Out
+    - Name: 525 Drive2 Freq Out
       Type: VariableToLog
       DataType: BaseDataType
       Value: {"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}}
@@ -341,6 +341,33 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive2_525_Box/Ouput_Frequency_STS"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: 755TS Drive Freq_Out
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_755TS_Box/Ouput_Frequency_STS"
         Children:
         - Name: Mode
           Type: BaseVariableType

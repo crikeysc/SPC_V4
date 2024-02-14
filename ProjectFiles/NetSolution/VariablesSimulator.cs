@@ -21,6 +21,7 @@ using FTOptix.Core;
 using FTOptix.EventLogger;
 using FTOptix.System;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
 #endregion
 
 
