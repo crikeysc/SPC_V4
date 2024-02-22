@@ -4165,574 +4165,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "VendorID"
-- Name: ICX35_ModuleDef
-  Id: g=c68e84df377ccbf1b3a3b6af23cb309f
-  Supertype: TagStructure
-  DataType: ICX35_ModuleDef
-  ValueRank: Any
-  Children:
-  - Name: CONTROL
-    Type: ICX35_CONTROL
-    DataType: ICX35_CONTROL
-    Children:
-    - Name: Clear_SMS
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Clear_SMS"
-    - Name: Get_Status
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Get_Status"
-    - Name: Read_SMS
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Read_SMS"
-    - Name: Reboot
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Reboot"
-    - Name: Reset_Status
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Reset_Status"
-    - Name: Write_SMS
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Write_SMS"
-  - Name: SMS
-    Type: ICX35_SMS
-    DataType: ICX35_SMS
-    Children:
-    - Name: READ
-      Type: ICX35_SMS_Read
-      DataType: ICX35_SMS_Read
-      Children:
-      - Name: Date_Time
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [18]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Date_Time"
-      - Name: Message
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [160]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Message"
-      - Name: Phone_Number
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [24]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Phone_Number"
-      - Name: Time_Zone
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [6]
-        Value: [0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Time_Zone"
-    - Name: WRITE
-      Type: ICX35_SMS_Write
-      DataType: ICX35_SMS_Write
-      Children:
-      - Name: Message
-        Type: RAEtherNetIPTag
-        DataType: String
-        Value: ""
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Message"
-      - Name: Phone_Count
-        Type: RAEtherNetIPTag
-        DataType: Int16
-        Value: 0
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Phone_Count"
-      - Name: Phone_Number_1
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [24]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Phone_Number_1"
-      - Name: Phone_Number_2
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [24]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Phone_Number_2"
-      - Name: Phone_Number_3
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [24]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Phone_Number_3"
-      - Name: Phone_Number_4
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [24]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Phone_Number_4"
-      - Name: Phone_Number_5
-        Type: RAEtherNetIPTag
-        DataType: SByte
-        ValueRank: OneDimension
-        ArrayDimensions: [24]
-        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "Phone_Number_5"
-  - Name: STATUS
-    Type: ICX35_STATUS
-    DataType: ICX35_STATUS
-    Children:
-    - Name: Cell_Net_Disconnects
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cell_Net_Disconnects"
-    - Name: Cell_Net_State
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cell_Net_State"
-    - Name: Data_Usage_Current_Day
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Data_Usage_Current_Day"
-    - Name: Data_Usage_Current_Month
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Data_Usage_Current_Month"
-    - Name: Data_Usage_Previous_Day
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Data_Usage_Previous_Day"
-    - Name: Data_Usage_Previous_Month
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Data_Usage_Previous_Month"
-    - Name: FW_Version
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [24]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "FW_Version"
-    - Name: IMEI
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [20]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "IMEI"
-    - Name: LAN_KBytes_Received
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "LAN_KBytes_Received"
-    - Name: LAN_KBytes_Sent
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "LAN_KBytes_Sent"
-    - Name: Link_Time_Days
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Link_Time_Days"
-    - Name: Link_Time_Hours
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Link_Time_Hours"
-    - Name: Link_Time_Minutes
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Link_Time_Minutes"
-    - Name: Link_Time_Seconds
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Link_Time_Seconds"
-    - Name: MAC_Address
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [6]
-      Value: [0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "MAC_Address"
-    - Name: Max_RSSI
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Max_RSSI"
-    - Name: Min_RSSI
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Min_RSSI"
-    - Name: Phone_Number
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [18]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Phone_Number"
-    - Name: PowerOnTime_Day
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PowerOnTime_Day"
-    - Name: PowerOnTime_Hour
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PowerOnTime_Hour"
-    - Name: PowerOnTime_Minute
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PowerOnTime_Minute"
-    - Name: PowerOnTime_Month
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PowerOnTime_Month"
-    - Name: PowerOnTime_Second
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PowerOnTime_Second"
-    - Name: PowerOnTime_Year
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "PowerOnTime_Year"
-    - Name: RSSI
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "RSSI"
-    - Name: SMS_MSGs_Received
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SMS_MSGs_Received"
-    - Name: SMS_MSGs_Rx_Free_Buffer_Counter
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SMS_MSGs_Rx_Free_Buffer_Counter"
-    - Name: SMS_MSGs_Sent
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SMS_MSGs_Sent"
-    - Name: WAN_IP
-      Type: RAEtherNetIPTag
-      DataType: Int16
-      ValueRank: OneDimension
-      ArrayDimensions: [4]
-      Value: [0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "WAN_IP"
-    - Name: WAN_KBytes_Received
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "WAN_KBytes_Received"
-    - Name: WAN_KBytes_Sent
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "WAN_KBytes_Sent"
-  - Name: UTIL
-    Type: ICX35_UTIL
-    DataType: ICX35_UTIL
-    Children:
-    - Name: Clear_SMS
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Clear_SMS"
-    - Name: Reboot
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Reboot"
-    - Name: ResetStatus
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "ResetStatus"
-    - Name: SMSread
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [216]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SMSread"
-    - Name: SMSreadmsgstat
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SMSreadmsgstat"
-    - Name: SMSwrite
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [284]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SMSwrite"
-    - Name: SMSwritemsgstat
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Value: false
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "SMSwritemsgstat"
-    - Name: Status
-      Type: RAEtherNetIPTag
-      DataType: SByte
-      ValueRank: OneDimension
-      ArrayDimensions: [149]
-      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Status"
 - Name: ICX35_SMS_Write
   Id: g=f41e9b9f7952657ec55544a3568760cc
   Supertype: TagStructure
@@ -11746,984 +11178,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Total_Memory"
-- Name: 'AB:E300_History_Struct:C:3'
-  Id: g=0a1809c3a3a128e2b2e2bb74c6b0222f
-  Supertype: TagStructure
-  DataType: 'AB:E300_History_Struct:C:3'
-  ValueRank: Any
-  Children:
-  - Name: Analog1Ch00TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog1Ch00TripEn"
-  - Name: Analog1Ch00WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog1Ch00WarningEn"
-  - Name: Analog1Ch01TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog1Ch01TripEn"
-  - Name: Analog1Ch01WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog1Ch01WarningEn"
-  - Name: Analog1Ch02TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog1Ch02TripEn"
-  - Name: Analog1Ch02WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog1Ch02WarningEn"
-  - Name: Analog2Ch00TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog2Ch00TripEn"
-  - Name: Analog2Ch00WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog2Ch00WarningEn"
-  - Name: Analog2Ch01TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog2Ch01TripEn"
-  - Name: Analog2Ch01WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog2Ch01WarningEn"
-  - Name: Analog2Ch02TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog2Ch02TripEn"
-  - Name: Analog2Ch02WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog2Ch02WarningEn"
-  - Name: Analog3Ch00TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog3Ch00TripEn"
-  - Name: Analog3Ch00WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog3Ch00WarningEn"
-  - Name: Analog3Ch01TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog3Ch01TripEn"
-  - Name: Analog3Ch01WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog3Ch01WarningEn"
-  - Name: Analog3Ch02TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog3Ch02TripEn"
-  - Name: Analog3Ch02WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog3Ch02WarningEn"
-  - Name: Analog4Ch00TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog4Ch00TripEn"
-  - Name: Analog4Ch00WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog4Ch00WarningEn"
-  - Name: Analog4Ch01TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog4Ch01TripEn"
-  - Name: Analog4Ch01WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog4Ch01WarningEn"
-  - Name: Analog4Ch02TripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog4Ch02TripEn"
-  - Name: Analog4Ch02WarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Analog4Ch02WarningEn"
-  - Name: BlockedStartTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "BlockedStartTripEn"
-  - Name: ConfigurationTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ConfigurationTripEn"
-  - Name: CurrentImbalanceTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "CurrentImbalanceTripEn"
-  - Name: CurrentImbalanceWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "CurrentImbalanceWarningEn"
-  - Name: DeviceLogixTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DeviceLogixTripEn"
-  - Name: DeviceLogixWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "DeviceLogixWarningEn"
-  - Name: ExpansionBusTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ExpansionBusTripEn"
-  - Name: ExpansionBusWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ExpansionBusWarningEn"
-  - Name: FeedbackTimeoutTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "FeedbackTimeoutTripEn"
-  - Name: FeedbackTimeoutWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "FeedbackTimeoutWarningEn"
-  - Name: GroundFaultTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "GroundFaultTripEn"
-  - Name: GroundFaultWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "GroundFaultWarningEn"
-  - Name: HardwareFaultTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HardwareFaultTripEn"
-  - Name: JamTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "JamTripEn"
-  - Name: JamWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "JamWarningEn"
-  - Name: L1LineLossTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L1LineLossTripEn"
-  - Name: L1LineLossWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L1LineLossWarningEn"
-  - Name: L1OverCurrentTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L1OverCurrentTripEn"
-  - Name: L1OverCurrentWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L1OverCurrentWarningEn"
-  - Name: L1UnderCurrentTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L1UnderCurrentTripEn"
-  - Name: L1UnderCurrentWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L1UnderCurrentWarningEn"
-  - Name: L2LineLossTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L2LineLossTripEn"
-  - Name: L2LineLossWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L2LineLossWarningEn"
-  - Name: L2OverCurrentTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L2OverCurrentTripEn"
-  - Name: L2OverCurrentWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L2OverCurrentWarningEn"
-  - Name: L2UnderCurrentTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L2UnderCurrentTripEn"
-  - Name: L2UnderCurrentWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L2UnderCurrentWarningEn"
-  - Name: L3LineLossTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L3LineLossTripEn"
-  - Name: L3LineLossWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L3LineLossWarningEn"
-  - Name: L3OverCurrentTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L3OverCurrentTripEn"
-  - Name: L3OverCurrentWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L3OverCurrentWarningEn"
-  - Name: L3UnderCurrentTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L3UnderCurrentTripEn"
-  - Name: L3UnderCurrentWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L3UnderCurrentWarningEn"
-  - Name: MCCTestPositionTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MCCTestPositionTripEn"
-  - Name: NumberOfStartsWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "NumberOfStartsWarningEn"
-  - Name: NVMErrorTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "NVMErrorTripEn"
-  - Name: OperatingHoursWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OperatingHoursWarningEn"
-  - Name: OperatorStationTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OperatorStationTripEn"
-  - Name: OverApparentPowerTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverApparentPowerTripEn"
-  - Name: OverApparentPowerWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverApparentPowerWarningEn"
-  - Name: OverFrequencyTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverFrequencyTripEn"
-  - Name: OverFrequencyWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverFrequencyWarningEn"
-  - Name: OverloadTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverloadTripEn"
-  - Name: OverloadWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverloadWarningEn"
-  - Name: OverPowerFactorLaggingTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverPowerFactorLaggingTripEn"
-  - Name: OverPowerFactorLaggingWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverPowerFactorLaggingWarningEn"
-  - Name: OverPowerFactorLeadingTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverPowerFactorLeadingTripEn"
-  - Name: OverPowerFactorLeadingWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverPowerFactorLeadingWarningEn"
-  - Name: OverReactivePowerConsumedTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverReactivePowerConsumedTripEn"
-  - Name: OverReactivePowerConsumedWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverReactivePowerConsumedWarningEn"
-  - Name: OverReactivePowerGeneratedTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverReactivePowerGeneratedTripEn"
-  - Name: OverReactivePowerGeneratedWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverReactivePowerGeneratedWarningEn"
-  - Name: OverRealPowerTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverRealPowerTripEn"
-  - Name: OverRealPowerWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverRealPowerWarningEn"
-  - Name: OverVoltageTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverVoltageTripEn"
-  - Name: OverVoltageWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OverVoltageWarningEn"
-  - Name: PhaseLossTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PhaseLossTripEn"
-  - Name: PhaseRotationTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PhaseRotationTripEn"
-  - Name: PhaseRotationWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PhaseRotationWarningEn"
-  - Name: PTCTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PTCTripEn"
-  - Name: PTCWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PTCWarningEn"
-  - Name: RemoteTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "RemoteTripEn"
-  - Name: StallTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "StallTripEn"
-  - Name: TestTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TestTripEn"
-  - Name: UnderApparentPowerTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderApparentPowerTripEn"
-  - Name: UnderApparentPowerWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderApparentPowerWarningEn"
-  - Name: UnderFrequencyTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderFrequencyTripEn"
-  - Name: UnderFrequencyWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderFrequencyWarningEn"
-  - Name: UnderloadTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderloadTripEn"
-  - Name: UnderloadWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderloadWarningEn"
-  - Name: UnderPowerFactorLaggingTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderPowerFactorLaggingTripEn"
-  - Name: UnderPowerFactorLaggingWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderPowerFactorLaggingWarningEn"
-  - Name: UnderPowerFactorLeadingTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderPowerFactorLeadingTripEn"
-  - Name: UnderPowerFactorLeadingWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderPowerFactorLeadingWarningEn"
-  - Name: UnderReactivePowerConsumedTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderReactivePowerConsumedTripEn"
-  - Name: UnderReactivePowerConsumedWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderReactivePowerConsumedWarningEn"
-  - Name: UnderReactivePowerGeneratedTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderReactivePowerGeneratedTripEn"
-  - Name: UnderReactivePowerGeneratedWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderReactivePowerGeneratedWarningEn"
-  - Name: UnderRealPowerTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderRealPowerTripEn"
-  - Name: UnderRealPowerWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderRealPowerWarningEn"
-  - Name: UnderVoltageTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderVoltageTripEn"
-  - Name: UnderVoltageWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UnderVoltageWarningEn"
-  - Name: VoltageImbalanceTripEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "VoltageImbalanceTripEn"
-  - Name: VoltageImbalanceWarningEn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "VoltageImbalanceWarningEn"
 - Name: 'CHANNEL_DI:I:0'
   Id: g=0d82d3c28bf066b2d6aa5c804ac9b010
   Supertype: TagStructure
@@ -16645,281 +15099,8 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Reference"
-- Name: L_CPU_ConnUse
-  Id: g=bdc913c43f43b1ae5ced6b8489c5b2e7
-  Supertype: TagStructure
-  DataType: L_CPU_ConnUse
-  ValueRank: Any
-  Children:
-  - Name: ConsAllow
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ConsAllow"
-  - Name: ConsCurr
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ConsCurr"
-  - Name: ConsHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ConsHiWater"
-  - Name: IncomCurr
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "IncomCurr"
-  - Name: IncomHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "IncomHiWater"
-  - Name: IOAllow
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "IOAllow"
-  - Name: IOCurr
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "IOCurr"
-  - Name: IOHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "IOHiWater"
-  - Name: MCacheAllow
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MCacheAllow"
-  - Name: MCacheCurr
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MCacheCurr"
-  - Name: MCacheHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MCacheHiWater"
-  - Name: MSGCurr
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MSGCurr"
-  - Name: MSGHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "MSGHiWater"
-  - Name: ProdAllow
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ProdAllow"
-  - Name: ProdCurr
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ProdCurr"
-  - Name: ProdHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ProdHiWater"
-  - Name: TotalAllow
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TotalAllow"
-  - Name: TotalCurr
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TotalCurr"
-  - Name: TotalHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TotalHiWater"
-  - Name: UCBsAllow
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UCBsAllow"
-  - Name: UCBsCurr
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UCBsCurr"
-  - Name: UCBsHiWater
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "UCBsHiWater"
-- Name: ControllerLEDStatus
-  Id: g=6d663a0e06abbd0fb352a3dbbb12e25b
-  Supertype: TagStructure
-  DataType: ControllerLEDStatus
-  ValueRank: Any
-  Children:
-  - Name: FlashingGreen
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "FlashingGreen"
-  - Name: FlashingRed
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "FlashingRed"
-  - Name: FlashingYellow
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "FlashingYellow"
-  - Name: Off
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Off"
-  - Name: SolidGreen
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "SolidGreen"
-  - Name: SolidRed
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "SolidRed"
-  - Name: SolidYellow
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "SolidYellow"
 - Name: 'AB:E300_Analog_Struct:C:1'
-  Id: g=1c7dc7a9419b3181ec1d9a885a319614
+  Id: g=20644850ffbba5f0319d37ae312bf87b
   Supertype: TagStructure
   DataType: 'AB:E300_Analog_Struct:C:1'
   ValueRank: Any
@@ -17491,6 +15672,279 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Ch02InputWarnLimit"
+- Name: L_CPU_ConnUse
+  Id: g=bdc913c43f43b1ae5ced6b8489c5b2e7
+  Supertype: TagStructure
+  DataType: L_CPU_ConnUse
+  ValueRank: Any
+  Children:
+  - Name: ConsAllow
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConsAllow"
+  - Name: ConsCurr
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConsCurr"
+  - Name: ConsHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConsHiWater"
+  - Name: IncomCurr
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IncomCurr"
+  - Name: IncomHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IncomHiWater"
+  - Name: IOAllow
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IOAllow"
+  - Name: IOCurr
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IOCurr"
+  - Name: IOHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IOHiWater"
+  - Name: MCacheAllow
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MCacheAllow"
+  - Name: MCacheCurr
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MCacheCurr"
+  - Name: MCacheHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MCacheHiWater"
+  - Name: MSGCurr
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MSGCurr"
+  - Name: MSGHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MSGHiWater"
+  - Name: ProdAllow
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProdAllow"
+  - Name: ProdCurr
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProdCurr"
+  - Name: ProdHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProdHiWater"
+  - Name: TotalAllow
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TotalAllow"
+  - Name: TotalCurr
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TotalCurr"
+  - Name: TotalHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TotalHiWater"
+  - Name: UCBsAllow
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UCBsAllow"
+  - Name: UCBsCurr
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UCBsCurr"
+  - Name: UCBsHiWater
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UCBsHiWater"
+- Name: ControllerLEDStatus
+  Id: g=6d663a0e06abbd0fb352a3dbbb12e25b
+  Supertype: TagStructure
+  DataType: ControllerLEDStatus
+  ValueRank: Any
+  Children:
+  - Name: FlashingGreen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FlashingGreen"
+  - Name: FlashingRed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FlashingRed"
+  - Name: FlashingYellow
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FlashingYellow"
+  - Name: Off
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Off"
+  - Name: SolidGreen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SolidGreen"
+  - Name: SolidRed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SolidRed"
+  - Name: SolidYellow
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SolidYellow"
 - Name: 'AB:5000_DO16_Diag:I:0'
   Id: g=6289991960388710e38f14e896d3d27f
   Supertype: TagStructure
@@ -18317,6 +16771,984 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "RunMode"
+- Name: 'AB:E300_History_Struct:C:3'
+  Id: g=95cc545b638fa513f959f53b657b26dd
+  Supertype: TagStructure
+  DataType: 'AB:E300_History_Struct:C:3'
+  ValueRank: Any
+  Children:
+  - Name: Analog1Ch00TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog1Ch00TripEn"
+  - Name: Analog1Ch00WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog1Ch00WarningEn"
+  - Name: Analog1Ch01TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog1Ch01TripEn"
+  - Name: Analog1Ch01WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog1Ch01WarningEn"
+  - Name: Analog1Ch02TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog1Ch02TripEn"
+  - Name: Analog1Ch02WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog1Ch02WarningEn"
+  - Name: Analog2Ch00TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog2Ch00TripEn"
+  - Name: Analog2Ch00WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog2Ch00WarningEn"
+  - Name: Analog2Ch01TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog2Ch01TripEn"
+  - Name: Analog2Ch01WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog2Ch01WarningEn"
+  - Name: Analog2Ch02TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog2Ch02TripEn"
+  - Name: Analog2Ch02WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog2Ch02WarningEn"
+  - Name: Analog3Ch00TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog3Ch00TripEn"
+  - Name: Analog3Ch00WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog3Ch00WarningEn"
+  - Name: Analog3Ch01TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog3Ch01TripEn"
+  - Name: Analog3Ch01WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog3Ch01WarningEn"
+  - Name: Analog3Ch02TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog3Ch02TripEn"
+  - Name: Analog3Ch02WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog3Ch02WarningEn"
+  - Name: Analog4Ch00TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog4Ch00TripEn"
+  - Name: Analog4Ch00WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog4Ch00WarningEn"
+  - Name: Analog4Ch01TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog4Ch01TripEn"
+  - Name: Analog4Ch01WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog4Ch01WarningEn"
+  - Name: Analog4Ch02TripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog4Ch02TripEn"
+  - Name: Analog4Ch02WarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Analog4Ch02WarningEn"
+  - Name: BlockedStartTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BlockedStartTripEn"
+  - Name: ConfigurationTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ConfigurationTripEn"
+  - Name: CurrentImbalanceTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CurrentImbalanceTripEn"
+  - Name: CurrentImbalanceWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CurrentImbalanceWarningEn"
+  - Name: DeviceLogixTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DeviceLogixTripEn"
+  - Name: DeviceLogixWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DeviceLogixWarningEn"
+  - Name: ExpansionBusTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExpansionBusTripEn"
+  - Name: ExpansionBusWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExpansionBusWarningEn"
+  - Name: FeedbackTimeoutTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FeedbackTimeoutTripEn"
+  - Name: FeedbackTimeoutWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FeedbackTimeoutWarningEn"
+  - Name: GroundFaultTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GroundFaultTripEn"
+  - Name: GroundFaultWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GroundFaultWarningEn"
+  - Name: HardwareFaultTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HardwareFaultTripEn"
+  - Name: JamTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "JamTripEn"
+  - Name: JamWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "JamWarningEn"
+  - Name: L1LineLossTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1LineLossTripEn"
+  - Name: L1LineLossWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1LineLossWarningEn"
+  - Name: L1OverCurrentTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1OverCurrentTripEn"
+  - Name: L1OverCurrentWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1OverCurrentWarningEn"
+  - Name: L1UnderCurrentTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1UnderCurrentTripEn"
+  - Name: L1UnderCurrentWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L1UnderCurrentWarningEn"
+  - Name: L2LineLossTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2LineLossTripEn"
+  - Name: L2LineLossWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2LineLossWarningEn"
+  - Name: L2OverCurrentTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2OverCurrentTripEn"
+  - Name: L2OverCurrentWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2OverCurrentWarningEn"
+  - Name: L2UnderCurrentTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2UnderCurrentTripEn"
+  - Name: L2UnderCurrentWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L2UnderCurrentWarningEn"
+  - Name: L3LineLossTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3LineLossTripEn"
+  - Name: L3LineLossWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3LineLossWarningEn"
+  - Name: L3OverCurrentTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3OverCurrentTripEn"
+  - Name: L3OverCurrentWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3OverCurrentWarningEn"
+  - Name: L3UnderCurrentTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3UnderCurrentTripEn"
+  - Name: L3UnderCurrentWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L3UnderCurrentWarningEn"
+  - Name: MCCTestPositionTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MCCTestPositionTripEn"
+  - Name: NumberOfStartsWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "NumberOfStartsWarningEn"
+  - Name: NVMErrorTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "NVMErrorTripEn"
+  - Name: OperatingHoursWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperatingHoursWarningEn"
+  - Name: OperatorStationTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperatorStationTripEn"
+  - Name: OverApparentPowerTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverApparentPowerTripEn"
+  - Name: OverApparentPowerWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverApparentPowerWarningEn"
+  - Name: OverFrequencyTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverFrequencyTripEn"
+  - Name: OverFrequencyWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverFrequencyWarningEn"
+  - Name: OverloadTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverloadTripEn"
+  - Name: OverloadWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverloadWarningEn"
+  - Name: OverPowerFactorLaggingTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverPowerFactorLaggingTripEn"
+  - Name: OverPowerFactorLaggingWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverPowerFactorLaggingWarningEn"
+  - Name: OverPowerFactorLeadingTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverPowerFactorLeadingTripEn"
+  - Name: OverPowerFactorLeadingWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverPowerFactorLeadingWarningEn"
+  - Name: OverReactivePowerConsumedTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverReactivePowerConsumedTripEn"
+  - Name: OverReactivePowerConsumedWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverReactivePowerConsumedWarningEn"
+  - Name: OverReactivePowerGeneratedTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverReactivePowerGeneratedTripEn"
+  - Name: OverReactivePowerGeneratedWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverReactivePowerGeneratedWarningEn"
+  - Name: OverRealPowerTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverRealPowerTripEn"
+  - Name: OverRealPowerWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverRealPowerWarningEn"
+  - Name: OverVoltageTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverVoltageTripEn"
+  - Name: OverVoltageWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OverVoltageWarningEn"
+  - Name: PhaseLossTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PhaseLossTripEn"
+  - Name: PhaseRotationTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PhaseRotationTripEn"
+  - Name: PhaseRotationWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PhaseRotationWarningEn"
+  - Name: PTCTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PTCTripEn"
+  - Name: PTCWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PTCWarningEn"
+  - Name: RemoteTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RemoteTripEn"
+  - Name: StallTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "StallTripEn"
+  - Name: TestTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TestTripEn"
+  - Name: UnderApparentPowerTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderApparentPowerTripEn"
+  - Name: UnderApparentPowerWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderApparentPowerWarningEn"
+  - Name: UnderFrequencyTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderFrequencyTripEn"
+  - Name: UnderFrequencyWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderFrequencyWarningEn"
+  - Name: UnderloadTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderloadTripEn"
+  - Name: UnderloadWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderloadWarningEn"
+  - Name: UnderPowerFactorLaggingTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderPowerFactorLaggingTripEn"
+  - Name: UnderPowerFactorLaggingWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderPowerFactorLaggingWarningEn"
+  - Name: UnderPowerFactorLeadingTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderPowerFactorLeadingTripEn"
+  - Name: UnderPowerFactorLeadingWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderPowerFactorLeadingWarningEn"
+  - Name: UnderReactivePowerConsumedTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderReactivePowerConsumedTripEn"
+  - Name: UnderReactivePowerConsumedWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderReactivePowerConsumedWarningEn"
+  - Name: UnderReactivePowerGeneratedTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderReactivePowerGeneratedTripEn"
+  - Name: UnderReactivePowerGeneratedWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderReactivePowerGeneratedWarningEn"
+  - Name: UnderRealPowerTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderRealPowerTripEn"
+  - Name: UnderRealPowerWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderRealPowerWarningEn"
+  - Name: UnderVoltageTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderVoltageTripEn"
+  - Name: UnderVoltageWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnderVoltageWarningEn"
+  - Name: VoltageImbalanceTripEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VoltageImbalanceTripEn"
+  - Name: VoltageImbalanceWarningEn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VoltageImbalanceWarningEn"
 - Name: 'AB:5000_DI16:C:0'
   Id: g=549a1b8998e9f2d78c1f662ec5658aa0
   Supertype: TagStructure
@@ -18675,6 +18107,574 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "InputOnOffFilter"
+- Name: ICX35_ModuleDef
+  Id: g=26fd8a1bee52b4e8573c0582fd56624e
+  Supertype: TagStructure
+  DataType: ICX35_ModuleDef
+  ValueRank: Any
+  Children:
+  - Name: CONTROL
+    Type: ICX35_CONTROL
+    DataType: ICX35_CONTROL
+    Children:
+    - Name: Clear_SMS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Clear_SMS"
+    - Name: Get_Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Get_Status"
+    - Name: Read_SMS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Read_SMS"
+    - Name: Reboot
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Reboot"
+    - Name: Reset_Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Reset_Status"
+    - Name: Write_SMS
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Write_SMS"
+  - Name: SMS
+    Type: ICX35_SMS
+    DataType: ICX35_SMS
+    Children:
+    - Name: READ
+      Type: ICX35_SMS_Read
+      DataType: ICX35_SMS_Read
+      Children:
+      - Name: Date_Time
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [18]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Date_Time"
+      - Name: Message
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [160]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Message"
+      - Name: Phone_Number
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [24]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Phone_Number"
+      - Name: Time_Zone
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [6]
+        Value: [0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Time_Zone"
+    - Name: WRITE
+      Type: ICX35_SMS_Write
+      DataType: ICX35_SMS_Write
+      Children:
+      - Name: Message
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Message"
+      - Name: Phone_Count
+        Type: RAEtherNetIPTag
+        DataType: Int16
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Phone_Count"
+      - Name: Phone_Number_1
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [24]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Phone_Number_1"
+      - Name: Phone_Number_2
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [24]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Phone_Number_2"
+      - Name: Phone_Number_3
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [24]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Phone_Number_3"
+      - Name: Phone_Number_4
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [24]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Phone_Number_4"
+      - Name: Phone_Number_5
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [24]
+        Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Phone_Number_5"
+  - Name: STATUS
+    Type: ICX35_STATUS
+    DataType: ICX35_STATUS
+    Children:
+    - Name: Cell_Net_Disconnects
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cell_Net_Disconnects"
+    - Name: Cell_Net_State
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cell_Net_State"
+    - Name: Data_Usage_Current_Day
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data_Usage_Current_Day"
+    - Name: Data_Usage_Current_Month
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data_Usage_Current_Month"
+    - Name: Data_Usage_Previous_Day
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data_Usage_Previous_Day"
+    - Name: Data_Usage_Previous_Month
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data_Usage_Previous_Month"
+    - Name: FW_Version
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [24]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FW_Version"
+    - Name: IMEI
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [20]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IMEI"
+    - Name: LAN_KBytes_Received
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LAN_KBytes_Received"
+    - Name: LAN_KBytes_Sent
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LAN_KBytes_Sent"
+    - Name: Link_Time_Days
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Link_Time_Days"
+    - Name: Link_Time_Hours
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Link_Time_Hours"
+    - Name: Link_Time_Minutes
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Link_Time_Minutes"
+    - Name: Link_Time_Seconds
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Link_Time_Seconds"
+    - Name: MAC_Address
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: [0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MAC_Address"
+    - Name: Max_RSSI
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Max_RSSI"
+    - Name: Min_RSSI
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Min_RSSI"
+    - Name: Phone_Number
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [18]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Phone_Number"
+    - Name: PowerOnTime_Day
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PowerOnTime_Day"
+    - Name: PowerOnTime_Hour
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PowerOnTime_Hour"
+    - Name: PowerOnTime_Minute
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PowerOnTime_Minute"
+    - Name: PowerOnTime_Month
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PowerOnTime_Month"
+    - Name: PowerOnTime_Second
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PowerOnTime_Second"
+    - Name: PowerOnTime_Year
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PowerOnTime_Year"
+    - Name: RSSI
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RSSI"
+    - Name: SMS_MSGs_Received
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SMS_MSGs_Received"
+    - Name: SMS_MSGs_Rx_Free_Buffer_Counter
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SMS_MSGs_Rx_Free_Buffer_Counter"
+    - Name: SMS_MSGs_Sent
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SMS_MSGs_Sent"
+    - Name: WAN_IP
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [4]
+      Value: [0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WAN_IP"
+    - Name: WAN_KBytes_Received
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WAN_KBytes_Received"
+    - Name: WAN_KBytes_Sent
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WAN_KBytes_Sent"
+  - Name: UTIL
+    Type: ICX35_UTIL
+    DataType: ICX35_UTIL
+    Children:
+    - Name: Clear_SMS
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Clear_SMS"
+    - Name: Reboot
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Reboot"
+    - Name: ResetStatus
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ResetStatus"
+    - Name: SMSread
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [216]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SMSread"
+    - Name: SMSreadmsgstat
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SMSreadmsgstat"
+    - Name: SMSwrite
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [284]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SMSwrite"
+    - Name: SMSwritemsgstat
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SMSwritemsgstat"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      ValueRank: OneDimension
+      ArrayDimensions: [149]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Status"
 - Name: DateTime
   Id: g=2c74a9dd25a8a07a8c3dc6bb3462f439
   Supertype: TagStructure
