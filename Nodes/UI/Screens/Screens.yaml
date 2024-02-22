@@ -47480,34 +47480,20 @@ Children:
         DataType: LocalizedText
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
-        - Name: StringFormatter1
-          Type: StringFormatter
-          Children:
-          - Name: Format
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"{0}"}
-          - Name: ns=3;Source0
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{VSD_755TS_alias}@Pointer@DisplayName"
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/PPax_AIN1/Inp_PV"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 24.0
+        Value: 21.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 214.0
+        Value: 223.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -47648,7 +47634,7 @@ Children:
       - Name: Pens
         Type: BaseObjectType
         Children:
-        - Name: 755TS Drive Freq_Out
+        - Name: E300 Run
           Type: TrendPen
           DataType: BaseDataType
           Children:
@@ -47666,11 +47652,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ff7514"
+            Value: "#eb001b"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../Model/VariablesToLog/755TS Drive Freq_Out/LastValue"
+            Value: "../../Model/VariablesToLog/E300_Run/LastValue"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -47710,11 +47696,11 @@ Children:
         - Name: MinValue
           Type: BaseDataVariableType
           DataType: Size
-          Value: -100.0
+          Value: 0.0
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Size
-          Value: 100.0
+          Value: 2.0
         - Name: AutoScale
           Type: BaseDataVariableType
           DataType: Boolean
@@ -47846,7 +47832,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Jonesy_TS&:I/DriveStatus_Ready"
+          Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive_Box&:I/Ready"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -47884,7 +47870,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{VSD_755TS_alias}/Drive755TSObj/Active_STS"
+              Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/FSW_155/Sts_PV"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: Color
@@ -48064,130 +48050,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
-    - Name: IEEE841AC2
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#006092"
-        Children:
-        - Name: ConditionalConverter1
-          Type: ConditionalConverter
-          Children:
-          - Name: Condition
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ReferenceType: HasSource
-            Value: false
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{VSD_755TS_alias}/Drive755TSObj/Active_STS"
-          - Name: TrueValue
-            Type: BaseDataVariableType
-            DataType: Color
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: "#c5f6c5c9"
-          - Name: FalseValue
-            Type: BaseDataVariableType
-            DataType: Color
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: "#f508168d"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 76.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 58.0
-      - Name: IEEE_x5F_841_x5F_Outline
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 218.2469940185547
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 118.43399810791016
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=30;%PROJECTDIR%/res/IEEE_x5F_841_x5F_Outline.svg"
-      - Name: Fill_Color
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=30;%PROJECTDIR%/res/CM112IEEE841AC_Fill_Color.svg"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 218.2469940185547
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 118.43399810791016
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#006092"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-      - Name: IEEE_x5F_841_x5F_Overlay
-        Type: Image
-        Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 218.2469940185547
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 118.43399810791016
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=30;%PROJECTDIR%/res/IEEE_x5F_841_x5F_Overlay.svg"
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 218.2469940185547
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 118.43399810791016
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
     - Name: SpinBox3
       Type: SpinBox
       Children:
@@ -48578,7 +48440,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{VSD_755TS_alias}/Drive755TSObj/At_Reference_STS"
+              Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/FSW_155/Sts_PV"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: Color
@@ -48618,19 +48480,19 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{VSD_755TS_alias}/Drive755TSObj/At_Reference_STS"
+              Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/FSW_155/Sts_PV"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"At Ref"}
+            Value: {"LocaleId":"en-US","Text":"Boost"}
           - Name: FalseValue
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Not Ref"}
+            Value: {"LocaleId":"en-US","Text":"Off"}
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -48664,7 +48526,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 320.0
+        Value: 319.0
       - Name: Appearance
         Type: BaseVariableType
         DataType: String
@@ -48875,22 +48737,12 @@ Children:
       - Name: VariableToBeModified
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/P_E300_SSM12/PCmd_Prog"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/VariableTypes/BaseVariableType"
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{VSD_755TS_alias}/Drive755TSObj/Start_CMD@NodeId"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: ValueWhenPressed
         Type: BaseDataVariableType
         DataType: Int32
@@ -49153,22 +49005,12 @@ Children:
       - Name: VariableToBeModified
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/P_E300_SSM12/PCmd_Oper"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
           Value: "/Types/VariableTypes/BaseVariableType"
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{VSD_755TS_alias}/Drive755TSObj/Stop_CMD@NodeId"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
       - Name: ValueWhenPressed
         Type: BaseDataVariableType
         DataType: Int32
@@ -49207,6 +49049,130 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#cfcfcf"
+    - Name: EnclosedVectorDutyAC1
+      Type: ScaleLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#4b545b"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/FSW_155/Sts_PV"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: "#d7fad6"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: "#f6aeb6"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Enclosed_x5F_Vector_x5F_Duty_x5F_Outline
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 200.9949951171875
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 135.56700134277344
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=30;%PROJECTDIR%/res/Enclosed_x5F_Vector_x5F_Duty_x5F_Outline.svg"
+      - Name: Fill_Color
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=30;%PROJECTDIR%/res/CM202EnclosedVectorDutyAC_Fill_Color.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 200.9949951171875
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 135.56700134277344
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#4b545b"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+      - Name: Enclosed_x5F_Vector_x5F_Duty_x5F_Overlay
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 200.9949951171875
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 135.56700134277344
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=30;%PROJECTDIR%/res/Enclosed_x5F_Vector_x5F_Duty_x5F_Overlay.svg"
+      - Name: OriginalWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.9949951171875
+      - Name: OriginalHeight
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 135.56700134277344
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 4.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 85.0
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment

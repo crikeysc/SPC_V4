@@ -256,6 +256,10 @@ Children:
           Type: StoreColumn
           DataType: Int16
           Value: 0
+        - Name: E300_Run
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
     - Name: DataLogger1
       Type: SQLiteStoreTable
       Children:
