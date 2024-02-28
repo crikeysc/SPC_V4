@@ -43000,7 +43000,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
+      Value: 2.0
     - Name: Label1
       Type: Label
       Children:
@@ -43306,64 +43306,6 @@ Children:
       - Class: Reference
         Target: ns=5;i=1209
         Direction: Forward
-    - Name: SpinBox1
-      Type: SpinBox
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 0.0
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{VSD_755TS_alias}/Drive755TSObj/Ouput_Frequency_STS"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 202.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 233.0
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Double
-        ModellingRule: Optional
-        Value: 1.0
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Double
-        ModellingRule: Optional
-        Value: 65.0
-      - Name: ShowButtons
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: Editable
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: false
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
     - Name: LED2
       Type: Led
       Children:
@@ -43717,54 +43659,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 5.0
-    - Name: SpinBox3
-      Type: SpinBox
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: Double
-        Value: 0.0
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{VSD_755TS_alias}/Drive755TSObj/Frequency_CMD"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 202.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 270.0
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Double
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Double
-        ModellingRule: Optional
-        Value: 65.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
     - Name: Clear_Faults
       Type: Button
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -45317,6 +45211,152 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#ffffff"
+    - Name: Button3
+      Type: Button
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Predictive"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 202.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 253.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 75.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 332.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: MouseDownEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ns=3;ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Commands/UICommands"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=3;Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "OpenDialog"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: Dialog
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogDescription"}
+                Value: "/Objects/SPC_V4/UI/Screens/TS755_Predictive2"
+              - Name: AliasNode
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":5,"TextId":"OpenDialogAliasNodeDescription"}
+                ValueRank: ScalarOrOneDimension
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: ParentItem
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":5,"TextId":"OpenDialogParentItemDescription"}
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../..@NodeId"
+            - Name: OutputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: DialogNodeId
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogNodeIdDescription"}
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: EventArguments
+          Type: MouseDownEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+            Value: ""
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+            Value: ""
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+            Value: "1601-01-01T00:00:00.0000000"
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+            Value: "1601-01-01T00:00:00.0000000"
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
+            Value: 0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 441.0
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
@@ -46873,6 +46913,187 @@ Children:
         DataType: ContentHorizontalAlignment
         ModellingRule: Optional
         Value: 1
+      - Name: Image1
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=30;%PROJECTDIR%/755TSPredictive_Drive.PNG"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 954.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 599.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: TextBox2
+          Type: TextBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/JonesyTS_Predictive_Elapsed[0]@Value"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 214.0
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TextVerticalAlignment
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 883.0
+        - Name: TextBox3
+          Type: TextBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/JonesyTS_Predictive_Elapsed[1]@Value"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TextVerticalAlignment
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 883.0
+        - Name: TextBox4
+          Type: TextBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/JonesyTS_Predictive_Elapsed[2]@Value"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 625.0
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TextVerticalAlignment
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 875.0
     - Name: Close
       Type: Button
       Children:
