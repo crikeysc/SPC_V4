@@ -394,7 +394,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:Pump_Control/P_E300_SSM12/Out_Run"
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/DOL12&:O/LogicDefinedPt00Data"
         Children:
         - Name: Mode
           Type: BaseVariableType
