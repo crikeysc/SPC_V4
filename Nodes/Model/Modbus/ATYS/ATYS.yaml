@@ -1,40 +1,49 @@
 Name: ATYS
+Id: g=6d13a4312b3a0b2ffad2ee71f91b99eb
 Type: FolderType
 Children:
 - Name: TCP_Hold_20
+  Id: g=5bb1e0cd306a95951e86b76c445b6931
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
   Children:
   - Name: DynamicLink
+    Id: g=42b6389a5a67bfceed0bf0bc18117ae2
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Optix_To_M870_MBTCP/MBTCP/Tags/TCP 40020"
     Children:
     - Name: Mode
+      Id: g=b38f318b6f6f3d2c3ff7240b2e06ab3b
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: TCP_Hold_21
+  Id: g=978509aaf4159975a8f7e4da4040b5b3
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
   Children:
   - Name: DynamicLink
+    Id: g=41ce1465d786e858a8dd433b5509bc52
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Optix_To_M870_MBTCP/MBTCP/Tags/TCP 40021"
     Children:
     - Name: Mode
+      Id: g=f3d64c4fc30cdfd1d64131c4a7ca4460
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: ATyS_Position_R
+  Id: g=215ab4f0345e53660578136af9e34d2a
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=189281851019865979162b70a0400b1e
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20482

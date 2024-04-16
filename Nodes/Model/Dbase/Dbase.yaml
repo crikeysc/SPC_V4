@@ -1,4 +1,5 @@
 Name: Dbase
+Id: g=fbf78fd5ae8d37291970b31c8e4291d3
 Type: FolderType
 Children:
 - Name: Model_WAGES
@@ -6,58 +7,70 @@ Children:
   Type: BaseObjectType
   Children:
   - Name: AIR
+    Id: g=3ae7e382fb93197d750aad4708ebe240
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=86df36939a84bcae4bcc95b4bcc167ba
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/WAGES/VariablesToLog/Air_TOT"
       Children:
       - Name: Mode
+        Id: g=cfad32601d50768599556424c30b4868
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: GAS
+    Id: g=d7ee6d422ae0bb704be687b8b31ffee8
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=44a3ca7d2014de390b04b4809404ad94
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/WAGES/VariablesToLog/Gas_TOT"
       Children:
       - Name: Mode
+        Id: g=0344f4da16e7ed140722d8266a77d1a1
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: STEAM
+    Id: g=09b7219f38551d99d854fb85db6c53f2
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=ef9d1d5a8aa9d4ea1ae553b05c2a0c30
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/WAGES/VariablesToLog/Steam_TOT"
       Children:
       - Name: Mode
+        Id: g=d292faf99256658cab21fe06f3ba8e99
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: WATER
+    Id: g=1be535ae910fc10a206638b3fdf621ad
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=ce8cc23390d2519d18b86387a905cc23
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/WAGES/VariablesToLog/Water_TOT"
       Children:
       - Name: Mode
+        Id: g=b9a5426610a544966b103b450cf3f00a
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
@@ -72,53 +85,64 @@ Children:
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=ee6699dfaa6e4ddce6bd48dd5966a5df
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample1"
       Children:
       - Name: Mode
+        Id: g=fbee4cdf3ced8382a789e6d6760abe07
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: KVAR
+    Id: g=42b27c44e9d78e2a83b716d6f6d7c33d
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=b2f6cc2ebe850cdf063f68c07693eef1
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample2"
       Children:
       - Name: Mode
+        Id: g=4c1455b3e78164f88adb7d443f019004
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: KW
+    Id: g=b104a62777edadabb28fa35e65f9fbda
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=d3b8864359f2cb04e444d676d3a77218
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample3"
       Children:
       - Name: Mode
+        Id: g=2003cd96e3964d33c9fae9671dea59fc
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: FLOW
+    Id: g=a40f1ce0c8b7fd7019339d18b94ad16d
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=68ec90397edf44fdbc6492155a9607cf
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample4"
       Children:
       - Name: Mode
+        Id: g=4b8c760aa6769104bef44c3cfc1adbf7
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
@@ -133,39 +157,47 @@ Children:
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=aa1077a585618f01f6544f2e0b099f29
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../NetLogic/VariablesSimulator/iSin"
       Children:
       - Name: Mode
+        Id: g=b0938b3a23cc40ce543f3dc95581a2e0
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: Cosine
+    Id: g=67d24d6511b89462dcfb35a3c1de12c3
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=e4a04bc4faa5dc3861e1041ead223dba
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../NetLogic/VariablesSimulator/iCos"
       Children:
       - Name: Mode
+        Id: g=1ef2b069dee5f0f6723076eec6f5878b
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: Ramp
+    Id: g=706e0356b71025ccbeb24a347fefa32c
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
     Children:
     - Name: DynamicLink
+      Id: g=c1405369d6508fd403da6a3ee472c931
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../NetLogic/VariablesSimulator/iRamp"
       Children:
       - Name: Mode
+        Id: g=cb6d5caeb3e5bc40b751fc6502ae34be
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2

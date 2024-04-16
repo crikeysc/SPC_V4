@@ -1,13 +1,16 @@
 Name: Arrays
+Id: g=4cfc75397328554e639b0ccdb4f5d1e1
 Type: FolderType
 Children:
 - Name: Location
+  Id: g=9acdf05eb479c138e01c24bd9ffac18a
   Type: BaseDataVariableType
   DataType: String
   ValueRank: OneDimension
   ArrayDimensions: [3]
   Value: ["Position1","Position2","Position3"]
 - Name: LocationValue
+  Id: g=f03457ac8367642d9b84d0905225c381
   Type: BaseDataVariableType
   DataType: String
   ValueRank: 2
@@ -36,10 +39,12 @@ Children:
   DataType: Boolean
   Value: false
 - Name: EventLoggerGridFilter
+  Id: g=3bf1c3e70d827dd207cd697a693f7845
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM \"EventLogger1\""
 - Name: DataLoggerGridFilter
+  Id: g=cb043882f2808337faf3a78281d8ceae
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM \"DataLogger1\""

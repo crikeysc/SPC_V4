@@ -1,39 +1,49 @@
 Name: MBTCP
+Id: g=14465214d294ffc8012870f5d4449994
 Type: ModbusStation
 Children:
 - Name: MaximumJobSizeInBytes
+  Id: g=513372a15b7f4ac6d41dd2686c66cb5d
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 128
 - Name: MaximumGapInBytes
+  Id: g=2ea92ae8fb75bdc8718b0236a1a5e928
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 4
 - Name: UnitIdentifier
+  Id: g=3c1035a36193c9ebfa2d18a529a11059
   Type: BaseDataVariableType
   DataType: Byte
   Value: 1
 - Name: WriteMultipleCoils
+  Id: g=0bc1c5fa044b4ebb96468ac7c33e6d93
   Type: BaseDataVariableType
   DataType: Boolean
   Value: true
 - Name: WriteMultipleRegisters
+  Id: g=d0f8b31519d524727651c55580845af3
   Type: BaseDataVariableType
   DataType: Boolean
   Value: true
 - Name: IPAddress
+  Id: g=58a49154f77b0d8d90cc5f137a327501
   Type: BaseDataVariableType
   DataType: String
   Value: "192.168.1.71"
 - Name: Port
+  Id: g=d98931d3f6b6b48115aefb681a38b096
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 502
 - Name: Timeout
+  Id: g=1f01cdc363e3372d78c05e1ef0a9f379
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:00:5.0000000"
 - Name: OperationCode
+  Id: g=2808313a5659d52da7759b4af6de3a91
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
@@ -58,6 +68,7 @@ Children:
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
+  Id: g=304316c0b794f53286b3b11b20980531
   Type: FolderType
   Children:
   - File: DataTypes/DataTypes.yaml

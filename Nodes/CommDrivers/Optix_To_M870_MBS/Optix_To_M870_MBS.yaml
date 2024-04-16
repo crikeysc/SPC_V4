@@ -1,31 +1,39 @@
 Name: Optix_To_M870_MBS
+Id: g=05ff909ce1ed150acd564e1146c94365
 Type: ModbusDriver
 Children:
 - Name: Protocol
+  Id: g=429ebf9fa717133e3c91631612307036
   Type: BaseDataVariableType
   DataType: ModbusProtocol
   Value: 1
 - Name: SerialPort
+  Id: g=e574cf0da5767140dd9e03fc6fe2b663
   Type: BaseDataVariableType
   DataType: String
   Value: "COM5"
 - Name: Baudrate
+  Id: g=8e0d1728c043f26852a6312a9949efb0
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 19200
 - Name: DataSize
+  Id: g=f85c0e0f371bd03dfea51e8b160027b0
   Type: BaseDataVariableType
   DataType: Byte
   Value: 8
 - Name: Parity
+  Id: g=d61e1844ac31e55d90f4ae582b4ab183
   Type: BaseDataVariableType
   DataType: Parity
   Value: 2
 - Name: StopBits
+  Id: g=ca9ff50b79f37b9d22fe516bef6d6e7b
   Type: BaseDataVariableType
   DataType: StopBits
   Value: 0
 - Name: FlowControl
+  Id: g=53fe9ad57ec0d1661952921b18ed9c74
   Type: BaseDataVariableType
   DataType: FlowControl
   Value: 0

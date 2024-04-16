@@ -10,30 +10,38 @@ Children:
   Children:
   - Class: Method
     Name: BackupTagValues
+    Id: g=1afe68b0bcc9c1c8f6b4d38a819a526e
   - Class: Method
     Name: RestoreTagValues
+    Id: g=f0cc8c5cf579446007e6682e70ef4ae1
   - Name: ParentNode
+    Id: g=9b9f025e01dae3d8f3074fd57669193b
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP"
     Children:
     - Name: Kind
+      Id: g=b33c805bec97eb24422683b341ad6133
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: CharacterSeparator
+    Id: g=7b8e3d224ff9e52ffe059cfd470a96c0
     Type: BaseDataVariableType
     DataType: String
     Value: ","
   - Name: CSVPath
+    Id: g=56f69349493f4df03ae764b31d4ff022
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: "file:///C:/Users/SClark/Desktop/Optix Templates/L310ER_Export.csv.txt"
   - Name: WrapFields
+    Id: g=f602ccc466fdfe399a981b81bf32702e
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Timeout
+    Id: g=c240b1921e2df055094942ab8391ebf3
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:30.0000000"

@@ -1,6 +1,8 @@
 Name: CommDrivers
+Id: g=96a92d969d1664be2b0b5147cb31a402
 Type: CommDriversCategoryFolder
 Children:
 - File: Optix_To_M870_MBTCP/Optix_To_M870_MBTCP.yaml
 - File: Optix_To_M870_MBS/Optix_To_M870_MBS.yaml
 - File: Optix_To_L310ER_EIP/Optix_To_L310ER_EIP.yaml
+- File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml

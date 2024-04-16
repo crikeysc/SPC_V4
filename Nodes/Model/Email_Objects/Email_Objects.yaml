@@ -1,57 +1,72 @@
 Name: Email_Objects
+Id: g=f53becd2975dd97189947b61e7a61301
 Type: FolderType
 Children:
 - Name: Email_Model_SMTP_Config
+  Id: g=3f935343d97bd2e3a484f8f7ad1d09a1
   Type: BaseObjectType
   Children:
   - Name: Email Sender
+    Id: g=ade016135004d61821518ef39b593756
     Type: BaseDataVariableType
     DataType: String
     Value: "NHP.Vic.Ai@gmail.com"
   - Name: Email Password
+    Id: g=022f365181beea338c317becfb9e5530
     Type: BaseDataVariableType
     DataType: String
     Value: "bqqfammvwnczpxzv"
   - Name: SMTP Hostname
+    Id: g=f146d7b9df65745efcf995612b4452dc
     Type: BaseDataVariableType
     DataType: String
     Value: "smtp.gmail.com"
   - Name: SMTP Port
+    Id: g=0ef6be342ca361895203cfd5c83d17c3
     Type: BaseDataVariableType
     DataType: Int32
     Value: 587
   - Name: SSL Enable
+    Id: g=cf63f4001b0c46f375fe473f7681fa6b
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
 - Name: Email_Model_SMTP_Data_Report
+  Id: g=35ac76cec59fe7ad9213b0ec22594b2f
   Type: BaseObjectType
   Children:
   - Name: Email Sender
+    Id: g=14e1cc1a5bb35a0367a0372fe460134d
     Type: BaseDataVariableType
     DataType: String
     Value: "NHP.Vic.Ai@gmail.com"
   - Name: Email Password
+    Id: g=2f523c5c70220b6f6af1b55256d2bb4a
     Type: BaseDataVariableType
     DataType: String
     Value: "bqqfammvwnczpxzv"
   - Name: SMTP Hostname
+    Id: g=3cd40d4ec091589cf4fbcbd62145f2cf
     Type: BaseDataVariableType
     DataType: String
     Value: "smtp.gmail.com"
   - Name: SMTP Port
+    Id: g=6b56c89a742f80bf1a2c7b867bc97f51
     Type: BaseDataVariableType
     DataType: Int32
     Value: 587
   - Name: SSL Enable
+    Id: g=b19ea91a98f904765c265062d6608ed8
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: Attachment URL
+    Id: g=3242caf722be4e3a1e4ec0d294586c40
     Type: BaseDataVariableType
     DataType: String
     Value: "%PROJECTDIR%\\PDFS\\WAGES.pdf"
 - Name: NHP_Email
+  Id: g=9151fc661f147b5ddb646493c4e9aedd
   Type: BaseDataVariableType
   DataType: String
   Value: "sclark@nhp.com.au"

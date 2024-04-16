@@ -9,6 +9,7 @@ using FTOptix.EventLogger;
 using FTOptix.UI;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 
 public class EmailSender : BaseNetLogic
 {

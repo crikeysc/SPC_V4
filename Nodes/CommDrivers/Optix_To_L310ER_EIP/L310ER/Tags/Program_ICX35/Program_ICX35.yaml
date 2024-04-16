@@ -1,34 +1,42 @@
 Name: 'Program:ICX35'
+Id: g=4ae07b9ee16064b6ae756c7446fe005b
 Type: FolderType
 Children:
 - Name: FBENO
+  Id: g=cde4fb14f2f94dd62effd952413e5ceb
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
   Children:
   - Name: SymbolName
+    Id: g=e62a346f3a9fab7bf63c5cff09196863
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:ICX35.FBENO"
 - Name: FBEN
+  Id: g=6185ebbbd2cee82d0a25cf7068bae3c4
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
   Children:
   - Name: SymbolName
+    Id: g=98f3faa7f568dbed9a425b0272966bc1
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:ICX35.FBEN"
 - Name: Nbc
+  Id: g=c16f36b4b86edaad89540e3b76aac710
   Type: RAEtherNetIPTag
   DataType: Int32
   Value: 0
   Children:
   - Name: SymbolName
+    Id: g=53f525cbd3c56115608119d16b2ab6d0
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:ICX35.Nbc"
 - Name: Output_String
+  Id: g=22ee9ef88dd3cba2c76ac682a05a0492
   Type: RAEtherNetIPTag
   DataType: SByte
   ValueRank: OneDimension
@@ -36,24 +44,29 @@ Children:
   Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
   Children:
   - Name: SymbolName
+    Id: g=73eb9681de1e43420a816a06720484a6
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:ICX35.Output_String"
 - Name: Input_String
+  Id: g=cc60955d4e1a80e2ad8f5cb2d675df6f
   Type: RAEtherNetIPTag
   DataType: String
   Value: ""
   Children:
   - Name: SymbolName
+    Id: g=a767f4660af8946703630e35655b1fb0
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:ICX35.Input_String"
 - Name: Index_String
+  Id: g=f2342d2a6da22324b3525cbddb12c401
   Type: RAEtherNetIPTag
   DataType: Int32
   Value: 0
   Children:
   - Name: SymbolName
+    Id: g=bdfa7b4180a933d2ae8b3fbac3df4e18
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:ICX35.Index_String"

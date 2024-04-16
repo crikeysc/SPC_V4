@@ -12,6 +12,7 @@ using FTOptix.System;
 using FTOptix.WebUI;
 using FTOptix.SerialPort;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

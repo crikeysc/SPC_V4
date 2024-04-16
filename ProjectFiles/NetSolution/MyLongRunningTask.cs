@@ -28,6 +28,7 @@ namespace NewHMIProject
 using FTOptix.EventLogger;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 
     public class MyLongRunningTask : BaseNetLogic
     {

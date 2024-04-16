@@ -1,24 +1,30 @@
 Name: Alarms
+Id: g=a6fb9e236542a9aed4b8ed1bade54881
 Type: AlarmsCategoryFolder
 Children:
 - Name: ExclusiveLevelAlarm1
+  Id: g=ec9762ddadfbe8a2abf89b43c9ed0d22
   Type: ExclusiveLevelAlarmController
   Children:
   - Name: InputValue
+    Id: g=ff8662c0464c0106a85a399355bfd6eb
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=1b7ccbc3049d1026763bef8797e440ca
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../CommDrivers/Optix_To_L320ERS_EIP/L320ERS_Desk/Tags/Controller Tags/FTEM/Gas_TOT"
       Children:
       - Name: Mode
+        Id: g=cfa798d20608562cae0fee0c9fb6ba03
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=20dc79b89f291305dc1e09e121bdbec2
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -33,43 +39,53 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: LowLowLimit
+    Id: g=2327f0db4abfc8bb0e5060978227d810
     Type: BaseDataVariableType
     DataType: Double
     Value: 13.0
   - Name: LowLimit
+    Id: g=43e1c1380d0e16023b907a0f6a8a0658
     Type: BaseDataVariableType
     DataType: Double
     Value: 20.0
   - Name: HighLimit
+    Id: g=6de0bb685efd619173f7666006f1a18f
     Type: BaseDataVariableType
     DataType: Double
     Value: 45.0
   - Name: HighHighLimit
+    Id: g=a9dc0d30bdc40ad48e3075c40dceac5e
     Type: BaseDataVariableType
     DataType: Double
     Value: 76.0
 - Name: DigitalAlarm1
+  Id: g=7476a22ecbe50cf84551d08d9cbf1565
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=bd9106a853a952b9ad0ed868ad8a7fab
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=e2dcd2a0a51e7be578925395cd65a48f
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=32206349ca2d31154bd06b932ca9a83d
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Exceed_Demand"
       Children:
       - Name: Mode
+        Id: g=5aedf934e64640cf5270166545fecfc1
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=90ad269b99f82e46fa3b25fa79a685bd
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -84,31 +100,38 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Message
+    Id: g=36fc337263888efda3a7ca0ef145ad33
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Exceeding Peak Demand 15 minute Period"}
 - Name: DigitalAlarm2
+  Id: g=02114174a0cdb5f1b030587e2c9c75fa
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=1f92dd13db76881da5205e553bcb0bda
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=5769c2efcc4e40c16162f0eaa7e5b56b
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=5a71c5245aa3cc03ca5a2e7d4e968465
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Close_Notify"
       Children:
       - Name: Mode
+        Id: g=0cf63548b802ca0843b983402a2d2508
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=cb46c2ef27c7818c44052d413eef810a
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -123,31 +146,38 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Message
+    Id: g=25b9abb68d23d2b0b3a383aa32f04ab6
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Peak Demand Close Notify Production"}
 - Name: DigitalAlarm3
+  Id: g=206f22daf6ed0fe89c66526a6bfe0ab3
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=4c92be269bd7f710c4c62afc594bc2f4
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=1349f08b66b34d9d3d4f67d1fdaa0e00
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=0c1905d1499f08a930fc8d369d32ed41
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_Less_2000Kw"
       Children:
       - Name: Mode
+        Id: g=5d04ecc6c2014619d3f87bf1e638e305
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=8aa01896ee4ca9685009902ca6e9e75b
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -162,31 +192,38 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Message
+    Id: g=624cbec32be701fe40b4ee1fde03f4cb
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Operational Load is Under 2000Kw Notify Site Engineer"}
 - Name: DigitalAlarm4
+  Id: g=ec321e87e01f135a26674348baba84d1
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
+    Id: g=e4b1f3351d5e46c4676624cc4a25eecf
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=60e45e92a3258045472539e3a4753518
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=aef225214bf28d55c9c4319da2136546
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Program&:MainProgram/Alarm_TAG_FTAE_No_Load"
       Children:
       - Name: Mode
+        Id: g=d606f480ee36cbdc4a5569d4fc77198e
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=1b1abb86c2e05ca78d58e8b32b8dfcc3
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -201,10 +238,12 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Message
+    Id: g=e8d6ed2e1e166550a0e9dc23650d3450
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"No Load Alarm, check supply authority"}
 - Name: DigitalAlarmWithEmailNotification
+  Id: g=a84ef9cf1702deb7ccd4e978f9bf52d8
   Type: DigitalAlarmWithEmailNotification
   Children:
   - Class: Reference
@@ -217,49 +256,60 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: NormalStateValue
+    Id: g=d2f355a21107aac9e2304dd9a7f33b96
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=28e91182be73578d547daef9f1f8e0c9
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=77e6c4fba122e819ad3ca50e93bdc645
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/Alarms/DigitalMail"
       Children:
       - Name: Mode
+        Id: g=a105c525e72b4950f172866c0f846149
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: LastEvent
+    Id: g=7061e40c2c76fa51b8e2569507c61cc0
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: DigitalAlarmWithEmailNotificationLogic
+    Id: g=f63335ba56b5fa6c6589b5ef6f3acc8b
     Type: NetLogic
   - Name: EmailUser
+    Id: g=0e4275478b6949e07f449fb47eca8612
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/SPC_V4/Users/UserMail"
     Children:
     - Name: Kind
+      Id: g=82a3daf95419103a490c1215fb58fbbe
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailSender
+    Id: g=ff56d7ca3909e38600241f2f6d532578
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/SPC_V4/NetLogic/EmailSenderLogic_Alarms"
     Children:
     - Name: Kind
+      Id: g=9f3c1aa9c02e6ac5502032937b50bbb8
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Message
+    Id: g=7602c05e567c916bb25bc05ae30fadf1
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Pigs can fly"}

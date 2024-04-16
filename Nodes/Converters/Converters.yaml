@@ -1,4 +1,5 @@
 Name: Converters
+Id: g=89bb5c89b9b5dce8324afae404ea5c55
 Type: ConvertersCategoryFolder
 Children:
 - Name: KeyValueConverter1
@@ -7,123 +8,151 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Pairs
+    Id: g=b839fe0b27dfc8ea4ae25ad48dd9dc60
     Type: BaseObjectType
     Children:
     - Name: Pair
+      Id: g=ce6630cee0ebf92da132c0db73df1ff6
       Type: ValueMapPair
       Children:
       - Name: Key
+        Id: g=a1eac425964c768abaedd34e44057366
         Type: BaseDataVariableType
         DataType: Int16
         Value: 0
       - Name: Value
+        Id: g=c0c66d467d89b2fbad8c101966b6e263
         Type: BaseDataVariableType
         DataType: String
         Value: "0"
     - Name: Pair1
+      Id: g=aefdae2d3b8c461902508d86cd5750c9
       Type: ValueMapPair
       Children:
       - Name: Key
+        Id: g=4ea3e02227fc4fd6eb74485207e48e6c
         Type: BaseDataVariableType
         DataType: Int16
         Value: 1
       - Name: Value
+        Id: g=7ea9bda611994f24ab7e9f754b5f83e0
         Type: BaseDataVariableType
         DataType: String
         Value: "Position 1"
     - Name: Pair2
+      Id: g=0eebad5c189b02b049d6ca1d272ac55e
       Type: ValueMapPair
       Children:
       - Name: Key
+        Id: g=629f35b2d5b69becf06c497e8ffe4210
         Type: BaseDataVariableType
         DataType: Int16
         Value: 2
       - Name: Value
+        Id: g=87b8e96d905d59189857a8204ddd970b
         Type: BaseDataVariableType
         DataType: String
         Value: "Position 2"
   - Name: Mode
+    Id: g=b62acaa84b1546a347963dc2ad6972c5
     Type: PropertyType
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
     Value: 0
     Children:
     - Name: KeyValueConverter1
+      Id: g=e51b28052284f38820a147eb6189c60d
       Type: ValueMapConverter
       Children:
       - Name: Source
+        Id: g=fad8d23d69530f3ba4e9cbbf0c3250ce
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=834c22cdb090324a2fd2c2b7e6835531
           Type: DynamicLink
           DataType: NodePath
           Value: "/Objects/SPC_V4/CommDrivers/Optix_To_M870_MBS/MB_RTU/Tags/ATyS_Status_R[1]"
       - Name: Pairs
+        Id: g=e2b2b632addb17eb8c1f030c4e6f11e8
         Type: BaseObjectType
         ModellingRule: None
         Children:
         - Name: Pair
+          Id: g=e3ff070fa044d7c5c7639765a367a026
           Type: ValueMapPair
           ModellingRule: None
           Children:
           - Name: Key
+            Id: g=b8b0b09e94092ec7fdda677d2692d2f5
             Type: BaseDataVariableType
             DataType: UInt32
             ModellingRule: None
             Value: 0
           - Name: Value
+            Id: g=80189f2093f1e6fe63b180673751659b
             Type: BaseDataVariableType
             DataType: String
             ModellingRule: None
             Value: "Open"
         - Name: Pair1
+          Id: g=b75023f078e8f14d916e1c6a6d057554
           Type: ValueMapPair
           ModellingRule: None
           Children:
           - Name: Key
+            Id: g=6e01c8468998fa848afbef054ffa57a0
             Type: BaseDataVariableType
             DataType: UInt32
             ModellingRule: None
             Value: 1
           - Name: Value
+            Id: g=c56e0d859ee4aa84a1cc5261dcd96fe5
             Type: BaseDataVariableType
             DataType: String
             ModellingRule: None
             Value: "Priority 1"
         - Name: Pair2
+          Id: g=c0800917c6656cb7ad4a4ac21dce26e0
           Type: ValueMapPair
           ModellingRule: None
           Children:
           - Name: Key
+            Id: g=b878c0f0d9ec28f2232ec7c82c7e463b
             Type: BaseDataVariableType
             DataType: UInt32
             ModellingRule: None
             Value: 2
           - Name: Value
+            Id: g=c48fb77e6f95033b427c2a65bc57397f
             Type: BaseDataVariableType
             DataType: String
             ModellingRule: None
             Value: "Priority 2"
   - Name: Status_Out
+    Id: g=59b341c4c4cbc6708353341209e35e4c
     Type: BaseDataVariableType
     DataType: String
     ModellingRule: Optional
     Value: "0"
     Children:
     - Name: DynamicLink
+      Id: g=f89b178525a25b9879a9ca1b8a403ef2
       Type: DynamicLink
       DataType: NodePath
       ModellingRule: Optional
       Value: "/Objects/SPC_V4/Converters/State_STS"
       Children:
       - Name: Mode
+        Id: g=4b83bc1165d42ca2eba0ef6bb9dc7710
         Type: BaseVariableType
         DataType: DynamicLinkMode
         ModellingRule: Optional
         Value: 2
 - Name: State_STS
+  Id: g=2bf70c4c308df5ef714eb6ed0a8c16cf
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
@@ -133,53 +162,67 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Pairs
+    Id: g=10174500143dd92918642022410d324b
     Type: BaseObjectType
     Children:
     - Name: Pair
+      Id: g=d9e1bef1488bd01895834e9cba582189
       Type: ValueMapPair
       Children:
       - Name: Key
+        Id: g=c774295efdcd11591a369cc1c482e0ae
         Type: BaseDataVariableType
         DataType: String
         Value: "null"
       - Name: Value
+        Id: g=975b34c6d7e1fb5cf52c6740d38aaa9b
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: ""
     - Name: Pair1
+      Id: g=5a6e8a6e1ca66bafbac24586f9246a00
       Type: ValueMapPair
       Children:
       - Name: Key
+        Id: g=24a61848e526a1d82f33ad01091c0251
         Type: BaseDataVariableType
         DataType: String
         Value: "VoltageAnomaly"
       - Name: Value
+        Id: g=2f30bcacdafe7b4174046e2ddb26bb71
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=30;%PROJECTDIR%/PDF/A001V.pdf"
     - Name: Pair2
+      Id: g=a278f415feba4568ee6ae512dfabb6fe
       Type: ValueMapPair
       Children:
       - Name: Key
+        Id: g=186c9bf8f8b88b2c7309434a11a8c24f
         Type: BaseDataVariableType
         DataType: String
         Value: "LowPressure"
       - Name: Value
+        Id: g=d0c04003cf7429efc9190b75e9d29206
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=30;%PROJECTDIR%/PDF/A001P.pdf"
     - Name: Pair3
+      Id: g=e861aa7822844d94684da1dbc2ac4f06
       Type: ValueMapPair
       Children:
       - Name: Key
+        Id: g=9d1450239534821cf6334d41fb49605a
         Type: BaseDataVariableType
         DataType: String
         Value: "HighTemperature"
       - Name: Value
+        Id: g=f8717d846d3f677bb7c161a7d068b26a
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=30;%PROJECTDIR%/PDF/A001T.pdf"
   - Name: Mode
+    Id: g=e76d247cd833cced38438da1e20753ed
     Type: PropertyType
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
@@ -190,47 +233,56 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Source
+    Id: g=6fc3780ee8e163dca012beb26039d3bf
     Type: BaseDataVariableType
     DataType: Number
     ReferenceType: HasSource
     Value: {"Type":11,"Body":0.0}
   - Name: RawMin
+    Id: g=d630f57d8fffe87603c2ebdbe666465b
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=5236f2e919c7d8aacc9391d644dbbaca
       Type: DynamicLink
       DataType: NodePath
       Value: "{NodeId:ns=30;g=5b13d70e-5d76-c567-1d36-d193db80b942}"
   - Name: RawMax
+    Id: g=fe41c50a1b5820aaadcc92f6bf3a7b6a
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=fcdb891dc5d531bf1e08a96f88b34ec3
       Type: DynamicLink
       DataType: NodePath
       Value: "{NodeId:ns=30;g=9c9843f2-b86f-6af4-ab1e-48d3acae1679}"
   - Name: ScaledMin
+    Id: g=bedc8fe9f9232273b2136a1c3c996565
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=eae64ce4bdb6ba59ec9458975858f3a4
       Type: DynamicLink
       DataType: NodePath
       Value: "{NodeId:ns=30;g=b9e5f40f-8b46-494f-6010-58a04e0c67fa}"
   - Name: ScaledMax
+    Id: g=bec62110779c239931b63327d93f549b
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
     Value: 0.0
     Children:
     - Name: DynamicLink
+      Id: g=6679dbea4eaa05fee2c65df4e37e5f51
       Type: DynamicLink
       DataType: NodePath
       Value: "{NodeId:ns=30;g=303ed058-882f-3de5-8cc3-4df08cefca57}"

@@ -1,2 +1,80 @@
 Name: 'OPC-UA'
+Id: g=7130f2815bee4385c718c95f12c6393e
 Type: OPCUACategoryFolder
+Children:
+- Name: OPCUAServer to XLreporter
+  Id: g=8a015f3b449f9fd917ee9e6e7cbbc0ee
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Id: g=b137db25ce45a6361af3bbc0bdee379d
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Id: g=3b89193b9c567cb9fd347e053fe200fa
+    Type: BaseObjectType
+    Children:
+    - Name: Configuration1
+      Id: g=2f4261eeb7f5785917c1500e988338c9
+      Type: NodesToPublishConfigurationEntry
+      Children:
+      - Name: Nodes
+        Id: g=85f8ae84da1b6a2388d2f5cb9f548355
+        Type: BaseObjectType
+        Children:
+        - Name: Node1
+          Id: g=eddbffe311cfebdfbf81a13f965e34e0
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=3b11742cb53a19d77c1d9f79ee94de97
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Objects/SPC_V4/Model/Dbase/Model_FTEM"
+          - Name: NodeClass
+            Id: g=2b1735862cc4c222837fe11be3182ce2
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 2
+        - Name: Node2
+          Id: g=49605e14258d97c28c5d674140d12b2c
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=d05e9259dfce115f87bf58a5bfe67b06
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: NodeClass
+            Id: g=1c1fa8d8f874b72c6a4dc030afe569c0
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 2
+      - Name: Users
+        Id: g=6758bd2d26d9dd8605184eb97e465376
+        Type: BaseObjectType
+      - Name: PublishDynamicConfiguration
+        Id: g=c0914fe2fc9eef8fb94bdbedcc46fa97
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+  - Name: MinimumMessageSecurityMode
+    Id: g=711ece723f65a278b08a0724bf324ade
+    Type: PropertyType
+    DataType: MessageSecurityModeEnum
+    Value: 0
+  - Name: MinimumSecurityPolicy
+    Id: g=79cadc8140ae5eb7865913d167d3be8f
+    Type: PropertyType
+    DataType: SecurityPolicyEnum
+    Value: 0
+  - Name: ProductURI
+    Id: g=b311757203488bbc6eaaf46e642b364c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "urn:FactoryTalkOptixHMI:FTOptixApplication"

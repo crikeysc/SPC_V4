@@ -13,6 +13,7 @@ using FTOptix.System;
 using FTOptix.WebUI;
 using FTOptix.SerialPort;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class DataLoggerExporter : BaseNetLogic {

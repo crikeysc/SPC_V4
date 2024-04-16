@@ -17,6 +17,7 @@ using FTOptix.EventLogger;
 using FTOptix.UI;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class BackupAndRestoreTagValues : BaseNetLogic

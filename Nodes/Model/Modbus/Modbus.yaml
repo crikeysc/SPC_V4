@@ -1,49 +1,60 @@
 Name: Modbus
+Id: g=1779e3b2878ae8080bb23bec1cf54db1
 Type: FolderType
 Children:
 - Name: M870_Enc_Enable
+  Id: g=9c4a186b6ca007acbcf40cf65d3d7510
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
   Children:
   - Name: DynamicLink
+    Id: g=e5c9754c9c3fa30bd6e5d8528f230857
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/Optix_To_M870_MBTCP/MBTCP/Tags/Enable_CMD"
     Children:
     - Name: Mode
+      Id: g=24d8ba6e54f116c7e52298b3498f6af2
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: M870_Enc_Start
+  Id: g=0cf8003700665e927abf4d3dbf88f769
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
   Children:
   - Name: DynamicLink
+    Id: g=5b4ecb6714d6be1ad46d0ca36be29eae
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/Optix_To_M870_MBTCP/MBTCP/Tags/Start_CMD"
     Children:
     - Name: Mode
+      Id: g=3b6e85ccc10803db7ea9d7abc31d130e
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: M870_Enc_Stop
+  Id: g=35e0e9183d56dbcd60b4183ee1c2520a
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
   Children:
   - Name: DynamicLink
+    Id: g=ae73006e9a381227272991178fcf34f1
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/Optix_To_M870_MBTCP/MBTCP/Tags/Stop_CMD"
     Children:
     - Name: Mode
+      Id: g=2bab04a536e0dd1a10ab13e63ebc44d6
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: iR_Racker_01
+  Id: g=67e286b67b613cd5fdd8e8248784ab20
   Type: BaseDataVariableType
   DataType: String
   Value: "iR_Racker_01"
@@ -64,106 +75,129 @@ Children:
     DataType: Boolean
     Value: false
   - Name: Check_Maint_Counter
+    Id: g=af35b0d2b7042a109395bc973ec7a730
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Pin_STS_Isolated_Pos
+    Id: g=320ae8046efcdf2e699561d179226860
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Pin_STS_Test_Pos
+    Id: g=f0f9d874e6f325cd4827e9e7d57548b6
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Pin_STS_Connected_Pos
+    Id: g=e6ee9264e138be30a85d3eaac4e05135
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Pin_STS_Fault
+    Id: g=f644320d16bc87a64524190fd9c64722
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Maintenance_Count
+    Id: g=afcbd198103e2d17d5c82baca42f1c88
     Type: AnalogItemType
     DataType: Int16
     Value: 0
     Children:
     - Name: EURange
+      Id: g=8494dcf2df89ec16df0a5c2073f001d3
       Type: RangeType
       DataType: Range
       Children:
       - Name: Low
+        Id: g=b4296c8f14f7618d6b5a3ebad0e78fd4
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
         Value: 0.0
       - Name: High
+        Id: g=32b9df5d83354a27149f7ed8bfec2228
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
         Value: 500.0
     - Name: EngineeringUnits
+      Id: g=8e24b8dacbf8cc1e4ebd9f8dcba4d24c
       Type: EUInformationType
       DataType: EUInformation
       Children:
       - Name: UnitId
+        Id: g=1e9ef75679bcb312b40f78d246a57ae7
         Type: BaseVariableType
         DataType: Int32
         ReferenceType: HasProperty
         Value: -1
       - Name: DisplayName
+        Id: g=fc52dd65795b15b3538eaedd0253c5ce
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
+        Id: g=c351d8f59823c7d3350c511b050c69e6
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: DynamicLink
+      Id: g=43c25cf3f6462efee92fb0abdc50785b
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../../CommDrivers/Optix_To_M870_MBS/MB_RTU/Tags/ATyS_Command_W[0]"
       Children:
       - Name: Mode
+        Id: g=cb3fe35e4ceabb8991e9f0f05e5645f6
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: Fault_Number
+    Id: g=095386ab741aa46a7651e564db18897b
     Type: AnalogItemType
     DataType: Int16
     Value: 0
     Children:
     - Name: EURange
+      Id: g=f0cc8db14249436d1d6ae22fb35a77da
       Type: RangeType
       DataType: Range
       Children:
       - Name: Low
+        Id: g=ba2117eafbb3612931433d6d705c5735
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
         Value: 0.0
       - Name: High
+        Id: g=aa5c81affa46048ad6f7381b4563bbbc
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
         Value: 500.0
     - Name: EngineeringUnits
+      Id: g=962ed4afb30149a7805cc79b7937c1bb
       Type: EUInformationType
       DataType: EUInformation
       Children:
       - Name: UnitId
+        Id: g=7ac901a43dc047a519283365785c8e85
         Type: BaseVariableType
         DataType: Int32
         ReferenceType: HasProperty
         Value: -1
       - Name: DisplayName
+        Id: g=0cbef2af6069c5a2eff8318ad70e50bc
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
+        Id: g=8780f9b10af9bac4c28ac3222dbb8862
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
@@ -174,16 +208,19 @@ Children:
     DataType: Boolean
     Value: false
 - Name: ATyS_HMI_Buttons_W
+  Id: g=390ec02b67b0db31dc89899b1237fff6
   Type: BaseDataVariableType
   DataType: UInt16
   Value: 0
   Children:
   - Name: DynamicLink
+    Id: g=2c4e415b8486c2d32539fce386e24961
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/Optix_To_M870_MBS/MB_RTU/Tags/ATyS_Command_W[0]"
     Children:
     - Name: Mode
+      Id: g=b239a78c2b63803c6069f4a08918bf9f
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2

@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=9f6a5d2a46298603cc84213bda0169f9
 Type: DataStoresCategoryFolder
 Children:
 - Name: AlarmsHistoryDB
@@ -6,9 +7,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=8a6cfba6043031db69685950a690388b
     Type: BaseObjectType
     Children:
     - Name: AlarmsEventLogger1
+      Id: g=29413c99d213361f7f436586a4e3fede
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -24,45 +27,56 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=d2b8651e7ca77e4d908434f2b4257b72
         Type: BaseObjectType
         Children:
         - Name: ActiveState_Id
+          Id: g=08bab55d5a42fa2e3a86239f4ca2ed88
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: AckedState_Id
+          Id: g=4c83e4c1702600e7efa0942223f01fdb
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConfirmedState_Id
+          Id: g=623c6aa38d1abbbd401d54b436db2b08
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: ConditionName
+          Id: g=0f31d1cc61e9af19f325c4cf31ba5c28
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: EnabledState_Id
+          Id: g=484d8d4a1b6b1b6473050a36af2640ab
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: SourceName
+          Id: g=d189dcb82e41e8664db3705b6fd3c468
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Time
+          Id: g=9c286c5b3530248c0b0d284352eaf590
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
+          Id: g=20e014a4b2e877b42d6f5587d0a8f3b0
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: Severity
+          Id: g=0d9f7d757d5b15c24249c5710a27bd95
           Type: StoreColumn
           DataType: UInt16
           Value: 0
         - Name: LocalTime
+          Id: g=8358153b0f6d993f880feb20f3eed998
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
@@ -73,16 +87,19 @@ Children:
     Target: ns=21;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=97452717bba0a29d2421e77a4b98ef76
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=b57d7cb91f43fa94b116d42036a1116e
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=92207f32b4607111f67efe774798a92e
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -90,6 +107,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=14da1a8210df33dac33b6084f416f444
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -132,9 +150,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=aa5ebf78fb865c8a381106932dea9440
     Type: BaseObjectType
     Children:
     - Name: WAGES
+      Id: g=792e21a022774ff5f1a794af82def12f
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -150,33 +170,41 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=c331347c5ce04acf201635698b8f2b3a
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=90d4f571e4d09b9db47c6233a1d452d9
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
+          Id: g=1d522d67f5f38f3b9f4a65fd409671b0
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Air_TOT
+          Id: g=fcd7b0e1b4116c7547381df430f3741c
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Gas_TOT
+          Id: g=5676505f6e93c8cf3216b4bb0ad32acb
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Steam_TOT
+          Id: g=b6b7fb34edba6a688b12c53e0ff3430c
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Water_TOT
+          Id: g=b8e9f245ff4d262552f9eb45386e2dcb
           Type: StoreColumn
           DataType: Float
           Value: 0.0
     - Name: FTEM
+      Id: g=29591184171f5345301dc2becf21d6bf
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -192,33 +220,41 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=1e5efb06f8a7ad0b1fe076cdb108c5ef
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=767c625876494b91131aaa054b53a251
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
+          Id: g=16afddf6fe57d88c9887fa87ab5ce633
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: VariableToSample1
+          Id: g=0d4e9414e291368ec7ec9a82afe46dde
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: VariableToSample2
+          Id: g=bda2bf394eb399043c68a5bcf939e644
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: VariableToSample3
+          Id: g=cb2c342a949b8642ae284739eb49df83
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: VariableToSample4
+          Id: g=ae83b1f724f840a2c16791adb7095570
           Type: StoreColumn
           DataType: Float
           Value: 0.0
     - Name: Drives_Data
+      Id: g=865895ce71de1c0c3a067621abe37012
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -234,33 +270,41 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=62fe274d61419cf0110769d44266af43
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=1bcea49cca372a1f657569e7c868aecb
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
+          Id: g=884a4cd3ede7c41b44e7208e86257ee3
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: 525 Drive1 Freq Out
+          Id: g=881d9841a73325f03be9d90588efe832
           Type: StoreColumn
           DataType: Int16
           Value: 0
         - Name: 525 Drive2 Freq Out
+          Id: g=d5ffc539fcab79ba637cc773bf1e0e88
           Type: StoreColumn
           DataType: Int16
           Value: 0
         - Name: 755TS Drive Freq_Out
+          Id: g=fcb5355928ebc60f6fd0b210239f5224
           Type: StoreColumn
           DataType: Int16
           Value: 0
         - Name: E300_Run
+          Id: g=2c3b76b4d3703c47b7a1ba1e1956706c
           Type: StoreColumn
           DataType: Boolean
           Value: false
-    - Name: DataLogger1
+    - Name: Data_SIM
+      Id: g=3106607bebe95024c1906e3a277b10d6
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -276,41 +320,51 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=6f4153021fd4be8602a808708033a7c8
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=e1a3d17734febe598d15ea9434ad88aa
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
+          Id: g=e36e0afe6b1f36c595f2e7e24a333a41
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Sine
+          Id: g=1ea3103597ecfb22fed05f6e7819c1ca
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: Cosine
+          Id: g=9b0efbda7f17d04af6c5cea314dd49b0
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: Ramp
+          Id: g=1066680fe148655c33075e8893b602b2
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: Sine_Timestamp
+          Id: g=c2b65fc6dfa2f62a18c32645552a1976
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Cosine_Timestamp
+          Id: g=35ce5ece0ac055b2a13755e1dcd13f87
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Ramp_Timestamp
+          Id: g=02f88c7ed73082b08564239d38c1f933
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
     - Name: EventLogger1
+      Id: g=6712412a80aba1c4ca077a594ff3a78d
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -326,33 +380,41 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=2350266304a323466cf8484ce0d179d2
         Type: BaseObjectType
         Children:
         - Name: Time
+          Id: g=363ce98eaec60aee0dd66f9431c05ebe
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTime
+          Id: g=cda803b3ae9f8b6fac78ebfcc4a2feaf
           Type: StoreColumn
           DataType: ns=0;DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: ClientUserId
+          Id: g=a84e73cb6a219e58eabe7cb21897c421
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: SourceName
+          Id: g=eeb40d5791427b5102a54769bae30d57
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: SourceNode
+          Id: g=76081d7f01c6c3db9fe39510a139b6d8
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: NewValue
+          Id: g=3fb4cb1e07c61cf9b80f8d4636461b97
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: OldValue
+          Id: g=08a70423586ade004068b521fd026b48
           Type: StoreColumn
           DataType: Int32
           Value: 0
@@ -363,16 +425,19 @@ Children:
     Target: ns=21;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=a6a17d01eb92fd0476ca28b286a6c3f7
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=3a03ad8618ba0de83b526c3270b3ce2e
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=b6f02914440c80ec269f38caf5bc0846
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -380,6 +445,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=88518353b3bbfbf269c363004b07d20e
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read

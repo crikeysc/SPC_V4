@@ -1,4 +1,5 @@
 Name: NetLogic
+Id: g=d1c847ab956cb2086358f4e4c495d8b9
 Type: NetLogicCategoryFolder
 Children:
 - File: AlarmsWithEmailNotification1/AlarmsWithEmailNotification1.yaml
@@ -8,8 +9,10 @@ Children:
   Children:
   - Class: Method
     Name: SendEmail
+    Id: g=d7df5afa37aa023a8994a4e0acfc692a
     Children:
     - Name: ns=0;InputArguments
+      Id: g=71d34f021ee5cf4712ae79140d8f77ff
       Type: BaseVariableType
       DataType: Argument
       ReferenceType: HasProperty
@@ -23,8 +26,10 @@ Children:
   Children:
   - Class: Method
     Name: SendEmail
+    Id: g=c739754158e912af30f713a403ceb8d4
     Children:
     - Name: ns=0;InputArguments
+      Id: g=590c116e0fd37b14eefc789a2a3a394b
       Type: BaseVariableType
       DataType: Argument
       ReferenceType: HasProperty
@@ -62,112 +67,139 @@ Children:
     DataType: ResourceUri
     Value: "ns=30;%PROJECTDIR%/PDFS/PdfRep1.pdf"
   - Name: MaxRetriesOnFailure
+    Id: g=14e5b259e3a5c48e40819f451cfe9c66
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: DelayBeforeRetry
+    Id: g=690442d1c7459d4d9575c03d23ebb08a
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:10.0000000"
   - Name: EmailSendingStatus
+    Id: g=2f9fff73a7fbd3595ab7e9d06b8c6ac5
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: To
+    Id: g=489dc3286f970f09c6e94ea60bba3ff4
     Type: BaseDataVariableType
     DataType: String
     Value: ""
   - Name: From
+    Id: g=a59fe2d78e5edd80de87c1d242934aa1
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
 - Name: DataLoggerExporter
+  Id: g=5a2694a8f86ccfa0af4aacfd76a1c8ac
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: CSVPath
+    Id: g=9a0edb36726f8d70d8a3e0dc91268fce
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: ""
   - Name: FieldDelimiter
+    Id: g=53058e668ae71517a2d2debfd1f1412a
     Type: BaseDataVariableType
     DataType: String
     Value: ","
   - Name: Table
+    Id: g=d93a42261d0fb7de5e38e3ce6108d31a
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"2fe056fe3c2e7c5e637e0e915aababf7","Namespace":30}
     Children:
     - Name: Kind
+      Id: g=65a63a1f0f957e1b8d75bc182f517e84
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Class: Method
     Name: Export
+    Id: g=50a59ca33b3552fe4aecf8825d867412
   - Name: Query
+    Id: g=08858c9290e77fb122fa1d5bba48b9b3
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
     Children:
     - Name: StringFormatter1
+      Id: g=e28db7f161583fe271d68e576941e41f
       Type: StringFormatter
       Children:
       - Name: Format
+        Id: g=73da5e5f1cd875995fb356b6abf158b4
         Type: BaseDataVariableType
         DataType: LocalizedText
         ReferenceType: HasParameter
         Value: {"LocaleId":"en-US","Text":"SELECT * FROM {0:sql_identifier} WHERE Timestamp BETWEEN {1:sql_literal} AND {2:sql_literal}"}
       - Name: ns=3;Source0
+        Id: g=d5f1f973b4a0d8785eb5c44329c94ff4
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=25422011bad41fa34b65b9f45affd382
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../Table@BrowseName"
       - Name: ns=3;Source1
+        Id: g=02883ea629338f1f97d7e2fcb3d257ee
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=d2b43f1b5f373290ef23f74f3d1fe7db
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../From"
       - Name: ns=3;Source2
+        Id: g=00f830326795bcf0fcd94f04695d74e7
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=aafff3240b21cffa341020b5a2da45a5
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../To"
   - Name: From
+    Id: g=208cc57ec53e630a6e79f8ec15aa9454
     Type: BaseDataVariableType
     DataType: ns=0;DateTime
     Value: "2021-01-01T00:00:00.0000000"
   - Name: To
+    Id: g=424d16d1a03eb24e3953d49c78cd30dd
     Type: BaseDataVariableType
     DataType: ns=0;DateTime
     Value: "2022-01-01T00:00:00.0000000"
   - Name: WrapFields
+    Id: g=ff29d1716e86cd0ea6355b095bee29ad
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
 - Name: VariablesSimulator
+  Id: g=8c3b884914d31fcd5fff2977e3539bd7
   Type: NetLogic
   Children:
   - Name: iSin
+    Id: g=903259c12bf20204f61737affeb5c228
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: iCos
+    Id: g=0f809a5919920f1513f7e5bbdcfb98c0
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: iRamp
+    Id: g=575cd60ef1a9439e49e4a5f6dd4bfd05
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -183,8 +215,10 @@ Children:
   Children:
   - Class: Method
     Name: SendEmail
+    Id: g=f1c89c6ab66c0d26b4cb55a4d9c9a6da
     Children:
     - Name: ns=0;InputArguments
+      Id: g=d1ce693609e832bf146a03ec48505733
       Type: BaseVariableType
       DataType: Argument
       ReferenceType: HasProperty
@@ -192,41 +226,51 @@ Children:
       ArrayDimensions: [0]
       Value: [{"TypeId":{"Id":296},"Body":{"Name":"mailToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
   - Name: SenderEmailAddress
+    Id: g=966c4d7b66c5a0649d025c56e4206f54
     Type: BaseDataVariableType
     DataType: String
     Value: "device_example@libero.it"
   - Name: SenderEmailPassword
+    Id: g=258edafab4a9028752ade272fb1d4247
     Type: BaseDataVariableType
     DataType: Password
     Value: ""
   - Name: SMTPHostname
+    Id: g=a79f88ba5c4c2e19e84232ef5442fed3
     Type: BaseDataVariableType
     DataType: String
     Value: "SMTP.libero.it"
   - Name: SMTPPort
+    Id: g=dd85b81112c9c515251192a8180f9b07
     Type: BaseDataVariableType
     DataType: Int32
     Value: 25
   - Name: EnableSSL
+    Id: g=8c39109ddbdb36b8e5434426ad6ded14
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
 - Name: SPC_VariablesSimulator
+  Id: g=1ebd301781c1594a91c0afd037211cd1
   Type: NetLogic
   Children:
   - Name: iSin
+    Id: g=490e87f73a0182a2e8b7608c5e30458c
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: iCos
+    Id: g=19212bc3cf36da82cc69ae3bf56d01ff
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: iRamp
+    Id: g=11c14a08bf7ebc4a854fc22bee13d819
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: bRunSimulation
+    Id: g=aab726c12bf172d6a88e9f46141e4be7
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false

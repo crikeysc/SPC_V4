@@ -14,6 +14,7 @@ using FTOptix.SerialPort;
 using FTOptix.System;
 using FTOptix.EventLogger;
 using FTOptix.WebUI;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class ExclusiveLevelAlarmWithEmailNotificationLogic : BaseNetLogic, IUAEventObserver

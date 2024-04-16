@@ -22,6 +22,7 @@ using FTOptix.System;
 using FTOptix.Core;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

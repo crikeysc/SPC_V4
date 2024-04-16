@@ -1,4 +1,5 @@
 Name: AlarmTypes
+Id: g=2ea2a7d62abfbeea0bfa119f1a93bbf9
 Type: FolderType
 Children:
 - Name: AlarmType_DigitalAlarmWithEmailNotification
@@ -7,32 +8,39 @@ Children:
   DisplayName: {"LocaleId":"","Text":"DigitalAlarmWithEmailNotification"}
   Children:
   - Name: NormalState
+    Id: g=c45abd66edddbac8552c79f921221076
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ActiveState
+    Id: g=38a4be6408ab91fcac0fb0118f3c543f
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=3eac8a0db7269e84675de5b678e173a1
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: InputNode
+    Id: g=33d239708645631f7a0bdbd7662b5941
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SuppressedOrShelved
+    Id: g=56642fb131198cb8d70c1f7f63d5f71f
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: AckedState
+    Id: g=b88dd2b01b070eb4634739c3aa029c05
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=d56ed06edc5280013c8638c277439c0b
       Type: PropertyType
       DataType: Boolean
       Value: false
@@ -40,62 +48,76 @@ Children:
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=7be7b68581a0c659545c92db8a391dc0
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ConditionClassName
+    Id: g=97b40850f0791d01d7484af329d6080f
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ConditionName
+    Id: g=ba960856deaa3ae19f36bc235fb53e96
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: BranchId
+    Id: g=ec08d813ee7c4fc7efcab10288e30472
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Retain
+    Id: g=82c004406a77437186a148158c8efba5
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: EnabledState
+    Id: g=d1410a52aaffeeca77db64b6a344acc4
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=621ffcd5fa956133ef2182224cfd469b
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: Quality
+    Id: g=6a3d1375b83252773eea82fe46c363d1
     Type: ConditionVariableType
     DataType: StatusCode
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=f9825abac553f559522bde7f4afdfa0a
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: LastSeverity
+    Id: g=c1a439adc75c7b35a4f9da2e7ef7f24c
     Type: ConditionVariableType
     DataType: UInt16
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=65b808b12c394f75d75b58986ee9d986
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: Comment
+    Id: g=16a40c9d1028afcb5c0b94ef3358852e
     Type: ConditionVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: SourceTimestamp
+      Id: g=f851600e3ee2a0b08e4d2ddb1e683997
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: ClientUserId
+    Id: g=6487d437c4870493edcd2a16d592d25d
     Type: PropertyType
     DataType: String
     ReferenceType: HasComponent
@@ -110,42 +132,52 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=83f2a254e521e1e32431690e4e8e39c0
     Type: PropertyType
     DataType: ByteString
     Value: ""
   - Name: EventType
+    Id: g=9a338ba712ed962c6127620a5c62ec31
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceNode
+    Id: g=db667b36e5fc2faee27a02b074769d5c
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceName
+    Id: g=a513db3585f5d952427b531b99013d20
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: Time
+    Id: g=bbb7d06a459cac269d154db2cb703ead
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: ReceiveTime
+    Id: g=32e33e3bf231f526cba94a432d135a4d
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Message
+    Id: g=eb25c394c486f868c49f1855f4fcd705
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Severity
+    Id: g=1c2c971a2ef5fbd40e1f9f69277c1edb
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EmailUser
+    Id: g=2c8b96c3279a77a646effd866a0cb21e
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailSender
+    Id: g=7ee1cabd9c0d1b745ae699b083babe3a
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -155,40 +187,49 @@ Children:
   DisplayName: {"LocaleId":"","Text":"ExclusiveLevelAlarmWithEmailNotificationType"}
   Children:
   - Name: LimitState
+    Id: g=208710ae471928f4e24735f42cf97538
     Type: ExclusiveLimitStateMachineType
     Children:
     - Name: CurrentState
+      Id: g=d4b7b52e99a597de70d418b2444ca8ed
       Type: FiniteStateVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: Id
+        Id: g=b0eb1d45ffa0614dc20cf1967f8957b5
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ActiveState
+    Id: g=2cc2550b857c6c120407151004737534
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=2d632465d58e58de0f432164dd6d7a22
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: InputNode
+    Id: g=9ffec2b135e2c0b1581605bfb96941a3
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SuppressedOrShelved
+    Id: g=4318e5e57187ec4ef45006b022e5b27c
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: AckedState
+    Id: g=b1ad6e12d82e65106d19dd383a36015b
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=8e11a12469461220a5ea51bc09e39025
       Type: PropertyType
       DataType: Boolean
       Value: false
@@ -196,62 +237,76 @@ Children:
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=b50e97282d8434702ec7bdbbfd85f307
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ConditionClassName
+    Id: g=13a87c7ff1b10b7d4ed7ab3d0466ad46
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ConditionName
+    Id: g=742aa9f0e3c738dc35264fc3dd1a86ac
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: BranchId
+    Id: g=7ad36ebb95de00df43839e8ce12691aa
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Retain
+    Id: g=2a549fdb0a5411ab0222e619f04ec878
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: EnabledState
+    Id: g=b5a7ae9222d2cd2c069ee2b9e184e486
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=78ee565a3a9b307363e5e04d819fab5b
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: Quality
+    Id: g=fc76ee6fbb097b78eb989e78c66dca18
     Type: ConditionVariableType
     DataType: StatusCode
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=86836ad01cabd349e093c16f3120b1bf
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: LastSeverity
+    Id: g=97709e4bb7408b555dfbe7f1bec13ad3
     Type: ConditionVariableType
     DataType: UInt16
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=6d56aab7dbaa55c27fa9ed947da51b11
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: Comment
+    Id: g=358eca17b9ffada899b7641381531eae
     Type: ConditionVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: SourceTimestamp
+      Id: g=50609ba802f010c959de829715e50816
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: ClientUserId
+    Id: g=f53ac7f98864d233f7020f2776ab5dfc
     Type: PropertyType
     DataType: String
     ReferenceType: HasComponent
@@ -266,42 +321,52 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=53e8322a639e652fc9a7aa4946fc5ab5
     Type: PropertyType
     DataType: ByteString
     Value: ""
   - Name: EventType
+    Id: g=d8563e5db08409c5ccabcc69aaf459ec
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceNode
+    Id: g=88415b3b4fb69220de6e5a022f439aac
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceName
+    Id: g=81655e06ce12217837e1f63d9f180ac3
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: Time
+    Id: g=a1c1fedc280b61a5fbeb319ee0fa39ec
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: ReceiveTime
+    Id: g=4c82159f6b566e1aa58cebe387aad08f
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Message
+    Id: g=649fd4266fd70f1837d21870b4cb717b
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Severity
+    Id: g=a6bec6bb5308c86cdfe4cba14c17dda6
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EmailUser
+    Id: g=7dd37617a45ba295fcc7e1a471630a83
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailSender
+    Id: g=32ae4e9ed372d65668afed766468abfa
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -311,44 +376,54 @@ Children:
   DisplayName: {"LocaleId":"","Text":"ExclusiveDeviationAlarmWithEmailNotificationType"}
   Children:
   - Name: SetpointNode
+    Id: g=309c19611beef7343ee600965ef79ee6
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: LimitState
+    Id: g=609d03c9854f5384fd8d1227f82cac9d
     Type: ExclusiveLimitStateMachineType
     Children:
     - Name: CurrentState
+      Id: g=c363bb12605d38dabab31f02abca62e6
       Type: FiniteStateVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: Id
+        Id: g=31e712e77f4eae084424b14aafbb667a
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ActiveState
+    Id: g=1eae80c793f97410fd6984fb04cc917b
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=f2ea79421743ddfdbdb41e650d89fbfc
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: InputNode
+    Id: g=33f9f27f8ea12da1910484b1a33dd260
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SuppressedOrShelved
+    Id: g=4c25471fd014b085dd15442415a1ab17
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: AckedState
+    Id: g=d2eef7279ae3c533625aec54fb6ee9c3
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=08ee395abfee64a1f58dcd64078fb577
       Type: PropertyType
       DataType: Boolean
       Value: false
@@ -356,62 +431,76 @@ Children:
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=8d842e11325a580a22a3c108e4b7fa17
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ConditionClassName
+    Id: g=695cf8e99bf7b42173fb8e28fc443575
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ConditionName
+    Id: g=4b2d3f44beb7f44db8c3f0d0c50064bc
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: BranchId
+    Id: g=f325f1b7cce298c9356aaaf1dc41846a
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Retain
+    Id: g=03c0e09a973a30f31cfe2a1c7e0256b1
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: EnabledState
+    Id: g=28eebd72e047dc42db07cf243bc8efb1
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=bc8d077ddf9588b7446b80248130b76f
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: Quality
+    Id: g=95002a0072b61ca7c11bafff7f529e9c
     Type: ConditionVariableType
     DataType: StatusCode
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=9ee4af9608b712474de2163e78963ce8
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: LastSeverity
+    Id: g=7f8d974e36779e7293ff750b52e562c6
     Type: ConditionVariableType
     DataType: UInt16
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=a423b68226a76896bb2ecd637553746a
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: Comment
+    Id: g=a5398b52ef9893f36a92cc4183e9d610
     Type: ConditionVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: SourceTimestamp
+      Id: g=fc39d2d90fd7f480db930c9ae26ed65e
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: ClientUserId
+    Id: g=be6df16dfd42f79998f3e79d469a4cef
     Type: PropertyType
     DataType: String
     ReferenceType: HasComponent
@@ -426,42 +515,52 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=adb0511e88247e7a0715787775c6079c
     Type: PropertyType
     DataType: ByteString
     Value: ""
   - Name: EventType
+    Id: g=242b1edd1a9048d42fb292a51cb8db01
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceNode
+    Id: g=c9224bd0ec5b7528f439db33930f54ef
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceName
+    Id: g=27ebbd12576271820f8b8f8faab46543
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: Time
+    Id: g=a75f6642be8598eef4cd854cae14aef7
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: ReceiveTime
+    Id: g=1a47ee3cb863cae70b5dac0d284ac739
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Message
+    Id: g=123a3a440bfde5ae87e43dedd4172864
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Severity
+    Id: g=4ffc210e7e16dadf1af9bf09e0b057f4
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EmailSender
+    Id: g=adc38690d4950836af66c4d151a8ddbd
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=bb39106a0fd8f6ed856b068df38d50cf
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -471,40 +570,49 @@ Children:
   DisplayName: {"LocaleId":"","Text":"ExclusiveRateOfChangeAlarmWithEmailNotificationType"}
   Children:
   - Name: LimitState
+    Id: g=8eba1ae266b628eb3cf57a0888604c94
     Type: ExclusiveLimitStateMachineType
     Children:
     - Name: CurrentState
+      Id: g=0aff3aaaddd97f9c3fa90c4ff9e0b20b
       Type: FiniteStateVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: Id
+        Id: g=1193063e055e73f730ab89eba1fb43ab
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ActiveState
+    Id: g=38fad9e84a6bd474f7ac1480e6f219c7
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=eb8ad37a925c63279f4075badb5f642d
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: InputNode
+    Id: g=3478b360330deb740c735349297eef72
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SuppressedOrShelved
+    Id: g=fff1641b3bfde41dc5b6d38ccccaee63
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: AckedState
+    Id: g=f7602ccc46a30ab5b6b339608104d9b0
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=db966e46e92809f53e01019a8996086a
       Type: PropertyType
       DataType: Boolean
       Value: false
@@ -512,62 +620,76 @@ Children:
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=41c4254ce675411fafad3905235e7967
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ConditionClassName
+    Id: g=a1fbdd477ebbcc85ec5d0f5d14ead01b
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ConditionName
+    Id: g=0a9a06235fae98dd53e772e157ab1c4a
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: BranchId
+    Id: g=3da3aa8d1afe49f352760518f9619d5c
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Retain
+    Id: g=6d66cd9896fcceb5620399110feac1e1
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: EnabledState
+    Id: g=290399bf6489f0f20240bd9085abef46
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=e43b7f74dfaae6c3c6ee04fb6ec40d98
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: Quality
+    Id: g=d16c23f361504fb8b2622fcab4432f61
     Type: ConditionVariableType
     DataType: StatusCode
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=befd2cbb19e384bafc76f07dfc5e2334
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: LastSeverity
+    Id: g=2d9a5d15f82c735c90a95d9ea527d2a6
     Type: ConditionVariableType
     DataType: UInt16
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=873a08bf17900e9f6a11b0d495987f2a
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: Comment
+    Id: g=5ac1472e00a0c671188720150ca42c10
     Type: ConditionVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: SourceTimestamp
+      Id: g=dee4719fa35e12135f45e49ab6130ab2
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: ClientUserId
+    Id: g=c46388d4e85e1fd2051d83d7ed6eca87
     Type: PropertyType
     DataType: String
     ReferenceType: HasComponent
@@ -582,42 +704,52 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=aa189f4a0b63f45eb3c6b8bb10c1c2db
     Type: PropertyType
     DataType: ByteString
     Value: ""
   - Name: EventType
+    Id: g=d8b6a5611c7a476a44f997803022e716
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceNode
+    Id: g=790712dec0eb55607f8a05b9316a9821
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceName
+    Id: g=d07ba822212080b61aa9186dcdb5adcb
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: Time
+    Id: g=7806713a4a9ad7b13fc7c411586fe53b
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: ReceiveTime
+    Id: g=5d6466ba028f5cbc06de4a5473d75304
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Message
+    Id: g=b2661f7241a3ff9541216ee86a015c90
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Severity
+    Id: g=39e25e6594b5bc60776cce9632fcafb2
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EmailSender
+    Id: g=712fb10b2f496ef0f591942a377e28c8
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=1f96adcc81d1bf26fb481e47b36453ad
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -627,28 +759,34 @@ Children:
   DisplayName: {"LocaleId":"","Text":"NonExclusiveLevelAlarmWithEmailNotificationType"}
   Children:
   - Name: ActiveState
+    Id: g=c0c375792915cc2ff800162096d811f3
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=a3d6638a37914512ad9c483422ae652f
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: InputNode
+    Id: g=894625555a207ec2a29e29498dd30c49
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SuppressedOrShelved
+    Id: g=9a1a6e6be746a3290ebd46dc21a65564
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: AckedState
+    Id: g=30ce55ed1b6e1ad952ab547ed93ee03c
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=f9488edad2e2576bee335e5ff9e38666
       Type: PropertyType
       DataType: Boolean
       Value: false
@@ -656,62 +794,76 @@ Children:
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=e090cf585d7e3aa2291a3a3e7dca2d9e
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ConditionClassName
+    Id: g=9478f42c61bfdfd4a1d60e9f525dc5e6
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ConditionName
+    Id: g=d5d057969e8ebdd73aca1fd23194cba7
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: BranchId
+    Id: g=e614e93e7e97201d56db0e1f6d0a4a06
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Retain
+    Id: g=4a024547a38d24132631b38c08e8ac9c
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: EnabledState
+    Id: g=a18f866c7df058aa3511613d11df4ca2
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=e73243d666e37b91f8cd9b37bbf7df54
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: Quality
+    Id: g=0074a8e793c8a54b9ef2680cce5d55d7
     Type: ConditionVariableType
     DataType: StatusCode
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=4d872a0fba2ff664c15295e3a1b6334f
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: LastSeverity
+    Id: g=ec564ff6e3f6a7b2e98853e5e61d63ab
     Type: ConditionVariableType
     DataType: UInt16
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=f8f138bda89bb1b5f60a1fa8299f6137
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: Comment
+    Id: g=456f85aeb0e13da4cdd7943884456019
     Type: ConditionVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: SourceTimestamp
+      Id: g=b29e57a269b9f5ef82ee73b74fb33890
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: ClientUserId
+    Id: g=4a399ce4c200f8c45e0b25d948a1c1c9
     Type: PropertyType
     DataType: String
     ReferenceType: HasComponent
@@ -726,42 +878,52 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=ac63dce24b83ce191b6203b61eeff910
     Type: PropertyType
     DataType: ByteString
     Value: ""
   - Name: EventType
+    Id: g=6cac7a7ebced1dc47517f64905dfc84c
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceNode
+    Id: g=7358f9b4879417bd7ada8fed0893b55f
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceName
+    Id: g=1f749433deb94347706775bace128ec1
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: Time
+    Id: g=59c1d08b2214e94ba34c8ced64170486
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: ReceiveTime
+    Id: g=af4cc14cb7afe787571752d884c20400
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Message
+    Id: g=0f2311a0f2433178e6e0d374dc15fac4
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Severity
+    Id: g=37ea2d7dd2a911f162e253dfbd193c54
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EmailSender
+    Id: g=09fcce678acbc9d7eb4b9482c4c5058a
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=33bd21fac3325d8a1cc600b5210460c1
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -771,32 +933,39 @@ Children:
   DisplayName: {"LocaleId":"","Text":"NonExclusiveDeviationAlarmWithEmailNotificationType"}
   Children:
   - Name: SetpointNode
+    Id: g=c8c3d893a77d71caf9e8c4983a9e8daa
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ActiveState
+    Id: g=f5a8aa4ffdc90161149d586d47ee0a63
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=c2d446042ae4cefcc6f9a48d038e7f70
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: InputNode
+    Id: g=c98daffe112a9eada5428ebdc65a62be
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SuppressedOrShelved
+    Id: g=9943968c202000272d40c6561363f89d
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: AckedState
+    Id: g=e658b5ffae73dd4eecf02f9255173635
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=3649f2e0fd45fd2f1360dcbae2c5f7ce
       Type: PropertyType
       DataType: Boolean
       Value: false
@@ -804,62 +973,76 @@ Children:
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=19bd842179511b5f22f8972eb7703538
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ConditionClassName
+    Id: g=54f44f2058d42c05fa7f9f0ee32d9184
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ConditionName
+    Id: g=43d115853dd5396742e346fd419dd0ef
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: BranchId
+    Id: g=dd5432a4706ca280c5090b6d40aedf3a
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Retain
+    Id: g=80bbe2b204dc95ee3264e3114884ef37
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: EnabledState
+    Id: g=242abf3f8c4ffebcc66a0b2ed44c548b
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=09d8107d3ffa8d3e51474cadc7503f16
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: Quality
+    Id: g=011411ba069969454e5b127eb41889ae
     Type: ConditionVariableType
     DataType: StatusCode
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=73394f34e3836e71ad7d148df670dd1b
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: LastSeverity
+    Id: g=9d2a5e8806438f48f6b4506c59aa4f08
     Type: ConditionVariableType
     DataType: UInt16
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=e380e804e2ef27dff66f3367ac8db4e5
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: Comment
+    Id: g=9991c1e0d27e232b64541621e98e4a03
     Type: ConditionVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: SourceTimestamp
+      Id: g=5f0f4324fbd1939eaca0e21bf7fba30f
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: ClientUserId
+    Id: g=5dbf337634e350a079ee55dc6b7aa580
     Type: PropertyType
     DataType: String
     ReferenceType: HasComponent
@@ -874,42 +1057,52 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=a7e111d945a7fed811054f31c13071ae
     Type: PropertyType
     DataType: ByteString
     Value: ""
   - Name: EventType
+    Id: g=6024208f8762d39a752fc51186c2870b
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceNode
+    Id: g=330896f3422bcc08ddf69d8e0d9bbcb1
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceName
+    Id: g=17fd5e9b31701863f29b856555afd947
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: Time
+    Id: g=641d0b8558dc523470da9ebb01feaa41
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: ReceiveTime
+    Id: g=153a6ef509c05c2d605ca4165ad3ea7b
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Message
+    Id: g=32ef18f4830e8f4c24a9fec78cb001ba
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Severity
+    Id: g=b7b15933676dc6e9739348336bc1703f
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EmailSender
+    Id: g=dcff449ad72bb935350db1275df81022
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=6808f3cd6c7eb376ddca453dfcf9ab8b
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -919,28 +1112,34 @@ Children:
   DisplayName: {"LocaleId":"","Text":"NonExclusiveRateOfChangeAlarmWithEmailNotificationType"}
   Children:
   - Name: ActiveState
+    Id: g=d81aac90cb659e98a5377136de639f20
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=4c765eee74254282ac0eba3257289687
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: InputNode
+    Id: g=f91d27922bae965a3158f3eed43a1a2b
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SuppressedOrShelved
+    Id: g=7e50849f157175207d14593d5e7b0e22
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: AckedState
+    Id: g=3000f6679a1cad42923cea4bdfb58f0d
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=95f8f2a805ab1bad6ecbf1e7a9dd364a
       Type: PropertyType
       DataType: Boolean
       Value: false
@@ -948,62 +1147,76 @@ Children:
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=3fb935e5e51b3304116c340e920adc50
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ConditionClassName
+    Id: g=ebe31e2e5b455bdd09a1a09412e539fc
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ConditionName
+    Id: g=fa49176aea4ea2cc953cd047bcd627e8
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: BranchId
+    Id: g=f69b24f9870b9440a7426fb754b113ef
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Retain
+    Id: g=b3186159a9b6a19b78370ddbff8d8ae7
     Type: PropertyType
     DataType: Boolean
     Value: false
   - Name: EnabledState
+    Id: g=a53793e031eb68b2dfa5daee8da9b810
     Type: TwoStateVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: Id
+      Id: g=bccb9fe05f4fccc756ba594e01a5b381
       Type: PropertyType
       DataType: Boolean
       Value: false
   - Name: Quality
+    Id: g=29aafd949b661eb0dde8702084690fbf
     Type: ConditionVariableType
     DataType: StatusCode
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=544f8086725dfd6dc5bf7e136baaec66
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: LastSeverity
+    Id: g=016f1fd9553608671db42cc7562a1ad2
     Type: ConditionVariableType
     DataType: UInt16
     Value: 0
     Children:
     - Name: SourceTimestamp
+      Id: g=da8a6cb1ce758fd3d8a18f4f67043699
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: Comment
+    Id: g=205fbcf2008f30465a82e1c6f296ea3b
     Type: ConditionVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: SourceTimestamp
+      Id: g=a49fe6577e70f9a8dc9eae519722c006
       Type: PropertyType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
   - Name: ClientUserId
+    Id: g=5ebead941b1d9a53702f5f6514d928e3
     Type: PropertyType
     DataType: String
     ReferenceType: HasComponent
@@ -1018,42 +1231,52 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=b6bc46eced37b5d63280db8d1f137870
     Type: PropertyType
     DataType: ByteString
     Value: ""
   - Name: EventType
+    Id: g=fab3a31db78526658b205241a2f1b0d8
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceNode
+    Id: g=0604f1f886349e854975efa7a8746f78
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: SourceName
+    Id: g=8dbeb9033e23cece6b852303a747e1d4
     Type: PropertyType
     DataType: String
     Value: ""
   - Name: Time
+    Id: g=9e74747a8afd735712db4698a86ba2c6
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: ReceiveTime
+    Id: g=914b844d7edaca827cae4d7bd8fa9cdb
     Type: PropertyType
     DataType: UtcTime
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Message
+    Id: g=ffd8b6635c7123e2411fa9bf4af6f491
     Type: PropertyType
     DataType: LocalizedText
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Severity
+    Id: g=b686691ad1088c0b6617caed7ae8bfae
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EmailSender
+    Id: g=132d6fbe572f0ea8c1ea7415122d1494
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=feb4a8fb497daedb142f887df544ad19
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}

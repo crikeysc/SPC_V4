@@ -1,4 +1,5 @@
 Name: AlarmsWithEmailNotification1
+Id: g=87c227b0a6695f525245f22afbadd997
 Type: FolderType
 Children:
 - Name: DigitalAlarmWithEmailNotification
@@ -17,35 +18,43 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: NormalStateValue
+    Id: g=49966b7b722ee2cf3e8abebb17281a2d
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=933436385a413a1875f1338a9465d0a9
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LastEvent
+    Id: g=ed3f426991f9b67e2ccf7d3163ca9b76
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: DigitalAlarmWithEmailNotificationLogic
+    Id: g=5a1254a5ab00a39cf8b97ae532389767
     Type: NetLogic
   - Name: EmailUser
+    Id: g=dda41259a2ced3ab10c2c06d246c5ed3
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=8ceae71bad6da8258fce281c0d3254a8
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailSender
+    Id: g=f0c631ee990b22ecd450a07dd66da6d6
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=f199171ff18c85ac6428e079942720b0
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -68,31 +77,38 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: InputValue
+    Id: g=705785ba2f0346b23a55e4c0e4dd1a3a
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LastEvent
+    Id: g=e38d9437aded747738c614bde79a8de9
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: ExclusiveLevelAlarmWithEmailNotificationLogic
+    Id: g=a6785bac736fd9ca6f14a6ff8bce68fb
     Type: NetLogic
   - Name: EmailUser
+    Id: g=dd7ffa3215df086fc3341642a07de1d8
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=d2fbb22d2c5907aa5635504dcdac6532
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailSender
+    Id: g=5c7d20c06e7edb697a163285a8234197
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=dfc7df2bab188825c283413feb2f1c8c
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -115,37 +131,45 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Setpoint
+    Id: g=f33a95f8fc211a6a96008aad1d5d0a61
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=30283b55d3734f59cdeb796b5274c85a
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LastEvent
+    Id: g=7ebaa7deecc657775460a5f8fdcecf6d
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: EmailSender
+    Id: g=a71788bdfdf1efdb9e67bd16f2c90922
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=0a9d20d6d59b5948acc13dc5e2069bf1
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=eab0b5136e5de05f2f74cfb9bc3409ec
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=0dfac80614f160bf5097c7b0833eb4b7
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: ExclusiveDeviationAlarmWithEmailNotificationLogic
+    Id: g=dc0cf63be7288b1cdd648f5c2c644d4a
     Type: NetLogic
   - Class: Reference
     Type: GeneratesEvent
@@ -166,35 +190,43 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: PollingTime
+    Id: g=6f816b689410dd02e5ad5853c1674c58
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:0.0000000"
   - Name: InputValue
+    Id: g=899167eaeba97929392893a0a5c3b68b
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LastEvent
+    Id: g=16de8d3f2ddd93f97b47c753b2b530bd
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: ExclusiveRateOfChangeAlarmWithEmailNotificationLogic
+    Id: g=679a88bfacdbf10773ff30c472dc8fce
     Type: NetLogic
   - Name: EmailSender
+    Id: g=998321faf42b5969d84d40f987fca468
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=ecd079b9980781615252ea021a057407
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=7dea47b5e3052dd6af4e014ff8fd77d8
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=c7bee79ff3c7cfa09651c5f05cac9df6
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -217,31 +249,38 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: InputValue
+    Id: g=b77bc73942aad9d0fb8d7755245771c4
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LastEvent
+    Id: g=d56b4645f70c7b8af61c9475b4ff3601
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: NonExclusiveLevelAlarmWithEmailNotificationLogic
+    Id: g=e362c4a86b03038dfe256efc575d1ee4
     Type: NetLogic
   - Name: EmailSender
+    Id: g=9c2bd967db37f3390e275cdeb4ec1c8d
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=6a5be3df3a362db6e041c4bf4394badc
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=337f3cc0447bc8823d31d9f04da328c7
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=dcef23838e49233f1eb0b77b0c592abb
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -264,35 +303,43 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: Setpoint
+    Id: g=e8e01dd2452d078265cd31489b0e7492
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: InputValue
+    Id: g=3676f30d76e960faed963171064b119a
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LastEvent
+    Id: g=5b51434974c9f8119f4812b815212986
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: NonExclusiveDeviationAlarmWithEmailNotificationLogic
+    Id: g=5ea38f119a71d939d66a44311143f739
     Type: NetLogic
   - Name: EmailSender
+    Id: g=1d303c537e3068d68c31b4a0ee5febe9
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=f2329e41850bd35b2e2efbe8f98378c4
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=92c4540759c5f27114829c7c2172deaa
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=596a13532939367f31a08f706431c317
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -315,35 +362,43 @@ Children:
     Target: ns=17;i=83
     Direction: Forward
   - Name: PollingTime
+    Id: g=b74d67e489523b95457512a191aec858
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:0.0000000"
   - Name: InputValue
+    Id: g=0df7ec36e88841fd95a0c3738fe297a3
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
   - Name: LastEvent
+    Id: g=d0fcb10cc56ba22761c9f3bf148e95ba
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
     ArrayDimensions: [0]
   - Name: NonExclusiveRateOfChangeAlarmWithEmailNotificationLogic
+    Id: g=209a6d2b061acfffd716a22971d503e5
     Type: NetLogic
   - Name: EmailSender
+    Id: g=4188ccef323fb891fe488ba178f81cad
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=64e6f8c0131fb988577c0dc5f3c366e4
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EmailUser
+    Id: g=4c8eff80f742eb6b15cec4c89719e298
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=226abb35ae8d9228b5d1e730648d4dcd
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}

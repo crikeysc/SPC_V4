@@ -1,4 +1,5 @@
 Name: 'Motor_FP_UDT-Kind_Template'
+Id: g=71799fef71a470b4453cb0dda608062d
 Type: FolderType
 Children:
 - Name: PF525_Drive_Object_SPC
@@ -6,169 +7,203 @@ Children:
   Supertype: BaseObjectType
   Children:
   - Name: DrivePF525Obj
+    Id: g=2d40455a0302ed00ec1b3461930a0b00
     Type: Alias
     DataType: NodeId
     Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box"
     Children:
     - Name: Kind
+      Id: g=a88edc7a37be4edb18b94acccbbc41e1
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Types/VariableTypes/SPC_525_Basic"
     - Name: Active_STS
+      Id: g=ea0a624d5b98401eeba75ae701476811
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=6f983d996fa02dfc9a517a8c533ab480
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Active_STS"
     - Name: CMD_Drn_STS
+      Id: g=90e8a68e3f8d72347d2f555984763f7b
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=1f3553e54ac1c3bbc44e8f9ad2bd3246
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/CMD_Direction_STS"
         Children:
         - Name: Mode
+          Id: g=3b99b02b193e4435aeca68884c45df22
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Faulted_STS
+      Id: g=d295b464c6dcbe326589da51f4dc722e
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=48b9219ddb6ce5fb507420c0f50fd691
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Faulted_STS"
         Children:
         - Name: Mode
+          Id: g=0a98c81b59c6ecd70f434137e7967c5e
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: FWD_CMD
+      Id: g=b0708df500c4c202b4afeb4ec61931a8
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=0bad17ee65ffdaa1c06f9f8ae3ac10ec
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Forward_CMD"
         Children:
         - Name: Mode
+          Id: g=c3bdc3b8a8896d2e4b3059b6831e097f
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: REV_CMD
+      Id: g=09e2a55c390803adc6fd59e006dc3609
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=afdf2eade46c5b3fac7c05c953933011
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Reverse_CMD"
         Children:
         - Name: Mode
+          Id: g=4c7040d99f29d4b8f5b687e65c419e8d
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Freq_CMD
+      Id: g=fead546ce7fcfd3ded693808fdabb691
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
       Children:
       - Name: DynamicLink
+        Id: g=587dca18f41e368fc66a66c4d6a69a7f
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Frequency_CMD"
         Children:
         - Name: Mode
+          Id: g=76a9c76411d9dc2919d2791d28bd57a2
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Start_CMD
+      Id: g=586c65caa75d8bb1e2a02f0012bf664c
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=9061c2a6aa36e25a4583dd767b5bbff8
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Start_CMD"
         Children:
         - Name: Mode
+          Id: g=aaf0301f99bcd517c29c246ba83247af
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: STOP_CMD
+      Id: g=1fe57dde5cbbadb2fe98b451fa7c13a5
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=2cadcb98e1b9f7134582e6d9b39ab1e6
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Stop_CMD"
         Children:
         - Name: Mode
+          Id: g=cd2a437c13f8014fc3889aea59d9e628
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Clear_Faults_CMD
+      Id: g=7b116ff21c243b53390d48e62a394a7f
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=f492104fb3a9c9226d4f2096b144cd22
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Clear_Faults_CMD"
         Children:
         - Name: Mode
+          Id: g=de88da77cbeda542adb160e1bb57a993
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Freq_STS
+      Id: g=071b2766ca785d6fbf049a8c3a1887ba
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
       Children:
       - Name: DynamicLink
+        Id: g=b73151ae6813a1e8da1492dda3e85ef1
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Ouput_Frequency_STS"
         Children:
         - Name: Mode
+          Id: g=f8df91eecacc110cdc93b890fe41e1ab
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Ready_STS
+      Id: g=c3549b7df0e4409ccf57d4a5c6b5527c
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=99d271e103610cd9d7acbb51d479715e
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Ready_STS"
         Children:
         - Name: Mode
+          Id: g=addd02de38198d7375fe402906d2fd9a
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
@@ -178,169 +213,203 @@ Children:
   Supertype: BaseObjectType
   Children:
   - Name: Drive755TSObj
+    Id: g=3e81bb3469dfee08a8c9fe5c6403438d
     Type: Alias
     DataType: NodeId
     Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_755TS_Box"
     Children:
     - Name: Kind
+      Id: g=45efdeffa1b38c8ef67c2b3c2529effd
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Types/VariableTypes/SPC_755TS_Basic"
     - Name: Active_STS
+      Id: g=75895e5e28e97ad822346e99a9dd6671
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=8a8c5b252aab84369afea4c010369ea7
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Active_STS"
     - Name: CMD_Drn_STS
+      Id: g=2a66b9ec7c4f7801112a7f1d07ba3077
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=acfb13134021bef3613c1cbc17882f1f
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/CMD_Direction_STS"
         Children:
         - Name: Mode
+          Id: g=728656ae4ef28fb8380aae0f3000f1c7
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Faulted_STS
+      Id: g=b3c2ba5a4ad297a1787477fedede9dfb
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=51425af461482bf10b1118ead0d92dff
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Faulted_STS"
         Children:
         - Name: Mode
+          Id: g=d29d7a142128f5bf5fd9ab66dea30f82
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: FWD_CMD
+      Id: g=68fab60f7b5f91c8f11e4128f714e131
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=ed81b323e347516a5f3fad548bf8e1ec
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Forward_CMD"
         Children:
         - Name: Mode
+          Id: g=9abea143b081809e4b0ec21b652e2369
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: REV_CMD
+      Id: g=13a4b0fb1f0d375baee75da1ea9bb432
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=a3a079018d48ecd2484e236c67589783
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Reverse_CMD"
         Children:
         - Name: Mode
+          Id: g=201e42e6b348cf0f45a8684e2f4f1926
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Freq_CMD
+      Id: g=207cfa869149ce04b11f41ba9f9abafc
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
       Children:
       - Name: DynamicLink
+        Id: g=b5be31d45e554914bac16f9a9da7d763
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Frequency_CMD"
         Children:
         - Name: Mode
+          Id: g=cbea9e1fef117c370f0769d171740b12
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Start_CMD
+      Id: g=4a466fe83a49b5c992efde603a09fee2
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=fd0ba211f53e36e8b865e0666bcadd03
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Start_CMD"
         Children:
         - Name: Mode
+          Id: g=1371896e221dbb3d4735ec838a3061f4
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: STOP_CMD
+      Id: g=ff8c1f132c15b33725b5955001b5965f
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=57cf68444c93ec2a5823c24e94211c95
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Stop_CMD"
         Children:
         - Name: Mode
+          Id: g=a29ed8fefe4ba0cb7fee55989deaaba4
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Clear_Faults_CMD
+      Id: g=29c6d0c52119240f720e35084ea6b3b7
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=de81f80329c7e90891b82c53f68ee84c
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Clear_Faults_CMD"
         Children:
         - Name: Mode
+          Id: g=c2731b246ee04dc7a98e2500c5d806ad
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Freq_STS
+      Id: g=6a83a5b4f859f4c216b33867b597258a
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
       Children:
       - Name: DynamicLink
+        Id: g=75ccd84384ed1b0da0bf03c643657f78
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Ouput_Frequency_STS"
         Children:
         - Name: Mode
+          Id: g=8aa3e3b0e9fde726dba6495de0ab0076
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Ready_STS
+      Id: g=513d620d38c3c280ed549b3e9d2a3d54
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=b2292eea43c22c03b904f44dc60eaf72
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Ready_STS"
         Children:
         - Name: Mode
+          Id: g=32d6beb90ce7b3b831118ca603209eca
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional

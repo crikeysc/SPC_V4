@@ -1,7 +1,9 @@
 Name: Tags
+Id: g=374a4341895ce7a5c82aa2f58327c6c6
 Type: FolderType
 Children:
 - Name: ATyS_Command_W
+  Id: g=07b3bb15f68082b01655a677fe24cce3
   Type: ModbusTag
   DataType: UInt16
   ValueRank: OneDimension
@@ -9,22 +11,27 @@ Children:
   Value: [0]
   Children:
   - Name: MaximumLength
+    Id: g=b13a2e92ff891b27b589723178f9b328
     Type: BaseDataVariableType
     DataType: Int32
     Value: 15
   - Name: MemoryArea
+    Id: g=1497754ca4c4a040695dbab551e0b53e
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 0
   - Name: NumRegister
+    Id: g=a25528717b057d4600a1768be9a6d233
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 21
   - Name: BitOffset
+    Id: g=4b868247a771f04518202e2410befdd4
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
 - Name: ATyS_HMI_Buttons_W
+  Id: g=1270727a62ac24b3e338946537586603
   Type: ModbusTag
   DataType: Boolean
   ValueRank: 2
@@ -39,27 +46,33 @@ Children:
    }
   Children:
   - Name: MaximumLength
+    Id: g=1d5fde9227b863561d586d259fdde89c
     Type: BaseDataVariableType
     DataType: Int32
     Value: 15
   - Name: MemoryArea
+    Id: g=2a7f2a3dbf5a1b1fe5bd77ad229129a8
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 0
   - Name: NumRegister
+    Id: g=33a4c2785c74994e302593124888a370
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 22
   - Name: BitOffset
+    Id: g=65a09087bcb998087d71ba6ff721e883
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
   - Name: OriginalDataType
+    Id: g=0871b37a788961b594a8d3f1bdc23e7b
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     Value: "/Types/DataTypes/BaseDataType/Number/UInteger/UInt16"
 - Name: ATyS_IOConfig_R
+  Id: g=adc7e9b642a29cd2b0bd736733bb6fac
   Type: ModbusTag
   DataType: UInt16
   ValueRank: OneDimension
@@ -67,22 +80,27 @@ Children:
   Value: [0,0,0,0,0,0,0,0,0]
   Children:
   - Name: MaximumLength
+    Id: g=3800eca9dcb00a675dd879e95381c80f
     Type: BaseDataVariableType
     DataType: Int32
     Value: 15
   - Name: MemoryArea
+    Id: g=d0202b7be41ca46ba7450c1c59a46992
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 0
   - Name: NumRegister
+    Id: g=b777107aaa53f7dfd221c1b1ff7a98ff
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 22352
   - Name: BitOffset
+    Id: g=f892694a28a80d02915b31c479f18edd
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
 - Name: ATyS_NetworkConfig_R
+  Id: g=c1a0add1176a2a872b27e897cc46efef
   Type: ModbusTag
   DataType: UInt16
   ValueRank: OneDimension
@@ -90,44 +108,54 @@ Children:
   Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
   Children:
   - Name: MaximumLength
+    Id: g=869933c37fcd957cea7778b316a7ef34
     Type: BaseDataVariableType
     DataType: Int32
     Value: 15
   - Name: MemoryArea
+    Id: g=26026351803f91f9ee5a054ae389c740
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 0
   - Name: NumRegister
+    Id: g=19ee5deaeaae97c1e9a947f61bf1ff0b
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 22098
   - Name: BitOffset
+    Id: g=ddef8e0b9ace7f53c29946f70c47be42
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
 - Name: 40019
+  Id: g=5031c6c1708c3139c15c39f3badbb5c5
   Type: ModbusTag
   DataType: UInt16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=7e9340a87dc1b958df7477670b3e2001
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 19
   - Name: MemoryArea
+    Id: g=46f294860c55f75d88d2ef179ad9d720
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 0
 - Name: 40020
+  Id: g=cff79fd394f95149a37b4f6bbf470925
   Type: ModbusTag
   DataType: UInt16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=ff920e96b80180c28f911134caec000a
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20
 - Name: ATyS_Load_R
+  Id: g=24875a8e9c93f51b955dd6d1330b352c
   Type: ModbusTag
   DataType: Int16
   ValueRank: OneDimension
@@ -135,14 +163,17 @@ Children:
   Value: [0,0,0,0,0,0,0]
   Children:
   - Name: NumRegister
+    Id: g=bbd46a278ae0e0d50a234ec2d1c2496f
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20736
   - Name: BitOffset
+    Id: g=32d2a78e7c4bdaf009a12120673daa10
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
 - Name: ATyS_Status_R
+  Id: g=a4d9b2ecc18c1d1569656bc823a12b83
   Type: ModbusTag
   DataType: Int16
   ValueRank: OneDimension
@@ -150,19 +181,23 @@ Children:
   Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
   Children:
   - Name: NumRegister
+    Id: g=f5de1949b05dc6b208e12e2133628c1f
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20480
   - Name: BitOffset
+    Id: g=04909b71594551eefa1e12a6059497ac
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
 - Name: ATyS_Position_R
+  Id: g=aff4e909ca50ec668c675096a358cace
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=766448eb345a6c2a00dd855431a81e88
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20482

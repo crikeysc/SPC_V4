@@ -1,15 +1,19 @@
 Name: Users
+Id: g=30f7b2e0c8d873d88e2fac15418feb3a
 Type: FolderType
 Children:
 - Name: Guest
+  Id: g=89cb3868b27092001fcd9711a03b1d32
   Type: UserType
   Children:
   - Name: LocaleId
+    Id: g=a7d0c46a50c64e54c711f12cf9b86249
     Type: BaseVariableType
     DataType: LocaleId
     ReferenceType: HasProperty
     Value: "en-US"
   - Name: Password
+    Id: g=6b1e46ef14bc799ca8a3169a32687a79
     Type: Password
     DataType: Password
     ReferenceType: HasProperty
@@ -17,6 +21,7 @@ Children:
     Value: ""
     Children:
     - Name: Hash
+      Id: g=c08dad176c617bd583f2582a03006a81
       Type: PropertyType
       DataType: PasswordHash
       AccessLevel: Read
@@ -32,11 +37,13 @@ Children:
         }
        }
     - Name: ChangeTimestamp
+      Id: g=fce6b961674af22282497cc3f74613d5
       Type: PropertyType
       DataType: UtcTime
       AccessLevel: Read
       Value: "2022-06-24T08:45:31.7280514"
     - Name: History
+      Id: g=8daced2258c8fb7217eda76bd6823798
       Type: PropertyType
       DataType: PasswordHash
       AccessLevel: Read
@@ -47,11 +54,13 @@ Children:
   Type: UserType
   Children:
   - Name: LocaleId
+    Id: g=d0fa30b72311baea0094c069dacd828e
     Type: BaseVariableType
     DataType: LocaleId
     ReferenceType: HasProperty
     Value: "en-US"
   - Name: Email
+    Id: g=2217eb41114b51995c77bb4bdff36af9
     Type: BaseDataVariableType
     DataType: String
     Value: "email.email@email.com"

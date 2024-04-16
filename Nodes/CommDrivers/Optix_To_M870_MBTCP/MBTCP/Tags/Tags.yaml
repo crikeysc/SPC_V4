@@ -1,192 +1,237 @@
 Name: Tags
+Id: g=3ddb8a403cc46c1c4217156e7ca9cae7
 Type: FolderType
 Children:
 - Name: Path
+  Id: g=d8212e0fb68129fe3490f16df35b6978
   Type: Alias
   DataType: NodePath
   Value: ""
   Children:
   - Name: Kind
+    Id: g=6fb386b2141c7ce02724e6499d6ed4ce
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: Encoder_Bladeout
+  Id: g=4fe624fae41041593abba63dc0f2fd18
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=c7edea14d8a11393d3536bc9994753d8
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20
   - Name: BitOffset
+    Id: g=6c3a99f659897010d61cad2e96464463
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
   - Name: MaximumLength
+    Id: g=c2b8e145e5859491e5004652e378e239
     Type: BaseDataVariableType
     DataType: Int32
     Value: 80
 - Name: Operation_Active_Led
+  Id: g=a1a95503918598de694124b4113238a6
   Type: ModbusTag
   DataType: Boolean
   Value: false
   Children:
   - Name: MemoryArea
+    Id: g=f9478b7362542365a79d4e4f699d6a12
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 1
   - Name: NumCoil
+    Id: g=c96e53dfe87eb40858f41c5a9e150f13
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
 - Name: Start_Op_LED
+  Id: g=95eee8a899a4c4e47c17b1ad9ccd9a0e
   Type: ModbusTag
   DataType: Boolean
   Value: false
   Children:
   - Name: MemoryArea
+    Id: g=2053caad737a5e99235dc19384a93d60
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 1
   - Name: NumDiscreteInput
+    Id: g=3f1f113c667790a76263b63b672bd3ae
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 1
   - Name: NumRegister
+    Id: g=d27e2d4ad3b74d6afbdb2ce76513505e
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 1
   - Name: BitOffset
+    Id: g=b7a161d8105afe4841b368a96d2ed28d
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
   - Name: NumCoil
+    Id: g=6a9b77584e4f6235418257d471d159a5
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 1
   - Name: MaximumLength
+    Id: g=5e2e85f42e1f435565cec9a4d119b321
     Type: BaseDataVariableType
     DataType: Int32
     Value: 1
 - Name: Stop_Op_LED
+  Id: g=8eb7bcea82f024bf60dfbdb19f7b31ce
   Type: ModbusTag
   DataType: Boolean
   Value: false
   Children:
   - Name: MemoryArea
+    Id: g=ac846a9593a351789f8e72e9af9b93e6
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 1
   - Name: NumDiscreteInput
+    Id: g=b8b62335c3d4184a82be2b6a1c94c6c3
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 3
   - Name: NumCoil
+    Id: g=230a836a5867930cf5b0fb78a6ea97b7
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 2
 - Name: Encoder_FTOptix
+  Id: g=b06cb70ab714fd6eaae8eb88d634ce11
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=6deed3bc362d8024a9a892a144c36373
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 19
 - Name: Enable_CMD
+  Id: g=f65fc806b031d9ff41dbe0e6197dc723
   Type: ModbusTag
   DataType: Boolean
   Value: false
   Children:
   - Name: MemoryArea
+    Id: g=24586de6885c754b9f9d00cfe829b21b
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 1
   - Name: NumRegister
+    Id: g=eb27911cb1d58c07957eab94b64ffd73
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MaximumLength
+    Id: g=d2d996ebb7fc4d8b60ee6ab5a106f6a2
     Type: BaseDataVariableType
     DataType: Int32
     Value: 1
   - Name: BitOffset
+    Id: g=9dc094b2f8d05112f840320cee211dbb
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 0
   - Name: NumCoil
+    Id: g=4ddeefaf8cb61dfae7fc1c7e8d1f19ab
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 3
 - Name: Start_CMD
+  Id: g=1bcd84d2567d6121dc6e0d4f9714ddcf
   Type: ModbusTag
   DataType: Boolean
   Value: false
   Children:
   - Name: MemoryArea
+    Id: g=5b292775aab73223b681e49b009df47f
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 1
   - Name: NumRegister
+    Id: g=dde01c592b25bf6af43fc6f9e26f27ec
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 4
   - Name: NumCoil
+    Id: g=ab1c4f8f445dec4e0df566e224078f99
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 4
 - Name: Stop_CMD
+  Id: g=0892123f422879e8754dae93bd2266ce
   Type: ModbusTag
   DataType: Boolean
   Value: false
   Children:
   - Name: MemoryArea
+    Id: g=53d99d173a88dcd5bd6653627197c141
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
     Value: 1
   - Name: NumRegister
+    Id: g=095e3d927563d9f3dc4e3f557d8d4bdc
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 5
   - Name: NumCoil
+    Id: g=fb12f251745096e7222108498999ffdb
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 5
 - Name: AIN_CMD
+  Id: g=6a94f37fae10b24522a7dfff56cd59e7
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=25851b3660577d83c4201669d56a4cc5
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 21
 - Name: TCP 40020
+  Id: g=2d2a29279af44c94c998cec51b0b2929
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=d87361e195e82ea7c5654de247676ec7
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 19
 - Name: TCP 40021
+  Id: g=59710a528936fd6ea2b5f2dfab33b0a6
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=2450a32ca4a4964028da7c13abf71208
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20
 - Name: ATyS_Position_R
+  Id: g=19f3e839e72eaa14e9548650f5f0e3de
   Type: ModbusTag
   DataType: Int16
   Value: 0
   Children:
   - Name: NumRegister
+    Id: g=c2c38a442cd416f4af813223a7d8790c
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20482

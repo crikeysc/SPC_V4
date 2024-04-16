@@ -3,102 +3,126 @@ Id: g=4b0dd07f01a2eff79fe9c4d7a988dde6
 Type: ModbusDriver
 Children:
 - Name: Protocol
+  Id: g=1951691194f6ae4be1a335fe513afeb4
   Type: BaseDataVariableType
   DataType: ModbusProtocol
   Value: 0
 - Name: SerialPort
+  Id: g=d12007a8237fa436a3559e0442988ea8
   Type: BaseDataVariableType
   DataType: String
   Value: "COM1"
 - Name: Baudrate
+  Id: g=642fb7265c590c1f1a48885e62fb220d
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 9600
 - Name: DataSize
+  Id: g=e5d2f629e9d25ae0f951b255e33d76d9
   Type: BaseDataVariableType
   DataType: Byte
   Value: 8
 - Name: Parity
+  Id: g=e8e58a0e5c20472ed83b9f46834e7453
   Type: BaseDataVariableType
   DataType: Parity
   Value: 0
 - Name: StopBits
+  Id: g=cad0dfbd0eac96b80f652d02dd42888f
   Type: BaseDataVariableType
   DataType: StopBits
   Value: 0
 - Name: FlowControl
+  Id: g=48f905fda51d1391f4578c6fe7e6e5d5
   Type: BaseDataVariableType
   DataType: FlowControl
   Value: 0
 - File: MBTCP/MBTCP.yaml
 - Name: AnalogVariable1
+  Id: g=e626e0916d479703c51b352b81b57ac7
   Type: AnalogItemType
   DataType: Int32
   Value: 0
   Children:
   - Name: EURange
+    Id: g=5e9ab8b2ef8520800ca4769b83a98c69
     Type: RangeType
     DataType: Range
     Children:
     - Name: Low
+      Id: g=91b330f90bd0d826ffed76ebf763f8c8
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 0.0
     - Name: High
+      Id: g=f8397a74cf9fdad2b0b0c949e7ae28c8
       Type: BaseVariableType
       DataType: Double
       ReferenceType: HasProperty
       Value: 10000000.0
   - Name: EngineeringUnits
+    Id: g=152a7679367b953a4b3dd193d901716c
     Type: EUInformationType
     DataType: EUInformation
     Children:
     - Name: UnitId
+      Id: g=d7205d8ee6c969a0080c13489096d4cb
       Type: BaseVariableType
       DataType: Int32
       ReferenceType: HasProperty
       Value: 12865
     - Name: DisplayName
+      Id: g=8955b877e2f8f77c600e8e78234b1013
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Description
+      Id: g=78e811141f1943d36afe2adf8401815a
       Type: BaseVariableType
       DataType: LocalizedText
       ReferenceType: HasProperty
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
 - Name: BackupAndRestoreTagValues
+  Id: g=e793fd98d0a5c26bb6f8ed5b2c6bb3bd
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Class: Method
     Name: BackupTagValues
+    Id: g=7500fc31aeabe7e98f5ff2fde32e4fd9
   - Class: Method
     Name: RestoreTagValues
+    Id: g=f98bfd6845e3ea851690a9c54592e737
   - Name: ParentNode
+    Id: g=2f2b9906f162593416e2ef12fa612adf
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/SPC_V4/CommDrivers/Optix_To_M870_MBTCP"
     Children:
     - Name: Kind
+      Id: g=c0c77c3cf26d4f6fd7f70c1e861920fa
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: CharacterSeparator
+    Id: g=969fcb44ded06cfae8b0016882ff7fad
     Type: BaseDataVariableType
     DataType: String
     Value: ","
   - Name: CSVPath
+    Id: g=fe35c80b3b22454ff34506bb58c8df93
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: "file:///C:/Users/admin/Desktop/Optix/TAg Exports/M820MBTCP_Export.csv.txt"
   - Name: WrapFields
+    Id: g=2e703b9d1286084267f621259bc8bce0
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Timeout
+    Id: g=8478b02fc20828e56a7589e908599fff
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:30.0000000"
