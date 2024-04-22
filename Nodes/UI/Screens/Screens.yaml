@@ -16053,7 +16053,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 390.0
+      Value: 350.0
     - Name: RightMargin
       Id: g=38923e4cc7ea1b2b2c0dc24ed69d21cb
       Type: BaseVariableType
@@ -16075,7 +16075,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 39.0
+        Value: 42.0
       - Name: BorderThickness
         Id: g=8cfe1df597a4b9a9b9cb52771536b4d1
         Type: BaseDataVariableType
@@ -16087,7 +16087,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 3.0
+        Value: 0.0
       - Name: TopMargin
         Id: g=2d446cf99f7252a0373a04ce0934fc2f
         Type: BaseVariableType
@@ -16176,6 +16176,12 @@ Children:
           DataType: FontWeightEnum
           ModellingRule: Optional
           Value: 800
+        - Name: Style
+          Id: g=b3f556064416c19101d1968cb42c17d1
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "Default"
       - Name: MomentaryButton1
         Id: g=67bdeb9cdc3cde7316d068324b33df26
         Type: MomentaryButton
@@ -16210,13 +16216,13 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 119.0
+          Value: 137.0
         - Name: TopMargin
           Id: g=4c992af2602dfac168b95cf30a5bb8a6
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -55.0
+          Value: 1.0
         - Name: Width
           Id: g=08eaee712f63c24c14ac761c45739445
           Type: BaseVariableType
@@ -16229,6 +16235,12 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 40.0
+        - Name: Style
+          Id: g=a4fe978fd8d5fc61f93e1fe889f777f4
+          Type: BaseDataVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "BorderedRectangular"
       - Name: MomentaryButton2
         Id: g=b55bb6d669e2f6d394a02ceb87a8757f
         Type: MomentaryButton
@@ -16263,13 +16275,13 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 241.0
+          Value: 257.0
         - Name: TopMargin
           Id: g=a6c525917989e2e913c3da0bd1f0bd85
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -55.0
+          Value: 1.0
         - Name: Width
           Id: g=89bcb1f592f90c1d687f90192df40b21
           Type: BaseVariableType
@@ -16282,132 +16294,150 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 40.0
-    - Name: InAlarm1
-      Id: g=3367c06a6e41885de7676695b5f51f54
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Id: g=d268ed0a35d5a4fe2797ec43bfc4b2b9
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#d1d3d4"
-        Children:
-        - Name: ConditionalConverter1
-          Id: g=76b60debbef050a1f1fc8e85cb2efd92
-          Type: ConditionalConverter
-          Children:
-          - Name: Condition
-            Id: g=5d218ca9d52b06e4e3056ba383d50dfd
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ReferenceType: HasSource
-            Value: false
-            Children:
-            - Name: ExpressionEvaluator1
-              Id: g=c6a030366c6569fdff44c9ccf96dbd20
-              Type: ExpressionEvaluator
-              Children:
-              - Name: Expression
-                Id: g=3a9cfe37f7bd3361d9c50e68a66521bd
-                Type: BaseDataVariableType
-                DataType: String
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: "{0} == 0"
-              - Name: ns=3;Source0
-                Id: g=b4efb153120e3c9044675cc370130372
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Id: g=854e2ea3cd4d79b31ca0f9fe6b7b464d
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Alarm_Tags_FTAE"
-          - Name: TrueValue
-            Id: g=eb463a2d2d8fd6ae77c229a4cd624a29
-            Type: BaseDataVariableType
-            DataType: Color
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: "#d7fad6"
-          - Name: FalseValue
-            Id: g=4ceb133db2a2b0fea331ebd19368adc2
-            Type: BaseDataVariableType
-            DataType: Color
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: "#f6aeb6"
-      - Name: Width
-        Id: g=37213eeda7e48980b12a075818ce86d5
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 63.0
-      - Name: Height
-        Id: g=b845e6a32f1d00dbe6aa11edd006b1e8
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 53.0
-      - Name: Icon_border
-        Id: g=c5c13fe2670c61347e1cc291454868c5
-        Type: Image
-        Children:
-        - Name: Path
-          Id: g=81620820f38f89e7c48fa4d2c8db3885
+        - Name: Style
+          Id: g=2e4bf664252ba457d8053141ba73ede4
           Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=30;%PROJECTDIR%/res/In_Alarm_Icon_border.svg"
-        - Name: DynamicColor
-          Id: g=800039bcece7662fbb3662820b75fc5d
+          DataType: String
+          ModellingRule: Optional
+          Value: "BorderedRectangular"
+      - Name: VerticalAlignment
+        Id: g=6a968401802e87a2be5a27d0eb14b732
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: BottomMargin
+        Id: g=f88e7920949d39220d0eebfb32259055
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 299.0
+      - Name: InAlarm1
+        Id: g=3367c06a6e41885de7676695b5f51f54
+        Type: ScaleLayout
+        WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+        Children:
+        - Name: FillColor
+          Id: g=d268ed0a35d5a4fe2797ec43bfc4b2b9
           Type: BaseDataVariableType
           DataType: Color
           Value: "#d1d3d4"
           Children:
-          - Name: DynamicLink
-            Id: g=437748ba14f1b6e4a6cba64d426e00ac
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
+          - Name: ConditionalConverter1
+            Id: g=76b60debbef050a1f1fc8e85cb2efd92
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Id: g=5d218ca9d52b06e4e3056ba383d50dfd
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: ExpressionEvaluator1
+                Id: g=c6a030366c6569fdff44c9ccf96dbd20
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Id: g=3a9cfe37f7bd3361d9c50e68a66521bd
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0} == 0"
+                - Name: ns=3;Source0
+                  Id: g=b4efb153120e3c9044675cc370130372
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=854e2ea3cd4d79b31ca0f9fe6b7b464d
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Alarm_Tags_FTAE"
+            - Name: TrueValue
+              Id: g=eb463a2d2d8fd6ae77c229a4cd624a29
+              Type: BaseDataVariableType
+              DataType: Color
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "#d7fad6"
+            - Name: FalseValue
+              Id: g=4ceb133db2a2b0fea331ebd19368adc2
+              Type: BaseDataVariableType
+              DataType: Color
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "#f6aeb6"
         - Name: Width
-          Id: g=06cc1628ad0e2ae758b2333ff56e66cd
+          Id: g=37213eeda7e48980b12a075818ce86d5
           Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 53.0
+        - Name: Height
+          Id: g=b845e6a32f1d00dbe6aa11edd006b1e8
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 38.0
+        - Name: Icon_border
+          Id: g=c5c13fe2670c61347e1cc291454868c5
+          Type: Image
+          Children:
+          - Name: Path
+            Id: g=81620820f38f89e7c48fa4d2c8db3885
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=30;%PROJECTDIR%/res/In_Alarm_Icon_border.svg"
+          - Name: DynamicColor
+            Id: g=800039bcece7662fbb3662820b75fc5d
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#d1d3d4"
+            Children:
+            - Name: DynamicLink
+              Id: g=437748ba14f1b6e4a6cba64d426e00ac
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../FillColor"
+          - Name: Width
+            Id: g=06cc1628ad0e2ae758b2333ff56e66cd
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 14.0
+          - Name: Height
+            Id: g=bef7bdaf94da40faab0f3de0bf4c4245
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 13.013999938964844
+        - Name: OriginalWidth
+          Id: g=52162e22adf98487ecf47e5cc1e0fccc
+          Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 14.0
-        - Name: Height
-          Id: g=bef7bdaf94da40faab0f3de0bf4c4245
-          Type: BaseVariableType
+        - Name: OriginalHeight
+          Id: g=0d3e43638b01a93391d48effc2862c44
+          Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 13.013999938964844
-      - Name: OriginalWidth
-        Id: g=52162e22adf98487ecf47e5cc1e0fccc
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 14.0
-      - Name: OriginalHeight
-        Id: g=0d3e43638b01a93391d48effc2862c44
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 13.013999938964844
-      - Name: LeftMargin
-        Id: g=a5751473aa0a5932064b5c688ab27270
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 27.0
-      - Name: TopMargin
-        Id: g=b371e49f9fd0b25e20df3541b149e68f
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -63.0
+        - Name: LeftMargin
+          Id: g=a5751473aa0a5932064b5c688ab27270
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 57.0
+        - Name: TopMargin
+          Id: g=b371e49f9fd0b25e20df3541b149e68f
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
 - Name: Devel
   Id: g=bb3afca5d93c08fe3d89d59c79fdb70c
   Supertype: Panel
