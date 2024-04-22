@@ -11066,7 +11066,7 @@ Children:
         Id: g=7d1e154f2799ec83d3c72564bdf203ac
         Type: BaseDataVariableType
         DataType: String
-        Value: "SELECT * FROM \"DataLogger1\""
+        Value: "SELECT * FROM \"Data_Sim\""
       - Name: Columns
         Id: g=943f6ebbacb83d6699d6c3e0d8e548f6
         Type: BaseObjectType
