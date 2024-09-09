@@ -15,7 +15,6 @@ Children:
   DataType: NodeId
   ValueRank: OneDimension
   ArrayDimensions: [0]
-  Value: []
 - Name: Mode
   Id: g=6f5dd39d79fd0f5001621361991920b9
   Type: BaseDataVariableType

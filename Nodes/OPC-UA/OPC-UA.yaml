@@ -27,7 +27,6 @@ Children:
           Id: g=eddbffe311cfebdfbf81a13f965e34e0
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Id: g=3b11742cb53a19d77c1d9f79ee94de97
@@ -43,13 +42,11 @@ Children:
           Id: g=49605e14258d97c28c5d674140d12b2c
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Id: g=d05e9259dfce115f87bf58a5bfe67b06
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: NodeClass
             Id: g=1c1fa8d8f874b72c6a4dc030afe569c0
             Type: PropertyType
@@ -62,17 +59,14 @@ Children:
         Id: g=c0914fe2fc9eef8fb94bdbedcc46fa97
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
   - Name: MinimumMessageSecurityMode
     Id: g=711ece723f65a278b08a0724bf324ade
     Type: PropertyType
     DataType: MessageSecurityModeEnum
-    Value: 0
   - Name: MinimumSecurityPolicy
     Id: g=79cadc8140ae5eb7865913d167d3be8f
     Type: PropertyType
     DataType: SecurityPolicyEnum
-    Value: 0
   - Name: ProductURI
     Id: g=b311757203488bbc6eaaf46e642b364c
     Type: BaseDataVariableType

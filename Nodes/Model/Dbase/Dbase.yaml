@@ -10,7 +10,6 @@ Children:
     Id: g=3ae7e382fb93197d750aad4708ebe240
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=86df36939a84bcae4bcc95b4bcc167ba
@@ -27,7 +26,6 @@ Children:
     Id: g=d7ee6d422ae0bb704be687b8b31ffee8
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=44a3ca7d2014de390b04b4809404ad94
@@ -44,7 +42,6 @@ Children:
     Id: g=09b7219f38551d99d854fb85db6c53f2
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=ef9d1d5a8aa9d4ea1ae553b05c2a0c30
@@ -61,7 +58,6 @@ Children:
     Id: g=1be535ae910fc10a206638b3fdf621ad
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=ce8cc23390d2519d18b86387a905cc23
@@ -82,7 +78,6 @@ Children:
     Id: g=51b76a594b6abac8a2425ced1c5ed36b
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=ee6699dfaa6e4ddce6bd48dd5966a5df
@@ -99,7 +94,6 @@ Children:
     Id: g=42b27c44e9d78e2a83b716d6f6d7c33d
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=b2f6cc2ebe850cdf063f68c07693eef1
@@ -116,7 +110,6 @@ Children:
     Id: g=b104a62777edadabb28fa35e65f9fbda
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=d3b8864359f2cb04e444d676d3a77218
@@ -133,7 +126,6 @@ Children:
     Id: g=a40f1ce0c8b7fd7019339d18b94ad16d
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=68ec90397edf44fdbc6492155a9607cf
@@ -154,7 +146,6 @@ Children:
     Id: g=f617bf38a8c2ad3f4a99e31c44c0c477
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=aa1077a585618f01f6544f2e0b099f29
@@ -171,7 +162,6 @@ Children:
     Id: g=67d24d6511b89462dcfb35a3c1de12c3
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=e4a04bc4faa5dc3861e1041ead223dba
@@ -188,7 +178,6 @@ Children:
     Id: g=706e0356b71025ccbeb24a347fefa32c
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Id: g=c1405369d6508fd403da6a3ee472c931

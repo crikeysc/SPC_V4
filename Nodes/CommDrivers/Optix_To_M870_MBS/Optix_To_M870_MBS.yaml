@@ -31,10 +31,8 @@ Children:
   Id: g=ca9ff50b79f37b9d22fe516bef6d6e7b
   Type: BaseDataVariableType
   DataType: StopBits
-  Value: 0
 - Name: FlowControl
   Id: g=53fe9ad57ec0d1661952921b18ed9c74
   Type: BaseDataVariableType
   DataType: FlowControl
-  Value: 0
 - File: MB_RTU/MB_RTU.yaml

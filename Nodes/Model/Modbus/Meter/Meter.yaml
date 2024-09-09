@@ -1,0 +1,10 @@
+Name: Meter
+Id: g=ed180eacf0161095ebde6d73b8b9d1e9
+Type: FolderType
+Children:
+- Name: Meter_Tag_Data
+  Id: g=f297ee1a2db1c21fcff10e7e83ef1ae1
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [8]

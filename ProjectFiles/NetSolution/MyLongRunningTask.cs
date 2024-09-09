@@ -29,6 +29,8 @@ using FTOptix.EventLogger;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
 using FTOptix.OPCUAClient;
+using FTOptix.S7TiaProfinet;
+using FTOptix.ODBCStore;
 
     public class MyLongRunningTask : BaseNetLogic
     {

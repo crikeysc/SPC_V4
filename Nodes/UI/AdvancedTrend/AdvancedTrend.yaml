@@ -1,0 +1,597 @@
+Name: AdvancedTrend
+Id: g=b2bd956d4459de3103eb7c136539e273
+Type: FolderType
+Children:
+- Name: AdvancedTrendMain
+  Id: g=28f16afff82338810547dd61fc95769b
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=bf79e1fa722d7b23bc59fb459c1ce4f5
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1200.0
+  - Name: Height
+    Id: g=d00f7295ade79501c0d28d5370b0d341
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 800.0
+  - Name: InteractiveArea
+    Id: g=a35385f84d6dd40a05d9f61629d1db57
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Id: g=c54c4b02dd7ac8df87bb50d5fd68b563
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=6e34f0bfce1bef96e038aa63ea0a0f7a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BorderThickness
+      Id: g=88649c9ce9e87c5437d8cc5d7de501fc
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Id: g=3331b15b086b5204651236618240793b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 550.0
+    - Name: HorizontalAlignment
+      Id: g=1fc8d9cc495fa852da0030a5d14efb1c
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=48cd1d1bcac33bcfa3da36d057ab4eed
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: RightMargin
+      Id: g=56c5ae59f7f4003e7f8019f363be38eb
+      Type: BaseVariableType
+      DataType: Size
+      Value: 10.0
+    - Name: FillColor
+      Id: g=9960cc30d6efa674ccb249a333159c99
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b300"
+    - Name: BorderColor
+      Id: g=d4d450c7d3e0f28895cf5e97ffbc804b
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#b3b3b3"
+    - Name: CornerRadius
+      Id: g=6f6d1e47ab2c2fb7a40c5fd0e23a35d2
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: InteractiveAreaNavigation
+      Id: g=0b566f22ab0ec6dc44ce2180c8f251ae
+      Type: NavigationPanel
+      Children:
+      - Name: Panels
+        Id: g=8aaccd77ecb1ef9354a371519212b6d4
+        Type: BaseObjectType
+        Children:
+        - Name: Pens
+          Id: g=86759adf01072d7239154068948c14b2
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Id: g=fff82fb0fa8fc8f11663869fb63c1bd8
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Id: g=43a0982feab0b3d99090759574387de5
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/SPC_V4/UI/AdvancedTrend/Components/AdvancedTrendPens"
+            Children:
+            - Name: Kind
+              Id: g=f5dd30f3da09e3731d630718cb294d95
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+          - Name: ImagePath
+            Id: g=8cfec73b61148295525a0257aee28db3
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            ModellingRule: Optional
+            Value: "ns=30;%PROJECTDIR%/edit_FILL0_wght400_GRAD0_opsz24.svg"
+        - Name: Ranges
+          Id: g=443b23ddead45d3b6e98192a80897b7b
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Id: g=3cd31f0ddf42bb2bf9bb8a6aeca27f72
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Id: g=deb76e2885930f642129d46092a3b57b
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/SPC_V4/UI/AdvancedTrend/Components/AdvancedTrendRanges"
+            Children:
+            - Name: Kind
+              Id: g=9826f36d00de6ffdd96d30005041456c
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+          - Name: ImagePath
+            Id: g=76677b5825285246acd1baa18baac684
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            ModellingRule: Optional
+            Value: "ns=30;%PROJECTDIR%/arrow_range_FILL0_wght400_GRAD0_opsz24.svg"
+          - Name: Enabled
+            Id: g=6a5c45ec3767926e0c28840c76522531
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ExpressionEvaluator1
+              Id: g=95c0bbc548baadfd912bc5d0303ea4c9
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Id: g=87dd862f5860d44c6e0b7ce212e37f25
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0} || {1}"
+              - Name: ns=3;Source0
+                Id: g=3b5fc0796e2fb1bef5404a9b69f42742
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: ExpressionEvaluator1
+                  Id: g=87b0326d6e75a5b44c0cc653aa5a9319
+                  Type: ExpressionEvaluator
+                  Children:
+                  - Name: Expression
+                    Id: g=c86969ff96377416287ae4942d52c123
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "{0} == 2"
+                  - Name: ns=3;Source0
+                    Id: g=a7e58af29a60c31ceb989ba4be43c18c
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Id: g=5f68ea5127d2e7d75ace8f5f82cfa5ee
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../../../../TrendPanel/MainTrend/Mode"
+              - Name: ns=3;Source1
+                Id: g=53dbb400c31748bb65882255b2d7a7b9
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Id: g=bf1fef9e5be9c90a43818551125e3b43
+                  Type: DynamicLink
+                  DataType: NodePath
+        - Name: Config
+          Id: g=f187cdc206ec11b89e45eead4eab4f36
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Id: g=eb39dba1743899e6fe0e0b15eda10ecf
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Id: g=6b200430cd63e09624ab913d91412bf6
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/SPC_V4/UI/AdvancedTrend/Components/AdvancedTrendConfiguration"
+            Children:
+            - Name: Kind
+              Id: g=e77bfe9fee4bf0687f6fcdf006d079b9
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+          - Name: ImagePath
+            Id: g=69c77108c682483ef873f290fdfbbe1f
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            ModellingRule: Optional
+            Value: "ns=30;%PROJECTDIR%/settings_FILL0_wght400_GRAD0_opsz24.svg"
+          - Name: AliasNode
+            Id: g=cdacf3943fd9ceffb36d02c532099c33
+            Type: BaseDataVariableType
+            DataType: NodeId
+            ValueRank: ScalarOrOneDimension
+            Children:
+            - Name: DynamicLink
+              Id: g=d9d5bccd069b857850f0dadd98b9a330
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../TrendPanel/MainTrend@NodeId"
+          - Name: Visible
+            Id: g=2f6cd966b40396348f203a42869f7192
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: true
+      - Name: CurrentPanel
+        Id: g=10a7f140f6a02ec534ac33d5fdcb5282
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=b244a37f3b6665a3fc786fc4584e6a43
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Name: CurrentTabIndex
+        Id: g=ac4fca93809631be12073847ed34c139
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Class: Reference
+        Target: ns=5;i=1181
+        Direction: Forward
+      - Class: Reference
+        Target: ns=5;i=1183
+        Direction: Forward
+      - Name: Width
+        Id: g=7d2f82c86225e4ee6bf58bdc87616db2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1370.0
+      - Name: Height
+        Id: g=eaf9a1ced3e601601f5e942d815fa7f4
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Id: g=2ddbb8460e74dd89f58da2afaeed71dd
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=8d7037f6db57aacf126ed23ebb9c55b2
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: Appearance
+        Id: g=fbdaa706ae9d724d84660edf41910baf
+        Type: BaseVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "underlined"
+      - Name: TabPosition
+        Id: g=82d84e2ac405a87b2cd28c45a9229973
+        Type: BaseVariableType
+        DataType: NavigationPanelTabPositionEnum
+        ModellingRule: Optional
+        Value: 2
+      - Name: Style
+        Id: g=8f57b86237fead0f24f7228d9ef457d8
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        Value: "Default"
+    - Name: LeftMargin
+      Id: g=bc06d57fe4fa0ac6d2b224eaede920fa
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: BottomMargin
+      Id: g=42714050ecc165b3882f3b908a7a8888
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+  - Name: TrendPanel
+    Id: g=168778d3008862aade076aad9c39e12c
+    Type: Panel
+    Children:
+    - Name: Width
+      Id: g=0ad25091463f8e6318bcf057ee2aff3d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 830.0
+    - Name: Height
+      Id: g=e141b44de8e2b168c8e1a3b7f373ef94
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: LeftMargin
+      Id: g=ba2fe00fa2b35b8d1168a48738fb65ad
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: TopMargin
+      Id: g=3566e5e4a6aae8b3df0d2a6be91208c7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=a168f3211d6cbc4e8e5f5f5b97e3f5ad
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: RightMargin
+      Id: g=4bf749814480da2d60cd7a65052be1fe
+      Type: BaseVariableType
+      DataType: Size
+      Value: 100.0
+    - Name: MainTrend
+      Id: g=aa6fca180fbf76475ed4436773fc6bb7
+      Type: Trend
+      Children:
+      - Name: Pens
+        Id: g=34d4d3a15266f51544549db7589e6e7d
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=5;i=1129
+        Direction: Forward
+      - Name: XAxis
+        Id: g=4d3dd8b7bfbfad9f5a43a813c4568753
+        Type: DateTimeAxis
+        Children:
+        - Name: Follow
+          Id: g=0d3299c42196b28bc5d77bf4e7d646ed
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Window
+          Id: g=0341ba183e9abc4b539b575727471790
+          Type: BaseDataVariableType
+          DataType: Duration
+          Value: "0:00:05:0.0000000"
+        - Name: Interactive
+          Id: g=c55868f5e554ed5a9b87a55c6e18b700
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Time
+          Id: g=d61002a8959ea8e37dae42b0c4e9793b
+          Type: BaseDataVariableType
+          DataType: ns=0;DateTime
+        - Name: SnapPosition
+          Id: g=71e85519f72f275ec246947ba070e2e6
+          Type: BaseDataVariableType
+          DataType: SnapPositionEnum
+          Value: 2
+      - Name: YAxis
+        Id: g=abf26d0279c547b76b9bc8b997963bb8
+        Type: ValueAxis
+        Children:
+        - Name: MinValue
+          Id: g=59964a89993d70af58a612c05e006e8d
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -100.0
+        - Name: MaxValue
+          Id: g=1a0f8a059bfd656e5f368305da0785ea
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: 100.0
+        - Name: AutoScale
+          Id: g=4f53e0e28dff4d3c0c70bd79485ca858
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Interactive
+          Id: g=56edf61d97fbb9b62565d2fd50a001f7
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Position
+          Id: g=844d58249f69a49bf28ad89be9d7511d
+          Type: BaseDataVariableType
+          DataType: HorizontalPositionEnum
+      - Name: LegendVisible
+        Id: g=6dfe5087380309ebfd5129ad8ebebe72
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Width
+        Id: g=8b32b0e5125da9f11b69021c862ca496
+        Type: BaseVariableType
+        DataType: Size
+        Value: 850.0
+      - Name: Height
+        Id: g=43a51e9d96034547e997e2405076be7f
+        Type: BaseVariableType
+        DataType: Size
+        Value: 501.0
+      - Name: ReferenceTimeZone
+        Id: g=59e676c18ddb2d0f4e7ecfc8452c4e38
+        Type: BaseDataVariableType
+        DataType: ReferenceTimeZone
+        Value: 1
+      - Name: Opacity
+        Id: g=c5d6ef8389350a3e89930e30eaf0c169
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: Visible
+        Id: g=d0f0fb95d5da0675a063d6c0bca7e932
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Rotation
+        Id: g=9678ad5257a03bd8b71d79f7665d8d28
+        Type: BaseVariableType
+        DataType: Size
+      - Name: HorizontalAlignment
+        Id: g=c0a7e02b952d842d727b3f8e908277bd
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 3
+      - Name: Enabled
+        Id: g=1f9170eb5d16bc774be4a6f36bf2ef5d
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: VerticalAlignment
+        Id: g=79627358cebb0864f4bfdac7d878563d
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: RefreshTime
+        Id: g=b57c09fed8ba47e3c0e32f497ef4f19a
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 250
+      - Name: Mode
+        Id: g=0f07c07a091edbfb2411d35776d53a3b
+        Type: BaseDataVariableType
+        DataType: TrendModeEnum
+      - Class: Reference
+        Target: ns=5;i=1201
+        Direction: Forward
+      - Name: RightMargin
+        Id: g=ee1101b263148ece5592cf089281884b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TimeRanges
+        Id: g=3f237d5663c8a7aceb9d3044fc13ee83
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=5;i=1209
+        Direction: Forward
+      - Name: Model
+        Id: g=430c991f3d8a05768a7c3230781cdbf0
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: ItemKind
+          Id: g=3d87670e7728fd73bb2fff8a5dd94a44
+          Type: PropertyType
+          DataType: NodeId
+        - Name: Kind
+          Id: g=92b204da22e0c8d472d535da4d3d403d
+          Type: PropertyType
+          DataType: NodeId
+        - Name: DynamicLink
+          Id: g=28f26c75f090a85292276d14bfc573b8
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Logger@NodeId"
+      - Name: TopMargin
+        Id: g=b5943a909d260c95e70003eeb5626481
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+    - Name: AdvancedTrendAlias
+      Id: g=e816cc397e1bc352d4246bc8f55feef6
+      Type: Alias
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Id: g=1c9eaf11ea42b3133e6e5e82366cc4c4
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Trend"
+      - Name: DynamicLink
+        Id: g=4158aa52919abd875c4723f1f71b6c75
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../MainTrend@NodeId"
+        Children:
+        - Name: Mode
+          Id: g=f017d44fad74b668959bb80a86f6af6c
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: VerticalAlignment
+      Id: g=8f0159e9662e769fb1e1547cd965c932
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: BottomMargin
+      Id: g=04bce69836e22d9cf316f75ebe7fe729
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 370.0
+  - Name: Logger
+    Id: g=1776d5999c69c0a71dfec89f812c4602
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SPC_V4/Loggers/FTEM"
+    Children:
+    - Name: Kind
+      Id: g=6dcf973ef55048d5e7d50b24f34294aa
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/DataLogger"
+  - Name: AdvancedTrendLogic
+    Id: g=3517be6d960f6b98a61d5eb28f715229
+    Type: NetLogic
+    Children:
+    - Class: Method
+      Name: ImportPensFromStore
+      Id: g=0e0666aa0e0137d8fc5f07e382abaa73
+  - Name: HorizontalAlignment
+    Id: g=7e4cae5ced0612bce7f6d4f340fe370a
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=c42a2375e04b764b4c7b7ea8684b0727
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+- File: Components/Components.yaml
+- Name: ns=15;LibraryReference
+  Id: g=36d11131eea249bc0f0d758ce8bfb8fd
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 15
+    },
+    "Body": {
+     "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",
+     "objectGuid": "e4af3a54999124d7bdff36945ef1ee82",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }

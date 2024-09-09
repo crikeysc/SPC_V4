@@ -8,7 +8,6 @@ Children:
   DataType: UInt16
   ValueRank: OneDimension
   ArrayDimensions: [1]
-  Value: [0]
   Children:
   - Name: MaximumLength
     Id: g=b13a2e92ff891b27b589723178f9b328
@@ -19,7 +18,6 @@ Children:
     Id: g=1497754ca4c4a040695dbab551e0b53e
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: NumRegister
     Id: g=a25528717b057d4600a1768be9a6d233
     Type: BaseDataVariableType
@@ -29,21 +27,12 @@ Children:
     Id: g=4b868247a771f04518202e2410befdd4
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
 - Name: ATyS_HMI_Buttons_W
   Id: g=1270727a62ac24b3e338946537586603
   Type: ModbusTag
   DataType: Boolean
   ValueRank: 2
   ArrayDimensions: [1,16]
-  Value: 
-   {
-    "Type": 1,
-    "Dimensions": [1,16],
-    "Body": [
-     false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
-    ]
-   }
   Children:
   - Name: MaximumLength
     Id: g=1d5fde9227b863561d586d259fdde89c
@@ -54,7 +43,6 @@ Children:
     Id: g=2a7f2a3dbf5a1b1fe5bd77ad229129a8
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: NumRegister
     Id: g=33a4c2785c74994e302593124888a370
     Type: BaseDataVariableType
@@ -64,7 +52,6 @@ Children:
     Id: g=65a09087bcb998087d71ba6ff721e883
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
   - Name: OriginalDataType
     Id: g=0871b37a788961b594a8d3f1bdc23e7b
     Type: BaseDataVariableType
@@ -77,7 +64,6 @@ Children:
   DataType: UInt16
   ValueRank: OneDimension
   ArrayDimensions: [9]
-  Value: [0,0,0,0,0,0,0,0,0]
   Children:
   - Name: MaximumLength
     Id: g=3800eca9dcb00a675dd879e95381c80f
@@ -88,7 +74,6 @@ Children:
     Id: g=d0202b7be41ca46ba7450c1c59a46992
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: NumRegister
     Id: g=b777107aaa53f7dfd221c1b1ff7a98ff
     Type: BaseDataVariableType
@@ -98,14 +83,12 @@ Children:
     Id: g=f892694a28a80d02915b31c479f18edd
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
 - Name: ATyS_NetworkConfig_R
   Id: g=c1a0add1176a2a872b27e897cc46efef
   Type: ModbusTag
   DataType: UInt16
   ValueRank: OneDimension
   ArrayDimensions: [17]
-  Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
   Children:
   - Name: MaximumLength
     Id: g=869933c37fcd957cea7778b316a7ef34
@@ -116,7 +99,6 @@ Children:
     Id: g=26026351803f91f9ee5a054ae389c740
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
   - Name: NumRegister
     Id: g=19ee5deaeaae97c1e9a947f61bf1ff0b
     Type: BaseDataVariableType
@@ -126,12 +108,10 @@ Children:
     Id: g=ddef8e0b9ace7f53c29946f70c47be42
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
 - Name: 40019
   Id: g=5031c6c1708c3139c15c39f3badbb5c5
   Type: ModbusTag
   DataType: UInt16
-  Value: 0
   Children:
   - Name: NumRegister
     Id: g=7e9340a87dc1b958df7477670b3e2001
@@ -142,12 +122,10 @@ Children:
     Id: g=46f294860c55f75d88d2ef179ad9d720
     Type: BaseDataVariableType
     DataType: ModbusMemoryArea
-    Value: 0
 - Name: 40020
   Id: g=cff79fd394f95149a37b4f6bbf470925
   Type: ModbusTag
   DataType: UInt16
-  Value: 0
   Children:
   - Name: NumRegister
     Id: g=ff920e96b80180c28f911134caec000a
@@ -160,7 +138,6 @@ Children:
   DataType: Int16
   ValueRank: OneDimension
   ArrayDimensions: [7]
-  Value: [0,0,0,0,0,0,0]
   Children:
   - Name: NumRegister
     Id: g=bbd46a278ae0e0d50a234ec2d1c2496f
@@ -171,14 +148,12 @@ Children:
     Id: g=32d2a78e7c4bdaf009a12120673daa10
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
 - Name: ATyS_Status_R
   Id: g=a4d9b2ecc18c1d1569656bc823a12b83
   Type: ModbusTag
   DataType: Int16
   ValueRank: OneDimension
   ArrayDimensions: [15]
-  Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
   Children:
   - Name: NumRegister
     Id: g=f5de1949b05dc6b208e12e2133628c1f
@@ -189,15 +164,39 @@ Children:
     Id: g=04909b71594551eefa1e12a6059497ac
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 0
 - Name: ATyS_Position_R
   Id: g=aff4e909ca50ec668c675096a358cace
   Type: ModbusTag
   DataType: Int16
-  Value: 0
   Children:
   - Name: NumRegister
     Id: g=766448eb345a6c2a00dd855431a81e88
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 20482
+- Name: Meter_Word
+  Id: g=5545fc7d9c57e9f32d0421e6194a2196
+  Type: ModbusTag
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [8]
+  Children:
+  - Name: NumRegister
+    Id: g=d377b3b5fc43127383d8fbf3ab96dd65
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+  - Name: MaximumLength
+    Id: g=f3f42f93fef2a7d16805c0a1adfa225d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 80
+  - Name: ArrayUpdateMode
+    Id: g=ced442fa91e4c816783301d572c2357e
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 1
+  - Name: MemoryArea
+    Id: g=824e5c19f9142481d1e951ed179a983f
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea

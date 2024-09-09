@@ -6,7 +6,6 @@ Children:
   Id: g=9c4a186b6ca007acbcf40cf65d3d7510
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Id: g=e5c9754c9c3fa30bd6e5d8528f230857
@@ -23,7 +22,6 @@ Children:
   Id: g=0cf8003700665e927abf4d3dbf88f769
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Id: g=5b4ecb6714d6be1ad46d0ca36be29eae
@@ -40,7 +38,6 @@ Children:
   Id: g=35e0e9183d56dbcd60b4183ee1c2520a
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Id: g=ae73006e9a381227272991178fcf34f1
@@ -63,47 +60,38 @@ Children:
     Id: g=029e3267b90c28da7e471d921e7b4198
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: CMD_Isolate
     Id: g=7ea64ea4e74216d91ebc0b54be85bad9
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: CMD_Connect
     Id: g=1a4b34fbd8fb0dab3daba625993ad2f3
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Check_Maint_Counter
     Id: g=af35b0d2b7042a109395bc973ec7a730
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Pin_STS_Isolated_Pos
     Id: g=320ae8046efcdf2e699561d179226860
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Pin_STS_Test_Pos
     Id: g=f0f9d874e6f325cd4827e9e7d57548b6
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Pin_STS_Connected_Pos
     Id: g=e6ee9264e138be30a85d3eaac4e05135
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Pin_STS_Fault
     Id: g=f644320d16bc87a64524190fd9c64722
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Maintenance_Count
     Id: g=afcbd198103e2d17d5c82baca42f1c88
     Type: AnalogItemType
     DataType: Int16
-    Value: 0
     Children:
     - Name: EURange
       Id: g=8494dcf2df89ec16df0a5c2073f001d3
@@ -115,7 +103,6 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Id: g=32b9df5d83354a27149f7ed8bfec2228
         Type: BaseVariableType
@@ -138,13 +125,11 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Id: g=c351d8f59823c7d3350c511b050c69e6
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: DynamicLink
       Id: g=43c25cf3f6462efee92fb0abdc50785b
       Type: DynamicLink
@@ -160,7 +145,6 @@ Children:
     Id: g=095386ab741aa46a7651e564db18897b
     Type: AnalogItemType
     DataType: Int16
-    Value: 0
     Children:
     - Name: EURange
       Id: g=f0cc8db14249436d1d6ae22fb35a77da
@@ -172,7 +156,6 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Id: g=aa5c81affa46048ad6f7381b4563bbbc
         Type: BaseVariableType
@@ -195,23 +178,19 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Id: g=8780f9b10af9bac4c28ac3222dbb8862
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: FBEN
     Id: g=484e983893f13d8c3eb47a3bd38f29f6
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: ATyS_HMI_Buttons_W
   Id: g=390ec02b67b0db31dc89899b1237fff6
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: DynamicLink
     Id: g=2c4e415b8486c2d32539fce386e24961
@@ -225,3 +204,4 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - File: ATYS/ATYS.yaml
+- File: Meter/Meter.yaml

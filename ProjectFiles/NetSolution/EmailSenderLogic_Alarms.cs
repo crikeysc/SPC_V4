@@ -9,6 +9,8 @@ using FTOptix.WebUI;
 using FTOptix.SerialPort;
 using FTOptix.OPCUAServer;
 using FTOptix.OPCUAClient;
+using FTOptix.S7TiaProfinet;
+using FTOptix.ODBCStore;
 
 public class EmailSenderLogic_Alarms : FTOptix.NetLogic.BaseNetLogic {
     [FTOptix.NetLogic.ExportMethod]

@@ -40,17 +40,14 @@ Children:
     Id: g=999b3b57169baab1104dcc602ed7cd7a
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
   - Name: SenderEmailPassword
     Id: g=db3fe3de7be9c21ff0a67176ac36c20d
     Type: BaseDataVariableType
     DataType: Password
-    Value: ""
   - Name: SMTPHostname
     Id: g=3a857d163f3334fa8ac828013edf6a58
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
   - Name: SMTPPort
     Id: g=69c0227470d0d27fde4153675087cf28
     Type: BaseDataVariableType
@@ -70,7 +67,6 @@ Children:
     Id: g=14e5b259e3a5c48e40819f451cfe9c66
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: DelayBeforeRetry
     Id: g=690442d1c7459d4d9575c03d23ebb08a
     Type: BaseDataVariableType
@@ -80,12 +76,10 @@ Children:
     Id: g=2f9fff73a7fbd3595ab7e9d06b8c6ac5
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: To
     Id: g=489dc3286f970f09c6e94ea60bba3ff4
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
   - Name: From
     Id: g=a59fe2d78e5edd80de87c1d242934aa1
     Type: BaseDataVariableType
@@ -100,7 +94,6 @@ Children:
     Id: g=9a0edb36726f8d70d8a3e0dc91268fce
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
-    Value: ""
   - Name: FieldDelimiter
     Id: g=53058e668ae71517a2d2debfd1f1412a
     Type: BaseDataVariableType
@@ -183,7 +176,6 @@ Children:
     Id: g=ff29d1716e86cd0ea6355b095bee29ad
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: VariablesSimulator
   Id: g=8c3b884914d31fcd5fff2977e3539bd7
   Type: NetLogic
@@ -192,22 +184,18 @@ Children:
     Id: g=903259c12bf20204f61737affeb5c228
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: iCos
     Id: g=0f809a5919920f1513f7e5bbdcfb98c0
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: iRamp
     Id: g=575cd60ef1a9439e49e4a5f6dd4bfd05
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: bRunSimulation
     Id: g=68171ea4d567d048079ac2a7418c9e4b
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: EmailSenderLogic_Alarms
   Id: g=5040a6a64f90f63c328acb71b4ebb84f
   Type: NetLogic
@@ -234,7 +222,6 @@ Children:
     Id: g=258edafab4a9028752ade272fb1d4247
     Type: BaseDataVariableType
     DataType: Password
-    Value: ""
   - Name: SMTPHostname
     Id: g=a79f88ba5c4c2e19e84232ef5442fed3
     Type: BaseDataVariableType
@@ -258,19 +245,15 @@ Children:
     Id: g=490e87f73a0182a2e8b7608c5e30458c
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: iCos
     Id: g=19212bc3cf36da82cc69ae3bf56d01ff
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: iRamp
     Id: g=11c14a08bf7ebc4a854fc22bee13d819
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: bRunSimulation
     Id: g=aab726c12bf172d6a88e9f46141e4be7
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false

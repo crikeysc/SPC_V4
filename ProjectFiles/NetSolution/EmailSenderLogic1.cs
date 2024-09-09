@@ -12,6 +12,8 @@ using FTOptix.UI;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
 using FTOptix.OPCUAClient;
+using FTOptix.S7TiaProfinet;
+using FTOptix.ODBCStore;
 #endregion
 
 public class EmailSenderLogic1 : BaseNetLogic

@@ -31,7 +31,6 @@ Children:
   Id: g=3c159923b91677cc1d2736b5c0a86e54
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
 - Name: Port
   Id: g=a6d2517d358ae9c87ad3063fb2b94a86
   Type: BaseDataVariableType
@@ -47,7 +46,6 @@ Children:
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
-  Value: 0
 - Class: Reference
   Target: ns=23;i=29
   Direction: Forward

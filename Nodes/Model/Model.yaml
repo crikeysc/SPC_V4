@@ -21,7 +21,6 @@ Children:
       Id: g=40e6ab8da6c2e886768eecf834be63f2
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: CharacterSeparator
     Id: g=d14af9e745212adf603a788a42d13da5
     Type: BaseDataVariableType
@@ -36,7 +35,6 @@ Children:
     Id: g=dd410b732f8c3dfcac1da668d2aade5a
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Timeout
     Id: g=d1203d8390e51e8161a9d0922db273d9
     Type: BaseDataVariableType

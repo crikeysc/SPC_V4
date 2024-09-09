@@ -23,6 +23,8 @@ using FTOptix.SerialPort;
 using FTOptix.Core;
 using FTOptix.OPCUAServer;
 using FTOptix.OPCUAClient;
+using FTOptix.S7TiaProfinet;
+using FTOptix.ODBCStore;
 #endregion
 
 public class AlarmGridLogic2 : BaseNetLogic

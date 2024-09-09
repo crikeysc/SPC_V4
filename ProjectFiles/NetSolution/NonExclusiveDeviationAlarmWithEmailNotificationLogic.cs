@@ -15,6 +15,8 @@ using FTOptix.System;
 using FTOptix.EventLogger;
 using FTOptix.WebUI;
 using FTOptix.OPCUAClient;
+using FTOptix.S7TiaProfinet;
+using FTOptix.ODBCStore;
 #endregion
 
 public class NonExclusiveDeviationAlarmWithEmailNotificationLogic : BaseNetLogic, IUAEventObserver

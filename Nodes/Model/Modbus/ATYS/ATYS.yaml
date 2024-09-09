@@ -6,7 +6,6 @@ Children:
   Id: g=5bb1e0cd306a95951e86b76c445b6931
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: DynamicLink
     Id: g=42b6389a5a67bfceed0bf0bc18117ae2
@@ -23,7 +22,6 @@ Children:
   Id: g=978509aaf4159975a8f7e4da4040b5b3
   Type: BaseDataVariableType
   DataType: UInt16
-  Value: 0
   Children:
   - Name: DynamicLink
     Id: g=41ce1465d786e858a8dd433b5509bc52
@@ -40,7 +38,6 @@ Children:
   Id: g=215ab4f0345e53660578136af9e34d2a
   Type: ModbusTag
   DataType: Int16
-  Value: 0
   Children:
   - Name: NumRegister
     Id: g=189281851019865979162b70a0400b1e

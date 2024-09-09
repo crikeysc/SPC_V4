@@ -7,7 +7,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Id: g=b839fe0b27dfc8ea4ae25ad48dd9dc60
     Type: BaseObjectType
     Children:
@@ -19,7 +19,6 @@ Children:
         Id: g=a1eac425964c768abaedd34e44057366
         Type: BaseDataVariableType
         DataType: Int16
-        Value: 0
       - Name: Value
         Id: g=c0c66d467d89b2fbad8c101966b6e263
         Type: BaseDataVariableType
@@ -58,7 +57,6 @@ Children:
     Type: PropertyType
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
-    Value: 0
     Children:
     - Name: KeyValueConverter1
       Id: g=e51b28052284f38820a147eb6189c60d
@@ -75,7 +73,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "/Objects/SPC_V4/CommDrivers/Optix_To_M870_MBS/MB_RTU/Tags/ATyS_Status_R[1]"
-      - Name: Pairs
+      - Name: ns=3;Pairs
         Id: g=e2b2b632addb17eb8c1f030c4e6f11e8
         Type: BaseObjectType
         ModellingRule: None
@@ -90,7 +88,6 @@ Children:
             Type: BaseDataVariableType
             DataType: UInt32
             ModellingRule: None
-            Value: 0
           - Name: Value
             Id: g=80189f2093f1e6fe63b180673751659b
             Type: BaseDataVariableType
@@ -161,7 +158,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Id: g=10174500143dd92918642022410d324b
     Type: BaseObjectType
     Children:
@@ -178,7 +175,6 @@ Children:
         Id: g=975b34c6d7e1fb5cf52c6740d38aaa9b
         Type: BaseDataVariableType
         DataType: ResourceUri
-        Value: ""
     - Name: Pair1
       Id: g=5a6e8a6e1ca66bafbac24586f9246a00
       Type: ValueMapPair
@@ -226,7 +222,6 @@ Children:
     Type: PropertyType
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
-    Value: 0
 - Name: EngineeringUnitConverter1
   Id: g=19b0697f308ace47fe5ba3bc9b2d4381
   Supertype: EUConverter
@@ -243,7 +238,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=5236f2e919c7d8aacc9391d644dbbaca
@@ -255,7 +249,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=fcdb891dc5d531bf1e08a96f88b34ec3
@@ -267,7 +260,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=eae64ce4bdb6ba59ec9458975858f3a4
@@ -279,7 +271,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     ReferenceType: HasParameter
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=6679dbea4eaa05fee2c65df4e37e5f51

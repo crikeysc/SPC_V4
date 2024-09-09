@@ -6,7 +6,6 @@ Children:
   Id: g=f1cd8bfeb94dd2ecd3c263c80eecc94a
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Id: g=4190cdc123b2c6a8ef998e89e5482b23
@@ -17,7 +16,6 @@ Children:
   Id: g=670cba7c02e8fe1a7c34d2347ff62b2d
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=7af5eca93c2c632bc5862d65d4da87cf
@@ -28,7 +26,6 @@ Children:
   Id: g=abe72ce01d2df47ddfa5edb685bc8263
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=c1bc59dbdcb397ca4a08960f2a8dc168
@@ -39,7 +36,6 @@ Children:
   Id: g=cd25ccd3269f30d95808e6e0092459ab
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=2dcdaaed07cc3d73b0a3b0e9d74691c7
@@ -50,7 +46,6 @@ Children:
   Id: g=af0da41dd4f20f3dd5316164ec391447
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=3708e4b28c236dde7f797aa527724ecf
@@ -61,7 +56,6 @@ Children:
   Id: g=3caa30a1e4cb15874ef1a564ab0975df
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=e455b081e4a7a6a8419a14944555e326
@@ -72,7 +66,6 @@ Children:
   Id: g=6b978a1ab2f222abdcb951e79945c215
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=81a69423941165b787591cda7febf4c0
@@ -83,7 +76,6 @@ Children:
   Id: g=1af98830f0c62146a28ee3b0803a2651
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=d9978341e87f1a3812a24c7d2ccea97f
@@ -94,7 +86,6 @@ Children:
   Id: g=604e09cb09f792194f4f452c2ca1469b
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=4e1b426516f711a132d27ad39d29df16
@@ -105,7 +96,6 @@ Children:
   Id: g=c5b95d76839d29a4898fba8f5d13df37
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=81ec524f2dd080c22ad0fe717eccc045
@@ -116,7 +106,6 @@ Children:
   Id: g=6f00fce904af3d48738e42a794f390d0
   Type: RAEtherNetIPTag
   DataType: Int32
-  Value: 0
   Children:
   - Name: SymbolName
     Id: g=89611ea360e62fbe80d4338828600d00
@@ -127,7 +116,6 @@ Children:
   Id: g=7b3c9919737936e1dbf4425c56697e3b
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Id: g=ffcb50b1d8bc59f99100de98806701ce
@@ -138,7 +126,6 @@ Children:
   Id: g=13d1b49ff34eb9c4cf0729698be4e6df
   Type: RAEtherNetIPTag
   DataType: Int16
-  Value: 0
   Children:
   - Name: SymbolName
     Id: g=9670275ecf9e4df22fc238477910257c
