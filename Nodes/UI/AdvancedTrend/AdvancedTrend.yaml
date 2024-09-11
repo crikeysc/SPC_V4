@@ -299,6 +299,12 @@ Children:
         DataType: String
         ModellingRule: Optional
         Value: "Default"
+      - Name: BottomMargin
+        Id: g=b7c17116e373b60cf26d9ba457e46054
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
     - Name: LeftMargin
       Id: g=bc06d57fe4fa0ac6d2b224eaede920fa
       Type: BaseVariableType

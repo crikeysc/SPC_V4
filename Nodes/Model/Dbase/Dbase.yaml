@@ -83,7 +83,7 @@ Children:
       Id: g=ee6699dfaa6e4ddce6bd48dd5966a5df
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample1"
+      Value: "../../../../Loggers/FTEM/VariablesToLog/KVA"
       Children:
       - Name: Mode
         Id: g=fbee4cdf3ced8382a789e6d6760abe07
@@ -99,7 +99,7 @@ Children:
       Id: g=b2f6cc2ebe850cdf063f68c07693eef1
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample2"
+      Value: "../../../../Loggers/FTEM/VariablesToLog/KVAR"
       Children:
       - Name: Mode
         Id: g=4c1455b3e78164f88adb7d443f019004
@@ -115,7 +115,7 @@ Children:
       Id: g=d3b8864359f2cb04e444d676d3a77218
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample3"
+      Value: "../../../../Loggers/FTEM/VariablesToLog/KW"
       Children:
       - Name: Mode
         Id: g=2003cd96e3964d33c9fae9671dea59fc
@@ -131,7 +131,7 @@ Children:
       Id: g=68ec90397edf44fdbc6492155a9607cf
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../Loggers/FTEM/VariablesToLog/VariableToSample4"
+      Value: "../../../../Loggers/FTEM/VariablesToLog/Flow"
       Children:
       - Name: Mode
         Id: g=4b8c760aa6769104bef44c3cfc1adbf7

@@ -182,7 +182,7 @@ Children:
     Id: g=92c5e9f1fc920009ae907f51b1aa79f7
     Type: BaseObjectType
     Children:
-    - Name: VariableToSample1
+    - Name: KVA
       Id: g=eb475a911ec2ffe9fcb6867609f3212e
       Type: VariableToLog
       DataType: BaseDataType
@@ -213,7 +213,7 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: VariableToSample2
+    - Name: KVAR
       Id: g=506aab070c43bb21b6bfa94a9b83c792
       Type: VariableToLog
       DataType: BaseDataType
@@ -244,7 +244,7 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: VariableToSample3
+    - Name: KW
       Id: g=27ae524c0c3e95796df349141bc10d48
       Type: VariableToLog
       DataType: BaseDataType
@@ -275,7 +275,7 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: VariableToSample4
+    - Name: Flow
       Id: g=b9da39def4238eec2900e3ff04bec651
       Type: VariableToLog
       DataType: BaseDataType

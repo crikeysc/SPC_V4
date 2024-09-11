@@ -212,19 +212,19 @@ Children:
           Id: g=16afddf6fe57d88c9887fa87ab5ce633
           Type: StoreColumn
           DataType: ns=0;DateTime
-        - Name: VariableToSample1
+        - Name: KVA
           Id: g=0d4e9414e291368ec7ec9a82afe46dde
           Type: StoreColumn
           DataType: Float
-        - Name: VariableToSample2
+        - Name: KVAR
           Id: g=bda2bf394eb399043c68a5bcf939e644
           Type: StoreColumn
           DataType: Float
-        - Name: VariableToSample3
+        - Name: KW
           Id: g=cb2c342a949b8642ae284739eb49df83
           Type: StoreColumn
           DataType: Float
-        - Name: VariableToSample4
+        - Name: Flow
           Id: g=ae83b1f724f840a2c16791adb7095570
           Type: StoreColumn
           DataType: Float
