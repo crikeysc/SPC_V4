@@ -260,10 +260,6 @@ Children:
           Id: g=881d9841a73325f03be9d90588efe832
           Type: StoreColumn
           DataType: Int16
-        - Name: 525 Drive2 Freq Out
-          Id: g=d5ffc539fcab79ba637cc773bf1e0e88
-          Type: StoreColumn
-          DataType: Int16
         - Name: 755TS Drive Freq_Out
           Id: g=fcb5355928ebc60f6fd0b210239f5224
           Type: StoreColumn

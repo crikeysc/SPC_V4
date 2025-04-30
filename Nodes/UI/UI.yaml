@@ -282,6 +282,26 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#b3b3b3"
+    - Name: RectangleStyles
+      Id: g=01ea98423d711969008ebc1cc881fb27
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Id: g=e6c14ce654f96cfeb273591ed11f7c4a
+        Type: RectangleStyle
+        Children:
+        - Name: BorderThickness
+          Id: g=2bbfece9ede497bcdb7c29813ddf4d23
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: 1.0
+    - Name: ScreenStyles
+      Id: g=0e3f5f6c3589e9bcc4c805c4db5ce5a1
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Id: g=44acda37b7b3bc5c3f22d4d071acac5a
+        Type: ScreenStyle
   - Name: StyleSheet_ALT
     Id: g=14ea41fa5da2e0f113225ae898dc4444
     Type: StyleSheet
@@ -525,6 +545,26 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           Value: 18.0
+    - Name: RectangleStyles
+      Id: g=84bab66fd5430030a219044ca0f09f09
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Id: g=ce534741f5c5f5ebba73c218ee6cfd5b
+        Type: RectangleStyle
+        Children:
+        - Name: BorderThickness
+          Id: g=928c4bb1e05b511b57ce8d98f21cc6aa
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: 1.0
+    - Name: ScreenStyles
+      Id: g=56e437204f6e2936e0bf37ad8ccc668e
+      Type: BaseObjectType
+      Children:
+      - Name: Default
+        Id: g=4485f9faa91f36495c374efd9768caa3
+        Type: ScreenStyle
   - Name: WindowColor
     Id: g=b22b8b7081cb3d1a0de2b7e017d2a6cd
     Type: BaseDataVariableType
@@ -818,15 +858,35 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Id: g=7b88990a393c56a695971b6cffafe183
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=9d57f4bf1f09eb9262e9e86c5f2efc0b
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=1b76d6b7d21ea15d4c9daa742984947f
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=ea60357a8ef57aa6d48e7efb2941fb37
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=d2a0cc027ee02d6b1009fb01cbbc1473
+      Type: ScreenStyle
 - Name: NativePresentationEngine
   Id: g=d0834e5830056c9efde6d73f4e42ac10
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
-  - Name: EnableVirtualKeyboard
+  - Name: VirtualKeyboard
     Id: g=cbdc1fa3a336766f41bbc4f069204156
     Type: BaseDataVariableType
-    DataType: Boolean
+    DataType: VirtualKeyboardEngineTypeEnum
   - Name: StartWindow
     Id: g=10d78ad63925153b67a3461b46e3d850
     Type: NodePointer
@@ -1001,11 +1061,25 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         AccessLevel: Read
+      - Name: StyleSheet
+        Id: g=489bc113bb86cc80a9450268ba7869e3
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=df1c155a9965221762416fa222b71dcc
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: MaxNumberOfConnections
     Id: g=8598b90aac7f4c85cb7c83f97a61c879
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 3
+  - Name: VirtualKeyboard
+    Id: g=a3aa2fa616cfea967f412d15989fb339
+    Type: BaseDataVariableType
+    DataType: VirtualKeyboardEngineTypeEnum
 - Name: MainWindow
   Id: g=8cf90c066f6cbe469330a516c128ae96
   Supertype: Window
@@ -1076,12 +1150,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 60.0
-        - Name: BorderThickness
-          Id: g=81f99ad65b4f6cb14877f56faa330d54
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 1.0
         - Name: LeftMargin
           Id: g=100e6929e30e97e8f6883eafc3aa414a
           Type: BaseVariableType
@@ -1883,3 +1951,4 @@ Children:
 - File: Screens/Screens.yaml
 - File: Templates/Templates.yaml
 - File: AdvancedTrend/AdvancedTrend.yaml
+- File: Keyboards/Keyboards.yaml

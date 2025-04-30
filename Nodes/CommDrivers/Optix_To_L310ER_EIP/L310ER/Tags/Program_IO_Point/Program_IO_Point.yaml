@@ -105,7 +105,7 @@ Children:
 - Name: Optix_FL25_Divider
   Id: g=6f00fce904af3d48738e42a794f390d0
   Type: RAEtherNetIPTag
-  DataType: Int32
+  DataType: Float
   Children:
   - Name: SymbolName
     Id: g=89611ea360e62fbe80d4338828600d00

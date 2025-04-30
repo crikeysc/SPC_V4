@@ -158,6 +158,11 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: PollingPeriod
+    Id: g=a0ef1be880b20b56595b2ea72cbed140
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:01.0000000"
 - Name: FTEM
   Id: g=26f185a69128ab02dc24984e4f756218
   Type: DataLogger
@@ -314,6 +319,11 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: PollingPeriod
+    Id: g=27bf33cd4eb0d813426f1662a01d1c38
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:01.0000000"
 - Name: Drives_Data
   Id: g=44c6abb38b5ec368e9b9c0f6ae1e2310
   Type: DataLogger
@@ -362,42 +372,10 @@ Children:
         Id: g=86705354d9010c75c119b0bd562fb9ce
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Ouput_Frequency_STS"
+        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive_9_525_Box/Ouput_Frequency_STS"
         Children:
         - Name: Mode
           Id: g=b390657f5374fcbd1e0c99999a0fd8b3
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: 525 Drive2 Freq Out
-      Id: g=bff47ff30f98b0c38f12c24ef79f4f7b
-      Type: VariableToLog
-      DataType: BaseDataType
-      Value: {"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}}
-      Children:
-      - Name: LastValue
-        Id: g=35458344752befa62c1b9b18137a0356
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Id: g=93f2b2bf8a92277b9d2b92e276c97192
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-      - Name: LastOperationCode
-        Id: g=1824d10583a9be94bc2730e2f2667d0f
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-      - Name: DynamicLink
-        Id: g=1fccb8bf6c912e54614cbcf05ce6fafa
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive2_525_Box/Ouput_Frequency_STS"
-        Children:
-        - Name: Mode
-          Id: g=3149b69c02e07385af3b0e2df6a76832
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
@@ -471,6 +449,11 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: PollingPeriod
+    Id: g=284d1c21fb0c2723a2719483185169ff
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:01.0000000"
 - Name: Data_SIM
   Id: g=26b2f5eefc964601a196a08c1c4e6e30
   Type: DataLogger
@@ -605,11 +588,16 @@ Children:
     Id: g=7f5b66cc72c8f11c6a267489af4992a6
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:1.0000000"
+    Value: "0:00:00:01.0000000"
   - Name: LogVariableOperationCode
     Id: g=cbb403c678d44c102ec73a27c7bfd354
     Type: PropertyType
     DataType: Boolean
+  - Name: PollingPeriod
+    Id: g=14a2f96d18d051ff7022cf3ec160bf76
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:01.0000000"
 - Name: EventLogger1
   Id: g=d3a8b25e39823d9b833b7715f18d8f75
   Type: EventLogger

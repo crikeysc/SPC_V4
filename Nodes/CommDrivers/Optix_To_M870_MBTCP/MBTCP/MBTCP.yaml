@@ -41,7 +41,7 @@ Children:
   Id: g=1f01cdc363e3372d78c05e1ef0a9f379
   Type: BaseDataVariableType
   DataType: Duration
-  Value: "0:00:00:5.0000000"
+  Value: "0:00:00:05.0000000"
 - Name: OperationCode
   Id: g=2808313a5659d52da7759b4af6de3a91
   Type: BaseDataVariableType

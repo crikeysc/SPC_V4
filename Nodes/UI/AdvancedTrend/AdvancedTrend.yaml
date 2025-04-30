@@ -379,7 +379,7 @@ Children:
           Id: g=0341ba183e9abc4b539b575727471790
           Type: BaseDataVariableType
           DataType: Duration
-          Value: "0:00:05:0.0000000"
+          Value: "0:00:05:00.0000000"
         - Name: Interactive
           Id: g=c55868f5e554ed5a9b87a55c6e18b700
           Type: BaseDataVariableType

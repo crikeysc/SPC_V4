@@ -100,14 +100,12 @@ Children:
       Children:
       - Name: Low
         Id: g=b4296c8f14f7618d6b5a3ebad0e78fd4
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Double
-        ReferenceType: HasProperty
       - Name: High
         Id: g=32b9df5d83354a27149f7ed8bfec2228
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Double
-        ReferenceType: HasProperty
         Value: 500.0
     - Name: EngineeringUnits
       Id: g=8e24b8dacbf8cc1e4ebd9f8dcba4d24c
@@ -116,20 +114,17 @@ Children:
       Children:
       - Name: UnitId
         Id: g=1e9ef75679bcb312b40f78d246a57ae7
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         Value: -1
       - Name: DisplayName
         Id: g=fc52dd65795b15b3538eaedd0253c5ce
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=c351d8f59823c7d3350c511b050c69e6
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
     - Name: DynamicLink
       Id: g=43c25cf3f6462efee92fb0abdc50785b
       Type: DynamicLink
@@ -153,14 +148,12 @@ Children:
       Children:
       - Name: Low
         Id: g=ba2117eafbb3612931433d6d705c5735
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Double
-        ReferenceType: HasProperty
       - Name: High
         Id: g=aa5c81affa46048ad6f7381b4563bbbc
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Double
-        ReferenceType: HasProperty
         Value: 500.0
     - Name: EngineeringUnits
       Id: g=962ed4afb30149a7805cc79b7937c1bb
@@ -169,20 +162,17 @@ Children:
       Children:
       - Name: UnitId
         Id: g=7ac901a43dc047a519283365785c8e85
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         Value: -1
       - Name: DisplayName
         Id: g=0cbef2af6069c5a2eff8318ad70e50bc
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=8780f9b10af9bac4c28ac3222dbb8862
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: FBEN
     Id: g=484e983893f13d8c3eb47a3bd38f29f6
     Type: BaseDataVariableType

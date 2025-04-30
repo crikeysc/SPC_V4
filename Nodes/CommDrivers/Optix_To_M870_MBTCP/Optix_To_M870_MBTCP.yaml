@@ -46,14 +46,12 @@ Children:
     Children:
     - Name: Low
       Id: g=91b330f90bd0d826ffed76ebf763f8c8
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Double
-      ReferenceType: HasProperty
     - Name: High
       Id: g=f8397a74cf9fdad2b0b0c949e7ae28c8
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Double
-      ReferenceType: HasProperty
       Value: 10000000.0
   - Name: EngineeringUnits
     Id: g=152a7679367b953a4b3dd193d901716c
@@ -62,20 +60,17 @@ Children:
     Children:
     - Name: UnitId
       Id: g=d7205d8ee6c969a0080c13489096d4cb
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Int32
-      ReferenceType: HasProperty
       Value: 12865
     - Name: DisplayName
       Id: g=8955b877e2f8f77c600e8e78234b1013
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: LocalizedText
-      ReferenceType: HasProperty
     - Name: Description
       Id: g=78e811141f1943d36afe2adf8401815a
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: LocalizedText
-      ReferenceType: HasProperty
 - Name: BackupAndRestoreTagValues
   Id: g=e793fd98d0a5c26bb6f8ed5b2c6bb3bd
   Type: NetLogic

@@ -64,6 +64,21 @@ Children:
   - Class: Reference
     Target: ns=17;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
 - Name: ExclusiveLevelAlarmWithEmailNotificationType
   Id: g=bced33d3eb396f8fc1c56bce4d70497e
   Supertype: ExclusiveLevelAlarmController
@@ -121,6 +136,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
     Direction: Forward
 - Name: ExclusiveDeviationAlarmWithEmailNotificationType
   Id: g=638bb91b52dbb16301a948f09112b286
@@ -184,6 +214,21 @@ Children:
   - Class: Reference
     Target: ns=17;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
 - Name: ExclusiveRateOfChangeAlarmWithEmailNotificationType
   Id: g=b6e6234496af1c7ea383e82b8a02c39f
   Supertype: ExclusiveRateOfChangeAlarmController
@@ -246,6 +291,21 @@ Children:
   - Class: Reference
     Target: ns=17;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
 - Name: NonExclusiveLevelAlarmWithEmailNotificationType
   Id: g=219bf93076a8cbc3b7ea335b3b2041b0
   Supertype: NonExclusiveLevelAlarmController
@@ -303,6 +363,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
     Direction: Forward
 - Name: NonExclusiveDeviationAlarmWithEmailNotificationType
   Id: g=64de67baa6c7953fe582a9dda137d211
@@ -366,6 +441,21 @@ Children:
   - Class: Reference
     Target: ns=17;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
 - Name: NonExclusiveRateOfChangeAlarmWithEmailNotificationType
   Id: g=4c795607d14cee49e122cc7998cb7daf
   Supertype: NonExclusiveRateOfChangeAlarmController
@@ -427,4 +517,19 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
     Direction: Forward

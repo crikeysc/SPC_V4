@@ -66,6 +66,21 @@ Children:
   - Class: Reference
     Target: ns=17;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
 - Name: DigitalAlarm1
   Id: g=7476a22ecbe50cf84551d08d9cbf1565
   Type: OffNormalAlarmController
@@ -118,6 +133,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
     Direction: Forward
 - Name: DigitalAlarm2
   Id: g=02114174a0cdb5f1b030587e2c9c75fa
@@ -172,6 +202,21 @@ Children:
   - Class: Reference
     Target: ns=17;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
 - Name: DigitalAlarm3
   Id: g=206f22daf6ed0fe89c66526a6bfe0ab3
   Type: OffNormalAlarmController
@@ -225,6 +270,21 @@ Children:
   - Class: Reference
     Target: ns=17;i=135
     Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
+    Direction: Forward
 - Name: DigitalAlarm4
   Id: g=ec321e87e01f135a26674348baba84d1
   Type: OffNormalAlarmController
@@ -277,6 +337,21 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
     Direction: Forward
 - Name: DigitalAlarmWithEmailNotification
   Id: g=a84ef9cf1702deb7ccd4e978f9bf52d8
@@ -353,4 +428,19 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=17;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=154
     Direction: Forward

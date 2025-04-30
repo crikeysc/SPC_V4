@@ -19,12 +19,6 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
-  - Name: BorderThickness
-    Id: g=13efe6b8278ecd1a3ed8bbe63f1cf847
-    Type: BaseDataVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 1.0
   - Name: FillColor
     Id: g=3c599374d8ed25b16fc40afd04185af1
     Type: BaseDataVariableType
@@ -122,7 +116,7 @@ Children:
                 Id: g=c903b87f81d1319c10d05e729ddeff34
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Forward_CMD@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive_9_525_Box/Forward_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Id: g=46b37d866b48017fe26470581efa6e7c
@@ -234,7 +228,7 @@ Children:
                 Id: g=f42049961e708bea5e1f96c6a38d2d05
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Forward_CMD@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive_9_525_Box/Forward_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Id: g=6d3d275ffafe99d28021c060b645f3c5
@@ -838,7 +832,7 @@ Children:
             Id: g=40c166291e7730d5847e4b1462a943ab
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/Instances/PF525_Drive_Object_SPC1@BrowseName"
+            Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC"
     - Name: LeftMargin
       Id: g=46a46d86b208308c2a11a978e10b3d04
       Type: BaseVariableType
@@ -879,7 +873,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#000000"
+      Value: "#f8e71c"
     - Name: FontSize
       Id: g=560d288900bf40fb73f26de123a4ffab
       Type: BaseDataVariableType
@@ -1164,7 +1158,7 @@ Children:
         Id: g=44f7851b947eb28aaaa751112bc05147
         Type: BaseDataVariableType
         DataType: Duration
-        Value: "0:00:01:0.0000000"
+        Value: "0:00:01:00.0000000"
       - Name: Interactive
         Id: g=5e098bde2d8eb93a1486e8116e11a97b
         Type: BaseDataVariableType
@@ -1396,7 +1390,7 @@ Children:
                 Id: g=f112e6c01e258bb90558ac3743583cd1
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Reverse_CMD@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive_9_525_Box/Reverse_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Id: g=e30fadf340aba932bb353cc8fb918373
@@ -1508,7 +1502,7 @@ Children:
                 Id: g=85444ffe84b728e0d6cd9a259b892988
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive1_525_Box/Reverse_CMD@NodeId"
+                Value: "/Objects/SPC_V4/CommDrivers/Optix_To_L310ER_EIP/L310ER/Tags/Controller Tags/Drive_9_525_Box/Reverse_CMD@NodeId"
                 Children:
                 - Name: Mode
                   Id: g=aa12f2150bb2666278b8328cb00b4055
@@ -2357,7 +2351,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     ModellingRule: Optional
-    Value: "#3b3b3b"
+    Value: "#525559"
   - Name: Close1
     Id: g=40ed0d56c41fbeba465e764db21afc3e
     Type: Button
@@ -2490,6 +2484,16 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#ffffff"
+  - Name: BorderThickness
+    Id: g=0f4758e679242dc2b2f81f0a71fd5a91
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+  - Name: RightMargin
+    Id: g=8bd064436e8b776dd97751be762a8f18
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
 - Name: Models_BaseCard
   Id: g=9fc1d17b4b5cdbcb392211ed12e4118f
   Supertype: BaseCard1
@@ -2539,6 +2543,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+  - Name: BorderThickness
+    Id: g=a229f0b47f2ef95230a214523c3c41f0
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
 - Name: BaseCard_Login
   Id: g=fb577486b1a29b9bd5bc8c58307454ee
   Supertype: Rectangle
@@ -2625,6 +2634,16 @@ Children:
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 1
+      - Name: BorderThickness
+        Id: g=f0c3b641a2960370ac860008246bd7b9
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+    - Name: BorderThickness
+      Id: g=a12f570d9aa57283d56179a20f0a36f4
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
   - Name: HorizontalAlignment
     Id: g=20ed769c6b5ab1e7eb3a7f12c16acc10
     Type: BaseVariableType
@@ -2799,6 +2818,11 @@ Children:
     DataType: Color
     ModellingRule: Optional
     Value: "#f1f4f6"
+  - Name: BorderThickness
+    Id: g=2287bab17e8a34b2f725dc91e973b991
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
 - Name: BaseCard2
   Id: g=7fb53488ad3133f424ec033549d92587
   Supertype: Rectangle
@@ -2816,12 +2840,6 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
-  - Name: BorderThickness
-    Id: g=14ab13ba9ad2b5e39b9d5524b293def1
-    Type: BaseDataVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 1.0
   - Name: FillColor
     Id: g=5dd2e2ef156f8b52d0773e66aec5fc2a
     Type: BaseDataVariableType
@@ -3592,6 +3610,11 @@ Children:
           Id: g=03948f48920bc5529c4ef82d747f03b9
           Type: PropertyType
           DataType: UInt16
+  - Name: BorderThickness
+    Id: g=69606cc1cb67726b55249f390fe0ea48
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
 - Name: Meter
   Id: g=322bdf83841ce5c090147994f8be12d0
   Supertype: Rectangle
@@ -3609,12 +3632,6 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
-  - Name: BorderThickness
-    Id: g=e42c6f48c611c2c69a803280c9e86934
-    Type: BaseDataVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 1.0
   - Name: FillColor
     Id: g=f61e51ef206cba24b88e69d6233c3f72
     Type: BaseDataVariableType
@@ -3677,12 +3694,6 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#867373"
-      - Name: BorderThickness
-        Id: g=45e45882ed2d2b246d50c70a9d9b953d
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: CornerRadius
         Id: g=56655466f2d7a8c4091bb92da0ffea1c
         Type: BaseDataVariableType

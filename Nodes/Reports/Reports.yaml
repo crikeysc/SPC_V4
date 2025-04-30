@@ -19,21 +19,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=dd53a2643309daed09dc22bc034dc425
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=413a03fb925d7aad3802f9824228575d
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=f8ccbec7b8b79063f5c2e4893bd12be5
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: ButtonStyles
     Id: g=c714e7ebcd489a56e52b46a5fc4828a2
     Type: BaseObjectType
@@ -290,6 +287,26 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Id: g=67838a0fc7f32f2c306ae1aa5107a802
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=d07a47d4650f424100617bed42835a53
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=e71e6b26e854f0b2bddd658ba53266a7
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=6a3283c0f2e21beb9725e7d8cd8c4f7d
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=ed530e3d98c62b556ca1805610106262
+      Type: ScreenStyle
 - Name: StyleSheet2
   Id: g=c19728e78f653e93b5f219e512bec386
   Type: ReportStyleSheet
@@ -307,21 +324,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=43170594f7f67d9dcd4c4b47f592eaaa
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=94e58d7c534af34b8bea61e30f5d9aa4
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=91e606fb26e911a8aa2e5efb00f1f813
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: ButtonStyles
     Id: g=2fb318dae1b740b6402d842528e4422c
     Type: BaseObjectType
@@ -583,6 +597,26 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Id: g=afe1fb377ecc581ca051ba62f12ebf0d
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=6e1055977ea0b005525bca79f20077b4
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=383fca4a568db38852e77341f4f52285
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=203c452ff327459812cd7d2e60d34147
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=bb7c331dbeb6e3a88c1cfb0ad9c697ce
+      Type: ScreenStyle
 - Name: WAGES_Report
   Id: g=fe157f79b64fcbbcaaaf089db75ae06b
   Type: Report
@@ -606,21 +640,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=96054ec3b355c1e9e7709acc026a6068
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=69d69f76db381c915edadc5e9fef8671
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=4dc3ebdb9bcc7ca0dddae4f97073188f
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: PageHeight
     Id: g=b859ca0904a7f6dd571792c3c1c152dc
     Type: BaseDataVariableType
@@ -634,21 +665,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=264d92ea10ccdb33293e8bfd82df3106
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=27051dc20a4e4633b42a04b7db5d3dfb
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=23b6e3294c4a069f831448892859beb7
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: StyleSheet
     Id: g=46913c6756b53057bab869f81209c35f
     Type: NodePointer
@@ -694,21 +722,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=30051477c918e78cad4e71bb94321de5
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=79eeeb06ec5b80e78cb39b7b17a802f3
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=53dbfd50bff34d8971ba1b86bc65110e
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: PrintDateTime
       Id: g=712d23489405f6546b72b81cafbe017f
       Type: ReportLabel
@@ -726,21 +751,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=5d1c1a17f528d4df8ce64044a287f08d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=3c2ed953d419f7de8b86f9d3ef0c8e10
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=797a10223c0b03281cf55d81723703bc
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Text
         Id: g=a557459bc1c3070acddfdee5728e52ac
         Type: BaseDataVariableType
@@ -764,21 +786,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=fc94aeb93e83edfea5f225856dd3184e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=ea0f10db813a628f291281652afb567b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=29416d21858a9952f0e510376d96c156
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=a3ce2d707325a4e6f5c31fb9596f7a93
         Type: BaseDataVariableType
@@ -791,21 +810,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d9ae68c2ba8b7872a8fef800f738163c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=556e10fe3919a0b44e455ad479cfb121
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=370bc71647e4184965d4a5ee51767c37
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: HorizontalAlignment
         Id: g=b12858d3e71321f564dd072b8a16b0f8
         Type: BaseVariableType
@@ -829,21 +845,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=b37ac1e70bfd9e69facf12f09659bd92
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=b161bc544340c50ab3591f58a55bbd8b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=5d50dfcd5e0e97c3c5b3a65f2d3f95b3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
     - Name: Image1
       Id: g=7fb9d85a382e8aec4d05d24b329bcdc2
       Type: ReportImage
@@ -866,21 +879,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=37f3a5986b99b2982c57b6c8a64d2dad
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=7341c191b608be92e5004ac61960f842
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=89aba0da55e85cc2bb2b66f5eca167c6
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=7bfe65eac46a85465e8da21e7b090992
         Type: BaseDataVariableType
@@ -894,21 +904,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=cd816db7b91f00b9b063d064322ad561
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=46f37272da917b05ed4b23d25140509e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=2ead62341dfbbad7e7ef79979f346a1c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=bd0d60cdd4032a975f45fce46fbdcf3c
         Type: BaseDataVariableType
@@ -921,21 +928,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=40a97f02fdb2abef3724ae74ded09c8a
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=f04a1008755a0b135c9a6ee0a69b28dc
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=287bf2db029c9445e5df95258cc2d176
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=fd35a840ef1b833245a0c3ae4170ce0c
         Type: BaseDataVariableType
@@ -948,21 +952,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=2583575bdd4929405417b31b6805a653
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=ff5911ffbe686ecd897f279257566f16
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=b4e1d11376eeb56ec94e41bc54c6dd6d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
   - Name: Sections
     Id: g=4809bceefb3349cd44fc5e92cf018f7c
     Type: ReportColumnLayout
@@ -984,21 +985,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=094135f59b3e01961ff29a50c0e232ae
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=50e0aed647ecb26575b18c84dce29d0e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=333d3f3ddb56bef10c05fb454fecc432
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LIneParametersLogging
         Id: g=43e888410521de84b92726227d76b2f0
         Type: ReportLabel
@@ -1016,21 +1014,18 @@ Children:
             Children:
             - Name: UnitId
               Id: g=2851ace1e60252694aef7742c46e93a8
-              Type: BaseVariableType
+              Type: BaseDataVariableType
               DataType: Int32
-              ReferenceType: HasProperty
               AccessLevel: Read
               Value: 5066068
             - Name: DisplayName
               Id: g=9a8019167617b71ec0d88c77bf40f5b6
-              Type: BaseVariableType
+              Type: BaseDataVariableType
               DataType: LocalizedText
-              ReferenceType: HasProperty
             - Name: Description
               Id: g=b19c0240c65b0304175d1e6dd1ab5018
-              Type: BaseVariableType
+              Type: BaseDataVariableType
               DataType: LocalizedText
-              ReferenceType: HasProperty
         - Name: Text
           Id: g=cfcb1dbf108c911f0bd45fb0dbce4d2f
           Type: BaseDataVariableType
@@ -1076,21 +1071,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=17ec639406977fafe6f758cb58c19bf3
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=a85acf95c056bd3d5169d7aafb44b1d7
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=10892262bdbeee0ee902bb67c1683f7b
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=95563f35344e363530f0418f82f20efd
             Type: BaseDataVariableType
@@ -1145,21 +1137,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=a1080875099d46f3bf52570853ed5d3d
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=81d52fb4245d796b966ed4673c40fac8
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=d51667e09b1c6757fbfe2c7103190157
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=5e835cbac84852efaf2c048fa365ac9c
             Type: BaseDataVariableType
@@ -1214,21 +1203,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=71f321214b0b24e8692d5388fe59c936
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=f9040ef33739f6eb1bbe651d0bfca4be
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=5e9048a88c23149e0debb35e2b459615
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=bf5f776a37c22841237c7fa2c0f3ac0e
             Type: BaseDataVariableType
@@ -1283,21 +1269,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=869b761f76237acd35b3f657aa2f23fc
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=4be2ddfa3227aa410eba8ec360889722
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=fc2046117bc65b2565db52134ac09a0a
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=60373148f8bf2649621b56f94e78f6eb
             Type: BaseDataVariableType
@@ -1352,21 +1335,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=13180702be10044dba9cf9815d4e4ba5
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=250f0f1ad7306a1294dfcc55788583a2
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=1734777416625c6496f745f01e028da0
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=1921545967f367d81b2cc407b1c02ceb
             Type: BaseDataVariableType
@@ -1421,21 +1401,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=2a60e5253e1dc583a93a229b29a86ff3
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=916c7646727bff4bbabdc58505d046b0
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=b47d435f76ff772d58c2b67e08f9b8fd
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=fe43bc85885c86370a377eefff0d03f6
             Type: BaseDataVariableType
@@ -1523,21 +1500,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=fb07c8b99db920683ef7c02060726323
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=4c9281640ff5139fb5e0a35e36c9e881
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=ebafd01d58e51222ff93cffd7a9e30ce
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Item
         Id: g=09944dbdd1ea6190289a4d4d75bc8e7d
         Type: Alias
@@ -1575,21 +1549,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d9e26aed06b5e960f8c867826b2c7d30
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=e74a8791298d08ab54c866efe417a9d5
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=82a4e8711f6f4927e0be677f67d1bf22
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: RightMargin
         Id: g=cdcaaa7fe224d390d90f5c21045f2393
         Type: BaseDataVariableType
@@ -1603,21 +1574,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=4cb3d3e003d5b35bdbd50ee89092a3a0
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=3dcac2b6490ebb37e47d1f9be80ae0d5
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=e43bf0c6f27a30af083a712df5acd7dc
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
   - Name: Footer
     Id: g=3ed5a45adbd5159bf9035101149a30cb
     Type: Panel
@@ -1635,21 +1603,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=205ed56f1b609ddd37965bbb051741fa
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=0868062296b7274220d1f8f78a8a555f
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=ae487a046254f32519b295ceeb8001e8
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: ReportFooter
       Id: g=ab3dc1516493c09833ffe089d79fff45
       Type: ReportLabel
@@ -1667,21 +1632,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=89b02ba868ed5c8b5700f5a6554be9fe
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=3470e1ac026fcec353999b0d9859e9f3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=bd7cb372f046dad28175d9c7114f981d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Text
         Id: g=b577c93d05dc3e2df3d9ae9ad9859710
         Type: BaseDataVariableType
@@ -1700,21 +1662,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=8af22181663e4d9a07c29656c6fb540f
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=512abccc7ca77f4f485e2adf2332111c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=7bc939f8d1bd2da90cf23debb7f236e6
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=68315fc7f9604a46a3c674667ca75ff4
         Type: BaseDataVariableType
@@ -1728,21 +1687,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=dd2234f550dce845ef2cf259784a250a
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=b2b4949592ced4c6e26533a53643eff5
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=c5b24cb00b2b13de20e979d39cfde3a0
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: HorizontalAlignment
         Id: g=b13af4b058b765e8dff6705a3818cd93
         Type: BaseVariableType
@@ -1775,21 +1731,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=0872e940afc941732397655d789f3c7c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=e159fa75374466c0563e9610bd6213f3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=891eaaaa264cc6ba00d2f99267152bf0
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Text
         Id: g=ddbedc989569cbd614b4617411793dff
         Type: BaseDataVariableType
@@ -1808,21 +1761,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=6d196c012b3d2ba8a7b0787dad6600ca
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=1b1d0fac0ab72a4f9879305c39a54931
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=695aeb9fba3f88c27695f414f59ab042
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=e55322d382f841b7e859b085e7e9a153
         Type: BaseDataVariableType
@@ -1836,21 +1786,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=7a0f0512507398c53bf9c6818a6097ad
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=afaa0e6c597554b7b0e7cbbeda66209f
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=30717518e323dfd02e4db6a082712de7
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: HorizontalAlignment
         Id: g=7b986ab8e931b5bc38ffaf96bb09f0d4
         Type: BaseVariableType
@@ -1874,21 +1821,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=5521813e878ce8708f796f7058add877
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=02cbe4a55a6002f363e3d7a883a9e023
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=0006095f532dfd50fe331f038cde4069
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextHorizontalAlignment
         Id: g=d225791752bfa54da69c221c806f85d8
         Type: BaseVariableType
@@ -1921,21 +1865,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=339b36be67c8fe1aa9f83182cf840f86
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=df415e1693683149f5ccd7a768441ab6
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=7c598356eb7939e85b3a9acfacded845
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Text
         Id: g=1aaf362e00b1fc1541443bcd9e848821
         Type: BaseDataVariableType
@@ -1986,21 +1927,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=17afdec56b4032bbb688b7674ca0e47e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=7670c5b141e2200d341d40c423d89908
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=b24dba83814f0d4887b2139bf5687ed1
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=d19570ee03fb623717b3aaed5be226c8
         Type: BaseDataVariableType
@@ -2014,21 +1952,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=6c5daf3830d23ff2704956481920582c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=462f8b79d0c092f817f48d2b320c613e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=bf4a4f5d6c34876f24a63986c0eecdd6
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: HorizontalAlignment
         Id: g=d7bec3b19f045aa86d76128e2cb4f144
         Type: BaseVariableType
@@ -2052,21 +1987,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=7f9647653c43657d7fb64e681db03267
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=282369e4a21c1ced57dc5d4ce504d520
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=ca605879dd77befb256ac50c7f81df62
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: RightMargin
         Id: g=5ee11cbc711d67ef8b4fca8c6ef5c13b
         Type: BaseDataVariableType
@@ -2080,21 +2012,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=2e892024f3b92bd0d53c491dab1153c4
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=64abfbc193202db70529ff6a61405d0a
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=120327cdf51cc74e4a7977d91ed25c0a
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: BottomMargin
         Id: g=e8c50f1f3597e80f3ac6b7dac3a85f26
         Type: BaseDataVariableType
@@ -2108,21 +2037,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=dcd54ee69d4907f276a7cfcd73e5b2c9
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=314843bfa58d6c4ddbfd196717a0bb79
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=c385230706537ef6c47a821dd8734cc8
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextHorizontalAlignment
         Id: g=5e1ed56ebb6a70b5f6d955aad6242e4c
         Type: BaseVariableType
@@ -2155,21 +2081,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=0d422df90b126911a7ace7ec8e570854
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=6f4cd4a76b7173a28a41cb4f0f0559d4
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=ad7e24936d192e2d3834bac8b60ba080
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: PDFGeneratedHandler1
     Id: g=71f81751172f132c728517158a9d5836
     Type: EventHandler
@@ -2308,21 +2231,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=01f6b3b7815bf3e72713adfec7c52cf0
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=222b290f3327f34d702120aaff4b7ebd
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=2229f209deb5901beb74879380f312c4
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: PageHeight
     Id: g=37d9cf58ab4816ba1061b866dac2da9f
     Type: BaseDataVariableType
@@ -2336,21 +2256,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=7c8aaac149ccb89fe35551f7a85f6909
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=7860cf67313c3b011470fd927dc63e9b
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=5e34b55c8c607dc6a770cfc7c81e9062
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: StyleSheet
     Id: g=1e34d83bd5e426dfa468da8799af4555
     Type: NodePointer
@@ -2395,21 +2312,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=56872db2bf983ed141c46748bf70639d
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=c7a7ea95dc486c80a85256a3cdfccaf4
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=3a0092f811837f8ee9763a91dbf2fa8d
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: Label1
       Id: g=753f30aefba6d8bffaaf61a4e51ee9b8
       Type: ReportLabel
@@ -2432,21 +2346,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=e119db3b45f4c2a0f09329ffc63e4087
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=ac0c5c10611da11568ff2b89dd31183f
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=d3b677f95f276229ad814787de8c155b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=43b1c4d1e15753579adf8e67b5341721
         Type: BaseDataVariableType
@@ -2460,21 +2371,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=a66c8d9aa1a62516c79a4c6a23efcf12
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=3db7d7fed61f3494c2c21bd2e8968381
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=bc1e730db8584a8def2728bb47799afb
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=251e9a01e33279e43bfe1d5b9a25bca4
         Type: BaseDataVariableType
@@ -2488,21 +2396,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d7c6aff5813d761e3fcaeafbdbac92b3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=dc79c343fd26c7a2e39a0030ef7957e7
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=2e16394115ddf4e42035856ebc4e0bad
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=af0505fde9d8687658639af71689391e
         Type: BaseDataVariableType
@@ -2516,21 +2421,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=a14bf17189704905fb0dc9bf4a7abce5
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=7d69e08ea9ae39d17dc587ada9236e15
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=eee3e53d0843b3b9c7603c1da72800fd
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: FontSize
         Id: g=7cf99552ef619c951a874f7c3a6307ba
         Type: BaseDataVariableType
@@ -2554,21 +2456,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=91f4565deb722a514dd33f4508ca933d
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=651031ff45bc7334d559b603df18981f
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=78124fbdddc99c7f2b7fa2ca352b420c
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: RightMargin
       Id: g=d484c68a879f06c6f9085de575c7f2ab
       Type: BaseDataVariableType
@@ -2582,21 +2481,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=20cb6a74716a88b6c50e83cf2f890544
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=5d435eba809f925b1034bfd399b2a1ff
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=6dda6b3cf4b5da790cea4d2920417025
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: Image1
       Id: g=784abb11691e0b4c6f09246d02befc7c
       Type: ReportImage
@@ -2619,21 +2515,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=a61887956625e663453fe96616731545
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=24d22ed2d332b388df74f57d6fe67c76
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=563628bd13fad388e848174c53cd97f0
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=ad083335aca1a4fe650856c80b89bda1
         Type: BaseDataVariableType
@@ -2647,21 +2540,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=4e48931029f43a22d5fdef387abe6b72
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=ae14aec59e968ab2e41c06ad274a8b46
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=6c77bc3ad332712b88eed40311e3d937
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=bc643a115e9902d2df020b6ebb2831db
         Type: BaseDataVariableType
@@ -2675,21 +2565,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=5393e54e45722ae187f30182b2e94d9b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=38fee2457211f266273abab0c6569d43
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=09d626af6c2da48f33e68ea0c9497264
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=1e41d683d635587c94377ebf3fa40075
         Type: BaseDataVariableType
@@ -2703,21 +2590,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=2900fdef80cfcf73df33d7f64e44d7fd
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=ca52e16d7f50900f3fbf860cf40e4a92
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=14c995f55aff65a6b50a433ca1e58f8a
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
   - Name: Sections
     Id: g=e4fd6bd4e8b81d40a1a7fbf0ce11d9b2
     Type: ReportColumnLayout
@@ -2747,21 +2631,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=6d23ccb893d572fad62ad885fd454b9b
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=591e79e6539be20a6d5a9fc29184b0c1
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=ff57cd9eb1f5b328d2c0711e8ccbb81f
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=2e661e3b4eebf64ec3a9b1118019c8e2
             Type: BaseDataVariableType
@@ -2816,21 +2697,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=d1eddbf4a78f04825f6f21d77e038de4
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=eb4101eb6f849c483ec26698bef8eff4
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=e630a32c57a699b2d469d67ee2a00aa4
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=56c26d1dd8fd3be118c863ea235286ca
             Type: BaseDataVariableType
@@ -2885,21 +2763,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=fb7092bf88536d4541f71e7ef7fc37df
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=e7585339a2e8e53ea1caea104ec15334
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=ab6ea265ef1c85dd2a094a479f2fef31
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=fc071c93d8489b92b469b8183f99c7e0
             Type: BaseDataVariableType
@@ -2954,21 +2829,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=d91b91fde881410e09e3393aaaf3f186
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=62ec61626db22756ccd436122e51fa6d
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=5d930f25369e4a3089e648f43a080458
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=f7065745dbd68bd6cf8b1d2c5b2aed9f
             Type: BaseDataVariableType
@@ -3023,21 +2895,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=9834f1515e6ce9fa6562d4ba31e5cad5
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=6c8899f2caf0995af6868225303340d1
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=1ee5246e63289d808056d5b9225089f2
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=5942ff7df8ca4f8196ad44c2fbc12927
             Type: BaseDataVariableType
@@ -3094,21 +2963,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=5349315158c689d5cd56f3c2d0e099ad
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=1ef3f46cf75b26036a76fce9ab2c4fe6
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=bf2108b58755d4894dfcbc426f988f4e
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=8ed6b1cd549fab8c0d9d220046adcb32
             Type: BaseDataVariableType
@@ -3198,21 +3064,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=3e385fa43fe4c477838ea791f5def0ae
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=e23de084b44aafaf1e068f342fbb2c6b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=a6ae0b10bad59719e343c4e67308e396
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Item
         Id: g=5f85ac5f4da56418368abded5854f346
         Type: Alias
@@ -3241,21 +3104,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=ec635bf4888c9e58e0b80acd7345646e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=ca47c56111083c5fb00afa54a7950a11
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=ee1185a496bec476edfbdd737707e190
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: RightMargin
         Id: g=449e8c3032f89fa01ba0753bf1c48f02
         Type: BaseDataVariableType
@@ -3269,21 +3129,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=7c21baf932d60172d271a7253b45443b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=523a9e70b4b37b69652537d6b063b530
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=b48fba75979012da5aa787c2239ddba4
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: SortColumn
         Id: g=b318c1146af360c8d305a25fbc6ab1c3
         Type: BaseDataVariableType
@@ -3316,21 +3173,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=0b4b9bc11227266bb9a930682353c05a
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=e29d38422bf8d60a72e08a068fb554c5
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=af350bfdddfae28e8e264307e6609983
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: RightMargin
       Id: g=1d5395bc4f16127c0ffef9e2fbbbe240
       Type: BaseDataVariableType
@@ -3344,21 +3198,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=11271066ce89dc22066802a1ae63955e
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=e9831951669d62a6c6e311a3fb7dcadb
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=527548039a186dc17c99fcb3666f68bf
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
   - Name: Footer
     Id: g=56715eb0a5734453faa22c60a88487bd
     Type: Panel
@@ -3376,21 +3227,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=f81c7773dc8499e70f3f8f138952f8dc
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=866c553515ebeaac5b89718837925f1a
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=eb5aa89edf5c5fb061782965133b3ee7
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: Page
       Id: g=790c3c0ec4aab9975e7d9c1cb7c7d8eb
       Type: ReportLabel
@@ -3413,21 +3261,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=1d2fcef503097079ac0c9020ea53dca3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=f41aa324f5f581e4fc36eb65c4a0d687
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=d0f77154b855d4d6484a227f635ded48
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=e03836327f9e6a407f0eafb899af41b5
         Type: BaseDataVariableType
@@ -3441,21 +3286,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=84be10e431c4cfa1eded8e384179e0d2
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=3921da20402c9e4c92f161f9d1e01384
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=98b879a1d9570e882a64df1ac6dd3cbf
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=ca0c6d4c486565836e6edbfc7e359277
         Type: BaseVariableType
@@ -3474,21 +3316,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=435f0662b6738e359e956a012edf1868
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=9cb05ea187280f5d91e109b026379c4d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=33434a9cd5bf0c8bb6b13b358a6660ed
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
     - Name: PageNumber
       Id: g=2f570605d5f04a5cdeb82eef348600ef
       Type: ReportLabel
@@ -3516,21 +3355,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=8d721b35a04b64ae63989e10a8e5919c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=fbd28063bc797762986eb0fdb9b6178a
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=db114fcd72a5c9cd836d4c9fe7871b01
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=5f9fb3952233d028c198565c564868c6
         Type: BaseDataVariableType
@@ -3544,21 +3380,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=bed58d8b8f608e127325ea4709db0508
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=9fcf15bcd250b771914972b16fecb4da
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=8a14734015e1b740662f7f6901b8519e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=4897b39f91f9cbb85ca88bebf2cfc38b
         Type: BaseDataVariableType
@@ -3572,21 +3405,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=b3878c0488ba996d053a7cb4d8f71093
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=1d26d5acc331215e0270ccc9bac00b75
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=af8495a361c8168940ae547737cefc47
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=4d8788dcfd030fe7b08406496ddb4b5d
         Type: BaseDataVariableType
@@ -3600,21 +3430,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=3c181f00ca048f9478bbbc91ae864bbe
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=e8b2878d07a4e1b423883be10b9cec2d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=b83f0464b06f572a17f14285f0ccfe91
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=d2602488e878625e570b0fa9942a5fcb
         Type: BaseVariableType
@@ -3637,21 +3464,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=442c639bcf8c8a80c5da686b9a85d40c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=0d75c2e9e69f6b6005e348c3a09d7534
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=8acc3b6e449955bae76016c41869196c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=62407f09e64e029ac619659413ead633
         Type: BaseDataVariableType
@@ -3665,21 +3489,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=cce1f44c526b0f2f95657dd62131396a
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=0d8e2e98b05307a942feb75e60ef92e3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=08b7fc276bdcd40ae361447d712e4fa3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=122f0533c419ff1a6534f5c59d5ae74d
         Type: BaseDataVariableType
@@ -3693,21 +3514,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=797e31ba03fc41a6473d1887a54ed95d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=9ee30c43e8ea13986fa4fe14d9fc0fd0
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=edb8a5e85d6e620f7982d527cbc5b642
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=39305d07ec3dc28a1bdcdb59b74e2099
         Type: BaseDataVariableType
@@ -3721,21 +3539,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d01561a472751ede5f5f61fe8d580ad7
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=377f1d76a43541622a90fff30e8bae87
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=9d9454ede16db00825cbeb7392a17f62
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=7f803dda0c89eb652a5dcf13378d3127
         Type: BaseVariableType
@@ -3778,21 +3593,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=ca021c18d287483a6873a90600b42e31
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=6c0eb0dfe35bf9808bc08af30a06cd33
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=6f5f754b0d5694783f7d896b79370171
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=5927f0e28afa8a5778912ebe1d651427
         Type: BaseDataVariableType
@@ -3806,21 +3618,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d32fabd8e6660451a945198b7c02266d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=65dbc2307d4553cdec1d11650fe495e5
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=52b434f5ab0df49e04b2800c30587685
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=fd502b8220f0ab5c48eff1cc7102f5dd
         Type: BaseDataVariableType
@@ -3834,21 +3643,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=a50955c064379d9c6d5a4025bc8a2993
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=e3a86987c587c021bb6cc33f91207dc3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=a07a8c82043c995cd6d8971aa822f246
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=8b904b35eac40d54a259aaec73253b8a
         Type: BaseDataVariableType
@@ -3862,21 +3668,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d4b26640150f82ac017ff59da8e18744
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=c822cef899055952945d48ab3fc671fd
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=ddc1d8adb9f1b4d3a35699552df3bc13
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=e8e5ae25e9b601656ea6aaa3b926279a
         Type: BaseVariableType
@@ -3900,21 +3703,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=622dde4e3f097665a10d3d34f762f767
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=eb28046903f3f6eeb4492a3328b17a95
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=0a95f7421af54900238d47ab20c24589
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: RightMargin
       Id: g=afde1c7cede2921b1237a61cdd5c9433
       Type: BaseDataVariableType
@@ -3928,21 +3728,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=e575aa7da500d96ef573499cd6b97f0d
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=4b568221669812e1808e8037c9afc73d
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=4b9351258cc94d7ee9ec431602e3f8c0
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
   - Class: Reference
     Target: ns=13;i=16
     Direction: Forward
@@ -3958,21 +3755,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=4dc38d2e7af48236e7e3134c0b95ae34
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=849a84114b07c33b6316bf08e0f21944
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=8f629811a847608214d47f17aa973e52
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: RightMargin
     Id: g=1f876a8cdf99b1d22deb98b85d9a9bb3
     Type: BaseDataVariableType
@@ -3985,21 +3779,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=6ccea4a7473bb962dc5de05321fe8c4f
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=68a5a931b3ca48b34d7c09f56359dbcb
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=14cdbc11835db66b0115a7915728003f
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: PDFGeneratedHandler1
     Id: g=539432b6c239d3ff3f2d1b4f853812fe
     Type: EventHandler
@@ -4138,21 +3929,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=fac522ff16f45472f750edeac5856fc0
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=35d0de75e03d91fc6e27a9f78bfe8d44
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=2d7f695dcb2956b78a89d2c690422d8d
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: PageHeight
     Id: g=78029bd3d3aa2f9bdc1f91d69eb88539
     Type: BaseDataVariableType
@@ -4166,21 +3954,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=8f9837d0fffd9634491e370a5af956b7
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=cee45b8679b0763da87220a18c799af4
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=756f8c8a6bcf6f6f1863f089550b08bd
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: StyleSheet
     Id: g=1a20df1e9305663eb4114084dafd21ae
     Type: NodePointer
@@ -4226,21 +4011,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=e4631e96a1e968d5c95bf9ceb22c9f57
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=c01926a452fec796a2a728fc6365b5b9
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=bde971f18d0f2f1fcb109154a02bf4f1
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: Label1
       Id: g=cae7306989cdb151fd3f632d1eee4265
       Type: ReportLabel
@@ -4263,21 +4045,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=1dce212f955f57fcb4e0e86f53333904
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=6c8911b7bc961e60f92b8d066f394669
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=a92f04852abd7c7a966295fc651d4aae
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=fb58a32cf466ff19e8744a3d0eaecceb
         Type: BaseDataVariableType
@@ -4291,21 +4070,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=c792e3e0b6c988f0885b621cf66b07c8
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=a3ddce319f1c38c8bddb759d50b29f3e
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=47f0cd91ba00d6251eb32a5e8eaea253
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=5da261cde7862eebee984040f717ff9a
         Type: BaseDataVariableType
@@ -4319,21 +4095,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=a2f1323be87d7a417465f5a317086f0b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=39569216f3730c6a746c7ed288446539
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=7d8aac6bf073578d18472ec5959fbc86
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=bd7d0c60ba479fefacec8a1c20fb9a00
         Type: BaseDataVariableType
@@ -4347,21 +4120,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=86791387d1fb98c069ace94b120b3984
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=23e161078446d14b0c79f1e4ba67c4ed
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=2ef5042ac0d858ca0b13148cfebc0863
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: FontSize
         Id: g=3b61ebb44800ee7d36d61313ed355fe5
         Type: BaseDataVariableType
@@ -4385,21 +4155,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=2085c8eff08955e10f1710a523fa2ae9
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=6b93e901951ecfc7c3212672b346471a
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=7defa3089f9a7149b1160c31d0407f54
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: RightMargin
       Id: g=6c279426d7ef8636ed9604b8d717f859
       Type: BaseDataVariableType
@@ -4413,21 +4180,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=84dd2f80478bfac3dc771208cafde3bc
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=1f13da1682a8bb51151eb26d3bd78f0b
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=33c01dd4a336ca1fc9ce7c9b135f525f
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: Image1
       Id: g=e057b49db282f4dd738560cf47bd4e0c
       Type: ReportImage
@@ -4450,21 +4214,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=05eb20d723e11098656dcc5ba08262f7
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=200bd5c0a218f6d70176ceb8bbf6af51
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=7a8cc3d3db70868172be98897730960f
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=89669078cbb35b5490a334cbf301e6fe
         Type: BaseDataVariableType
@@ -4478,21 +4239,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d52d2187cd40542e4251a4b5569cc7a3
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=d6b932f359dcf07a783714f8e0ffffeb
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=63e9b45fd1a7d440acc95c00e5d46e24
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=19445713734fbf8593ca35cd978951ba
         Type: BaseDataVariableType
@@ -4506,21 +4264,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=f3b451fbd80205454a6ac84a7be72b81
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=f69aaf636ab398cab1c844f527f6b172
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=b6306c857baad8d82eb8a8f07a5f43c5
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=fa2263ebc044f709989c4d26c6638942
         Type: BaseDataVariableType
@@ -4534,21 +4289,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=2a27d23f824d8f924a28ebff23b45d9b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=3ff0d61ea22d635246bb34595264d26f
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=ee64e46fa13ce88fcc21c7937355d031
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
   - Name: Sections
     Id: g=b2bc93f9a938c74df6985b44f257b9f3
     Type: ReportColumnLayout
@@ -4566,21 +4318,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=8c53e385c63472be25399c093f6fb0c8
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=15b10105b50b7b87ce6684a369dd0dd5
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=090c18953b47bb4036c0e53da8fb3347
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: RightMargin
       Id: g=1cd2afdfe176140aa242aa847f1cf50b
       Type: BaseDataVariableType
@@ -4594,21 +4343,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=162647f838c85d9e2046bf7a54a83109
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=b255aa6339f6eee9fda08952916609ba
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=b572200acd8be36a660267f1addb3a17
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: DataGridSection1
       Id: g=ac914e53a39dd8da73047eb9437b7710
       Type: DataGridSection
@@ -4634,21 +4380,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=4a979bb3bb5c7ee83d6718ac61b9b450
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=54ba873824ab33c69090e41a4f21ed06
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=c834c875e8ce692ec3b7db356886bf18
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=0e9e8e7b32cd51f8ed7cab5645fc8d13
             Type: BaseDataVariableType
@@ -4704,21 +4447,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=1935203202ce41dde78b10d5dd97b77c
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=29374c57f191079c70512a7816391929
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=81be8da2df54ab70c7f8e4f50e4ae0b1
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=a6b9de6919f6098d2aba24bf3620b7d5
             Type: BaseDataVariableType
@@ -4774,21 +4514,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=2ac7185a4ea126530033a8b470ab30f7
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=1c394b6834c249eba3df95c19bc4faa3
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=05e9df86947b0753735fe84520634bb8
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=7a02046c4bde1cf01c9aafc615942e11
             Type: BaseDataVariableType
@@ -4844,21 +4581,18 @@ Children:
               Children:
               - Name: UnitId
                 Id: g=47db746a656c27b4b34406d0c2dc9200
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: Int32
-                ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
                 Id: g=3ee07dd98e04efca7159fcc10c62ce86
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
               - Name: Description
                 Id: g=3ac633ec5056580e3ce2709e7c171013
-                Type: BaseVariableType
+                Type: BaseDataVariableType
                 DataType: LocalizedText
-                ReferenceType: HasProperty
           - Name: Title
             Id: g=90b0c7c2f5bec2569b82906c99b47406
             Type: BaseDataVariableType
@@ -4947,21 +4681,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=5da46f54041a6736ebf6e52b491b6a1d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=b12c77d69d50650e51b35ebd2309dd18
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=23c4ec333a930585302e5c54d8d6cc95
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Item
         Id: g=9be734fd87c0594c025179d6b6c00a29
         Type: Alias
@@ -4971,6 +4702,14 @@ Children:
           Id: g=f7d5a2c56db9ac1d1e2e32fdb9f30aca
           Type: PropertyType
           DataType: NodeId
+      - Name: SortColumn
+        Id: g=04ff38cf46aa6756b8d39c467f5c49b3
+        Type: BaseDataVariableType
+        DataType: NodeId
+      - Name: SortOrder
+        Id: g=be2dfe2d2d1dd0aa06457740d9cf972b
+        Type: BaseDataVariableType
+        DataType: SortOrderEnum
   - Name: Footer
     Id: g=9dacb1f20a09267200f7b4f8e2854ac4
     Type: Panel
@@ -4988,21 +4727,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=efc26c7d51bfa94d479244b9bf0ac4b1
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=0e6c9fbe412f3792f791a3ced195f0ab
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=b073c285faa29a43ac9327640ea4d593
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: Page
       Id: g=02fc29878b02d8c5995e90d75eb568a2
       Type: ReportLabel
@@ -5025,21 +4761,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=1452427e2efb5f88eec6b2397187a438
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=d3ceabc3e63af0986d02f596d39af645
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=b437bff1a40fed613bbb62083e9b8a8b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=d19095512abec536a6b1ef3871d0dcaa
         Type: BaseDataVariableType
@@ -5053,21 +4786,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=23b0594476e4f779a5872f089b384799
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=4a15ce0910220be272303249dd594f71
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=9de94784cf7028ff9ff5646a05092066
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=a90a5a12e4d595d230f25a744d95bf57
         Type: BaseVariableType
@@ -5086,21 +4816,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=6cf37b7d5147ca9b0aa05b0cdd5c0f50
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=53728e10cd90073b725b6f7edcc7cfd0
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=68df7f31e099a0c8d01778ef3e2be922
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
     - Name: PageNumber
       Id: g=fa40049d29792dba8294f81d0910a6b2
       Type: ReportLabel
@@ -5128,21 +4855,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=5506fe49948eefa770f887e2a738a97c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=040a6d0402e264e429cc7ba776a88463
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=304529f205d1ee6cf4a62b2ab630a843
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=cc0058ca8d7bbca77023834aea626c71
         Type: BaseDataVariableType
@@ -5156,21 +4880,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=7f8a6e49b184614f0193b24f35b5f563
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=d1fb566105d3cd3efbf711c22e61735d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=9e45cd3d772b3a8c057f7f176e18524d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=f99c29c775f49e2536df9457b85838ce
         Type: BaseDataVariableType
@@ -5184,21 +4905,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=d60506862c21dcc8c31e2c0053175043
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=393e33eec080ef978d567777cc601162
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=16df9b940752c8fd35c29b2538114e78
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=edf4c40893ec5983a8362bb7a7d2db44
         Type: BaseDataVariableType
@@ -5212,21 +4930,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=e5b056465f8469437a2af7137572bd02
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=1d3bc916756a4963d3270c264229df91
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=7a213b3ea5c39d91ed366f419c4b95db
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=5a45a8722e0ae9fe34a9ee0bc3f867f7
         Type: BaseVariableType
@@ -5249,21 +4964,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=118ed9fe4fe25304ea7685fae84dc326
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=a6e7fe41aefb5cc4f0f3e89b91ec7e61
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=fefa350d272bdf3da072d415feee7055
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=158f929a2f1ce114594b130fe04034f2
         Type: BaseDataVariableType
@@ -5277,21 +4989,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=fbb0696a9d2673a1e81ea998b0b0270d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=596c225477f91e3767e399cb2d25d0e2
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=04057a169ce23920d48638c34f745ed4
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=0c7825091cb42be55f6c0a598eec5506
         Type: BaseDataVariableType
@@ -5305,21 +5014,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=f8303ef95e969bed996a46ae65728f6b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=559382470b2a30bbe1e0fd058deab9e6
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=13362bdd90fdce89450a3b509a9fb249
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=ed14e4ea16531193d0dac34103e7a2ca
         Type: BaseDataVariableType
@@ -5333,21 +5039,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=51fa2cfd91fd11c67eb7ccfe526e4ab5
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=468f82fb945a7685e4b0c366a9892d30
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=02e52a29d50ad55beb380964412d0afb
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=a84e58d3dd48240a4d5b42fb8a1c1bec
         Type: BaseVariableType
@@ -5390,21 +5093,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=62c527c834eb46fbf1446cb98943f009
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=88eb4da1e5bc57f92f58abdfde4d934b
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=a42a35e12dc930a045ea46eb2717088d
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: Height
         Id: g=2fe0dfd3f641200740c8fd357cf8e97c
         Type: BaseDataVariableType
@@ -5418,21 +5118,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=8abec72b288ce64c63292b12ce7ead6c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=86d371775646fa75741467a5cebf8f21
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=3fb1f93e49c7861e75cc63594a9da145
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: LeftMargin
         Id: g=c34f345582527c80f9685f85993874fe
         Type: BaseDataVariableType
@@ -5446,21 +5143,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=972ca9635ba74b0d0b7a11cc73213180
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=050c1a062a217f00bee6274edf4bc7a0
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=a4600f2f726d79ff39d11e2c9c5a66a7
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TopMargin
         Id: g=6c6659e8d9d38fde56c1a02854f5ccbe
         Type: BaseDataVariableType
@@ -5474,21 +5168,18 @@ Children:
           Children:
           - Name: UnitId
             Id: g=71141fbb1e2eb9fe916bf0d0ac37f103
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: Int32
-            ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
             Id: g=ccae69bb2f651dba87023a02fa3174ad
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
           - Name: Description
             Id: g=f7c6884c23cf4b7a07da4f3a4f71f89c
-            Type: BaseVariableType
+            Type: BaseDataVariableType
             DataType: LocalizedText
-            ReferenceType: HasProperty
       - Name: TextVerticalAlignment
         Id: g=58c32479901c07061acf90e5bec095af
         Type: BaseVariableType
@@ -5512,21 +5203,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=8229cc871149d24764fdc1b97d854f21
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=40d4f52d9094df20cbe04d4906ff8003
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=0679b9232e2f2a51e2e4ae4714182b0c
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
     - Name: RightMargin
       Id: g=fc79eff442b8d5ad028abb1a811c8a6c
       Type: BaseDataVariableType
@@ -5540,21 +5228,18 @@ Children:
         Children:
         - Name: UnitId
           Id: g=30adb5deac911a98ec229866d5df7fb4
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: Int32
-          ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
           Id: g=d7bf1cc365b4ec27b56690c2bb9c7f59
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
         - Name: Description
           Id: g=1e95ea8c75c2aa8ca0afe1af0613bbde
-          Type: BaseVariableType
+          Type: BaseDataVariableType
           DataType: LocalizedText
-          ReferenceType: HasProperty
   - Class: Reference
     Target: ns=13;i=16
     Direction: Forward
@@ -5570,21 +5255,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=dd10f5d731652935efc56cf1867b5cf7
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=5f843623e87b2228b1ce9eb788dc5fd7
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=f928f178329ccef0267a9799b1023d88
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: RightMargin
     Id: g=16573741369abaed94b9f55af43e2a25
     Type: BaseDataVariableType
@@ -5597,21 +5279,18 @@ Children:
       Children:
       - Name: UnitId
         Id: g=42aa003dc1fd2385103f1bdb9d6c6557
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Int32
-        ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
         Id: g=ba70a6affcf6dce895430290b7957a27
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
       - Name: Description
         Id: g=8d9a6facc79c225d9dc5b99582a79691
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: LocalizedText
-        ReferenceType: HasProperty
   - Name: PDFGeneratedHandler1
     Id: g=adea881d6b97cc18e7e9774c52893c38
     Type: EventHandler
