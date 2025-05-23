@@ -25382,7 +25382,7 @@ Children:
                 Id: g=773b04c837d3849f7561fe9781133fc7
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC@NodeId"
+                Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC@DisplayName"
       - Name: LED2
         Id: g=59d45e52f01237f99f56b39f1356442e
         Type: Led
@@ -26959,7 +26959,7 @@ Children:
                 Id: g=efccb63addb66ff813663a1d99719545
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC"
+                Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC@DisplayName"
       - Name: LED2
         Id: g=5869d8477f9b3e823537d972a85b55e9
         Type: Led
@@ -28497,7 +28497,7 @@ Children:
                 Id: g=36aede677766eac835cb9e41a61b22fe
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC"
+                Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC@DisplayName"
       - Name: LED2
         Id: g=d8b6546fdc2208b1fd30e912ca2df1c4
         Type: Led

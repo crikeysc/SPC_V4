@@ -832,7 +832,7 @@ Children:
             Id: g=40c166291e7730d5847e4b1462a943ab
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC"
+            Value: "/Objects/SPC_V4/Model/Motor_FP_UDT-Kind_Template/PF525_Drive_Object_SPC@DisplayName"
     - Name: LeftMargin
       Id: g=46a46d86b208308c2a11a978e10b3d04
       Type: BaseVariableType
